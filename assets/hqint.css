@@ -1,0 +1,636 @@
+
+.expertsquest {
+    margin-top: 70px;
+}
+
+.expertsquest .jumbo {
+    font-family: Roboto, sans-serif;
+    font-size: 7.7rem;
+    font-weight: 400;
+    line-height: 1em;
+
+    color: #224e96;
+    margin-top: 20px;
+}
+
+.expertsquest .jumbo.smaller {
+    font-family: Roboto, sans-serif;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 1em;
+
+    color: #c7a562;
+    margin-top: 55px;
+}
+
+.expertsquest .list {
+    margin-top: 70px;
+}
+
+.expertsquest .list .item img {
+    max-width: 188px;
+}
+
+.expertsquest .list .item h2 {
+    font-family: Pridi, "Times New Roman", serif;
+    font-size: 37px;
+    font-weight: 300;
+    line-height: 1.0em;
+
+    color: #000;
+    margin-top: 22px;
+}
+
+.expertsquest .list .item .text {
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    color: #727272;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+
+.expertsquest .list .item .text {
+    padding: 0 20px;
+    font-family: Pridi, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.3em;
+    color: #000;
+    margin-top: 35px;
+}
+
+
+
+.expertsview{
+    /*background: url(/assets/images/business-map-5.png) top center no-repeat;*/
+    margin-top: 0px;
+}
+.expertsview .jumbo {
+    font-family: Roboto, sans-serif;
+    font-size: 17.7rem;
+    font-weight: 200;
+    line-height: 1.0em;
+
+    color: #e1252e;
+    margin-top: 15rem;
+}
+
+
+@media (max-width: 768px) {
+    .expertsview .jumbo {
+        font-size: 15rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .expertsview .jumbo {
+        font-size: 12rem;
+    }
+}
+
+
+.expertsview .jumbo.smaller {
+    font-family: Roboto, sans-serif;
+    font-size: 5.7rem;
+    font-weight: 200;
+    line-height: 1.0em;
+    text-transform: uppercase;
+
+    color: #0f4397;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+.expertsview .cover .img {
+    width: 100%;
+    max-width: 446px;
+}
+
+.expertsview .cover {
+    margin-top: 60px;
+}
+
+.expertsview .cover img {
+    max-width: 100%;
+}
+
+.expertsview .cover h2 {
+    font-family: Pridi, "Times New Roman", serif;
+    font-size: 6.7rem;
+    font-weight: 300;
+    line-height: 1em;
+
+    color: #fff;
+}
+
+.expertsview .cover .text {
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    color: #fff;
+
+    margin: 15%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.expertsview .body {
+    margin-top: 6rem;
+    padding-right: 5%;
+}
+
+.expertsview .body h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    color: #000;
+    margin-top: -10px;
+}
+
+.expertsview .body h4 {
+    font-family: Roboto, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    color: #727272;
+    margin-top: 28px;
+}
+
+
+.expertsview .body .text {
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    color: #000;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+.expertsay {
+    margin-top: 70px;
+}
+
+.expertsay .slogan {
+    font-family: Roboto, sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.3em;
+
+    color: #0f4397;
+    margin: 7rem 2rem;
+    text-align: center;
+}
+
+
+.expertsay .slogan .smaller {
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    color: #000;
+    margin: 15px;
+    text-align: center;
+}
+
+
+
+.expertsay .item {
+    border-top: 1px solid #ccc;
+    padding-top: 5rem;
+    margin-bottom: 40px;
+}
+
+.expertsay .jumbo {
+    font-family: Roboto, sans-serif;
+    font-size: 9rem;
+    font-weight: 100;
+    line-height: 1.3em;
+
+    color: #0f4397;
+    margin-top: 0px;
+}
+
+
+@media (max-width: 768px) {
+    .expertsay .jumbo {
+        font-size: 9rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .expertsay .jumbo {
+        font-size: 6rem;
+    }
+}
+
+
+
+.expertsay h3 {
+    font-family: Roboto, sans-serif;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    color: #b5a36a;
+    margin-top: 25px;
+}
+
+.expertsay .body h4 {
+    font-family: Pridi, "Times New Roman", serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    color: #000;
+    margin-top: 55px;
+}
+
+
+.expertsay .img img {
+    margin-top: 75px;
+    max-width: 100%;
+}
+
+
+.expertsay .text {
+    font-family: Roboto, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    color: #000;
+    margin-top: 35px;
+
+    padding-right: 10%;
+}
+
+
+.expertsay .question {
+    font-family: Pridi, "Times New Roman", serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.3em;
+
+    color: #000;
+    margin-top: 35px;
+}
+
+.expertsay .answer {
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    color: #000;
+    margin-top: 25px;
+    padding-right: 10%;
+}
+
+
+
+
+.historyhead {
+    background: url(/assets/images/business-map-6.png) center center no-repeat;
+    background-size: contain;
+}
+
+.historyhead h1.jumbo {
+    font-family: Roboto, sans-serif;
+    font-size: 17.7rem;
+    font-weight: 200;
+    line-height: 1.0em;
+
+    color: #e1252e;
+    margin-top: 15rem;
+}
+
+@media (max-width: 768px) {
+    .historyhead h1.jumbo {
+        font-size: 15rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .historyhead h1.jumbo {
+        font-size: 12rem;
+    }
+}
+
+
+.historyhead h2.jumbo.smaller {
+    font-family: Roboto, sans-serif;
+    font-size: 5.7rem;
+    font-weight: 200;
+    line-height: 1.0em;
+    text-transform: uppercase;
+
+    color: #0f4397;
+    margin-top: 0px;
+}
+
+
+.historyhead .one, .historyhead .two, .historyhead .three {
+    display: inline-block;
+}
+
+.historyhead .one .figure .smaller, .historyhead .two .figure .smaller, .historyhead .three .figure .smaller {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3em;
+    text-transform: none;
+
+    color: #000;
+    margin-top: 5px;
+}
+
+.historyhead .one .figure {
+    font-family: Roboto, sans-serif;
+    font-size: 11.7rem;
+    font-weight: 300;
+    line-height: 1.0em;
+    text-transform: uppercase;
+
+    color: #000;
+    margin-top: 17rem;
+}
+
+
+.historyhead .two .figure {
+    font-family: Roboto, sans-serif;
+    font-size: 18.7rem;
+    font-weight: 400;
+    line-height: 1.0em;
+    text-transform: uppercase;
+
+    color: #000;
+    margin-top: 8rem;
+}
+
+
+.historyhead .three .figure {
+    font-family: Roboto, sans-serif;
+    font-size: 11.7rem;
+    font-weight: 200;
+    line-height: 1.0em;
+    text-transform: uppercase;
+
+    color: #000;
+    margin-top: -3rem;
+}
+
+@media (max-width: 768px) {
+    .historyhead .one .figure, .historyhead .two .figure, .historyhead .three .figure {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.historyhead .body .text {
+    font-family: Roboto, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    color: #000;
+}
+
+.historyhead .body .text.smaller {
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.3em;
+    color: #727272;
+    margin-top: 30px;
+}
+
+.historyhead .hq-primary {
+    margin-top: 10rem;
+}
+
+.historyhead .side .incut {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    color: #616161;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+.history {
+}
+
+
+.history .slogan {
+    font-family: Roboto, sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.3em;
+
+    color: #0f4397;
+    margin: 10rem 2rem;
+    text-align: center;
+}
+
+
+.history .slogan .smaller {
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    color: #000;
+    margin: 15px;
+    text-align: center;
+}
+
+
+
+.history .subhead {
+    border-bottom: 1px solid #e5ce4f;
+
+}
+.history .subhead .jumbo {
+    font-family: Roboto, sans-serif;
+    font-size: 8rem;
+    font-weight: 100;
+    line-height: 1em;
+
+    color: #0f4397;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.history .subhead .incut {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    margin: 10px 0;
+    text-align: center;
+}
+
+.history .list{
+    border-top: 0px solid #cad1db;
+}
+
+.history .list.y2017 {
+    border-top: 1px solid #e5ce4f;
+}
+
+.history .row.list {
+    padding-bottom: 30px;
+}
+
+.history h4 {
+    font-family: Pridi, "Times New Roman", serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.3em;
+
+    color: #000;
+    margin-top: 0px;
+}
+
+
+.history .c-img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.history .list .year {
+    font-family: Roboto, sans-serif;
+    font-size: 5.7rem;
+    font-weight: 400;
+    line-height: 1em;
+
+    color: #000;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    border-top: 1px solid #cad1db;
+
+}
+
+.history .list .incut {
+    margin: 20px;
+    text-align: center;
+    font-size: 11px;
+    color: dimgrey;
+}
+
+
+.history .item {
+    font-family: Pridi, "Times New Roman", serif;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.3em;
+
+    color: #000;
+    margin-top: 0px;
+    padding-top: 30px;
+
+    border-top: 1px solid #cad1db;
+}
+
+
+.history .item {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.3em;
+    color: #000;
+    margin-top: 0px;
+    padding-top: 30px;
+    border-top: 1px solid #cad1db;
+}
+
+
+.history .list.first .item,.history .list.first .year {
+    border-top: 0px solid #cad1db;
+
+}
+
+
+
+
+.history .y2017 .item {
+    font-family: Roboto, sans-serif;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 1em;
+
+    color: #000;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: 0px solid #cad1db;
+}
+
+.history .y2017 .item:last-of-type {
+    padding-bottom: 0px;
+    border-bottom: 0px solid #cad1db;
+}
+
+
+.history .blockquote {
+    text-align: right;
+    padding-top: 60px;
+    padding-left: 5%;
+    font-size: 13px;
+    color: #5e5e5e;
+}
+
+
+.history .y2016 .item {
+    font-family: Roboto, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 1em;
+
+    color: #000;
+    margin-top: 10px;
+}
+
+
+.history .y2018 .item {
+    font-family: Pridi, "Times New Roman", serif;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.3em;
+
+    color: #000;
+    margin-top: 30px;
+}
