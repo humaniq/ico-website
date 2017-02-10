@@ -1086,6 +1086,10 @@ html { font-size:25%; }
     margin-top: 20px;
 }
 
+.howitworks {
+    margin-top: 15rem;
+}
+
 .howitworks .jumbo {
     font-family: Roboto, sans-serif;
     font-size: 7.7rem;
@@ -1242,6 +1246,11 @@ html { font-size:25%; }
 
     color: #000;
     margin-top: 9rem;
+}
+
+
+.wallet {
+    margin-top: 15rem;
 }
 
 .wallet .jumbo {
