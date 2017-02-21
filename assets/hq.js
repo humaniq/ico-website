@@ -70,7 +70,7 @@ var setCountDown = function(){
         yaCounter41508869.reachGoal(targ);
         //fbq('track', 'Lead');
         //ga('send', 'pageview');
-        ga ('send', 'event', "other", "click" );//, [eventLabel], [eventValue], [fieldsObject]);
+        ga ('send', 'event', "other", "click", targ);//, [eventValue], [fieldsObject]);
         console.log("Track:" + targ);
     });
 
