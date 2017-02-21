@@ -816,6 +816,12 @@ html { font-size:25%; }
 }
 
 
+@media (max-width: 900px) {
+    .bank40 .jumbo {
+        font-size: 12rem;
+    }
+}
+
 @media (max-width: 768px) {
     .bank40 .jumbo {
         font-size: 9rem;
@@ -940,7 +946,7 @@ html { font-size:25%; }
 
 .bank40 .info .figure {
     font-family: Roboto, sans-serif;
-    font-size: 47px;
+    font-size: 5rem;
     font-weight: 400;
     line-height: 1.0em;
 
@@ -961,12 +967,14 @@ html { font-size:25%; }
 
 .bank40 h1.subjumbo {
     font-family: Roboto, sans-serif;
-    font-size: 110px;
+    font-size: 11rem;
     font-weight: 100;
     line-height: 1em;
     text-transform: none;
 
     color: #000;
+
+    margin-top: 10rem;
 }
 
 
@@ -988,8 +996,18 @@ html { font-size:25%; }
     margin-bottom: 55px;
 }
 
-.bank40 #main-video {
+.framed-video {
+    position: absolute;
+    top: 0;
+    left:0;
     width: 100%;
+    height: 100%;
+}
+
+.framed-video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.23%;
 }
 
 .bank40 .stats-head {
@@ -1087,7 +1105,7 @@ html { font-size:25%; }
 }
 
 .howitworks {
-    margin-top: 15rem;
+    margin-top: 1rem;
 }
 
 .howitworks .jumbo {
@@ -1709,7 +1727,7 @@ html { font-size:25%; }
 
     color: #000;
     margin-top: 30px;
-    min-height: 300px;
+    min-height: 320px;
 }
 
 .supporters .list .item h5 {
