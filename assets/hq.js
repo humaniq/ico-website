@@ -26,7 +26,7 @@ var setMarker = function(){
 };
 
 var setCountDown = function(){
-    var seconds = moment("2017-02-28 00:00:00").diff( moment(), 'seconds');
+    var seconds = moment("2017-04-06 00:00:00").diff( moment(), 'seconds');
 
     var days = Math.floor(seconds/(24*60*60));
     if(days>1) $(".countdown .unit .days-s").fadeIn(0);
@@ -49,9 +49,6 @@ var setCountDown = function(){
 
 (function($){
 
-//    var myPlayer = $("#video").YTPlayer();
-//    var myPlayer2 = $("#video2").YTPlayer();
-
     setCountDown();
     setInterval( setCountDown, 1000);
 
@@ -64,6 +61,18 @@ var setCountDown = function(){
 // ******************* Random blinking of markers on home screen ****************/
 
     setInterval( setMarker, 1500);
+
+
+// ***************** Hack to hide markers when mobile menu collapsed ************/
+
+    $(".yga").on("click", function(e){
+        var targ = $(this).data("ya-target");
+        yaCounter41508869.reachGoal(targ);
+        //fbq('track', 'Lead');
+        //ga('send', 'pageview');
+        ga ('send', 'event', "other", "click", targ);//, [eventValue], [fieldsObject]);
+        console.log("Track:" + targ);
+    });
 
 // ***************** Hack to hide markers when mobile menu collapsed ************/
     $(".navbar-toggle").on("click", function(e){
@@ -92,7 +101,7 @@ var setCountDown = function(){
         var $ele = $(this);
         var target = $($ele.attr('href'));
         var offset = parseInt((target.data('offset'))?target.data('offset'):80);
-        console.log(offset);
+        //console.log(offset);
 
         $('html, body').stop().animate({
             scrollTop: ($($ele.attr('href')).offset().top - offset)
@@ -112,6 +121,45 @@ var setCountDown = function(){
 // ******************************* Inline Form handler *************************/
 
 
+    $(".sub-form").validator().on('submit', function (e) {
+        var formId = e.currentTarget.id;
+        if (e.isDefaultPrevented()) {
+            // handle the invalid form...
+        } else {
+            var dataOut = {};
+            $("#" + formId + " .form-control").each(function(idx, el){
+                dataOut[$(this).prop('name')] = $(this).val();
+            });
+            dataOut['mail'] = dataOut['EMAIL'];
+
+            var targ = $( "#" + formId ).data("ya-target");
+
+            yaCounter41508869.reachGoal(targ);
+            fbq('track', 'Lead');
+
+            $("#" + formId + " .formBody").fadeOut(0);
+            $("#" + formId + " .formProcess").fadeIn(0);
+
+            $.ajax( {
+                url: "https://script.google.com/macros/s/AKfycbwnmfROKNV77OD0usnY3tFE9rlNlZThSAisTylcjd5rMRjTWVo/exec",
+                data: dataOut,
+                method: "POST",
+                //dataType:"jsonp",
+                success: function( data, textStatus, jqXHR ){
+                    if(data.success!=0) {
+                        $("#" + formId + " .formProcess").html("Thank you! <b>We'll contact you asap!</b>").addClass("success");
+                    }
+                    else $("#" + formId + " .formProcess").html("Error :( <b>Please try again later...</b>").addClass("error");
+                },
+                error: function ( jqXHR, textStatus, errorThrown) {
+                    $("#" + formId + " .formProcess").html("Error :( <b>Please try again later...</b>").addClass("error");
+                }
+            });
+        }
+        return true;
+    });
+
+/*
     $("#subForm").validator().on('submit', function (e) {
         if (e.isDefaultPrevented()) {
             // handle the invalid form...
@@ -121,6 +169,9 @@ var setCountDown = function(){
                 dataOut[$(this).prop('name')] = $(this).val();
             });
             dataOut['mail'] = dataOut['EMAIL'];
+
+
+            yaCounter41508869.reachGoal('SUBEMAIL1');
 
             $("#subForm .formBody").fadeOut(0);
             $("#subForm .formProcess").fadeIn(0);
@@ -157,6 +208,8 @@ var setCountDown = function(){
 
             dataOut['mail'] = dataOut['EMAIL'];
 
+            yaCounter41508869.reachGoal('SUBEMAIL2');
+
 
             $("#subForm2 .formBody").fadeOut(0);
             $("#subForm2 .formProcess").fadeIn(0);
@@ -181,6 +234,6 @@ var setCountDown = function(){
         return true;
     });
 
-
+*/
 
 })(jQuery);
