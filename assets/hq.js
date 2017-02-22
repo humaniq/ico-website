@@ -68,9 +68,7 @@ var setCountDown = function(){
     $(".yga").on("click", function(e){
         var targ = $(this).data("ya-target");
         yaCounter41508869.reachGoal(targ);
-        //fbq('track', 'Lead');
-        //ga('send', 'pageview');
-        ga ('send', 'event', "other", "click", targ);//, [eventValue], [fieldsObject]);
+        if($(this).data("ga")) ga ('send', 'event', "other", targ);
         console.log("Track:" + targ);
     });
 
