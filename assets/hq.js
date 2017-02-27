@@ -134,8 +134,8 @@ var setCountDown = function(){
 
             var targ = $( "#" + formId ).data("ya-target");
 
-            yaCounter41508869.reachGoal(targ);
-            ga ('send', 'event', "other", targ);
+            if (typeof(yaCounter41508869) !== 'undefined') yaCounter41508869.reachGoal(targ);
+            if (typeof(ga) !== 'undefined') ga ('send', 'event', "other", targ);
             fbq('track', 'Lead');
 
             $("#" + formId + " .formBody").fadeOut(0);
