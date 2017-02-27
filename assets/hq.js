@@ -67,8 +67,10 @@ var setCountDown = function(){
 
     $(".yga").on("click", function(e){
         var targ = $(this).data("ya-target");
-        yaCounter41508869.reachGoal(targ);
-        if($(this).data("ga")) ga ('send', 'event', "other", targ);
+        if (typeof(yaCounter41508869) !== 'undefined') yaCounter41508869.reachGoal(targ);
+        if($(this).data("ga")){
+            if (typeof(ga) !== 'undefined') ga ('send', 'event', "other", targ);
+        }
         console.log("Track:" + targ);
     });
 
@@ -132,7 +134,8 @@ var setCountDown = function(){
 
             var targ = $( "#" + formId ).data("ya-target");
 
-            yaCounter41508869.reachGoal(targ);
+            if (typeof(yaCounter41508869) !== 'undefined') yaCounter41508869.reachGoal(targ);
+            if (typeof(ga) !== 'undefined') ga ('send', 'event', "other", targ);
             fbq('track', 'Lead');
 
             $("#" + formId + " .formBody").fadeOut(0);
