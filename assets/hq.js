@@ -21,8 +21,33 @@ $.isMobile = function(type){
 var setMarker = function(){
     var count = $(".map-marker").length;
     var curr = Math.ceil(Math.random()*count);
-    $(".map-marker").removeClass("active");
-    $(".map-marker.mm-"+curr).addClass("active");
+    $(".map-marker").removeClass("animated pulse infinite active");
+    $(".map-marker.mm-"+curr).addClass("animated pulse infinite active");
+};
+
+var currScreen = 1;
+var setScreens = function(){
+    var count = $(".screen-gallery .item").length;
+    $(".screen-gallery .item.i"+currScreen).removeClass("active");
+    currScreen++;
+    if(currScreen>count) currScreen = 1;
+    $(".screen-gallery .item.i"+currScreen).addClass("active");
+};
+
+var currSlogan = 1;
+var setSlogans = function(){
+    var count = $(".home-screen .main h1").length;
+    var cc = currSlogan;
+    $(".home-screen .main h1.s"+currSlogan).addClass("animated fadeOut");
+    $(".home-screen .main h1.s"+currSlogan).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+        $(".home-screen .main h1.s"+currSlogan).removeClass("active animated fadeOut");
+        currSlogan++;
+        if(currSlogan>count) currSlogan = 1;
+        $(".home-screen .main h1.s"+currSlogan).addClass("active animated fadeIn");
+        $(".home-screen .main h1.s"+currSlogan).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+            $(".home-screen .main h1.s" + currSlogan).removeClass("animated fadeOut");
+        });
+    });
 };
 
 var setCountDown = function(){
@@ -42,8 +67,10 @@ var setCountDown = function(){
     if(hours<10) hours = "0" + hours;
     if(minutes<10) minutes = "0" + minutes;
     if(seconds<10) seconds = "0" + seconds;
-    $(".countdown .day .figure").html(days);
-    $(".countdown .time .figure span.data").html(hours+":"+minutes+":"+seconds);
+    $(".countdown .figures.days").html(days);
+    $(".countdown .figures.hours").html(hours);
+    $(".countdown .figures.minutes").html(minutes);
+    $(".countdown .figures.seconds").html(seconds);
 };
 
 
@@ -51,19 +78,15 @@ var setCountDown = function(){
 
     setCountDown();
     setInterval( setCountDown, 1000);
+    if( !$.isMobile() )    var s = skrollr.init();
 
-// ******************************* Preloader ************************************/
-
-    $(window).load(function(){
-        $('#preloader').fadeOut('slow',function(){$(this).remove();});
+    $(".bonus-fadein").on("mouseenter click", function (e) {
+        $(".bonuses").addClass("active");
+    }).on("mouseleave", function (e) {
+        $(".bonuses").removeClass("active");
     });
 
-// ******************* Random blinking of markers on home screen ****************/
-
-    setInterval( setMarker, 1500);
-
-
-// ***************** Hack to hide markers when mobile menu collapsed ************/
+// ************************** Analitics click handler ***************************/
 
     $(".yga").on("click", function(e){
         var targ = $(this).data("ya-target");
@@ -74,33 +97,30 @@ var setCountDown = function(){
         console.log("Track:" + targ);
     });
 
-// ***************** Hack to hide markers when mobile menu collapsed ************/
-    $(".navbar-toggle").on("click", function(e){
-        if($(".navbar-collapse").hasClass("in")) $(".map-marker").fadeIn(0);
-        else $(".map-marker").fadeOut(0);
-     });
 
 
-    $('.navbar [data-toggle="dropdown"]').bootstrapDropdownHover({
+// ******************************* Preloader ************************************/
 
+    $(window).load(function(){
+        $('#preloader').fadeOut('slow',function(){$(this).remove();});
     });
 
-// ************************* Collapse mobile menu on click **********************/
+// ******************* Random blinking of markers on home screen ****************/
+
+    setInterval( setMarker, 1500);
+    setInterval( setScreens, 4000);
+    setInterval( setSlogans, 4000);
 
 
+//    $(".home-screen .circle").addClass("start");
 
-
-    $(".nav.navbar-nav li a").on("click", function(){
-        if ( $(this).data("drp")) return;
-        if($(".navbar-collapse").hasClass("in")) $(".navbar-toggle").click();
-    });
 
 // *************************** Smooth scroll cheap shit *************************/
 
     $('a.page-scroll').bind('click', function(event) {
         var $ele = $(this);
         var target = $($ele.attr('href'));
-        var offset = parseInt((target.data('offset'))?target.data('offset'):80);
+        var offset = parseInt((target.data('offset'))?target.data('offset'):0);
         //console.log(offset);
 
         $('html, body').stop().animate({
@@ -159,82 +179,5 @@ var setCountDown = function(){
         }
         return true;
     });
-
-/*
-    $("#subForm").validator().on('submit', function (e) {
-        if (e.isDefaultPrevented()) {
-            // handle the invalid form...
-        } else {
-            var dataOut = {};
-            $("#subForm .form-control").each(function(idx, el){
-                dataOut[$(this).prop('name')] = $(this).val();
-            });
-            dataOut['mail'] = dataOut['EMAIL'];
-
-
-            yaCounter41508869.reachGoal('SUBEMAIL1');
-
-            $("#subForm .formBody").fadeOut(0);
-            $("#subForm .formProcess").fadeIn(0);
-
-            $.ajax( {
-                // url: "assets/emailpost.php",
-                url: "https://script.google.com/macros/s/AKfycbwnmfROKNV77OD0usnY3tFE9rlNlZThSAisTylcjd5rMRjTWVo/exec",
-                data: dataOut,
-                method: "POST",
-                //dataType:"jsonp",
-                success: function( data, textStatus, jqXHR ){
-                    if(data.success!=0) {
-                        $("#subForm .formProcess").html("Thank you! <b>We'll contact you asap!</b>").addClass("success");
-                    }
-                    else $("#subForm .formProcess").html("Error :( <b>Please try again later...</b>").addClass("error");
-                },
-                error: function ( jqXHR, textStatus, errorThrown) {
-                    $("#subForm .formProcess").html("Error :( <b>Please try again later...</b>").addClass("error");
-                }
-            });
-        }
-        return true;
-    });
-
-
-    $("#subForm2").validator().on('submit', function (e) {
-        if (e.isDefaultPrevented()) {
-            // handle the invalid form...
-        } else {
-            var dataOut = {};
-            $("#subForm2 .form-control").each(function(idx, el){
-                dataOut[$(this).prop('name')] = $(this).val();
-            });
-
-            dataOut['mail'] = dataOut['EMAIL'];
-
-            yaCounter41508869.reachGoal('SUBEMAIL2');
-
-
-            $("#subForm2 .formBody").fadeOut(0);
-            $("#subForm2 .formProcess").fadeIn(0);
-
-            $.ajax( {
-                // url: "assets/emailpost.php",
-                url: "https://script.google.com/macros/s/AKfycbwnmfROKNV77OD0usnY3tFE9rlNlZThSAisTylcjd5rMRjTWVo/exec",
-                data: dataOut,
-                method: "POST",
-                //dataType:"jsonp",
-                success: function( data, textStatus, jqXHR ){
-                    if(data.success!=0) {
-                        $("#subForm2 .formProcess").html("Thank you! <b>We'll contact you asap!</b>").addClass("success");
-                    }
-                    else $("#subForm2 .formProcess").html("Error :( <b>Please try again later...</b>").addClass("error");
-                },
-                error: function ( jqXHR, textStatus, errorThrown) {
-                    $("#subForm2 .formProcess").html("Error :( <b>Please try again later...</b>").addClass("error");
-                }
-            });
-        }
-        return true;
-    });
-
-*/
 
 })(jQuery);
