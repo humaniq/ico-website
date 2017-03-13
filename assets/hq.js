@@ -54,23 +54,27 @@ var setCountDown = function(){
     var seconds = moment("2017-04-06 00:00:00").diff( moment(), 'seconds');
 
     var days = Math.floor(seconds/(24*60*60));
-    if(days>1) $(".countdown .unit .days-s").fadeIn(0);
-    else $(".countdown .unit .days-s").fadeOut(0);
+    if(days>1) $(".countdown .units .days-s").fadeIn(0);
+    else $(".countdown .units .days-s").fadeOut(0);
     seconds = seconds - (24*60*60)*days;
     var hours = Math.floor(seconds/3600);
     if(hours>1) $(".countdown .units .hours-s").fadeIn(0);
     else $(".countdown .units .hours-s").fadeOut(0);
     seconds = seconds - 3600*hours;
     var minutes = Math.floor(seconds/60);
+    if(minutes>1) $(".countdown .units .minutes-s").fadeIn(0);
+    else $(".countdown .units .minutes-s").fadeOut(0);
     seconds = seconds - 60*minutes;
+    if(seconds>1) $(".countdown .units .seconds-s").fadeIn(0);
+    else $(".countdown .units .seconds-s").fadeOut(0);
     if(days<10) days = "0" + days;
     if(hours<10) hours = "0" + hours;
     if(minutes<10) minutes = "0" + minutes;
     if(seconds<10) seconds = "0" + seconds;
-    $(".countdown .figures.days").html(days);
-    $(".countdown .figures.hours").html(hours);
-    $(".countdown .figures.minutes").html(minutes);
-    $(".countdown .figures.seconds").html(seconds);
+    $(".countdown .figures .days").html(days);
+    $(".countdown .figures .hours").html(hours);
+    $(".countdown .figures .minutes").html(minutes);
+    $(".countdown .figures .seconds").html(seconds);
 };
 
 
