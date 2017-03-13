@@ -347,21 +347,21 @@ body {
     }
 
     25% {
-        padding: 15vh;
+        padding: 10vw;
     }
 
     50% {
-        padding: 32vh;
+        padding: 22vw;
     }
 
     75% {
-        padding: 60vh;
+        padding: 30vw;
     }
     95% {
-        padding: 68vh;
+        padding: 40vw;
     }
     99% {
-        padding: 68vh;
+        padding: 45vw;
     }
 }
 
@@ -467,6 +467,32 @@ body {
     margin: 4.5rem 0;
     vertical-align: top;
 }
+
+.home-screen .main .countdown .units {
+/*    display: inline-block;*/
+    font-family: FuturaNewBook, Arial, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1em;
+    color: #fff;
+    margin: 1rem 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.home-screen .main .countdown .days-s, .home-screen .main .countdown .hours-s, .home-screen .main .countdown .minutes-s, .home-screen .main .countdown .seconds-s {
+    display: inline-block;
+    font-family: FuturaNewBook, Arial, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1em;
+    color: #fff;
+    margin: 0rem 0rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
 
 .home-screen .main .offer {
     font-family: FuturaNewMedium, Arial, sans-serif;
@@ -1015,6 +1041,14 @@ body {
     line-height: 1em;
 }
 
+.whatis .graphs .g-row .gg{
+    display: inline-block;
+    width: 20px;
+    vertical-align: middle;
+    line-height: 1em;
+
+}
+
 .whatis .graphs .g-row .g .bl{
     display: inline-block;
     border-radius: 3px;
@@ -1404,7 +1438,7 @@ body {
 }
 
 
-.revs .list {
+.revs .list.last {
     border-bottom: 1px solid #e7e7e7;
 }
 
@@ -1783,6 +1817,10 @@ body {
     padding-bottom: 10rem;
 }
 
+.supporters .team-h1-link {
+    color: rgb(70, 166, 247);
+}
+
 .supporters.supporters2 {
     background-image: linear-gradient(65deg, #fcfcfc, #f7f7f7 98%);
     padding-top: 0;
@@ -1912,14 +1950,15 @@ body {
     color: #000;
     margin-top: 5rem;
 
-    min-height: 320px;
+//    min-height: 320px;
 }
 
 
 .partners .item a {
     display: block;
     margin-top: 10px;
-
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -1975,8 +2014,8 @@ footer .copyright {
 
 .btn.disabled, .btn[disabled] {
     opacity: 1;
+    cursor: pointer;
 }
-
 
 
 
