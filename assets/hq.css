@@ -1954,13 +1954,13 @@ body {
     color: #000;
     margin-top: 5rem;
 
-    min-height: 320px;
+    min-height: 340px;
 }
 
 @media (max-width: 768px) {
 
     .partners .list .item {
-        min-height: 280px;
+        min-height: 290px;
     }
 
 }
