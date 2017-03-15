@@ -453,7 +453,7 @@ body {
     font-size: 5.8rem;
     line-height: 1em;
     color: #fff;
-    margin: 4.5rem 4.5rem;
+    margin: 4rem 4rem;
     min-width: 6.8rem;
     text-align: center;
 }
@@ -835,6 +835,7 @@ body {
     0% {
         transform:scale(1,1);
         background: linear-gradient(270deg, rgba(110, 143, 246, 0), rgba(51, 177, 248, 0));
+        border: 5rem transparent;
     }
 
 
@@ -842,17 +843,19 @@ body {
     //    transform: matrix(0.5,0,0,0.5,-50%, 0);
         transform:scale(0.8,0.8);
         background: linear-gradient(270deg, rgba(110, 143, 246, 0.7), rgba(51, 177, 248, 0.0));
-        border:none;
+        border: 5rem transparent;
         color:transparent;
     }
 
     75% {
         transform:scale(1,1);
         background: linear-gradient(270deg, rgba(110, 143, 246, 0.9), rgba(51, 177, 248, 0.5));
+        border: 5rem transparent;
     }
 
     99% {
         background: linear-gradient(270deg, rgba(110, 143, 246, 1), rgba(51, 177, 248, 1));
+        border: 5rem transparent;
     }
 }
 
@@ -861,6 +864,7 @@ body {
     99% {
         transform:scale(1,1);
         background: linear-gradient(270deg, rgba(110, 143, 246, 0), rgba(51, 177, 248, 0));
+        border: 5rem transparent;
     }
 
 
@@ -869,16 +873,16 @@ body {
         background: linear-gradient(270deg, rgba(110, 143, 246, 0.7), rgba(51, 177, 248, 0.0));
         border:none;
         color:#000;
-    }
+        border: 5rem transparent;    }
 
     50% {
         transform:scale(1,1);
         background: linear-gradient(270deg, rgba(110, 143, 246, 0.9), rgba(51, 177, 248, 0.5));
-    }
+        border: 5rem transparent;}
 
     0% {
         background: linear-gradient(270deg, rgba(110, 143, 246, 1), rgba(51, 177, 248, 1));
-    }
+        border: 5rem transparent;    }
 }
 
 
@@ -1950,9 +1954,24 @@ body {
     color: #000;
     margin-top: 5rem;
 
-//    min-height: 320px;
+    min-height: 320px;
 }
 
+@media (max-width: 768px) {
+
+    .partners .list .item {
+        min-height: 280px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .partners .list .item {
+        min-height: 390px;
+    }
+
+}
 
 .partners .item a {
     display: block;
