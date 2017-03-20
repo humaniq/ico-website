@@ -51,7 +51,7 @@ var setSlogans = function(){
 };
 
 var setCountDown = function(){
-    var seconds = moment("2017-04-06 00:00:00").diff( moment(), 'seconds');
+    var seconds = moment.utc("2017-04-06 00:00:00").diff( moment.utc(), 'seconds');
 
     var days = Math.floor(seconds/(24*60*60));
     if(days>1) $(".countdown .units .days-s").fadeIn(0);
