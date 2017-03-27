@@ -90,6 +90,27 @@ var setCountDown = function(){
         $(".bonuses").removeClass("active");
     });
 
+
+
+
+    $(".supporters .item, .partners .item").on("click", function (e) {
+        var pp = $(this).data("pp");
+        if(pp) {
+            $("#pp-" + pp).addClass("active");
+            $(".supporters .backdrop").addClass("active");
+        }
+    });
+
+    $(".popup .close").on("click", function (e) {
+        $(this).parent().removeClass("active");
+        $(".supporters .backdrop").removeClass("active");
+    });
+
+    $(".supporters .backdrop").on("click", function (e) {
+        $(".supporters .popup, .partners  .popup").removeClass("active");
+        $(".supporters .backdrop").removeClass("active");
+    });
+
 // ************************** Analitics click handler ***************************/
 
     $(".yga").on("click", function(e){

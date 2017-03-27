@@ -406,16 +406,19 @@ body {
 
 .home-screen .main {
     display: inline-block;
-    margin-top: 16rem;
-    position: fixed;
+    margin: 16rem auto 0 auto;
+
+/*    position: fixed;
     left: 50%;
-    transform: translatex(-50%);
-    //width: 100%;
+    transform: translatex(-50%);*/
+    max-width: 650px;
 }
 
 @media (max-width: 768px) {
 
     .home-screen .main {
+        max-width: 100%;
+
         position: static;
         left: auto;
         transform: translatex(0);
@@ -496,7 +499,7 @@ body {
 
 .home-screen .main .offer {
     font-family: FuturaNewMedium, Arial, sans-serif;
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     line-height: 1em;
     color: #fff;
     margin: 4.5rem 0 0 0;
@@ -588,9 +591,12 @@ body {
     color: #fff;
     font-family: FuturaNewBook, Arial, sans-serif;
     font-size: 22px;
+    text-align: center;
 
-    padding: 12px 26px;
-    border-radius: 30px;
+/*    padding: 12px 26px;
+    border-radius: 30px;*/
+    padding: 12px 41px;
+    border-radius: 48px;
     border: 1px solid #fff;
 
     margin-right: 8rem;
@@ -631,9 +637,8 @@ body {
     display: inline-block;
     color: #fff;
     font-family: FuturaNewDemi, Arial, sans-serif;
-    font-size: 18px;
-
-    padding: 6px 12px 6px 14px;
+    font-size: 14px;
+    padding: 7px 9px 5px 11px;
     border-radius: 32px;
     border: 1px solid #fff;
 
@@ -929,7 +934,7 @@ body {
 
     animation: wc-out 0.3s;
 
-    /*cursor: pointer;*/
+    cursor: pointer;
 }
 
 
@@ -960,7 +965,7 @@ body {
 .whatis .circles .item .text {
     color: #000;
     font-family: FuturaNewDemi, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 5rem;
     line-height: 1em;
 
     text-align: center;
@@ -976,8 +981,8 @@ body {
 .whatis .circles .item .text-2 {
     color: transparent;
     font-family: FuturaNewBook, Arial, sans-serif;
-    font-size: 2.5rem;
-    line-height: 1.5em;
+    font-size: 2.4rem;
+    line-height: 1.3em;
 
     text-align: center;
 
@@ -989,9 +994,6 @@ body {
     transform: translatey(-50%);
 }
 
-
-
-
 .whatis .circles .item:hover {
     background: linear-gradient(270deg, rgba(110, 143, 246, 1), rgba(51, 177, 248, 1));
     z-index: 3;
@@ -999,6 +1001,7 @@ body {
 
     animation: wc 0.3s;
 }
+
 
 
 @media (max-width: 500px) {
@@ -1033,6 +1036,41 @@ body {
     }
 
 }
+
+
+
+
+
+
+@media (max-width: 350px) {
+
+    .whatis .circles {
+        min-height: 60rem;
+    }
+
+
+    .whatis .circles .item .text {
+        font-size: 4rem;
+    }
+
+    .whatis .circles .item .text-2 {
+        font-size: 3rem;
+    }
+
+    .whatis .circles .item,.whatis .circles .item.left,.whatis .circles .item.right,.whatis .circles .item.center {
+        width: 50rem;
+        height: 50rem;
+        border-radius: 25rem;
+        margin-left: -25rem;
+    }
+
+    .whatis .circles .item.right {
+        bottom: auto;
+        top:60rem;
+    }
+
+}
+
 
 
 
@@ -1209,6 +1247,19 @@ body {
 }
 
 
+.reserve-wrapper {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .reserve-wrapper {
+        text-align: center;
+    }
+    .home-screen .round {
+        margin: 3rem 0 0 0;
+    }
+
+}
 
 .sbs {
     padding-bottom: 10rem;
@@ -1521,11 +1572,27 @@ body {
 
 .revs .scheme {
     margin-bottom: 9rem;
+    border-radius: 7px;
+    border: solid 1px #e5e5e5;
 }
 
+
+.revs .scheme .head {
+    margin: 2rem 0 0 0;
+    color: #000;
+    font-family: FuturaNewDemi, Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 1em;
+    text-align: left;
+    padding:1rem 3rem;
+}
+
+
+
 .revs .scheme .sep-hor {
-    padding-top: 5rem;
-    background: url("/assets/images/rev/arrow-down.svg") center center no-repeat;
+    margin: 0;
+    border-bottom: 1px solid #e5e5e5;
+    /*background: url("/assets/images/rev/arrow-down.svg") center center no-repeat;*/
 }
 
 .revs .scheme .sep-vert {
@@ -1552,8 +1619,8 @@ body {
     margin: 2rem auto;
     width: 10rem;
     height: 10rem;
-    border-radius: 50%;
-    border: 2px solid #f3f8ff;
+    /*border-radius: 50%;
+    border: 2px solid #f3f8ff;*/
 }
 
 .dot.pass{
@@ -1597,7 +1664,7 @@ body {
 }
 
 .revs .scheme .item .dot {
-    background-size: 40%;
+    /*background-size: 40%;*/
 }
 
 .chart {
@@ -1685,8 +1752,15 @@ body {
 }
 
 .howitworks .sep {
-    background: url("/assets/images/arrow-right.svg") center center no-repeat;
+    /*    background: url("/assets/images/arrow-right.svg") center center no-repeat;*/
     min-height: 50rem;
+}
+
+.howitworks .sep .el {
+    background: url("/assets/images/arrow-right-2.svg") center center no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 100%;
 }
 
 .howitworks .screen-gallery-wrapper {
@@ -1728,6 +1802,19 @@ body {
     left:0%;
     opacity: 1;
 }
+
+
+
+.video-2 {
+    margin-top: 7rem;
+}
+
+.video-2 .video-img {
+    width: 100%;
+    box-shadow: 0 20px 44px 0 rgba(0, 0, 0, 0.1);
+}
+
+
 
 
 
@@ -1842,7 +1929,7 @@ body {
 
 
 .supporters {
-    padding-bottom: 10rem;
+/*    padding-bottom: 10rem;*/
 }
 
 .supporters .team-h1-link {
@@ -1876,6 +1963,10 @@ body {
     margin-top: 5rem;
 }
 
+.supporters .list .item .img {
+    position: relative;
+}
+
 .supporters .list .item img {
     width: 100%;
     max-width: 160px;
@@ -1890,8 +1981,12 @@ body {
     color: #555;
     margin-top: 30px;
     min-height: 350px;
+    cursor: pointer;
 }
 
+.supporters.supporters2 .item {
+    cursor: default;
+}
 
 @media (max-width: 768px) {
     .supporters .list .item {
@@ -1917,7 +2012,103 @@ body {
 }
 
 
+.supporters .item .zoom, .partners .item .zoom  {
+    position: absolute;
+    bottom: -10px;
+    left: auto;
+    right:30px;
+    opacity: 0.3;
+    color: #ccc;
+    font-size: 40px;
+    background: #fff;
+    padding: 12px 14px;
+    border-radius: 36px;
+}
 
+.partners .item .zoom  {
+    bottom: auto;
+    top: 80px;
+    left: auto;
+    right: 10px;
+}
+
+
+
+.supporters .item:hover .zoom, .partners .item:hover .zoom {
+    opacity: 1;
+    color: rgb(70, 166, 247);
+}
+
+.supporters .backdrop, .partners .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.3);
+    z-index: 100;
+    display: none;
+}
+
+.supporters .backdrop.active, .partners .backdrop.active {
+    display: block;
+}
+
+
+.supporters .popup, .partners .popup {
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 100%;
+    max-width: 400px;
+
+    text-align: center;
+
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 20px 44px 0 rgba(0, 0, 0, 0.2);
+
+    padding: 25px;
+
+    font-family: FuturaNewBook, Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+
+    display: none;
+
+    z-index: 10000;
+
+    transition-timing-function: cubic-bezier(0, .89, .44, 1);
+    transition-duration: 0.7s;
+}
+
+
+.supporters .popup.active, .partners .popup.active {
+    display: block;
+}
+
+
+.supporters .popup img, .partners .popup img {
+    max-width: 75%;
+    margin: 20px auto;
+}
+
+.supporters .popup img, .partners .popup a {
+    display: block;
+    margin-top: 20px;
+}
+
+.supporters .popup .text, .partners .popup .text {
+    text-align: left;
+}
+
+.supporters .popup h4, .partners .popup h4 {
+    font-family: FuturaNewDemi, Arial, sans-serif;
+    font-size: 18px;
+}
 
 
 
@@ -1978,7 +2169,7 @@ body {
     color: #000;
     margin-top: 5rem;
 
-    min-height: 340px;
+    min-height: 430px;
 }
 
 @media (max-width: 768px) {
@@ -2009,6 +2200,10 @@ body {
     max-height: 7rem;
 }
 
+#technical-core .item {
+    min-height: 220px;
+    cursor: pointer;
+}
 
 
 
