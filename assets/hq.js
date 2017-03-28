@@ -36,18 +36,25 @@ var setScreens = function(){
 
 var currSlogan = 1;
 var setSlogans = function(){
-    var count = $(".home-screen .main h1").length;
-    var cc = currSlogan;
-    $(".home-screen .main h1.s"+currSlogan).addClass("animated fadeOut");
-    $(".home-screen .main h1.s"+currSlogan).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
-        $(".home-screen .main h1.s"+currSlogan).removeClass("active animated fadeOut");
-        currSlogan++;
-        if(currSlogan>count) currSlogan = 1;
-        $(".home-screen .main h1.s"+currSlogan).addClass("active animated fadeIn");
-        $(".home-screen .main h1.s"+currSlogan).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
-            $(".home-screen .main h1.s" + currSlogan).removeClass("animated fadeOut");
-        });
-    });
+    var count = $(".home-screen .main h1.ss1 span").length;
+
+    var cS = currSlogan;
+    var pS = currSlogan-1;
+    if(pS<1) pS = count;
+    var ppS = currSlogan-2;
+    if(currSlogan<2) ppS = count-currSlogan;
+    if(ppS<1) ppS = count;
+
+    currSlogan++;
+    if(currSlogan>count) currSlogan = 1;
+    var nS = currSlogan;
+
+    //console.log("count="+count+"/ns="+nS+"/cs="+cS+"/ps="+pS+"/pps="+ppS);
+
+    $(".home-screen .main h1 .s"+cS).addClass("removed");
+    $(".home-screen .main h1 .s" + pS).addClass("hidden");//.removeClass("active removed");
+    $(".home-screen .main h1 .s" + ppS).removeClass("hidden active removed");
+    $(".home-screen .main h1 .s"+nS).addClass("active");
 };
 
 var setCountDown = function(){
@@ -82,7 +89,6 @@ var setCountDown = function(){
 
     setCountDown();
     setInterval( setCountDown, 1000);
-    if( !$.isMobile() )    var s = skrollr.init();
 
     $(".bonus-fadein").on("mouseenter click", function (e) {
         $(".bonuses").addClass("active");
