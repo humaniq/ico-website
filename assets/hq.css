@@ -261,6 +261,7 @@ body {
 .home-screen .top .lang{
     margin-right: 8rem;
     text-align: right;
+    display: inline-block;
 }
 
 .home-screen .top .lang .item{
@@ -705,8 +706,8 @@ body {
 
 /*    padding: 12px 26px;
     border-radius: 30px;*/
-    padding: 12px 41px;
-    border-radius: 48px;
+    padding: 12px 26px;
+    border-radius: 30px;
     border: 1px solid #fff;
 
     margin-right: 8rem;
