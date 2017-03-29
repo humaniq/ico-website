@@ -262,6 +262,7 @@ body {
     margin-right: 8rem;
     text-align: right;
     display: inline-block;
+
 }
 
 .home-screen .top .lang .item{
@@ -338,7 +339,7 @@ body {
 }
 
 
-@keyframes radiowaves {
+@keyframes radiowaves-sav-sav {
     0% {
         padding: 1%;
     }
@@ -361,6 +362,18 @@ body {
     95% {
         padding: 40vw;
     }
+    99% {
+        padding: 45vw;
+    }
+}
+
+
+
+@keyframes radiowaves {
+    0% {
+        padding: 1%;
+    }
+
     99% {
         padding: 45vw;
     }
@@ -437,7 +450,7 @@ body {
     display: none;
     text-align: left;
     margin-left: 100px;
-    font-weight:normal;
+    font-weight:300;
 }
 
 .home-screen .main h1.active {
@@ -458,6 +471,7 @@ body {
 }
 
 .home-screen .main h1 span.active {
+    font-family: FuturaNewDemi, Arial, sans-serif;
     display: block;
     transform: translateY(0%);
 }
