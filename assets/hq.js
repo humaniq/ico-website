@@ -186,7 +186,13 @@ var setCountDown = function(){
             var targ = $( "#" + formId ).data("ya-target");
 
             if (typeof(yaCounter41508869) !== 'undefined') yaCounter41508869.reachGoal(targ);
-            if (typeof(ga) !== 'undefined') ga ('send', 'event', "other", targ);
+            if (typeof(ga) !== 'undefined') {
+                if(ga_id == "UA-96195965-1" )  ga('send', 'event', "Button", "Push");
+                else ga('send', 'event', "other", targ);
+//                var domain = window.location.hostname;
+  //              var ga_id = (domain.indexOf('humaniq.co') == -1) ? "UA-96195965-1" : 'UA-91023234-1';
+            }
+
             fbq('track', 'Lead');
 
             $("#" + formId + " .formBody").fadeOut(0);
