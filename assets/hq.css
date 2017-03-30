@@ -261,6 +261,8 @@ body {
 .home-screen .top .lang{
     margin-right: 8rem;
     text-align: right;
+    display: inline-block;
+
 }
 
 .home-screen .top .lang .item{
@@ -337,7 +339,7 @@ body {
 }
 
 
-@keyframes radiowaves {
+@keyframes radiowaves-sav-sav {
     0% {
         padding: 1%;
     }
@@ -360,6 +362,18 @@ body {
     95% {
         padding: 40vw;
     }
+    99% {
+        padding: 45vw;
+    }
+}
+
+
+
+@keyframes radiowaves {
+    0% {
+        padding: 1%;
+    }
+
     99% {
         padding: 45vw;
     }
@@ -436,7 +450,7 @@ body {
     display: none;
     text-align: left;
     margin-left: 100px;
-    font-weight:normal;
+    font-weight:300;
 }
 
 .home-screen .main h1.active {
@@ -457,6 +471,7 @@ body {
 }
 
 .home-screen .main h1 span.active {
+    font-family: FuturaNewDemi, Arial, sans-serif;
     display: block;
     transform: translateY(0%);
 }
@@ -705,8 +720,8 @@ body {
 
 /*    padding: 12px 26px;
     border-radius: 30px;*/
-    padding: 12px 41px;
-    border-radius: 48px;
+    padding: 12px 26px;
+    border-radius: 30px;
     border: 1px solid #fff;
 
     margin-right: 8rem;
@@ -725,7 +740,7 @@ body {
 
 
 .home-screen .main .lower-buttons {
-    margin: 1.8rem 0 15rem 0;
+    margin: 1.8rem 10rem 15rem 10rem;
     color: #fff;
     position: relative;
 }
@@ -843,6 +858,7 @@ body {
     .home-screen .top .lang{
         margin-right: 0;
         text-align: center;
+        display: block;
     }
 
     .home-screen .logo {
@@ -857,6 +873,8 @@ body {
 
     .home-screen .main .lower-buttons {
         text-align: center;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .home-screen .main .lower-buttons .left, .home-screen .main .lower-buttons .right {
