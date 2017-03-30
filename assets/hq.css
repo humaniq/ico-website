@@ -740,7 +740,7 @@ body {
 
 
 .home-screen .main .lower-buttons {
-    margin: 1.8rem 0 15rem 0;
+    margin: 1.8rem 10rem 15rem 10rem;
     color: #fff;
     position: relative;
 }
@@ -858,6 +858,7 @@ body {
     .home-screen .top .lang{
         margin-right: 0;
         text-align: center;
+        display: block;
     }
 
     .home-screen .logo {
@@ -872,6 +873,8 @@ body {
 
     .home-screen .main .lower-buttons {
         text-align: center;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .home-screen .main .lower-buttons .left, .home-screen .main .lower-buttons .right {
