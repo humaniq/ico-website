@@ -107,7 +107,7 @@
 <!--                    <div class="item">Deutsch</div>-->
                     <a href="/cn/" class="item">繁體中文</a>
                 </div>
-                <a href="https://my.humaniq.co" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-reserve-tokens">
+                <a href="https://my.humaniq.co" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
                     Reserve tokens
                 </a>
 
@@ -760,7 +760,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 sub-form" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
                 <div class="text">Don’t miss bonuses for early birds</div>
-                <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758">
+                <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('request_demo')">
                     <div class="form-group has-feedback">
                         <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
                         <div class="notify">
@@ -1191,7 +1191,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 sub-form" id="sub-form-3" data-ga="1" data-ya-target="SUBMAIL3">
                 <div class="text">We will keep you in touch</div>
-                <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758">
+                <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('request_demo')">
                     <div class="form-group has-feedback">
                         <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
                         <div class="notify">
@@ -1307,7 +1307,9 @@
     };
 </script>
 <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/es3ah3qb';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
-
+<!-- RoiStat -->
+<script>(function(w, d, s, h, id) { w.roistatProjectId = id; w.roistatHost = h; var p = d.location.protocol == "https:" ? "https://" : "http://"; var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init"; var js = d.createElement(s); js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);})(window, document, 'script', 'cloud.roistat.com', '0ce85e833d548d5d3cfec011979a235e');</script>
+<!-- End RoiStat -->
 
 
 
