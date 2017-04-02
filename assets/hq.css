@@ -553,7 +553,7 @@ body {
 @media (max-width: 350px) {
 
     .home-screen .main h1 b.rotation-wrapper {
-        min-width: 100px;
+        min-width: 130px;
         width: auto;
     }
 
@@ -1486,7 +1486,7 @@ body {
 }
 
 .rev .container{
-    background: url("/assets/images/map2.png") center bottom no-repeat;
+    background: url("/assets/images/map.svg") center bottom no-repeat;
     background-size: contain;
 }
 
