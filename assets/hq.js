@@ -87,6 +87,31 @@ var setCountDown = function(){
 
 (function($){
 
+
+
+    var lastId, scrollItems = $('body').find(".anc");
+
+    $(window).scroll(function() {
+        var fromTop = $(this).scrollTop()+0;
+        // Get id of current scroll item
+        var cur = scrollItems.map(function() {
+            if ($(this).offset().top < fromTop)
+                return this;
+        });
+        // Get the id of the current element
+        cur = cur[cur.length - 1];
+        var id = $(cur).attr("name") || '';
+        if (lastId !== id) { lastId = id;
+            var scr = document.body.scrollTop;
+            if(id) window.location.hash = id;
+            else window.location.hash = '';
+            document.body.scrollTop = scr;
+            //window.location.hash = "#"+id;
+        }
+});
+
+
+
     setCountDown();
     setInterval( setCountDown, 1000);
 

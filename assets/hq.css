@@ -82,6 +82,7 @@ html {
 
 
 body {
+    position: relative;
 }
 
 
@@ -1934,6 +1935,19 @@ body {
     opacity: 1;
 }
 
+.howitworks .badge {
+    background: transparent;
+    display: inline-block;
+    width: 50%;
+    max-width: 150px;
+    margin-top: 2rem;
+    color: #000;
+}
+
+.howitworks .badge img{
+    width: 100%;
+    max-width: 150px;
+}
 
 
 .video-2 {
@@ -2254,7 +2268,11 @@ body {
 
 
 .partners {
-/*    margin-bottom: 10rem;*/
+    /*    margin-bottom: 10rem;*/
+}
+
+.partners.technical-core {
+        margin-bottom: 10rem;
 }
 
 .partners .head h1 {
@@ -2308,6 +2326,10 @@ body {
 .partners.press .list .item {
     min-height: 100px;
     margin-top: 7rem;
+}
+
+.partners.press .list .item .h4 {
+    line-height: 1.3em;
 }
 
 .partners.press {
