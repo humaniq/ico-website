@@ -293,6 +293,7 @@ body {
 
 .home-screen .top .lang .item.active{
     font-family: FuturaNewDemi, Arial, sans-serif;
+    cursor: text;
 }
 
 .home-screen .logo {
@@ -1725,7 +1726,7 @@ body {
 }
 
 .revs .scheme .sep-vert img {
-    margin: 6rem -10px 0 -20px;
+    margin: 6rem -10px 0 -2rem;
 }
 
 .revs .scheme .sep-vert-l {
@@ -1734,7 +1735,8 @@ body {
 }
 
 .revs .scheme .sep-vert-l img{
-    margin: 6rem -10px 0 -20px;
+    margin: 6rem -10px 0 -2rem;
+    max-width: 130%;
 }
 
 .revs .scheme .item {
