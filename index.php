@@ -107,7 +107,14 @@
 <!--                    <div class="item">Deutsch</div>-->
                     <a href="/cn/" class="item">繁體中文</a>
                 </div>
-                <a href="https://my.humaniq.co" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
+                <?php
+
+                $hasRoiStat = array_key_exists('roistat_visit', $_COOKIE);
+
+                $queryString = ($hasRoiStat) ? "?roistat_visit=".$roistatVisitId : "";
+
+                ?>
+                <a href="https://my.humaniq.co/<?php echo $queryString ?>" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
                     Reserve tokens
                 </a>
 
