@@ -1719,13 +1719,21 @@ body {
 }
 
 .revs .scheme .sep-vert {
-    background: url("/assets/images/rev/dots-short.svg") center center no-repeat;
+    /*background: url("/assets/images/rev/dots-short.svg") center center no-repeat;*/
     min-height: 15rem;
 }
 
+.revs .scheme .sep-vert img {
+    margin: 6rem -10px 0 -20px;
+}
+
 .revs .scheme .sep-vert-l {
-    background: url("/assets/images/rev/dots-long.svg") center center no-repeat;
+    /*background: url("/assets/images/rev/dots-long.svg") center center no-repeat;*/
     min-height: 15rem;
+}
+
+.revs .scheme .sep-vert-l img{
+    margin: 6rem -10px 0 -20px;
 }
 
 .revs .scheme .item {
@@ -2246,7 +2254,7 @@ body {
 
 
 .partners {
-    margin-bottom: 10rem;
+/*    margin-bottom: 10rem;*/
 }
 
 .partners .head h1 {
@@ -2274,7 +2282,7 @@ body {
 }
 
 
-.partners .list .item h4 {
+.partners .list .item h4, .partners .list .item .h4  {
     font-family: FuturaNewDemi, Arial, sans-serif;
     font-size: 20px;
     line-height: 1em;
@@ -2282,6 +2290,8 @@ body {
     color: #000;
     margin-top: 25px;
     margin-bottom: 15px;
+
+    overflow-x: visible;
 }
 
 .partners .list .item {
@@ -2294,6 +2304,18 @@ body {
 
     min-height: 430px;
 }
+
+.partners.press .list .item {
+    min-height: 100px;
+    margin-top: 7rem;
+}
+
+.partners.press {
+    margin-bottom: 10rem;
+}
+
+
+
 
 @media (max-width: 768px) {
 
