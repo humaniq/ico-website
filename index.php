@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html xmlns="http://www.w3.org/1999/html" lang="en-US">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-language" content="en-US">
 
-	<title>Humaniq</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Pridi:200,300,400,500|Roboto:100,300,400,500,700" rel="stylesheet">
+    <title>Humaniq</title>
 
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-theme.min.css">
@@ -15,8 +14,6 @@
     <link href="/assets/animate.css/animate.min.css" rel="stylesheet"/>
 
     <link href="/assets/hq.css" rel="stylesheet"/>
-
-
 
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -37,7 +34,19 @@
     <meta name="theme-color" content="#ffffff">
 
 
+    <script src="/assets/js-cookie/src/js.cookie.js"></script>
     <script>
+        var beenBefore = Cookies.get('beenBefore');
+        var clang = Cookies.get('mylang');
+        if( !clang ) {
+            Cookies.set('beenBefore', "true");
+            var navLangStr = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
+            clang = (navLangStr.indexOf('zh')==-1) ? 'en' : 'zh';
+        }
+
+        if(clang=='zh') window.location = "/cn/";
+
+
         var domain = window.location.hostname;
         var ga_id = (domain.indexOf('humaniq.co')==-1)? "UA-96195965-1":'UA-91023234-1';
     </script>
@@ -88,7 +97,14 @@
 </head>
     <body id="skrollr-body">
 
-<!--<div class="home-bkg" data-1000="opacity:0" data-top-top="opacity:1"></div>-->
+
+<?php
+
+$hasRoiStat = array_key_exists('roistat_visit', $_COOKIE);
+$queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit']) : "";
+
+?>
+
 <a class="anc" name="home"></a>
 <section id="home-screen" class="home-screen" data-0="opacity:1;" data-500="opacity:0.7;" data-1000="opacity:0;">
     <div class="circle c1"></div>
@@ -105,16 +121,9 @@
                 <div class="lang">
                     <div class="item active">English</div>
 <!--                    <div class="item">Deutsch</div>-->
-                    <a href="/cn/" class="item">繁體中文</a>
+                    <a href="/cn/" class="item" onclick="Cookies.set('mylang','zh')">繁體中文</a>
                 </div>
-                <?php
-
-                $hasRoiStat = array_key_exists('roistat_visit', $_COOKIE);
-
-                $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit']) : "";
-
-                ?>
-                <a href="https://my.humaniq.co/<?php echo $queryString ?>" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
+                <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
                     Reserve tokens
                 </a>
 
@@ -598,6 +607,7 @@
                         </div>
                         <div class="col-xs-5 text-center sep-vert-l"><img src="assets/images/arrow-right-l.svg">
                             <img src="assets/images/logo-blue.png" style="width: 70%; margin: 0"></div>
+
                         <div class="col-xs-3 text-center item">
                             <div class="dot customer"></div>
                             <p>Customers
@@ -1007,37 +1017,6 @@
 
         <div class="row list">
 
-<!--            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/1.png">
-                <h5>Luxembourg</h5>
-                <h4>Alex Fork</h4>
-                Head of Futurefintech.org
-                Blockchain.community Board Member.<br> <a href="https://www.facebook.com/fork.alex" class="yga" data-ya-target="supporters-fork">facebook.com/fork.alex</a>
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/2.png">
-                <h5>Netherlands</h5>
-                <h4>Richard Kastelein</h4>
-                Director at Blockchain Partners, Publisher at Blockchain News, Managing Partner at The Hackitarians.
-            </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/3.png">
-                <h5>Botswana</h5>
-                <h4>Alakanani Itireleng</h4>
-                Director в Satoshicentre
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/4.png">
-                <h5>Australia</h5>
-                <h4>Ross Lloyd</h4>
-                Past veteran of many Australian Government Ministerial briefings, annual reports, speeches.
-            </div>
-
--->
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/5.png">
                 <h5>Zimbabwe</h5>
@@ -1171,22 +1150,12 @@
 <a class="anc" name="timeline"></a>
 
 <section class="hidden-xs">
-    <img src="assets/images/timeline_3.svg" style="width: 100%">
+    <img src="/assets/images/timeline.svg" style="width: 100%">
 </section>
 
 <section class="visible-xs">
-    <img src="assets/images/timeline_4.svg" style="width: 100%">
+<img src="/assets/images/timeline_m.svg" style="width: 100%">
 </section>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1208,7 +1177,7 @@
                 <div class="list row">
 
 
-                    <div class="item col-xs-6 col-sm-4 col-md-4">
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-1.png">
                         </div>
@@ -1217,7 +1186,7 @@
                     </div>
 
 
-                    <div class="item col-xs-6 col-sm-4 col-md-4">
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-2.png">
                         </div>
@@ -1226,7 +1195,7 @@
                     </div>
 
 
-                    <div class="item col-xs-6 col-sm-4 col-md-4">
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-3.png">
                         </div>
@@ -1235,7 +1204,7 @@
                     </div>
 
 
-                    <div class="item col-xs-6 col-sm-4 col-md-4">
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-4.png">
                         </div>
@@ -1244,7 +1213,7 @@
                     </div>
 
 
-                    <div class="item col-xs-6 col-sm-4 col-md-4">
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-5.png">
                         </div>
@@ -1253,7 +1222,7 @@
                     </div>
 
 
-                    <div class="item col-xs-6 col-sm-4 col-md-4">
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-6.png">
                         </div>
@@ -1262,7 +1231,7 @@
                     </div>
 
 
-                    <div class="item col-xs-6 col-sm-4 col-md-4">
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-7.png">
                         </div>
@@ -1421,7 +1390,8 @@
 
 <script src="/assets/bootstrap-validator/dist/validator.min.js"></script>
 <script src="/assets/moment.js/min/moment.min.js"></script>
-<script src="/assets/skrollr/dist/skrollr.min.js"></script>
+
+<!--<script src="/assets/skrollr/dist/skrollr.min.js"></script>-->
 
 <script src="/assets/hq.js"></script>
 
@@ -1432,6 +1402,7 @@
     };
 </script>
 <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/es3ah3qb';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
 <!-- RoiStat -->
 <script>(function(w, d, s, h, id) { w.roistatProjectId = id; w.roistatHost = h; var p = d.location.protocol == "https:" ? "https://" : "http://"; var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init"; var js = d.createElement(s); js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);})(window, document, 'script', 'cloud.roistat.com', '0ce85e833d548d5d3cfec011979a235e');</script>
 <!-- End RoiStat -->

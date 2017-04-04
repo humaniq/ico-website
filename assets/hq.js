@@ -88,7 +88,7 @@ var setCountDown = function(){
 (function($){
 
 
-
+/*
     var lastId, scrollItems = $('body').find(".anc");
 
     $(window).scroll(function() {
@@ -110,7 +110,7 @@ var setCountDown = function(){
         }
 });
 
-
+*/
 
     setCountDown();
     setInterval( setCountDown, 1000);

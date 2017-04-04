@@ -82,7 +82,7 @@ html {
 
 
 body {
-    position: relative;
+    /*position: relative;*/
 }
 
 
@@ -293,6 +293,7 @@ body {
 
 .home-screen .top .lang .item.active{
     font-family: FuturaNewDemi, Arial, sans-serif;
+    cursor: text;
 }
 
 .home-screen .logo {
@@ -633,6 +634,40 @@ body {
 }
 
 
+.home-screen .main .offer.post {
+    font-size: 3rem;
+}
+
+
+
+.btn-post-block, .btn-post-onethird  {
+    display: block;
+    height: 7rem;
+    border-radius: 3px;
+    background-image: linear-gradient(84deg, #203f82, #1f48a1);
+
+    font-family: FuturaNewMedium, Arial, sans-serif;
+    font-size: 2.4rem;
+    line-height: 1em;
+    color: #fff;
+
+    margin: 3rem 0 1rem 0;
+    padding-top: 2.3rem;
+
+    text-align: center;
+}
+
+.btn-post-block:hover, .btn-post-onethird:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-post-onethird {
+    display: inline-block;
+    width: 38%;
+}
+
+
 .home-screen .main .notify {
     background: #fff;
     margin: 3.8rem 4rem 0 4rem;
@@ -746,7 +781,11 @@ body {
     position: relative;
 }
 
-.home-screen .main .lower-buttons .left, .home-screen .main .lower-buttons .right {
+.home-screen .main .lower-buttons.post {
+    margin: 1.8rem 0rem 15rem 0rem;
+}
+
+.home-screen .main .lower-buttons .left, .home-screen .main .lower-buttons .center, .home-screen .main .lower-buttons .right {
     display: inline-block;
     width: 40%;
     color: #fff;
@@ -758,6 +797,33 @@ body {
 .home-screen .main .lower-buttons .right {
     width: 55%;
 }
+
+
+.home-screen .main .lower-buttons.post .left, .home-screen .main .lower-buttons .center, .home-screen .main .lower-buttons.post .right {
+    width: 38%;
+}
+
+.home-screen .main .lower-buttons.post .left, .home-screen .main .lower-buttons.post .right {
+    width: 30%;
+}
+
+.home-screen .main .lower-buttons.post .right .ends {
+    display: inline-block;
+    text-align: left;
+    transform: translateY(1rem);
+    font-size: 14px;
+    font-family: FuturaNewBook, Arial, sans-serif;
+}
+
+
+.home-screen .main .lower-buttons.post .right .ends b{
+    font-size: 16px;
+    font-family: FuturaNewDemi, Arial, sans-serif;
+    font-weight: normal;
+}
+
+
+
 
 .home-screen .main .lower-buttons .round {
     display: inline-block;
@@ -1725,7 +1791,7 @@ body {
 }
 
 .revs .scheme .sep-vert img {
-    margin: 6rem -10px 0 -20px;
+    margin: 6rem -10px 0 -2rem;
 }
 
 .revs .scheme .sep-vert-l {
@@ -1734,7 +1800,8 @@ body {
 }
 
 .revs .scheme .sep-vert-l img{
-    margin: 6rem -10px 0 -20px;
+    margin: 6rem -10px 0 -2rem;
+    max-width: 130%;
 }
 
 .revs .scheme .item {
