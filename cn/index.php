@@ -111,7 +111,6 @@
     ?>
 
 
-<a class="anc" id="home" name="home"></a>
 <section id="home-screen" class="home-screen" data-0="opacity:1;" data-500="opacity:0.7;" data-1000="opacity:0;">
     <div class="circle c1"></div>
     <div class="circle c2"></div>
@@ -213,7 +212,7 @@
 
 
 
-<a class="anc" id="banking4" name="banking4"></a>
+
 <section id="whatis" class="whatis">
     <div class="container main">
         <div class="row">
@@ -322,7 +321,7 @@
     </div>
 </section>
 
-<a class="anc" name="whitepapers"></a>
+
 <section id="whitepapers" class="whitepapers">
     <div class="container">
         <div class="row">
@@ -400,7 +399,7 @@
 </section>
 
 
-<a class="anc" name="revolution"></a>
+
 <section id="rev" class="rev">
     <div class="container">
         <div class="row slogan">
@@ -662,7 +661,7 @@
 </section>
 
 
-<a class="anc" name="whatfor"></a>
+
 
 <section id="chart" class="chart">
     <div class="container">
@@ -686,7 +685,7 @@
 
 
 
-<a class="anc" name="video-story"></a>
+
 <section id="video-2" class="video-2">
     <div class="container">
         <div class="row">
@@ -704,7 +703,7 @@
 
 
 
-<a class="anc" name="howitworks"></a>
+
 <section id="howitworks" class="howitworks">
     <div class="container">
         <div class="row">
@@ -810,7 +809,7 @@
 
 
 
-<a class="anc" name="team"></a>
+
 
 <section id="team" class="supporters">
     <div class="container">
@@ -958,7 +957,7 @@
 
 
 
-    <a class="anc" name="advisoryboard"></a>
+
     <section id="advisoryboard" class="supporters supporters2">
         <div class="container">
             <div class="row head">
@@ -1064,7 +1063,7 @@
 
 
 
-    <a class="anc" name="technical-core"></a>
+
 <section id="technical-core" class="partners technical-core">
     <div class="container">
         <div class="row head">
@@ -1181,7 +1180,7 @@
 
 
 
-<a class="anc" name="advisors"></a>
+
 <section id="advisors" class="supporters supporters2">
     <div class="container">
         <div class="row head">
@@ -1260,7 +1259,7 @@
                 <h4>Muhammed<br>bukar Ibrahim</h4>
 
             </div>
-
+<!--
 
             <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/0.png">
@@ -1353,7 +1352,7 @@
 
             </div>
 
-
+-->
 
 
 
@@ -1371,7 +1370,7 @@
 
 
 
-    <a class="anc" name="partners"></a>
+
 
 <section id="partners" class="partners">
     <div class="container">
@@ -1453,7 +1452,7 @@
 
 
 
-<a class="anc" name="timeline"></a>
+
 
 <section class="hidden-xs">
     <img src="/assets/images/timeline.svg" style="width: 100%">
@@ -1467,7 +1466,7 @@
 
 
 
-<a class="anc" name="press"></a>
+
 
 <section id="press" class="partners press">
     <div class="container">
@@ -1557,7 +1556,7 @@
 
 
 
-<a class="anc" name="keepintouch"></a>
+
 
 <section class="inline-form">
     <div class="container">
