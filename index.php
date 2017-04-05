@@ -833,24 +833,29 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
         <div class="backdrop"></div>
         <div class="row list">
 
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="1">
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="5">
                 <div class="img">
                     <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/1.png">
+                    <img src="/assets/images/avatars/Dinis_Guarda.png">
                 </div>
-                <h5>Luxembourg</h5>
-                <h4>Alex Fork</h4>
-                CEO
+                <h5>UK</h5>
+                <h4>Dinis Guarda</h4>
+                CEO and Chief Strategy Officer, Board of Directors
             </div>
 
-            <div id="pp-1" class="popup">
-                <div class="close"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/1.png">
-                <h4>Alex Fork</h4>
+            <div id="pp-5" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/Dinis_Guarda.png">
+                <h4>Dinis Guarda</h4>
                 <div class="text">
-                    Alex Fork is the CEO of the Humaniq project, a Banking 4.0 project designed to help lift the unbanked out of poverty in emerging economies. Alex is a member of the board at Blockchain.community, author of the book “Bitcoin. More than money” and the founder of the Future Fintech accelerator. Fork organised an Ethereum conference with Vlad Martynov (Ethereum advisory board) and Vitalik Buterin (Ethereum founder), which was attended by over 500 banking professionals.
+                    Founder of ZTUDIUM, that he created and manages intelligenthq.com, openbusinesscouncil.org, tradersdna.com and hedgethink.com. He is the author of the following books: The Next Tsunami: Blockchain plus AI and IOT, Intelligenthq Editions, Amazon, 2017. How To Map Who You are, Amazon, 2016. He is also co-founder of the project BlockchainAge. Since December 2016 is leading the digital strategy and marketing for the financial empowerment app and platform invstr.com Between 2014 and 2015 he was involved in creating a digital bank between Asia and Africa. With a Master in New Media, Dinis has been ranked in the top 10 and top 100 most influential person in fintech, blockchain, social media, social enterprise and philanthropy. He was the founder of tradingfloor.com for Saxo Bank, socialmediacouncil.org with Jamie Burke.
+
                 </div>
             </div>
+
+
 
             <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="2">
                 <div class="img">
@@ -909,25 +914,22 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 </div>
             </div>
 
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="5">
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="1">
                 <div class="img">
                     <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/Dinis_Guarda.png">
+                    <img src="/assets/images/avatars/1.png">
                 </div>
-                <h5>UK</h5>
-                <h4>Dinis Guarda</h4>
-                CEO and Chief Strategy Officer, Board of Directors, UK
+                <h5>Luxembourg</h5>
+                <h4>Alex Fork</h4>
+                Founder, Board of Directors
             </div>
 
-            <div id="pp-5" class="popup">
-                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/Dinis_Guarda.png">
-                <h4>Dinis Guarda</h4>
+            <div id="pp-1" class="popup">
+                <div class="close"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/1.png">
+                <h4>Alex Fork</h4>
                 <div class="text">
-                    Founder of ZTUDIUM, that he created and manages intelligenthq.com, openbusinesscouncil.org, tradersdna.com and hedgethink.com. He is the author of the following books: The Next Tsunami: Blockchain plus AI and IOT, Intelligenthq Editions, Amazon, 2017. How To Map Who You are, Amazon, 2016. He is also co-founder of the project BlockchainAge. Since December 2016 is leading the digital strategy and marketing for the financial empowerment app and platform invstr.com Between 2014 and 2015 he was involved in creating a digital bank between Asia and Africa. With a Master in New Media, Dinis has been ranked in the top 10 and top 100 most influential person in fintech, blockchain, social media, social enterprise and philanthropy. He was the founder of tradingfloor.com for Saxo Bank, socialmediacouncil.org with Jamie Burke.
-
+                    Alex Fork is the Founder of the Humaniq project, a Banking 4.0 project designed to help lift the unbanked out of poverty in emerging economies. Alex is a member of the board at Blockchain.community, author of the book “Bitcoin. More than money” and the founder of the Future Fintech accelerator. Fork organised an Ethereum conference with Vlad Martynov (Ethereum advisory board) and Vitalik Buterin (Ethereum founder), which was attended by over 500 banking professionals.
                 </div>
             </div>
 
@@ -939,7 +941,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 </div>
                 <h5>UK</h5>
                 <h4>Dmitry Kaminsky</h4>
-                Executive Chairman and Founder, Board of Directors, UK
+                Executive Chairman and Founder, Board of Directors
             </div>
 
             <div id="pp-6" class="popup">

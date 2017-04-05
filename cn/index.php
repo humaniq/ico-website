@@ -860,24 +860,30 @@
         <div class="backdrop"></div>
         <div class="row list">
 
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="1">
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="5">
                 <div class="img">
                     <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/1.png">
+                    <img src="/assets/images/avatars/Dinis_Guarda.png">
                 </div>
-                <h5>卢森堡</h5>
-                <h4>阿莱克斯•福柯（Alex Fork）</h4>
-                首席执行官
+                <h5>UK</h5>
+                <h4>Dinis Guarda</h4>
+                CEO and Chief Strategy Officer, Board of Directors
             </div>
 
-            <div id="pp-1" class="popup">
-                <div class="close"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/1.png">
-                <h4>阿莱克斯•福柯（Alex Fork）</h4>
+            <div id="pp-5" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/Dinis_Guarda.png">
+                <h4>Dinis Guarda</h4>
                 <div class="text">
-                    阿莱克斯•福柯是Humaniq项目的首席执行官。Humaniq项目是一个用来帮助新兴经济体中没有银行账户的人摆脱贫困的银行4.0项目。阿莱克斯是区块链社区董事会成员，《比特币：不止是钱》（Bitcoin: More than money）一书的作者，还是未来金融科技加速器（Future Fintech accelerator）的创立者。福柯与弗拉德•马尔图诺夫（Vlad Martynov）（以太坊顾问委员会成员）和维塔利克•布特林（Vitalik Buterin）（以太坊创立者）一道，组织了一场有超过500名银行界专家参与的以太坊会议。
+                    Founder of ZTUDIUM, that he created and manages intelligenthq.com, openbusinesscouncil.org, tradersdna.com and hedgethink.com. He is the author of the following books: The Next Tsunami: Blockchain plus AI and IOT, Intelligenthq Editions, Amazon, 2017. How To Map Who You are, Amazon, 2016. He is also co-founder of the project BlockchainAge. Since December 2016 is leading the digital strategy and marketing for the financial empowerment app and platform invstr.com Between 2014 and 2015 he was involved in creating a digital bank between Asia and Africa. With a Master in New Media, Dinis has been ranked in the top 10 and top 100 most influential person in fintech, blockchain, social media, social enterprise and philanthropy. He was the founder of tradingfloor.com for Saxo Bank, socialmediacouncil.org with Jamie Burke.
+
                 </div>
             </div>
+
+
+
 
             <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="2">
                 <div class="img">
@@ -937,27 +943,24 @@
             </div>
 
 
-
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="5">
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="1">
                 <div class="img">
                     <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/Dinis_Guarda.png">
+                    <img src="/assets/images/avatars/1.png">
                 </div>
-                <h5>UK</h5>
-                <h4>Dinis Guarda</h4>
-                CEO and Chief Strategy Officer, Board of Directors, UK
+                <h5>卢森堡</h5>
+                <h4>阿莱克斯•福柯（Alex Fork）</h4>
+                Founder, Board of Directors
             </div>
 
-            <div id="pp-5" class="popup">
-                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/Dinis_Guarda.png">
-                <h4>Dinis Guarda</h4>
+            <div id="pp-1" class="popup">
+                <div class="close"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/1.png">
+                <h4>阿莱克斯•福柯（Alex Fork）</h4>
                 <div class="text">
-                    Founder of ZTUDIUM, that he created and manages intelligenthq.com, openbusinesscouncil.org, tradersdna.com and hedgethink.com. He is the author of the following books: The Next Tsunami: Blockchain plus AI and IOT, Intelligenthq Editions, Amazon, 2017. How To Map Who You are, Amazon, 2016. He is also co-founder of the project BlockchainAge. Since December 2016 is leading the digital strategy and marketing for the financial empowerment app and platform invstr.com Between 2014 and 2015 he was involved in creating a digital bank between Asia and Africa. With a Master in New Media, Dinis has been ranked in the top 10 and top 100 most influential person in fintech, blockchain, social media, social enterprise and philanthropy. He was the founder of tradingfloor.com for Saxo Bank, socialmediacouncil.org with Jamie Burke.
-
+                    阿莱克斯•福柯是Humaniq项目的首席执行官。Humaniq项目是一个用来帮助新兴经济体中没有银行账户的人摆脱贫困的银行4.0项目。阿莱克斯是区块链社区董事会成员，《比特币：不止是钱》（Bitcoin: More than money）一书的作者，还是未来金融科技加速器（Future Fintech accelerator）的创立者。福柯与弗拉德•马尔图诺夫（Vlad Martynov）（以太坊顾问委员会成员）和维塔利克•布特林（Vitalik Buterin）（以太坊创立者）一道，组织了一场有超过500名银行界专家参与的以太坊会议。
                 </div>
             </div>
-
 
             <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="6">
                 <div class="img">
@@ -966,7 +969,7 @@
                 </div>
                 <h5>UK</h5>
                 <h4>Dmitry Kaminsky</h4>
-                Executive Chairman and Founder, Board of Directors, UK
+                Executive Chairman and Founder, Board of Directors
             </div>
 
             <div id="pp-6" class="popup">
