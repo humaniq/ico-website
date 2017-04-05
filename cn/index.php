@@ -982,7 +982,7 @@
 
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/Khata.png">
+                <img src="/assets/images/avatars/Subhendu_Das.png">
                 <!--                <h5></h5>-->
                 <h4>Subhendu Das</h4>
                 Chief Technical Officer
