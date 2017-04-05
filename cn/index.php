@@ -250,7 +250,7 @@
             <div class="col-xs-12">
                 <div class="video-img embed-responsive embed-responsive-16by9">
 <!--                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/prEPErb82Mg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
-                    <iframe class="embed-responsive-item" src="http://m.youku.com/video/id_XMjY4MDIzNDI4OA" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src='https://player.youku.com/embed/XMjY4MDIzNDI4OA==' frameborder=0 'allowfullscreen'></iframe>
                 </div>
 
 <!--                <img class="video-img" src="assets/images/whatis-main.jpg">
@@ -723,7 +723,7 @@
             <div class="col-xs-12">
                 <div class="video-img embed-responsive embed-responsive-16by9">
 <!--                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PY_efnojVcE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
-                    <iframe class="embed-responsive-item" src="http://m.youku.com/video/id_XMjY4MDIzNDI4OA" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src='https://player.youku.com/embed/XMjY4MDIzNDI4OA==' frameborder=0 'allowfullscreen'></iframe>
                 </div>
             </div>
         </div>
@@ -1673,7 +1673,7 @@
         <div class="row cl">
             <div class="col-xs-12 col-xs-offset-0 it">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/prEPErb82Mg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src='https://player.youku.com/embed/XMjY4MDIzNDI4OA==' frameborder=0 'allowfullscreen'></iframe>
                 </div>
             </div>
         </div>
