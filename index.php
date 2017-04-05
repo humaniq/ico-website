@@ -180,7 +180,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                                 <div class="help-block with-errors"></div>
                             </div>
                         </form>
-                        <a href="https://my.humaniq.co" target="_blank" class="btn-post-block post-ico">Join the ICO</a>
+                        <a href="https://my.humaniq.co" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-block post-ico">Join the ICO</a>
 
                     </div>
                     <div class="lower-buttons pre-ico">
@@ -791,7 +791,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
         <div class="row">
             <div class="col-xs-12 text-center post-ico">
                 <h1>The World is changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
-                <a href="https://my.humaniq.co" target="_blank" class="btn-post-onethird">Join the ICO</a>
+                <a href="https://my.humaniq.co" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-onethird">Join the ICO</a>
             </div>
 
 
@@ -1649,7 +1649,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
         <div class="row">
             <div class="col-xs-12 text-center post-ico">
                 <h1>The World is changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
-                <a href="https://my.humaniq.co" target="_blank" class="btn-post-onethird">Join the ICO</a>
+                <a href="https://my.humaniq.co" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-onethird">Join the ICO</a>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
