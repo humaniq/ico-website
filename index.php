@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html xmlns="http://www.w3.org/1999/html" lang="en-US">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-language" content="en-US">
 
-	<title>Humaniq</title>
-
-	<link href="https://fonts.googleapis.com/css?family=Pridi:200,300,400,500|Roboto:100,300,400,500,700" rel="stylesheet">
+    <title>Humaniq</title>
 
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-theme.min.css">
@@ -15,8 +14,6 @@
     <link href="/assets/animate.css/animate.min.css" rel="stylesheet"/>
 
     <link href="/assets/hq.css" rel="stylesheet"/>
-
-
 
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -37,7 +34,19 @@
     <meta name="theme-color" content="#ffffff">
 
 
+    <script src="/assets/js-cookie/src/js.cookie.js"></script>
     <script>
+        var beenBefore = Cookies.get('beenBefore');
+        var clang = Cookies.get('mylang');
+        if( !clang ) {
+            Cookies.set('beenBefore', "true");
+            var navLangStr = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
+            clang = (navLangStr.indexOf('zh')==-1) ? 'en' : 'zh';
+        }
+
+        if(clang=='zh') window.location = "/cn/";
+
+
         var domain = window.location.hostname;
         var ga_id = (domain.indexOf('humaniq.co')==-1)? "UA-96195965-1":'UA-91023234-1';
     </script>
@@ -88,7 +97,14 @@
 </head>
     <body id="skrollr-body">
 
-<!--<div class="home-bkg" data-1000="opacity:0" data-top-top="opacity:1"></div>-->
+
+<?php
+
+$hasRoiStat = array_key_exists('roistat_visit', $_COOKIE);
+$queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit']) : "";
+
+?>
+
 <a class="anc" name="home"></a>
 <section id="home-screen" class="home-screen" data-0="opacity:1;" data-500="opacity:0.7;" data-1000="opacity:0;">
     <div class="circle c1"></div>
@@ -105,16 +121,9 @@
                 <div class="lang">
                     <div class="item active">English</div>
 <!--                    <div class="item">Deutsch</div>-->
-                    <a href="/cn/" class="item">繁體中文</a>
+                    <a href="/cn/" class="item" onclick="Cookies.set('mylang','zh')">繁體中文</a>
                 </div>
-                <?php
-
-                $hasRoiStat = array_key_exists('roistat_visit', $_COOKIE);
-
-                $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit']) : "";
-
-                ?>
-                <a href="https://my.humaniq.co/<?php echo $queryString ?>" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
+                <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
                     Reserve tokens
                 </a>
 
@@ -598,6 +607,7 @@
                         </div>
                         <div class="col-xs-5 text-center sep-vert-l"><img src="assets/images/arrow-right-l.svg">
                             <img src="assets/images/logo-blue.png" style="width: 70%; margin: 0"></div>
+
                         <div class="col-xs-3 text-center item">
                             <div class="dot customer"></div>
                             <p>Customers
@@ -729,21 +739,17 @@
             </div>
 
             <div class="col-xs-12 text-center">
-                <div class="badge" ><a href="https://play.google.com/store/apps/details?id=co.humaniq" target="_blank">
+                <div class="badge"><a href="https://play.google.com/store/apps/details?id=co.humaniq" target="_blank">
                     <img src="/assets/images/google-play-badge-2.png"> </a></div>
-                <div class="badge"  title="Coming soon"><img src="/assets/images/app-store-badge.svg" style="opacity: 0.5"> </div>
+                <div class="badge"><a href="https://itunes.apple.com/us/app/humaniq/id1212362871?l=ru&ls=1&mt=8" target="_blank"><img src="/assets/images/app-store-badge.svg"></a></div>
 <br>
                 <div class="trademarks" style="display:inline-block; margin-top: 4rem;text-align: left">
                     - Google Play and the Google Play logo are trademarks of Google Inc.<br>
                     - App Store is a service mark
                     of Apple Inc., registered in the U.S. and other countries.
                 </div>
-
             </div>
-
         </div>
-
-
     </div>
 </section>
 
@@ -868,10 +874,174 @@
 
 
 
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="5">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/Dinis_Guarda.png">
+                </div>
+                <h5>UK</h5>
+                <h4>Dinis Guarda</h4>
+                CEO and Chief Strategy Officer, Board of Directors, UK
+            </div>
+
+            <div id="pp-5" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/Dinis_Guarda.png">
+                <h4>Dinis Guarda</h4>
+                <div class="text">
+                    Founder of ZTUDIUM, that he created and manages intelligenthq.com, openbusinesscouncil.org, tradersdna.com and hedgethink.com. He is the author of the following books: The Next Tsunami: Blockchain plus AI and IOT, Intelligenthq Editions, Amazon, 2017. How To Map Who You are, Amazon, 2016. He is also co-founder of the project BlockchainAge. Since December 2016 is leading the digital strategy and marketing for the financial empowerment app and platform invstr.com Between 2014 and 2015 he was involved in creating a digital bank between Asia and Africa. With a Master in New Media, Dinis has been ranked in the top 10 and top 100 most influential person in fintech, blockchain, social media, social enterprise and philanthropy. He was the founder of tradingfloor.com for Saxo Bank, socialmediacouncil.org with Jamie Burke.
+
+                </div>
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="6">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
+                </div>
+                <h5>UK</h5>
+                <h4>Dmitry Kaminsky</h4>
+                Executive Chairman and Founder, Board of Directors, UK
+            </div>
+
+            <div id="pp-6" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
+                <h4>Dmitry Kaminsky</h4>
+                <div class="text">
+                    The managing partner of Deep Knowledge Ventures (DKV), a Hong Kong-based fund that invests in disruptive biotechnology, fintech, and artificial intelligence companies. Mr.Kaminskiy is a trustee of the Biogerontology Research Foundation in Oxford and holds a BSc in computer science from the National University of Electronic Technology. Prior to Deep Knowledge Ventures, he served as an executive in the telecom and financial services industries. Dmitry is interested in the potential for social benefit offered by blockchain technology. Dmitry also directly supports scientists, conferences, hackathons, and think-tanks at Oxford and Cambridge, such as the Exponential Technologies Institute and Biogerontology Research Foundation (BGRF).
+                </div>
+            </div>
+
+
+
         </div>
     </div>
 
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="anc" name="advisoryboard"></a>
+<section id="advisoryboard" class="supporters supporters2">
+    <div class="container">
+        <div class="row head">
+            <div class="col-sm-12">
+                <h1>Advisory Board</h1>
+            </div>
+        </div>
+
+        <div class="row list">
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Paolo_Tasca.jpeg">
+                <h5></h5>
+                <h4>Paolo Tasca</h4>
+                Technology Advisor / P2P economy, technology and Blockchain
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/David_Applefield.png">
+                <h5></h5>
+                <h4>David Applefield</h4>
+                Public Affairs and Global Policy advisor / Communications and PR Advisor
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Hoods.png">
+                <h5></h5>
+                <h4>Karl Hoods</h4>
+                Policy and Legal Advisor / Save Children UK
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Iggy_Bassi.jpg">
+                <h5></h5>
+                <h4>Iggy Bassi </h4>
+                Policy and Legal advisor/ Social Impact and AI, data expert
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Ron_Morris.png">
+                <h5></h5>
+                <h4>Ron Morris</h4>
+                Scientific Advisor / Education / Universities Advisor
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Paul_Mears.jpg">
+                <h5></h5>
+                <h4>Paul Mears</h4>
+                Policy and Legal advisor / Financial and risk management advisor
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/0.png">
+                <h5></h5>
+                <h4>Vishai Mishra</h4>
+                Technology advisor/ Big data and security
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Pavel_Kravchenko.png">
+                <h5></h5>
+                <h4>Pavel Kravchenko</h4>
+                Technology Advisor/ BlockChain technology advisor
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Matt_McKibbin.png">
+                <h5></h5>
+                <h4>Matt McKibbin</h4>
+                Technology Advisor/ Blockchain, crypto economy
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Matthias_Klees.png">
+                <h5></h5>
+                <h4>Matthias Klees</h4>
+                Technology Advisor/ ‎Founder, Bitcoinsulting, Staisybit, Szenekonzept
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Alex_Bausch.jpg">
+                <h5></h5>
+                <h4>Alex Bausch</h4>
+                Technology Advisor/ Co-Chairman of the Blockchain Ecosystem Network
+            </div>
+
+         </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1007,78 +1177,165 @@
 
         <div class="row list">
 
-<!--            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/1.png">
-                <h5>Luxembourg</h5>
-                <h4>Alex Fork</h4>
-                Head of Futurefintech.org
-                Blockchain.community Board Member.<br> <a href="https://www.facebook.com/fork.alex" class="yga" data-ya-target="supporters-fork">facebook.com/fork.alex</a>
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/2.png">
-                <h5>Netherlands</h5>
-                <h4>Richard Kastelein</h4>
-                Director at Blockchain Partners, Publisher at Blockchain News, Managing Partner at The Hackitarians.
-            </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/3.png">
-                <h5>Botswana</h5>
-                <h4>Alakanani Itireleng</h4>
-                Director в Satoshicentre
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/4.png">
-                <h5>Australia</h5>
-                <h4>Ross Lloyd</h4>
-                Past veteran of many Australian Government Ministerial briefings, annual reports, speeches.
-            </div>
-
--->
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/5.png">
                 <h5>Zimbabwe</h5>
                 <h4>Tawanda<br>Kembo</h4>
                 BitFinance
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/4.png">
                 <h5>Australia</h5>
                 <h4>Ross Lloyd</h4>
                 Past veteran of many Australian Government Ministerial briefings, annual reports, speeches.
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/6.png">
                 <h5>Sierra Leone</h5>
                 <h4>Chernoh Saeed Sow</h4>
                 Bitcoin Network-SLBNet
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/7.png">
                 <h5>Ghana</h5>
                 <h4>Philip Agyei Asare</h4>
                 Dream Bitcoin Foundation
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/8.png">
                 <h5>Lesotho</h5>
                 <h4>Itumeleng Isaac Lejone</h4>
                 Bitcoin Community
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/9.png">
                 <h5>South Africa</h5>
                 <h4>Mogopodi<br>Phiri</h4>
                 Africrypto
             </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/Dickson.png">
+                <h5>Nigeria</h5>
+                <h4>Dickson Nsofor</h4>
+
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/Adewele_Bankole.png">
+                <h5>Nigeria</h5>
+                <h4>Adewele<br>Bankolo</h4>
+                
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/Mohammed_Ibrahim.png">
+                <h5>Nigeria</h5>
+                <h4>Muhammed<br>bukar Ibrahim</h4>
+
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Botswana</h5>
+                <h4>Koketso Pelo</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Guinea Conakry</h5>
+                <h4>Thierno Madiou Bah</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Ghana</h5>
+                <h4>David Lawson</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Uganda</h5>
+                <h4>Ronald Nsubango</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Oladimeji Shekoni</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Olabayode Okubanjo</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Babarendi Kayonde</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Tunisia</h5>
+                <h4>Mohamed Safouan Besrour</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Malasyia</h5>
+                <h4>Tenku Azman</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Tanzania</h5>
+                <h4>Peter Samson</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Ethiopia</h5>
+                <h4>Binian Yayehyirad</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Mexico</h5>
+                <h4>Miguel Aguilar Tavera</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Bashir Aminu</h4>
+
+            </div>
+
+
 
         </div>
     </div>
@@ -1171,22 +1428,12 @@
 <a class="anc" name="timeline"></a>
 
 <section class="hidden-xs">
-    <img src="assets/images/timeline_3.svg" style="width: 100%">
+    <img src="/assets/images/timeline.svg" style="width: 100%">
 </section>
 
 <section class="visible-xs">
-    <img src="assets/images/timeline_4.svg" style="width: 100%">
+<img src="/assets/images/timeline_m.svg" style="width: 100%">
 </section>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1208,7 +1455,7 @@
                 <div class="list row">
 
 
-                    <div class="item col-xs-6 col-sm-4 col-md-4">
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-1.png">
                         </div>
@@ -1217,7 +1464,7 @@
                     </div>
 
 
-                    <div class="item col-xs-6 col-sm-4 col-md-4">
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-2.png">
                         </div>
@@ -1226,7 +1473,7 @@
                     </div>
 
 
-                    <div class="item col-xs-6 col-sm-4 col-md-4">
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-3.png">
                         </div>
@@ -1235,7 +1482,7 @@
                     </div>
 
 
-                    <div class="item col-xs-6 col-sm-4 col-md-4">
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-4.png">
                         </div>
@@ -1244,7 +1491,7 @@
                     </div>
 
 
-                    <div class="item col-xs-6 col-sm-4 col-md-4">
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-5.png">
                         </div>
@@ -1253,7 +1500,7 @@
                     </div>
 
 
-                    <div class="item col-xs-6 col-sm-4 col-md-4">
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-6.png">
                         </div>
@@ -1262,7 +1509,7 @@
                     </div>
 
 
-                    <div class="item col-xs-6 col-sm-4 col-md-4">
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-7.png">
                         </div>
@@ -1421,7 +1668,8 @@
 
 <script src="/assets/bootstrap-validator/dist/validator.min.js"></script>
 <script src="/assets/moment.js/min/moment.min.js"></script>
-<script src="/assets/skrollr/dist/skrollr.min.js"></script>
+
+<!--<script src="/assets/skrollr/dist/skrollr.min.js"></script>-->
 
 <script src="/assets/hq.js"></script>
 
@@ -1432,6 +1680,7 @@
     };
 </script>
 <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/es3ah3qb';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
 <!-- RoiStat -->
 <script>(function(w, d, s, h, id) { w.roistatProjectId = id; w.roistatHost = h; var p = d.location.protocol == "https:" ? "https://" : "http://"; var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init"; var js = d.createElement(s); js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);})(window, document, 'script', 'cloud.roistat.com', '0ce85e833d548d5d3cfec011979a235e');</script>
 <!-- End RoiStat -->

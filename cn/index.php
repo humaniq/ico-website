@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html xmlns="http://www.w3.org/1999/html" lang="zh-CN">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-language" content="zh-CN">
 
 	<title>Humaniq</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Pridi:200,300,400,500|Roboto:100,300,400,500,700" rel="stylesheet">
+<!--	<link href="https://fonts.googleapis.com/css?family=Pridi:200,300,400,500|Roboto:100,300,400,500,700" rel="stylesheet">-->
 
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-theme.min.css">
@@ -37,7 +38,21 @@
     <meta name="theme-color" content="#ffffff">
 
 
+    <script src="/assets/js-cookie/src/js.cookie.js"></script>
     <script>
+        var beenBefore = Cookies.get('beenBefore');
+        var clang = Cookies.get('mylang');
+        if( !clang ) {
+            Cookies.set('beenBefore', "true");
+            var navLangStr = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
+            clang = (navLangStr.indexOf('zh')==-1) ? 'en' : 'zh';
+        }
+
+        if(clang=='en') window.location = "/";
+
+
+
+
         var domain = window.location.hostname;
         var ga_id = (domain.indexOf('humaniq.co')==-1)? "UA-96195965-1":'UA-91023234-1';
     </script>
@@ -88,8 +103,15 @@
 </head>
     <body id="skrollr-body">
 
-<!--<div class="home-bkg" data-1000="opacity:0" data-top-top="opacity:1"></div>-->
+    <?php
 
+    $hasRoiStat = array_key_exists('roistat_visit', $_COOKIE);
+    $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit']) : "";
+
+    ?>
+
+
+<a class="anc" id="home" name="home"></a>
 <section id="home-screen" class="home-screen" data-0="opacity:1;" data-500="opacity:0.7;" data-1000="opacity:0;">
     <div class="circle c1"></div>
     <div class="circle c2"></div>
@@ -103,11 +125,11 @@
             </div>
             <div class="col-sm-6 reserve-wrapper">
                 <div class="lang">
-                    <a href="/" class="item">English</a>
+                    <a href="/" class="item" onclick="Cookies.set('mylang','en')">English</a>
 <!--                    <div class="item">Deutsch</div>-->
                     <div class="item active">繁體中文</div>
                 </div>
-                <a href="https://my.humaniq.co" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-reserve-tokens">
+                <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
                     Reserve tokens
                 </a>
 
@@ -150,7 +172,7 @@
                     </div>
                     <div class="offer">加入我们。现在就注册，获得有关ICO启动的信息。</div>
                     <div class="sub-form"  id="sub-form-1" data-ga="1" data-ya-target="SUBMAIL1">
-                        <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758">
+                        <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('notify_me')">
                             <div class="form-group has-feedback">
                                 <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
                                 <div class="notify">
@@ -191,13 +213,14 @@
 
 
 
-
+<a class="anc" id="banking4" name="banking4"></a>
 <section id="whatis" class="whatis">
     <div class="container main">
         <div class="row">
             <div class="col-xs-12">
                 <div class="video-img embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/prEPErb82Mg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<!--                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/prEPErb82Mg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
+                    <iframe class="embed-responsive-item" src="http://m.youku.com/video/id_XMjY4MDIzNDI4OA" frameborder="0" allowfullscreen></iframe>
                 </div>
 
 <!--                <img class="video-img" src="assets/images/whatis-main.jpg">
@@ -299,7 +322,7 @@
     </div>
 </section>
 
-
+<a class="anc" name="whitepapers"></a>
 <section id="whitepapers" class="whitepapers">
     <div class="container">
         <div class="row">
@@ -377,7 +400,7 @@
 </section>
 
 
-
+<a class="anc" name="revolution"></a>
 <section id="rev" class="rev">
     <div class="container">
         <div class="row slogan">
@@ -482,14 +505,14 @@
                             <p>初创公司
                         </div>
 
-                        <div class="col-xs-1 text-center sep-vert"></div>
+                        <div class="col-xs-1 text-center sep-vert"><img src="/assets/images/arrow-right-2.svg"></div>
 
                         <div class="col-xs-3 text-center item">
                             <div class="dot competitor"></div>
                             <p>支付系统、市场和竞争者
                         </div>
 
-                        <div class="col-xs-1 text-center sep-vert"></div>
+                        <div class="col-xs-1 text-center sep-vert"><img src="/assets/images/arrow-right-2.svg"></div>
 
                         <div class="col-xs-3 text-center item">
                             <div class="dot customer"></div>
@@ -507,7 +530,8 @@
                             <div class="dot startup"></div>
                             <p>初创公司
                         </div>
-                        <div class="col-xs-5 text-center sep-vert-l"><p style="margin-top: 12rem">Humaniq
+                        <div class="col-xs-5 text-center sep-vert-l"><img src="/assets/images/arrow-right-l.svg">
+                            <img src="/assets/images/logo-blue.png" style="width: 70%; margin: 0">
                         </div>
                         <div class="col-xs-3 text-center item">
                             <div class="dot customer"></div>
@@ -577,14 +601,14 @@
                             <p>初创公司
                         </div>
 
-                        <div class="col-xs-1 text-center sep-vert"></div>
+                        <div class="col-xs-1 text-center sep-vert"><img src="/assets/images/arrow-right-2.svg"></div>
 
                         <div class="col-xs-3 text-center item">
                             <div class="dot competitor"></div>
                             <p>支付系统、市场和竞争者
                         </div>
 
-                        <div class="col-xs-1 text-center sep-vert"></div>
+                        <div class="col-xs-1 text-center sep-vert"><img src="/assets/images/arrow-right-2.svg"></div>
 
                         <div class="col-xs-3 text-center item">
                             <div class="dot customer"></div>
@@ -602,7 +626,8 @@
                             <div class="dot startup"></div>
                             <p>初创公司
                         </div>
-                        <div class="col-xs-5 text-center sep-vert-l"><p style="margin-top: 12rem">Humaniq
+                        <div class="col-xs-5 text-center sep-vert-l"><img src="/assets/images/arrow-right-l.svg">
+                            <img src="/assets/images/logo-blue.png" style="width: 70%; margin: 0">
                         </div>
                         <div class="col-xs-3 text-center item">
                             <div class="dot customer"></div>
@@ -628,8 +653,7 @@
             </div>
             <div class="col-xs-12 col-sm-4 text-center">
                 <h4>Humaniq</h4>
-                <h1>25亿客户</h1>
-                <div class="text">美元数量未知</div>
+                <h1>>美元数量未知</h1>
             </div>
         </div>
 
@@ -638,6 +662,7 @@
 </section>
 
 
+<a class="anc" name="whatfor"></a>
 
 <section id="chart" class="chart">
     <div class="container">
@@ -661,12 +686,14 @@
 
 
 
+<a class="anc" name="video-story"></a>
 <section id="video-2" class="video-2">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
                 <div class="video-img embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PY_efnojVcE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<!--                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PY_efnojVcE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
+                    <iframe class="embed-responsive-item" src="http://m.youku.com/video/id_XMjY4MDIzNDI4OA" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -677,8 +704,7 @@
 
 
 
-
-
+<a class="anc" name="howitworks"></a>
 <section id="howitworks" class="howitworks">
     <div class="container">
         <div class="row">
@@ -734,6 +760,22 @@
                 <h3>工作</h3>
                 <div class="text">聘用自由职业者或寻找工作，无需中间人和费用。</div>
             </div>
+
+
+            <div class="col-xs-12 text-center">
+                <div class="badge" ><a href="https://play.google.com/store/apps/details?id=co.humaniq" target="_blank">
+                    <img src="/assets/images/google-play-badge-2.png"> </a></div>
+                <div class="badge"><a href="https://itunes.apple.com/us/app/humaniq/id1212362871?l=ru&ls=1&mt=8" target="_blank"><img src="/assets/images/app-store-badge.svg"></a></div>
+                <br>
+                <div class="trademarks" style="display:inline-block; margin-top: 4rem;text-align: left">
+                    - Google Play and the Google Play logo are trademarks of Google Inc.<br>
+                    - App Store is a service mark
+                    of Apple Inc., registered in the U.S. and other countries.
+                </div>
+
+            </div>
+
+
         </div>
     </div>
 </section>
@@ -748,7 +790,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 sub-form" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
                 <div class="text">早起的鸟儿有虫吃，不要错过！</div>
-                <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758">
+                <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('request_demo')">
                     <div class="form-group has-feedback">
                         <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
                         <div class="notify">
@@ -768,6 +810,7 @@
 
 
 
+<a class="anc" name="team"></a>
 
 <section id="team" class="supporters">
     <div class="container">
@@ -859,6 +902,49 @@
 
 
 
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="5">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/Dinis_Guarda.png">
+                </div>
+                <h5>UK</h5>
+                <h4>Dinis Guarda</h4>
+                CEO and Chief Strategy Officer, Board of Directors, UK
+            </div>
+
+            <div id="pp-5" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/Dinis_Guarda.png">
+                <h4>Dinis Guarda</h4>
+                <div class="text">
+                    Founder of ZTUDIUM, that he created and manages intelligenthq.com, openbusinesscouncil.org, tradersdna.com and hedgethink.com. He is the author of the following books: The Next Tsunami: Blockchain plus AI and IOT, Intelligenthq Editions, Amazon, 2017. How To Map Who You are, Amazon, 2016. He is also co-founder of the project BlockchainAge. Since December 2016 is leading the digital strategy and marketing for the financial empowerment app and platform invstr.com Between 2014 and 2015 he was involved in creating a digital bank between Asia and Africa. With a Master in New Media, Dinis has been ranked in the top 10 and top 100 most influential person in fintech, blockchain, social media, social enterprise and philanthropy. He was the founder of tradingfloor.com for Saxo Bank, socialmediacouncil.org with Jamie Burke.
+
+                </div>
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="6">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
+                </div>
+                <h5>UK</h5>
+                <h4>Dmitry Kaminsky</h4>
+                Executive Chairman and Founder, Board of Directors, UK
+            </div>
+
+            <div id="pp-6" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
+                <h4>Dmitry Kaminsky</h4>
+                <div class="text">
+                    The managing partner of Deep Knowledge Ventures (DKV), a Hong Kong-based fund that invests in disruptive biotechnology, fintech, and artificial intelligence companies. Mr.Kaminskiy is a trustee of the Biogerontology Research Foundation in Oxford and holds a BSc in computer science from the National University of Electronic Technology. Prior to Deep Knowledge Ventures, he served as an executive in the telecom and financial services industries. Dmitry is interested in the potential for social benefit offered by blockchain technology. Dmitry also directly supports scientists, conferences, hackathons, and think-tanks at Oxford and Cambridge, such as the Exponential Technologies Institute and Biogerontology Research Foundation (BGRF).
+                </div>
+            </div>
+
+
+
+
         </div>
     </div>
 
@@ -867,7 +953,119 @@
 
 
 
-<section id="technical-core" class="partners">
+
+
+
+
+
+    <a class="anc" name="advisoryboard"></a>
+    <section id="advisoryboard" class="supporters supporters2">
+        <div class="container">
+            <div class="row head">
+                <div class="col-sm-12">
+                    <h1>Advisory Board</h1>
+                </div>
+            </div>
+
+            <div class="row list">
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/0.png">
+                    <h5></h5>
+                    <h4>Paolo Tasca</h4>
+                    Technology Advisor / P2P economy, technology and Blockchain
+
+                </div>
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/David_Applefield.png">
+                    <h5></h5>
+                    <h4>David Applefield</h4>
+                    Public Affairs and Global Policy advisor / Communications and PR Advisor
+                </div>
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Hoods.png">
+                    <h5></h5>
+                    <h4>Karl Hoods</h4>
+                    Policy and Legal Advisor / Save Children UK
+                </div>
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/0.png">
+                    <h5></h5>
+                    <h4>Iggy Bassi </h4>
+                    Policy and Legal advisor/ Social Impact and AI, data expert
+                </div>
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Ron_Morris.png">
+                    <h5></h5>
+                    <h4>Ron Morris</h4>
+                    Scientific Advisor / Education / Universities Advisor
+                </div>
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/0.png">
+                    <h5></h5>
+                    <h4>Paul Mears</h4>
+                    Policy and Legal advisor / Financial and risk management advisor
+                </div>
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/0.png">
+                    <h5></h5>
+                    <h4>Vishai Mishra</h4>
+                    Technology advisor/ Big data and security
+                </div>
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Pavel_Kravchenko.png">
+                    <h5></h5>
+                    <h4>Pavel Kravchenko</h4>
+                    Technology Advisor/ BlockChain technology advisor
+                </div>
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Matt_McKibbin.png">
+                    <h5></h5>
+                    <h4>Matt McKibbin</h4>
+                    Technology Advisor/ Blockchain, crypto economy
+                </div>
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Matthias_Klees.png">
+                    <h5></h5>
+                    <h4>Matthias Klees</h4>
+                    Technology Advisor/ ‎Founder, Bitcoinsulting, Staisybit, Szenekonzept
+                </div>
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/0.png">
+                    <h5></h5>
+                    <h4>Alex Bausch</h4>
+                    Technology Advisor/ Co-Chairman of the Blockchain Ecosystem Network
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <a class="anc" name="technical-core"></a>
+<section id="technical-core" class="partners technical-core">
     <div class="container">
         <div class="row head">
             <div class="col-sm-12">
@@ -983,9 +1181,7 @@
 
 
 
-
-
-
+<a class="anc" name="advisors"></a>
 <section id="advisors" class="supporters supporters2">
     <div class="container">
         <div class="row head">
@@ -995,47 +1191,171 @@
         </div>
 
         <div class="row list">
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/5.png">
                 <h5>津巴布韦</h5>
                 <h4>塔旺达•坎伯（Tawanda Kembo）</h4>
                 比特财务
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/4.png">
                 <h5>澳大利亚</h5>
                 <h4>罗斯•劳埃德（Ross Lloyd）</h4>
                 曾经为澳大利亚许多政府部门做过新闻发布会、年报、演讲的资深人士。
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/6.png">
                 <h5>塞拉利昂</h5>
                 <h4>切尔诺•萨伊德•叟（Chernoh Saeed Sow）</h4>
                 比特币网络—SLB网
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/7.png">
                 <h5>加纳</h5>
                 <h4>菲利普•阿格耶•阿萨尔（Philip Agyei Asare）</h4>
                 梦想比特币基金会
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/8.png">
                 <h5>莱索托</h5>
                 <h4>伊图姆楞•伊萨克•勒荣（Itumeleng Isaac Lejone）</h4>
                 比特币社区
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/9.png">
                 <h5>南非</h5>
                 <h4>莫哥博迪•菲利（Mogopodi Phiri）</h4>
                 非洲加密
             </div>
+
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/Dickson.png">
+                <h5>Nigeria</h5>
+                <h4>Dickson Nsofor</h4>
+
+            </div>
+
+
+
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/Adewele_Bankole.png">
+                <h5>Nigeria</h5>
+                <h4>Adewele<br>Bankolo</h4>
+
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/Mohammed_Ibrahim.png">
+                <h5>Nigeria</h5>
+                <h4>Muhammed<br>bukar Ibrahim</h4>
+
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Botswana</h5>
+                <h4>Koketso Pelo</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Guinea Conakry</h5>
+                <h4>Thierno Madiou Bah</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Ghana</h5>
+                <h4>David Lawson</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Uganda</h5>
+                <h4>Ronald Nsubango</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Oladimeji Shekoni</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Olabayode Okubanjo</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Babarendi Kayonde</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Tunisia</h5>
+                <h4>Mohamed Safouan Besrour</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Malasyia</h5>
+                <h4>Tenku Azman</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Tanzania</h5>
+                <h4>Peter Samson</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Ethiopia</h5>
+                <h4>Binian Yayehyirad</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Mexico</h5>
+                <h4>Miguel Aguilar Tavera</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Bashir Aminu</h4>
+
+            </div>
+
+
+
+
 
         </div>
     </div>
@@ -1050,6 +1370,8 @@
 
 
 
+
+    <a class="anc" name="partners"></a>
 
 <section id="partners" class="partners">
     <div class="container">
@@ -1124,18 +1446,118 @@
 </section>
 
 
-<!--
-<section class="">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12">
-                <img src="assets/images/timeline.png" style="width: 100%">
+
+
+
+
+
+
+
+<a class="anc" name="timeline"></a>
+
+<section class="hidden-xs">
+    <img src="/assets/images/timeline.svg" style="width: 100%">
+</section>
+
+<section class="visible-xs">
+    <img src="/assets/images/timeline_m.svg" style="width: 100%">
+</section>
+
+
+
+
+
+<a class="anc" name="press"></a>
+
+<section id="press" class="partners press">
+    <div class="container">
+        <div class="row head">
+            <div class="col-sm-12">
+                <h1>As Seen In</h1>
             </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="list row">
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-1.png">
+                        </div>
+                        <a class="h4" target="_blank" href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked">Ethereum-Based Humaniq To Deliver Banking 4.0 to 2 Bln Unbanked</a>
+                        <a href="https://cointelegraph.com" class="yga" target="_blank" data-ya-target="press-gemsww">cointelegraph.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-2.png">
+                        </div>
+                        <a class="h4" target="_blank" href="https://themerkle.com/humaniq-aims-to-connect-millions-of-unbanked/">Humaniq Aims To Connect Millions of Unbanked Using The Ethereum Blockchain</a>
+                        <a href="https://themerkle.com" class="yga" target="_blank" data-ya-target="press-gemsww">themerkle.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-3.png">
+                        </div>
+                        <a class="h4" target="_blank" href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/">Blockchain Banking App Humaniq Set for Initial Coin Offering in April</a>
+                        <a href="http://www.financemagnates.com" class="yga" target="_blank" data-ya-target="press-gemsww">www.financemagnates.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-4.png">
+                        </div>
+                        <a class="h4" target="_blank" href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/">Humaniq’s CryptoPension a Pancea to Africa’s Pension Worries</a>
+                        <a href="http://thedashtimes.com/" class="yga" target="_blank" data-ya-target="press-gemsww">thedashtimes.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-5.png">
+                        </div>
+                        <a class="h4" target="_blank" href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/">Humaniq: crypto-finance for the undocumented and unbanked</a>
+                        <a href="https://www.smithandcrown.com/" class="yga" target="_blank" data-ya-target="press-gemsww">smithandcrown.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-6.png">
+                        </div>
+                        <a class="h4" target="_blank" href="http://icorating.com/project/30/Humaniq">A next generation financial service for unbanked people based on Blockchain</a>
+                        <a href="http://icorating.com/" class="yga" target="_blank" data-ya-target="press-gemsww">icorating.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-7.png">
+                        </div>
+                        <a class="h4" target="_blank" href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD">Humaniq Aims to Tackle Barriers to Economic Inclusion With Blockchain App</a>
+                        <a href="http://www.nasdaq.com/" class="yga" target="_blank" data-ya-target="press-gemsww">www.nasdaq.com</a>
+                    </div>
+
+
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
--->
 
+
+
+
+
+
+<a class="anc" name="keepintouch"></a>
 
 <section class="inline-form">
     <div class="container">
@@ -1145,7 +1567,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 sub-form" id="sub-form-3" data-ga="1" data-ya-target="SUBMAIL3">
                 <div class="text">我们会和您保持联系</div>
-                <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758">
+                <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('request_demo')">
                     <div class="form-group has-feedback">
                         <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
                         <div class="notify">
@@ -1261,9 +1683,11 @@
     };
 </script>
 <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/es3ah3qb';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
 <!-- RoiStat -->
 <script>(function(w, d, s, h, id) { w.roistatProjectId = id; w.roistatHost = h; var p = d.location.protocol == "https:" ? "https://" : "http://"; var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init"; var js = d.createElement(s); js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);})(window, document, 'script', 'cloud.roistat.com', '0ce85e833d548d5d3cfec011979a235e');</script>
 <!-- End RoiStat -->
+
 
 
 
