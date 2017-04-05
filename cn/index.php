@@ -999,6 +999,22 @@
 
 
 
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Jochen_Heussner.png">
+                <!--                <h5></h5>-->
+                <h4>Jochen Heussner</h4>
+                Chief Financial Officer
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/George_Al_Madawar.png">
+                <!--                <h5></h5>-->
+                <h4>Georges Al Medawar</h4>
+                Business Development Officer / investment relations
+            </div>
+
+
 
 
 
