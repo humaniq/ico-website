@@ -840,7 +840,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/Dinis_Guarda.png">
                 </div>
-                <h5>UK</h5>
+<!--                <h5>UK</h5>-->
                 <h4>Dinis Guarda</h4>
                 CEO and Chief Strategy Officer, Board of Directors
             </div>
@@ -856,70 +856,12 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
             </div>
 
 
-
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="2">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/3.png">
-                </div>
-                <h5>Botswana</h5>
-                <h4>Alakanani Itireleng</h4>
-                Lead Ambassador
-            </div>
-
-            <div id="pp-2" class="popup">
-                <div class="close"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/3.png">
-                <h4>Alakanani Itireleng</h4>
-                <div class="text">
-                    Alakanani Itireleng runs SatoshiCentre, a blockchain hub in Gaborone where she works with developers and will be launching a developer program for children. Her journey with bitcoin started near the end of 2012 and she’s been educating people about bitcoin ever since. Alakanani is also an international bitcoin influencer, having spoken at conferences in Amsterdam, South Africa, and Cote D'ivore, as was a virtual speaker at a Ghanaian conference. Alakanani organised the first blockchain summit in Gaborone last year, which was graced by people from all over the world. With her team she is piloting two blockchain apps in Gaborone.
-                </div>
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="3">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/2.png">
-                </div>
-                <h5>Netherlands</h5>
-                <h4>Richard Kastelein</h4>
-                CMO
-            </div>
-
-            <div id="pp-3" class="popup">
-                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/2.png">
-                <h4>Richard Kastelein</h4>
-                <div class="text">
-                    Regarded as a major publisher and voice for Blockchain among the Blockchain community, Canadian entrepreneur Richard Kastelein is the publisher of Blockchain News, director at Blockchain Partners, founder of the London Cryptofinancing Conference and sits on the steering committee of the Blockchain Ecosystem Network. He works primarily as a startup advisor, publisher, marketing expert, event designer and speaker. He's currently the Interim Chief Marketing Officer for Humaniq.
-                </div>
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="4">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/10.png">
-                </div>
-                <h5>India</h5>
-                <h4>Parth Bhatt<br>Upendra Kumar</h4>
-                Indian Partner
-            </div>
-
-            <div id="pp-4" class="popup">
-                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/10.png">
-                <h4>Parth Bhatt Upendra Kumar</h4>
-                <div class="text">
-                    Parth Bhatt is Brahman from India. He is an ideological partner of the Humaniq project. Alex Fork together with Parth Bhatt Upendra Kumar arranged a business game to receive reaction from disadvantaged people from India on how they might react to Humaniq. Thanks to acquired feedback Humaniq becomes better.
-                </div>
-            </div>
-
             <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="1">
                 <div class="img">
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/1.png">
                 </div>
-                <h5>Luxembourg</h5>
+                <!--<h5>Luxembourg</h5>-->
                 <h4>Alex Fork</h4>
                 Founder, Board of Directors
             </div>
@@ -939,7 +881,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
                 </div>
-                <h5>UK</h5>
+                <!--<h5>UK</h5>-->
                 <h4>Dmitry Kaminsky</h4>
                 Executive Chairman and Founder, Board of Directors
             </div>
@@ -951,6 +893,75 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 <div class="text">
                     The managing partner of Deep Knowledge Ventures (DKV), a Hong Kong-based fund that invests in disruptive biotechnology, fintech, and artificial intelligence companies. Mr.Kaminskiy is a trustee of the Biogerontology Research Foundation in Oxford and holds a BSc in computer science from the National University of Electronic Technology. Prior to Deep Knowledge Ventures, he served as an executive in the telecom and financial services industries. Dmitry is interested in the potential for social benefit offered by blockchain technology. Dmitry also directly supports scientists, conferences, hackathons, and think-tanks at Oxford and Cambridge, such as the Exponential Technologies Institute and Biogerontology Research Foundation (BGRF).
                 </div>
+            </div>
+
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="2">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/3.png">
+                </div>
+                <!--<h5>Botswana</h5>-->
+                <h4>Alakanani Itireleng</h4>
+                Lead Ambassador
+            </div>
+
+            <div id="pp-2" class="popup">
+                <div class="close"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/3.png">
+                <h4>Alakanani Itireleng</h4>
+                <div class="text">
+                    Alakanani Itireleng runs SatoshiCentre, a blockchain hub in Gaborone where she works with developers and will be launching a developer program for children. Her journey with bitcoin started near the end of 2012 and she’s been educating people about bitcoin ever since. Alakanani is also an international bitcoin influencer, having spoken at conferences in Amsterdam, South Africa, and Cote D'ivore, as was a virtual speaker at a Ghanaian conference. Alakanani organised the first blockchain summit in Gaborone last year, which was graced by people from all over the world. With her team she is piloting two blockchain apps in Gaborone.
+                </div>
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="3">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/2.png">
+                </div>
+   <!--             <h5>Netherlands</h5>-->
+                <h4>Richard Kastelein</h4>
+                CMO
+            </div>
+
+            <div id="pp-3" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/2.png">
+                <h4>Richard Kastelein</h4>
+                <div class="text">
+                    Regarded as a major publisher and voice for Blockchain among the Blockchain community, Canadian entrepreneur Richard Kastelein is the publisher of Blockchain News, director at Blockchain Partners, founder of the London Cryptofinancing Conference and sits on the steering committee of the Blockchain Ecosystem Network. He works primarily as a startup advisor, publisher, marketing expert, event designer and speaker. He's currently the Interim Chief Marketing Officer for Humaniq.
+                </div>
+            </div>
+<!--
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="4">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/10.png">
+                </div>
+                <h5>India</h5>
+                <h4>Parth Bhatt<br>Upendra Kumar</h4>
+                Indian Partner
+            </div>
+
+            <div id="pp-4" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/10.png">
+                <h4>Parth Bhatt Upendra Kumar</h4>
+                <div class="text">
+                    Parth Bhatt is Brahman from India. He is an ideological partner of the Humaniq project. Alex Fork together with Parth Bhatt Upendra Kumar arranged a business game to receive reaction from disadvantaged people from India on how they might react to Humaniq. Thanks to acquired feedback Humaniq becomes better.
+                </div>
+            </div>
+-->
+
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Dickson.png">
+                <h5>Nigeria</h5>
+                <h4>Dickson Nsofor</h4>
+
             </div>
 
 
@@ -1215,6 +1226,25 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
         </div>
 
         <div class="row list">
+            <div class="item col-xs-6 col-sm-4 col-md-2" data-pp="4">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/10.png">
+                </div>
+                <h5>India</h5>
+                <h4>Parth Bhatt<br>Upendra Kumar</h4>
+                Indian Partner
+            </div>
+
+            <div id="pp-4" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/10.png">
+                <h4>Parth Bhatt Upendra Kumar</h4>
+                <div class="text">
+                    Parth Bhatt is Brahman from India. He is an ideological partner of the Humaniq project. Alex Fork together with Parth Bhatt Upendra Kumar arranged a business game to receive reaction from disadvantaged people from India on how they might react to Humaniq. Thanks to acquired feedback Humaniq becomes better.
+                </div>
+            </div>
+
 
             <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/5.png">
@@ -1256,14 +1286,6 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 <h5>South Africa</h5>
                 <h4>Mogopodi<br>Phiri</h4>
                 Africrypto
-            </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-2">
-                <img src="/assets/images/avatars/Dickson.png">
-                <h5>Nigeria</h5>
-                <h4>Dickson Nsofor</h4>
-
             </div>
 
 

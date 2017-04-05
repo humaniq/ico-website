@@ -861,13 +861,33 @@
         <div class="row list">
 
 
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="1">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/1.png">
+                </div>
+<!--                <h5>卢森堡</h5>-->
+                <h4>阿莱克斯•福柯（Alex Fork）</h4>
+                Founder, Board of Directors
+            </div>
+
+            <div id="pp-1" class="popup">
+                <div class="close"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/1.png">
+                <h4>阿莱克斯•福柯（Alex Fork）</h4>
+                <div class="text">
+                    阿莱克斯•福柯是Humaniq项目的首席执行官。Humaniq项目是一个用来帮助新兴经济体中没有银行账户的人摆脱贫困的银行4.0项目。阿莱克斯是区块链社区董事会成员，《比特币：不止是钱》（Bitcoin: More than money）一书的作者，还是未来金融科技加速器（Future Fintech accelerator）的创立者。福柯与弗拉德•马尔图诺夫（Vlad Martynov）（以太坊顾问委员会成员）和维塔利克•布特林（Vitalik Buterin）（以太坊创立者）一道，组织了一场有超过500名银行界专家参与的以太坊会议。
+                </div>
+            </div>
+
+
 
             <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="5">
                 <div class="img">
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/Dinis_Guarda.png">
                 </div>
-                <h5>UK</h5>
+<!--                <h5>UK</h5>-->
                 <h4>Dinis Guarda</h4>
                 CEO and Chief Strategy Officer, Board of Directors
             </div>
@@ -883,6 +903,27 @@
             </div>
 
 
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="6">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
+                </div>
+<!--                <h5>UK</h5>-->
+                <h4>Dmitry Kaminsky</h4>
+                Executive Chairman and Founder, Board of Directors
+            </div>
+
+            <div id="pp-6" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
+                <h4>Dmitry Kaminsky</h4>
+                <div class="text">
+                    The managing partner of Deep Knowledge Ventures (DKV), a Hong Kong-based fund that invests in disruptive biotechnology, fintech, and artificial intelligence companies. Mr.Kaminskiy is a trustee of the Biogerontology Research Foundation in Oxford and holds a BSc in computer science from the National University of Electronic Technology. Prior to Deep Knowledge Ventures, he served as an executive in the telecom and financial services industries. Dmitry is interested in the potential for social benefit offered by blockchain technology. Dmitry also directly supports scientists, conferences, hackathons, and think-tanks at Oxford and Cambridge, such as the Exponential Technologies Institute and Biogerontology Research Foundation (BGRF).
+                </div>
+            </div>
+
+
+
 
 
             <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="2">
@@ -890,7 +931,7 @@
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/3.png">
                 </div>
-                <h5>博茨瓦纳</h5>
+<!--                <h5>博茨瓦纳</h5>-->
                 <h4>阿拉卡纳尼•伊特莱楞（Alakanani Itireleng）</h4>
                 首席派驻代表
             </div>
@@ -909,7 +950,7 @@
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/2.png">
                 </div>
-                <h5>荷兰</h5>
+<!--                <h5>荷兰</h5>-->
                 <h4>理查德•卡斯特莱茵（Richard Kastelein）</h4>
                 首席营销官
             </div>
@@ -923,63 +964,14 @@
                 </div>
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="4">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/10.png">
-                </div>
-                <h5>印度</h5>
-                <h4>帕尔斯•巴特•乌潘德拉•库马尔（Parth Bhatt Upendra Kumar）</h4>
-                印度合作伙伴
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Dickson.png">
+<!--                <h5>Nigeria</h5>-->
+                <h4>Dickson Nsofor</h4>
+
             </div>
 
-            <div id="pp-4" class="popup">
-                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/10.png">
-                <h4>帕尔斯•巴特•乌潘德拉•库马尔（Parth Bhatt Upendra Kumar）</h4>
-                <div class="text">
-                    帕尔斯•巴特是来自印度的婆罗门。他是Humaniq项目意识形态方面的一个合作伙伴。阿莱克斯•福柯和帕尔斯•巴特•乌潘德拉•库马尔一起安排了一场商业活动，旨在从印度那些地位低下的人那里获得他们对Humaniq的反应。幸亏收到了这些反馈，Humaniq变得更好了。
-                </div>
-            </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="1">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/1.png">
-                </div>
-                <h5>卢森堡</h5>
-                <h4>阿莱克斯•福柯（Alex Fork）</h4>
-                Founder, Board of Directors
-            </div>
-
-            <div id="pp-1" class="popup">
-                <div class="close"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/1.png">
-                <h4>阿莱克斯•福柯（Alex Fork）</h4>
-                <div class="text">
-                    阿莱克斯•福柯是Humaniq项目的首席执行官。Humaniq项目是一个用来帮助新兴经济体中没有银行账户的人摆脱贫困的银行4.0项目。阿莱克斯是区块链社区董事会成员，《比特币：不止是钱》（Bitcoin: More than money）一书的作者，还是未来金融科技加速器（Future Fintech accelerator）的创立者。福柯与弗拉德•马尔图诺夫（Vlad Martynov）（以太坊顾问委员会成员）和维塔利克•布特林（Vitalik Buterin）（以太坊创立者）一道，组织了一场有超过500名银行界专家参与的以太坊会议。
-                </div>
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="6">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
-                </div>
-                <h5>UK</h5>
-                <h4>Dmitry Kaminsky</h4>
-                Executive Chairman and Founder, Board of Directors
-            </div>
-
-            <div id="pp-6" class="popup">
-                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
-                <h4>Dmitry Kaminsky</h4>
-                <div class="text">
-                    The managing partner of Deep Knowledge Ventures (DKV), a Hong Kong-based fund that invests in disruptive biotechnology, fintech, and artificial intelligence companies. Mr.Kaminskiy is a trustee of the Biogerontology Research Foundation in Oxford and holds a BSc in computer science from the National University of Electronic Technology. Prior to Deep Knowledge Ventures, he served as an executive in the telecom and financial services industries. Dmitry is interested in the potential for social benefit offered by blockchain technology. Dmitry also directly supports scientists, conferences, hackathons, and think-tanks at Oxford and Cambridge, such as the Exponential Technologies Institute and Biogerontology Research Foundation (BGRF).
-                </div>
-            </div>
 
 
 
@@ -1229,7 +1221,32 @@
             </div>
         </div>
 
+
         <div class="row list">
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2" data-pp="4">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/10.png">
+                </div>
+                <h5>印度</h5>
+                <h4>帕尔斯•巴特•乌潘德拉•库马尔（Parth Bhatt Upendra Kumar）</h4>
+                印度合作伙伴
+            </div>
+
+            <div id="pp-4" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/10.png">
+                <h4>帕尔斯•巴特•乌潘德拉•库马尔（Parth Bhatt Upendra Kumar）</h4>
+                <div class="text">
+                    帕尔斯•巴特是来自印度的婆罗门。他是Humaniq项目意识形态方面的一个合作伙伴。阿莱克斯•福柯和帕尔斯•巴特•乌潘德拉•库马尔一起安排了一场商业活动，旨在从印度那些地位低下的人那里获得他们对Humaniq的反应。幸亏收到了这些反馈，Humaniq变得更好了。
+                </div>
+            </div>
+
+
+
+
             <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/5.png">
                 <h5>津巴布韦</h5>
@@ -1271,16 +1288,6 @@
                 <h4>莫哥博迪•菲利（Mogopodi Phiri）</h4>
                 非洲加密
             </div>
-
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-2">
-                <img src="/assets/images/avatars/Dickson.png">
-                <h5>Nigeria</h5>
-                <h4>Dickson Nsofor</h4>
-
-            </div>
-
 
 
 
