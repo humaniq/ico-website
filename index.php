@@ -959,9 +959,25 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Dickson.png">
-                <h5>Nigeria</h5>
+<!--                <h5>Nigeria</h5>-->
                 <h4>Dickson Nsofor</h4>
 
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Khata.png">
+                <!--                <h5></h5>-->
+                <h4>Yevgeniy Khata</h4>
+                Business Development Officer/ investment relations
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Khata.png">
+                <!--                <h5></h5>-->
+                <h4>Subhendu Das</h4>
+                Chief Technical Officer
             </div>
 
 
