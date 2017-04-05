@@ -981,6 +981,14 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
             </div>
 
 
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Shane_McQuillan.png">
+                <!--                <h5></h5>-->
+                <h4>Shane McQuillan</h4>
+                Chief Digital Officer
+            </div>
+
+
 
         </div>
     </div>
@@ -1084,7 +1092,15 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 <h4>Matthias Klees</h4>
                 Technology Advisor/ ‎Founder, Bitcoinsulting, Staisybit, Szenekonzept
             </div>
-<!--
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Michael_Terpin.png">
+                <h5></h5>
+                <h4>Michael Terpin</h4>
+                Technology Advisor / TransformPR group
+            </div>
+
+            <!--
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Alex_Bausch.jpg">
                 <h5></h5>

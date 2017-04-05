@@ -989,6 +989,14 @@
             </div>
 
 
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Shane_McQuillan.png">
+                <!--                <h5></h5>-->
+                <h4>Shane McQuillan</h4>
+                Chief Digital Officer
+            </div>
+
+
 
 
 
@@ -1093,7 +1101,18 @@
                     <h4>Matthias Klees</h4>
                     Technology Advisor/ ‎Founder, Bitcoinsulting, Staisybit, Szenekonzept
                 </div>
-<!--
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Michael_Terpin.png">
+                    <h5></h5>
+                    <h4>Michael Terpin</h4>
+                    Technology Advisor / TransformPR group
+                </div>
+
+
+
+                <!--
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/0.png">
                     <h5></h5>
