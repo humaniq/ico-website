@@ -1000,14 +1000,14 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 Technology Advisor / P2P economy, technology and Blockchain
 
             </div>
-
+-->
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/David_Applefield.png">
                 <h5></h5>
                 <h4>David Applefield</h4>
                 Public Affairs and Global Policy advisor / Communications and PR Advisor
             </div>
--->
+
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Hoods.png">
                 <h5></h5>
@@ -1022,7 +1022,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 Policy and Legal advisor/ Social Impact and AI, data expert
             </div>
 
-
+-->
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Ron_Morris.png">
                 <h5></h5>
@@ -1030,7 +1030,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 Scientific Advisor / Education / Universities Advisor
             </div>
 
-
+<!--
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Paul_Mears.jpg">
                 <h5></h5>
@@ -1293,7 +1293,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 <img src="/assets/images/avatars/Adewele_Bankole.png">
                 <h5>Nigeria</h5>
                 <h4>Adewele<br>Bankolo</h4>
-                
+
             </div>
 
 

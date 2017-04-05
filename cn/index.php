@@ -999,7 +999,7 @@
             </div>
 
             <div class="row list">
-
+<!--
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/0.png">
                     <h5></h5>
@@ -1007,7 +1007,7 @@
                     Technology Advisor / P2P economy, technology and Blockchain
 
                 </div>
-
+-->
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/David_Applefield.png">
                     <h5></h5>
@@ -1021,7 +1021,7 @@
                     <h4>Karl Hoods</h4>
                     Policy and Legal Advisor / Save Children UK
                 </div>
-
+<!--
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/0.png">
                     <h5></h5>
@@ -1029,14 +1029,14 @@
                     Policy and Legal advisor/ Social Impact and AI, data expert
                 </div>
 
-
+-->
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/Ron_Morris.png">
                     <h5></h5>
                     <h4>Ron Morris</h4>
                     Scientific Advisor / Education / Universities Advisor
                 </div>
-
+<!--
 
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/0.png">
@@ -1052,7 +1052,7 @@
                     <h4>Vishai Mishra</h4>
                     Technology advisor/ Big data and security
                 </div>
-
+-->
 
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/Pavel_Kravchenko.png">
@@ -1075,14 +1075,14 @@
                     <h4>Matthias Klees</h4>
                     Technology Advisor/ ‎Founder, Bitcoinsulting, Staisybit, Szenekonzept
                 </div>
-
+<!--
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/0.png">
                     <h5></h5>
                     <h4>Alex Bausch</h4>
                     Technology Advisor/ Co-Chairman of the Blockchain Ecosystem Network
                 </div>
-
+-->
             </div>
         </div>
 
