@@ -105,7 +105,6 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
 ?>
 
-<a class="anc" name="home"></a>
 <section id="home-screen" class="home-screen" data-0="opacity:1;" data-500="opacity:0.7;" data-1000="opacity:0;">
     <div class="circle c1"></div>
     <div class="circle c2"></div>
@@ -207,7 +206,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
 
 
-<a class="anc" name="banking4"></a>
+
 <section id="whatis" class="whatis">
     <div class="container main">
         <div class="row">
@@ -315,7 +314,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
     </div>
 </section>
 
-<a class="anc" name="whitepapers"></a>
+
 <section id="whitepapers" class="whitepapers">
     <div class="container">
         <div class="row">
@@ -392,7 +391,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 </section>
 
 
-<a class="anc" name="revolution"></a>
+
 <section id="rev" class="rev">
     <div class="container">
         <div class="row slogan">
@@ -641,7 +640,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 </section>
 
 
-<a class="anc" name="whatfor"></a>
+
 <section id="chart" class="chart">
     <div class="container">
         <div class="row list">
@@ -663,7 +662,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 </section>
 
 
-<a class="anc" name="video-story"></a>
+
 <section id="video-2" class="video-2">
     <div class="container">
         <div class="row">
@@ -681,7 +680,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
 
 
-<a class="anc" name="howitworks"></a>
+
 <section id="howitworks" class="howitworks">
     <div class="container">
         <div class="row">
@@ -783,7 +782,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
 
 
-<a class="anc" name="team"></a>
+
 <section id="team" class="supporters">
     <div class="container">
         <div class="row head">
@@ -932,7 +931,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
 
 
-<a class="anc" name="advisoryboard"></a>
+
 <section id="advisoryboard" class="supporters supporters2">
     <div class="container">
         <div class="row head">
@@ -943,7 +942,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
         <div class="row list">
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+<!--            <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Paolo_Tasca.jpeg">
                 <h5></h5>
                 <h4>Paolo Tasca</h4>
@@ -957,14 +956,14 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 <h4>David Applefield</h4>
                 Public Affairs and Global Policy advisor / Communications and PR Advisor
             </div>
-
+-->
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Hoods.png">
                 <h5></h5>
                 <h4>Karl Hoods</h4>
                 Policy and Legal Advisor / Save Children UK
             </div>
-
+<!--
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Iggy_Bassi.jpg">
                 <h5></h5>
@@ -996,7 +995,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 Technology advisor/ Big data and security
             </div>
 
-
+-->
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Pavel_Kravchenko.png">
                 <h5></h5>
@@ -1018,14 +1017,14 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 <h4>Matthias Klees</h4>
                 Technology Advisor/ ‎Founder, Bitcoinsulting, Staisybit, Szenekonzept
             </div>
-
+<!--
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Alex_Bausch.jpg">
                 <h5></h5>
                 <h4>Alex Bausch</h4>
                 Technology Advisor/ Co-Chairman of the Blockchain Ecosystem Network
             </div>
-
+-->
          </div>
     </div>
 
@@ -1045,7 +1044,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
 
 
-<a class="anc" name="technical-core"></a>
+
 <section id="technical-core" class="partners technical-core">
     <div class="container">
         <div class="row head">
@@ -1166,7 +1165,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
 
 
-<a class="anc" name="advisors"></a>
+
 <section id="advisors" class="supporters supporters2">
     <div class="container">
         <div class="row head">
@@ -1243,7 +1242,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
             </div>
 
-
+<!--
             <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/0.png">
                 <h5>Botswana</h5>
@@ -1335,7 +1334,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
             </div>
 
-
+-->
 
         </div>
     </div>
@@ -1350,7 +1349,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
 
 
-<a class="anc" name="partners"></a>
+
 
 <section id="partners" class="partners">
     <div class="container">
@@ -1425,7 +1424,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 </section>
 
 
-<a class="anc" name="timeline"></a>
+
 
 <section class="hidden-xs">
     <img src="/assets/images/timeline.svg" style="width: 100%">
@@ -1440,7 +1439,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
 
 
-<a class="anc" name="press"></a>
+
 
 <section id="press" class="partners press">
     <div class="container">
@@ -1535,25 +1534,6 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="anc" name="keepintouch"></a>
 
 <section class="inline-form">
     <div class="container">
