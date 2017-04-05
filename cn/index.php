@@ -128,11 +128,15 @@
 <!--                    <div class="item">Deutsch</div>-->
                     <div class="item active">繁體中文</div>
                 </div>
-                <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
+                <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga pre-ico-i" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
                     Reserve tokens
                 </a>
+                <a href="#whitepapers" class="whitepaper-link round yga post-ico-i" data-ga="1" data-ya-target="home-screen-whitepapers">
+                    Whitepapers
+                </a>
 
-                </div>
+
+            </div>
             </div>
         </div>
     </div>
@@ -150,7 +154,7 @@
                             <span class="s4">大数据</span>
                         </b>
                     </h1>
-                    <h1 class="ss2">Boom</h1>
+                    <div class="offer post post-ico text-center">ICO is live now</div>
                     <div class="countdown text-center">
                         <div class="figures">
                             <div class="days"></div><div class="units day">天</div>
@@ -169,9 +173,9 @@
                             <div class="units second">秒</div>
                         </div>
                     </div>
-                    <div class="offer">加入我们。现在就注册，获得有关ICO启动的信息。</div>
+                    <div class="offer pre-ico">加入我们。现在就注册，获得有关ICO启动的信息。</div>
                     <div class="sub-form"  id="sub-form-1" data-ga="1" data-ya-target="SUBMAIL1">
-                        <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('notify_me')">
+                        <form class="formBody pre-ico" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('notify_me')">
                             <div class="form-group has-feedback">
                                 <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
                                 <div class="notify">
@@ -181,13 +185,13 @@
                                 <div class="help-block with-errors"></div>
                             </div>
                         </form>
+                        <a href="https://my.humaniq.co" target="_blank" class="btn-post-block post-ico">Join the ICO</a>
                     </div>
-                    <div class="lower-buttons">
-                        <div href="https://cointelegraph.com/explained/ico-explained" target="_blank"  class="left" data-toggle="modal" data-target="#ico-modal">
+                    <div class="lower-buttons pre-ico">
+                        <div href="https://cointelegraph.com/explained/ico-explained" target="_blank"  class="left" data-toggle="modal" data-target="#ico-modal" style="width: 37%">
                             <div class="round"><i class="glyphicon glyphicon-play"></i></div>什么是ICO？
                         </div>
-                        <div class="right">
-                            第一个48小时内分红率达 <div class="bonus-fadein round">49.9%</div>
+                        <div class="right" style="width:60%">第一个48小时内分红率达 <div class="bonus-fadein round">49.9%</div>
 
                             <div class="bonuses">
                                 <h3>分红</h3>
@@ -203,6 +207,33 @@
 
                         </div>
                     </div>
+
+                    <div class="lower-buttons post post-ico text-left">
+                        <div class="left text-left" data-toggle="modal" data-target="#ico-modal">
+                            <div class="round"><i class="glyphicon glyphicon-play"></i></div>What is an ICO?
+                        </div>
+                        <div class="center text-center">
+                            <div class="bonus-fadein round">49.9%</div> Current Bonus
+
+                            <div class="bonuses">
+                                <h3>Bonuses</h3>
+                                <h5>ICO duration: 21 days.</h5>
+                                <div class="left">+49.9%</div><div class="right">2 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+25%</div><div class="right">7 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+12.5%</div><div class="right">7 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+0%</div><div class="right">5 days</div>
+                            </div>
+                        </div>
+                        <div class="right text-right">
+                            <div class="ends">ICO ends<br><b>27 April 00.00 CET</b></div>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
@@ -784,10 +815,16 @@
 <section class="inline-form">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0">
+            <div class="col-xs-12 text-center post-ico">
+                <h1>世界正在快速改变，请抢先一步！</h1>
+                <a href="https://my.humaniq.co" target="_blank" class="btn-post-onethird">Join the ICO</a>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
                 <h1>世界正在快速改变，请抢先一步！</h1>
             </div>
-            <div class="col-xs-12 col-sm-6 sub-form" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
+            <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
                 <div class="text">早起的鸟儿有虫吃，不要错过！</div>
                 <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('request_demo')">
                     <div class="form-group has-feedback">
@@ -1561,10 +1598,17 @@
 <section class="inline-form">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0">
+            <div class="col-xs-12 text-center post-ico">
+                <h1>您准备加入银行业的未来吗？</h1>
+                <a href="https://my.humaniq.co" target="_blank" class="btn-post-onethird">Join the ICO</a>
+            </div>
+
+
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
                 <h1>您准备加入银行业的未来吗？</h1>
             </div>
-            <div class="col-xs-12 col-sm-6 sub-form" id="sub-form-3" data-ga="1" data-ya-target="SUBMAIL3">
+            <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-3" data-ga="1" data-ya-target="SUBMAIL3">
                 <div class="text">我们会和您保持联系</div>
                 <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('request_demo')">
                     <div class="form-group has-feedback">

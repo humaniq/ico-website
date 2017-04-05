@@ -87,6 +87,10 @@ var setCountDown = function(){
 
 (function($){
 
+    var seconds2happened = moment.utc("2017-04-06T00:00:00+01:00").diff( moment(), 'seconds');
+    setTimeout(function(){ $("body").addClass("happened")}, seconds2happened*1000);
+
+
 
 /*
     var lastId, scrollItems = $('body').find(".anc");

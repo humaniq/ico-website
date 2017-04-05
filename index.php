@@ -70,18 +70,19 @@
     <!-- Facebook Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
             n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
             t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-                document,'script','https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1079647418847686'); // Insert your pixel ID here.
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '239287609810959'); // Insert your pixel ID here.
         fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-                   src="https://www.facebook.com/tr?id=1079647418847686&ev=PageView&noscript=1"
-    /></noscript>
+                   src="https://www.facebook.com/tr?id=239287609810959&ev=PageView&noscript=1"
+        /></noscript>
     <!-- DO NOT MODIFY -->
     <!-- End Facebook Pixel Code -->
+
 
     <!-- Twitter universal website tag code -->
     <script>
@@ -122,11 +123,15 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 <!--                    <div class="item">Deutsch</div>-->
                     <a href="/cn/" class="item" onclick="Cookies.set('mylang','zh')">繁體中文</a>
                 </div>
-                <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
+                <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga pre-ico-i" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
                     Reserve tokens
                 </a>
+                <a href="#whitepapers" class="whitepaper-link round yga post-ico-i" data-ga="1" data-ya-target="home-screen-whitepapers">
+                    Whitepapers
+                </a>
 
-                </div>
+
+            </div>
             </div>
         </div>
     </div>
@@ -144,7 +149,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                             <span class="s4">Big Data</span>
                         </b>
                     </h1>
-                    <h1 class="ss2">Boom</h1>
+                    <div class="offer post post-ico text-center">ICO is live now</div>
                     <div class="countdown text-center">
                         <div class="figures">
                             <div class="days"></div><div class="units day">day<div class="days-s">s</div></div>
@@ -163,9 +168,9 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                             <div class="units second">second<div class="seconds-s">s</div></div>
                         </div>
                     </div>
-                    <div class="offer">Join our mission. Sign up now to get notified about the ICO start.</div>
+                    <div class="offer pre-ico">Join our mission. Sign up now to get notified about the ICO start.</div>
                     <div class="sub-form"  id="sub-form-1" data-ga="1" data-ya-target="SUBMAIL1">
-                        <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('notify_me')">
+                        <form class="formBody pre-ico" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('notify_me')">
                             <div class="form-group has-feedback">
                                 <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
                                 <div class="notify">
@@ -175,8 +180,10 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                                 <div class="help-block with-errors"></div>
                             </div>
                         </form>
+                        <a href="https://my.humaniq.co" target="_blank" class="btn-post-block post-ico">Join the ICO</a>
+
                     </div>
-                    <div class="lower-buttons">
+                    <div class="lower-buttons pre-ico">
                         <div href="https://cointelegraph.com/explained/ico-explained" target="_blank"  class="left" data-toggle="modal" data-target="#ico-modal">
                             <div class="round"><i class="glyphicon glyphicon-play"></i></div>What is an ICO?
                         </div>
@@ -197,6 +204,31 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
                         </div>
                     </div>
+
+                    <div class="lower-buttons post post-ico text-left">
+                        <div class="left text-left" data-toggle="modal" data-target="#ico-modal">
+                            <div class="round"><i class="glyphicon glyphicon-play"></i></div>What is an ICO?
+                        </div>
+                        <div class="center text-center">
+                            <div class="bonus-fadein round">49.9%</div> Current Bonus
+
+                            <div class="bonuses">
+                                <h3>Bonuses</h3>
+                                <h5>ICO duration: 21 days.</h5>
+                                <div class="left">+49.9%</div><div class="right">2 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+25%</div><div class="right">7 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+12.5%</div><div class="right">7 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+0%</div><div class="right">5 days</div>
+                            </div>
+                        </div>
+                        <div class="right text-right">
+                            <div class="ends">ICO ends<br><b>27 April 00.00 CET</b></div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -757,10 +789,16 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 <section class="inline-form">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0">
+            <div class="col-xs-12 text-center post-ico">
+                <h1>The World is changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
+                <a href="https://my.humaniq.co" target="_blank" class="btn-post-onethird">Join the ICO</a>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
                 <h1>The World is <br class="hidden-xs">changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
             </div>
-            <div class="col-xs-12 col-sm-6 sub-form" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
+            <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
                 <div class="text">Don’t miss bonuses for early birds</div>
                 <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('request_demo')">
                     <div class="form-group has-feedback">
@@ -1538,10 +1576,15 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 <section class="inline-form">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0">
+            <div class="col-xs-12 text-center post-ico">
+                <h1>The World is changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
+                <a href="https://my.humaniq.co" target="_blank" class="btn-post-onethird">Join the ICO</a>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
                 <h1>Are you ready to join the future of banking?</h1>
             </div>
-            <div class="col-xs-12 col-sm-6 sub-form" id="sub-form-3" data-ga="1" data-ya-target="SUBMAIL3">
+            <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-3" data-ga="1" data-ya-target="SUBMAIL3">
                 <div class="text">We will keep you in touch</div>
                 <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('request_demo')">
                     <div class="form-group has-feedback">

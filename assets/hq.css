@@ -24,9 +24,6 @@
     font-style: normal;
 }
 
-
-
-
 html {
     font-size:25%;
     font-family: FuturaNewBook, Arial, sans-serif;
@@ -2578,4 +2575,33 @@ footer .copyright {
 
 }
 
+
+
+
+
+
+.pre-ico {
+    display: block !important;
+}
+
+.pre-ico-i {
+    display: inline-block !important;
+}
+
+.post-ico, .post-ico-i  {
+    display: none !important;
+}
+
+
+.happened .pre-ico, .happened .pre-ico-i {
+    display: none !important;
+}
+
+.happened .post-ico {
+    display: block !important;
+}
+
+.happened .post-ico-i {
+    display: inline-block !important;
+}
 
