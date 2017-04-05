@@ -944,7 +944,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
         <div class="row list">
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/0.png">
+                <img src="/assets/images/avatars/Paolo_Tasca.jpeg">
                 <h5></h5>
                 <h4>Paolo Tasca</h4>
                 Technology Advisor / P2P economy, technology and Blockchain
@@ -966,7 +966,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
             </div>
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/0.png">
+                <img src="/assets/images/avatars/Iggy_Bassi.jpg">
                 <h5></h5>
                 <h4>Iggy Bassi </h4>
                 Policy and Legal advisor/ Social Impact and AI, data expert
@@ -982,7 +982,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/0.png">
+                <img src="/assets/images/avatars/Paul_Mears.jpg">
                 <h5></h5>
                 <h4>Paul Mears</h4>
                 Policy and Legal advisor / Financial and risk management advisor
@@ -1020,7 +1020,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
             </div>
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/0.png">
+                <img src="/assets/images/avatars/Alex_Bausch.jpg">
                 <h5></h5>
                 <h4>Alex Bausch</h4>
                 Technology Advisor/ Co-Chairman of the Blockchain Ecosystem Network
@@ -1177,42 +1177,42 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
         <div class="row list">
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/5.png">
                 <h5>Zimbabwe</h5>
                 <h4>Tawanda<br>Kembo</h4>
                 BitFinance
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/4.png">
                 <h5>Australia</h5>
                 <h4>Ross Lloyd</h4>
                 Past veteran of many Australian Government Ministerial briefings, annual reports, speeches.
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/6.png">
                 <h5>Sierra Leone</h5>
                 <h4>Chernoh Saeed Sow</h4>
                 Bitcoin Network-SLBNet
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/7.png">
                 <h5>Ghana</h5>
                 <h4>Philip Agyei Asare</h4>
                 Dream Bitcoin Foundation
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/8.png">
                 <h5>Lesotho</h5>
                 <h4>Itumeleng Isaac Lejone</h4>
                 Bitcoin Community
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/9.png">
                 <h5>South Africa</h5>
                 <h4>Mogopodi<br>Phiri</h4>
@@ -1220,9 +1220,15 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
             </div>
 
 
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/Dickson.png">
+                <h5>Nigeria</h5>
+                <h4>Dickson Nsofor</h4>
+
+            </div>
 
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/Adewele_Bankole.png">
                 <h5>Nigeria</h5>
                 <h4>Adewele<br>Bankolo</h4>
@@ -1230,10 +1236,102 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
             </div>
 
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/Mohammed_Ibrahim.png">
                 <h5>Nigeria</h5>
                 <h4>Muhammed<br>bukar Ibrahim</h4>
+
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Botswana</h5>
+                <h4>Koketso Pelo</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Guinea Conakry</h5>
+                <h4>Thierno Madiou Bah</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Ghana</h5>
+                <h4>David Lawson</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Uganda</h5>
+                <h4>Ronald Nsubango</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Oladimeji Shekoni</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Olabayode Okubanjo</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Babarendi Kayonde</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Tunisia</h5>
+                <h4>Mohamed Safouan Besrour</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Malasyia</h5>
+                <h4>Tenku Azman</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Tanzania</h5>
+                <h4>Peter Samson</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Ethiopia</h5>
+                <h4>Binian Yayehyirad</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Mexico</h5>
+                <h4>Miguel Aguilar Tavera</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Bashir Aminu</h4>
 
             </div>
 

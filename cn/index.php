@@ -765,7 +765,7 @@
             <div class="col-xs-12 text-center">
                 <div class="badge" ><a href="https://play.google.com/store/apps/details?id=co.humaniq" target="_blank">
                     <img src="/assets/images/google-play-badge-2.png"> </a></div>
-                <div class="badge"  title="Coming soon"><img src="/assets/images/app-store-badge.svg" style="opacity: 0.5"> </div>
+                <div class="badge"><a href="https://itunes.apple.com/us/app/humaniq/id1212362871?l=ru&ls=1&mt=8" target="_blank"><img src="/assets/images/app-store-badge.svg"></a></div>
                 <br>
                 <div class="trademarks" style="display:inline-block; margin-top: 4rem;text-align: left">
                     - Google Play and the Google Play logo are trademarks of Google Inc.<br>
@@ -902,6 +902,49 @@
 
 
 
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="5">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/Dinis_Guarda.png">
+                </div>
+                <h5>UK</h5>
+                <h4>Dinis Guarda</h4>
+                CEO and Chief Strategy Officer, Board of Directors, UK
+            </div>
+
+            <div id="pp-5" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/Dinis_Guarda.png">
+                <h4>Dinis Guarda</h4>
+                <div class="text">
+                    Founder of ZTUDIUM, that he created and manages intelligenthq.com, openbusinesscouncil.org, tradersdna.com and hedgethink.com. He is the author of the following books: The Next Tsunami: Blockchain plus AI and IOT, Intelligenthq Editions, Amazon, 2017. How To Map Who You are, Amazon, 2016. He is also co-founder of the project BlockchainAge. Since December 2016 is leading the digital strategy and marketing for the financial empowerment app and platform invstr.com Between 2014 and 2015 he was involved in creating a digital bank between Asia and Africa. With a Master in New Media, Dinis has been ranked in the top 10 and top 100 most influential person in fintech, blockchain, social media, social enterprise and philanthropy. He was the founder of tradingfloor.com for Saxo Bank, socialmediacouncil.org with Jamie Burke.
+
+                </div>
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="6">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
+                </div>
+                <h5>UK</h5>
+                <h4>Dmitry Kaminsky</h4>
+                Executive Chairman and Founder, Board of Directors, UK
+            </div>
+
+            <div id="pp-6" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
+                <h4>Dmitry Kaminsky</h4>
+                <div class="text">
+                    The managing partner of Deep Knowledge Ventures (DKV), a Hong Kong-based fund that invests in disruptive biotechnology, fintech, and artificial intelligence companies. Mr.Kaminskiy is a trustee of the Biogerontology Research Foundation in Oxford and holds a BSc in computer science from the National University of Electronic Technology. Prior to Deep Knowledge Ventures, he served as an executive in the telecom and financial services industries. Dmitry is interested in the potential for social benefit offered by blockchain technology. Dmitry also directly supports scientists, conferences, hackathons, and think-tanks at Oxford and Cambridge, such as the Exponential Technologies Institute and Biogerontology Research Foundation (BGRF).
+                </div>
+            </div>
+
+
+
+
         </div>
     </div>
 
@@ -909,7 +952,119 @@
 
 
 
-<a class="anc" name="technical-core"></a>
+
+
+
+
+
+
+    <a class="anc" name="advisoryboard"></a>
+    <section id="advisoryboard" class="supporters supporters2">
+        <div class="container">
+            <div class="row head">
+                <div class="col-sm-12">
+                    <h1>Advisory Board</h1>
+                </div>
+            </div>
+
+            <div class="row list">
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/0.png">
+                    <h5></h5>
+                    <h4>Paolo Tasca</h4>
+                    Technology Advisor / P2P economy, technology and Blockchain
+
+                </div>
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/David_Applefield.png">
+                    <h5></h5>
+                    <h4>David Applefield</h4>
+                    Public Affairs and Global Policy advisor / Communications and PR Advisor
+                </div>
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Hoods.png">
+                    <h5></h5>
+                    <h4>Karl Hoods</h4>
+                    Policy and Legal Advisor / Save Children UK
+                </div>
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/0.png">
+                    <h5></h5>
+                    <h4>Iggy Bassi </h4>
+                    Policy and Legal advisor/ Social Impact and AI, data expert
+                </div>
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Ron_Morris.png">
+                    <h5></h5>
+                    <h4>Ron Morris</h4>
+                    Scientific Advisor / Education / Universities Advisor
+                </div>
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/0.png">
+                    <h5></h5>
+                    <h4>Paul Mears</h4>
+                    Policy and Legal advisor / Financial and risk management advisor
+                </div>
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/0.png">
+                    <h5></h5>
+                    <h4>Vishai Mishra</h4>
+                    Technology advisor/ Big data and security
+                </div>
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Pavel_Kravchenko.png">
+                    <h5></h5>
+                    <h4>Pavel Kravchenko</h4>
+                    Technology Advisor/ BlockChain technology advisor
+                </div>
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Matt_McKibbin.png">
+                    <h5></h5>
+                    <h4>Matt McKibbin</h4>
+                    Technology Advisor/ Blockchain, crypto economy
+                </div>
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Matthias_Klees.png">
+                    <h5></h5>
+                    <h4>Matthias Klees</h4>
+                    Technology Advisor/ ‎Founder, Bitcoinsulting, Staisybit, Szenekonzept
+                </div>
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/0.png">
+                    <h5></h5>
+                    <h4>Alex Bausch</h4>
+                    Technology Advisor/ Co-Chairman of the Blockchain Ecosystem Network
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <a class="anc" name="technical-core"></a>
 <section id="technical-core" class="partners technical-core">
     <div class="container">
         <div class="row head">
@@ -1036,47 +1191,171 @@
         </div>
 
         <div class="row list">
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/5.png">
                 <h5>津巴布韦</h5>
                 <h4>塔旺达•坎伯（Tawanda Kembo）</h4>
                 比特财务
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/4.png">
                 <h5>澳大利亚</h5>
                 <h4>罗斯•劳埃德（Ross Lloyd）</h4>
                 曾经为澳大利亚许多政府部门做过新闻发布会、年报、演讲的资深人士。
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/6.png">
                 <h5>塞拉利昂</h5>
                 <h4>切尔诺•萨伊德•叟（Chernoh Saeed Sow）</h4>
                 比特币网络—SLB网
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/7.png">
                 <h5>加纳</h5>
                 <h4>菲利普•阿格耶•阿萨尔（Philip Agyei Asare）</h4>
                 梦想比特币基金会
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/8.png">
                 <h5>莱索托</h5>
                 <h4>伊图姆楞•伊萨克•勒荣（Itumeleng Isaac Lejone）</h4>
                 比特币社区
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/9.png">
                 <h5>南非</h5>
                 <h4>莫哥博迪•菲利（Mogopodi Phiri）</h4>
                 非洲加密
             </div>
+
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/Dickson.png">
+                <h5>Nigeria</h5>
+                <h4>Dickson Nsofor</h4>
+
+            </div>
+
+
+
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/Adewele_Bankole.png">
+                <h5>Nigeria</h5>
+                <h4>Adewele<br>Bankolo</h4>
+
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/Mohammed_Ibrahim.png">
+                <h5>Nigeria</h5>
+                <h4>Muhammed<br>bukar Ibrahim</h4>
+
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Botswana</h5>
+                <h4>Koketso Pelo</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Guinea Conakry</h5>
+                <h4>Thierno Madiou Bah</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Ghana</h5>
+                <h4>David Lawson</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Uganda</h5>
+                <h4>Ronald Nsubango</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Oladimeji Shekoni</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Olabayode Okubanjo</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Babarendi Kayonde</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Tunisia</h5>
+                <h4>Mohamed Safouan Besrour</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Malasyia</h5>
+                <h4>Tenku Azman</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Tanzania</h5>
+                <h4>Peter Samson</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Ethiopia</h5>
+                <h4>Binian Yayehyirad</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Mexico</h5>
+                <h4>Miguel Aguilar Tavera</h4>
+
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/0.png">
+                <h5>Nigeria</h5>
+                <h4>Bashir Aminu</h4>
+
+            </div>
+
+
+
+
 
         </div>
     </div>
@@ -1090,7 +1369,9 @@
 
 
 
-<a class="anc" name="partners"></a>
+
+
+    <a class="anc" name="partners"></a>
 
 <section id="partners" class="partners">
     <div class="container">
