@@ -24,9 +24,6 @@
     font-style: normal;
 }
 
-
-
-
 html {
     font-size:25%;
     font-family: FuturaNewBook, Arial, sans-serif;
@@ -642,17 +639,17 @@ body {
 
 .btn-post-block, .btn-post-onethird  {
     display: block;
-    height: 7rem;
+    height: 8rem;
     border-radius: 3px;
     background-image: linear-gradient(84deg, #203f82, #1f48a1);
 
     font-family: FuturaNewMedium, Arial, sans-serif;
-    font-size: 2.4rem;
+    font-size: 4.4rem;
     line-height: 1em;
     color: #fff;
 
     margin: 3rem 0 1rem 0;
-    padding-top: 2.3rem;
+    padding-top: 1.8rem;
 
     text-align: center;
 }
@@ -2578,4 +2575,33 @@ footer .copyright {
 
 }
 
+
+
+
+
+
+.pre-ico {
+    display: block !important;
+}
+
+.pre-ico-i {
+    display: inline-block !important;
+}
+
+.post-ico, .post-ico-i  {
+    display: none !important;
+}
+
+
+.happened .pre-ico, .happened .pre-ico-i {
+    display: none !important;
+}
+
+.happened .post-ico {
+    display: block !important;
+}
+
+.happened .post-ico-i {
+    display: inline-block !important;
+}
 

@@ -128,11 +128,15 @@
 <!--                    <div class="item">Deutsch</div>-->
                     <div class="item active">繁體中文</div>
                 </div>
-                <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
+                <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga pre-ico-i" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
                     Reserve tokens
                 </a>
+                <a href="#whitepapers" class="whitepaper-link round yga post-ico-i" data-ga="1" data-ya-target="home-screen-whitepapers">
+                    Whitepapers
+                </a>
 
-                </div>
+
+            </div>
             </div>
         </div>
     </div>
@@ -150,7 +154,7 @@
                             <span class="s4">大数据</span>
                         </b>
                     </h1>
-                    <h1 class="ss2">Boom</h1>
+                    <div class="offer post post-ico text-center">ICO is live now</div>
                     <div class="countdown text-center">
                         <div class="figures">
                             <div class="days"></div><div class="units day">天</div>
@@ -169,9 +173,9 @@
                             <div class="units second">秒</div>
                         </div>
                     </div>
-                    <div class="offer">加入我们。现在就注册，获得有关ICO启动的信息。</div>
+                    <div class="offer pre-ico">加入我们。现在就注册，获得有关ICO启动的信息。</div>
                     <div class="sub-form"  id="sub-form-1" data-ga="1" data-ya-target="SUBMAIL1">
-                        <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('notify_me')">
+                        <form class="formBody pre-ico" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('notify_me')">
                             <div class="form-group has-feedback">
                                 <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
                                 <div class="notify">
@@ -181,13 +185,13 @@
                                 <div class="help-block with-errors"></div>
                             </div>
                         </form>
+                        <a href="https://my.humaniq.co" target="_blank" class="btn-post-block post-ico">Join the ICO</a>
                     </div>
-                    <div class="lower-buttons">
-                        <div href="https://cointelegraph.com/explained/ico-explained" target="_blank"  class="left" data-toggle="modal" data-target="#ico-modal">
+                    <div class="lower-buttons pre-ico">
+                        <div href="https://cointelegraph.com/explained/ico-explained" target="_blank"  class="left" data-toggle="modal" data-target="#ico-modal" style="width: 37%">
                             <div class="round"><i class="glyphicon glyphicon-play"></i></div>什么是ICO？
                         </div>
-                        <div class="right">
-                            第一个48小时内分红率达 <div class="bonus-fadein round">49.9%</div>
+                        <div class="right" style="width:60%">第一个48小时内分红率达 <div class="bonus-fadein round">49.9%</div>
 
                             <div class="bonuses">
                                 <h3>分红</h3>
@@ -203,6 +207,33 @@
 
                         </div>
                     </div>
+
+                    <div class="lower-buttons post post-ico text-left">
+                        <div class="left text-left" data-toggle="modal" data-target="#ico-modal">
+                            <div class="round"><i class="glyphicon glyphicon-play"></i></div>What is an ICO?
+                        </div>
+                        <div class="center text-center">
+                            <div class="bonus-fadein round">49.9%</div> Current Bonus
+
+                            <div class="bonuses">
+                                <h3>Bonuses</h3>
+                                <h5>ICO duration: 21 days.</h5>
+                                <div class="left">+49.9%</div><div class="right">2 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+25%</div><div class="right">7 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+12.5%</div><div class="right">7 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+0%</div><div class="right">5 days</div>
+                            </div>
+                        </div>
+                        <div class="right text-right">
+                            <div class="ends">ICO ends<br><b>27 April 00.00 CET</b></div>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
@@ -219,7 +250,7 @@
             <div class="col-xs-12">
                 <div class="video-img embed-responsive embed-responsive-16by9">
 <!--                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/prEPErb82Mg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
-                    <iframe class="embed-responsive-item" src="http://m.youku.com/video/id_XMjY4MDIzNDI4OA" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src='https://player.youku.com/embed/XMjY4MDIzNDI4OA==' frameborder=0 'allowfullscreen'></iframe>
                 </div>
 
 <!--                <img class="video-img" src="assets/images/whatis-main.jpg">
@@ -692,7 +723,7 @@
             <div class="col-xs-12">
                 <div class="video-img embed-responsive embed-responsive-16by9">
 <!--                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PY_efnojVcE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>-->
-                    <iframe class="embed-responsive-item" src="http://m.youku.com/video/id_XMjY4MDIzNDI4OA" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src='https://player.youku.com/embed/XMjY4MDIzNDI4OA==' frameborder=0 'allowfullscreen'></iframe>
                 </div>
             </div>
         </div>
@@ -784,10 +815,16 @@
 <section class="inline-form">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0">
+            <div class="col-xs-12 text-center post-ico">
+                <h1>世界正在快速改变，请抢先一步！</h1>
+                <a href="https://my.humaniq.co" target="_blank" class="btn-post-onethird">Join the ICO</a>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
                 <h1>世界正在快速改变，请抢先一步！</h1>
             </div>
-            <div class="col-xs-12 col-sm-6 sub-form" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
+            <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
                 <div class="text">早起的鸟儿有虫吃，不要错过！</div>
                 <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('request_demo')">
                     <div class="form-group has-feedback">
@@ -823,14 +860,15 @@
         <div class="backdrop"></div>
         <div class="row list">
 
+
             <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="1">
                 <div class="img">
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/1.png">
                 </div>
-                <h5>卢森堡</h5>
+<!--                <h5>卢森堡</h5>-->
                 <h4>阿莱克斯•福柯（Alex Fork）</h4>
-                首席执行官
+                Founder, Board of Directors
             </div>
 
             <div id="pp-1" class="popup">
@@ -842,63 +880,6 @@
                 </div>
             </div>
 
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="2">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/3.png">
-                </div>
-                <h5>博茨瓦纳</h5>
-                <h4>阿拉卡纳尼•伊特莱楞（Alakanani Itireleng）</h4>
-                首席派驻代表
-            </div>
-
-            <div id="pp-2" class="popup">
-                <div class="close"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/3.png">
-                <h4>阿拉卡纳尼•伊特莱楞（Alakanani Itireleng）</h4>
-                <div class="text">
-                    阿拉卡纳尼•伊特莱楞经营着哈博罗内的一家区块链中心萨托西中心（Satoshi Centre），她在那里和开发者们一起工作，将会为孩子们发起一个开发项目。她的比特币之旅始于2012年年末，从那以后，她一直在向人们普及比特币。阿拉卡纳尼在国际上宣传比特币也颇具影响力，她在阿姆斯特丹、南非和科特迪瓦的会议上发过言，虽未列席加纳会议，但也通过虚拟技术在该会上发声了。阿拉卡纳尼去年在哈博罗内组织了首次区块链峰会，全世界的人都引以为荣。她和她的团队一道在哈博罗内试水两款区块链应用程序。
-                </div>
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="3">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/2.png">
-                </div>
-                <h5>荷兰</h5>
-                <h4>理查德•卡斯特莱茵（Richard Kastelein）</h4>
-                首席营销官
-            </div>
-
-            <div id="pp-3" class="popup">
-                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/2.png">
-                <h4>理查德•卡斯特莱茵（Richard Kastelein）</h4>
-                <div class="text">
-                    加拿大企业家理查德•卡斯特莱茵被看作是区块链社区内区块链的一个主要发布者和发声人，他是区块链新闻的发布者，区块链合作伙伴的董事，伦敦加密金融会议的创立者，还在区块链生态系统网络筹划指导委员会中任职。他主要是作为新兴企业的顾问、发布人、营销专家，甚至是设计者和发言人而工作的。目前他暂任Humaniq的首席营销官。
-                </div>
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="4">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/10.png">
-                </div>
-                <h5>印度</h5>
-                <h4>帕尔斯•巴特•乌潘德拉•库马尔（Parth Bhatt Upendra Kumar）</h4>
-                印度合作伙伴
-            </div>
-
-            <div id="pp-4" class="popup">
-                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/10.png">
-                <h4>帕尔斯•巴特•乌潘德拉•库马尔（Parth Bhatt Upendra Kumar）</h4>
-                <div class="text">
-                    帕尔斯•巴特是来自印度的婆罗门。他是Humaniq项目意识形态方面的一个合作伙伴。阿莱克斯•福柯和帕尔斯•巴特•乌潘德拉•库马尔一起安排了一场商业活动，旨在从印度那些地位低下的人那里获得他们对Humaniq的反应。幸亏收到了这些反馈，Humaniq变得更好了。
-                </div>
-            </div>
-
 
 
             <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="5">
@@ -906,9 +887,9 @@
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/Dinis_Guarda.png">
                 </div>
-                <h5>UK</h5>
+<!--                <h5>UK</h5>-->
                 <h4>Dinis Guarda</h4>
-                CEO and Chief Strategy Officer, Board of Directors, UK
+                CEO and Chief Strategy Officer, Board of Directors
             </div>
 
             <div id="pp-5" class="popup">
@@ -927,9 +908,9 @@
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
                 </div>
-                <h5>UK</h5>
+<!--                <h5>UK</h5>-->
                 <h4>Dmitry Kaminsky</h4>
-                Executive Chairman and Founder, Board of Directors, UK
+                Executive Chairman and Founder, Board of Directors
             </div>
 
             <div id="pp-6" class="popup">
@@ -940,6 +921,57 @@
                     The managing partner of Deep Knowledge Ventures (DKV), a Hong Kong-based fund that invests in disruptive biotechnology, fintech, and artificial intelligence companies. Mr.Kaminskiy is a trustee of the Biogerontology Research Foundation in Oxford and holds a BSc in computer science from the National University of Electronic Technology. Prior to Deep Knowledge Ventures, he served as an executive in the telecom and financial services industries. Dmitry is interested in the potential for social benefit offered by blockchain technology. Dmitry also directly supports scientists, conferences, hackathons, and think-tanks at Oxford and Cambridge, such as the Exponential Technologies Institute and Biogerontology Research Foundation (BGRF).
                 </div>
             </div>
+
+
+
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="2">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/3.png">
+                </div>
+<!--                <h5>博茨瓦纳</h5>-->
+                <h4>阿拉卡纳尼•伊特莱楞（Alakanani Itireleng）</h4>
+                首席派驻代表
+            </div>
+
+            <div id="pp-2" class="popup">
+                <div class="close"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/3.png">
+                <h4>阿拉卡纳尼•伊特莱楞（Alakanani Itireleng）</h4>
+                <div class="text">
+                    阿拉卡纳尼•伊特莱楞经营着哈博罗内的一家区块链中心萨托西中心（Satoshi Centre），她在那里和开发者们一起工作，将会为孩子们发起一个开发项目。她的比特币之旅始于2012年年末，从那以后，她一直在向人们普及比特币。阿拉卡纳尼在国际上宣传比特币也颇具影响力，她在阿姆斯特丹、南非和科特迪瓦的会议上发过言，虽未列席加纳会议，但也通过虚拟技术在该会上发声了。阿拉卡纳尼去年在哈博罗内组织了首次区块链峰会，全世界的人都引以为荣。她和她的团队一道在哈博罗内试水两款区块链应用程序。
+                </div>
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="3">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/2.png">
+                </div>
+<!--                <h5>荷兰</h5>-->
+                <h4>理查德•卡斯特莱茵（Richard Kastelein）</h4>
+                首席营销官
+            </div>
+
+            <div id="pp-3" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/2.png">
+                <h4>理查德•卡斯特莱茵（Richard Kastelein）</h4>
+                <div class="text">
+                    加拿大企业家理查德•卡斯特莱茵被看作是区块链社区内区块链的一个主要发布者和发声人，他是区块链新闻的发布者，区块链合作伙伴的董事，伦敦加密金融会议的创立者，还在区块链生态系统网络筹划指导委员会中任职。他主要是作为新兴企业的顾问、发布人、营销专家，甚至是设计者和发言人而工作的。目前他暂任Humaniq的首席营销官。
+                </div>
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Dickson.png">
+<!--                <h5>Nigeria</h5>-->
+                <h4>Dickson Nsofor</h4>
+
+            </div>
+
 
 
 
@@ -967,7 +999,7 @@
             </div>
 
             <div class="row list">
-
+<!--
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/0.png">
                     <h5></h5>
@@ -975,7 +1007,7 @@
                     Technology Advisor / P2P economy, technology and Blockchain
 
                 </div>
-
+-->
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/David_Applefield.png">
                     <h5></h5>
@@ -989,7 +1021,7 @@
                     <h4>Karl Hoods</h4>
                     Policy and Legal Advisor / Save Children UK
                 </div>
-
+<!--
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/0.png">
                     <h5></h5>
@@ -997,14 +1029,14 @@
                     Policy and Legal advisor/ Social Impact and AI, data expert
                 </div>
 
-
+-->
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/Ron_Morris.png">
                     <h5></h5>
                     <h4>Ron Morris</h4>
                     Scientific Advisor / Education / Universities Advisor
                 </div>
-
+<!--
 
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/0.png">
@@ -1020,7 +1052,7 @@
                     <h4>Vishai Mishra</h4>
                     Technology advisor/ Big data and security
                 </div>
-
+-->
 
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/Pavel_Kravchenko.png">
@@ -1043,14 +1075,14 @@
                     <h4>Matthias Klees</h4>
                     Technology Advisor/ ‎Founder, Bitcoinsulting, Staisybit, Szenekonzept
                 </div>
-
+<!--
                 <div class="item col-xs-6 col-sm-4 col-md-3">
                     <img src="/assets/images/avatars/0.png">
                     <h5></h5>
                     <h4>Alex Bausch</h4>
                     Technology Advisor/ Co-Chairman of the Blockchain Ecosystem Network
                 </div>
-
+-->
             </div>
         </div>
 
@@ -1189,7 +1221,32 @@
             </div>
         </div>
 
+
         <div class="row list">
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2" data-pp="4">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/10.png">
+                </div>
+                <h5>印度</h5>
+                <h4>帕尔斯•巴特•乌潘德拉•库马尔（Parth Bhatt Upendra Kumar）</h4>
+                印度合作伙伴
+            </div>
+
+            <div id="pp-4" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/10.png">
+                <h4>帕尔斯•巴特•乌潘德拉•库马尔（Parth Bhatt Upendra Kumar）</h4>
+                <div class="text">
+                    帕尔斯•巴特是来自印度的婆罗门。他是Humaniq项目意识形态方面的一个合作伙伴。阿莱克斯•福柯和帕尔斯•巴特•乌潘德拉•库马尔一起安排了一场商业活动，旨在从印度那些地位低下的人那里获得他们对Humaniq的反应。幸亏收到了这些反馈，Humaniq变得更好了。
+                </div>
+            </div>
+
+
+
+
             <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/5.png">
                 <h5>津巴布韦</h5>
@@ -1231,16 +1288,6 @@
                 <h4>莫哥博迪•菲利（Mogopodi Phiri）</h4>
                 非洲加密
             </div>
-
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-2">
-                <img src="/assets/images/avatars/Dickson.png">
-                <h5>Nigeria</h5>
-                <h4>Dickson Nsofor</h4>
-
-            </div>
-
 
 
 
@@ -1561,10 +1608,17 @@
 <section class="inline-form">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0">
+            <div class="col-xs-12 text-center post-ico">
+                <h1>您准备加入银行业的未来吗？</h1>
+                <a href="https://my.humaniq.co" target="_blank" class="btn-post-onethird">Join the ICO</a>
+            </div>
+
+
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
                 <h1>您准备加入银行业的未来吗？</h1>
             </div>
-            <div class="col-xs-12 col-sm-6 sub-form" id="sub-form-3" data-ga="1" data-ya-target="SUBMAIL3">
+            <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-3" data-ga="1" data-ya-target="SUBMAIL3">
                 <div class="text">我们会和您保持联系</div>
                 <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('request_demo')">
                     <div class="form-group has-feedback">
@@ -1626,7 +1680,7 @@
         <div class="row cl">
             <div class="col-xs-12 col-xs-offset-0 it">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/prEPErb82Mg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src='https://player.youku.com/embed/XMjY4MDIzNDI4OA==' frameborder=0 'allowfullscreen'></iframe>
                 </div>
             </div>
         </div>

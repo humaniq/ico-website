@@ -70,18 +70,19 @@
     <!-- Facebook Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
             n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
             t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-                document,'script','https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1079647418847686'); // Insert your pixel ID here.
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '239287609810959'); // Insert your pixel ID here.
         fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-                   src="https://www.facebook.com/tr?id=1079647418847686&ev=PageView&noscript=1"
-    /></noscript>
+                   src="https://www.facebook.com/tr?id=239287609810959&ev=PageView&noscript=1"
+        /></noscript>
     <!-- DO NOT MODIFY -->
     <!-- End Facebook Pixel Code -->
+
 
     <!-- Twitter universal website tag code -->
     <script>
@@ -122,11 +123,15 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 <!--                    <div class="item">Deutsch</div>-->
                     <a href="/cn/" class="item" onclick="Cookies.set('mylang','zh')">繁體中文</a>
                 </div>
-                <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
+                <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga pre-ico-i" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
                     Reserve tokens
                 </a>
+                <a href="#whitepapers" class="whitepaper-link round yga post-ico-i" data-ga="1" data-ya-target="home-screen-whitepapers">
+                    Whitepapers
+                </a>
 
-                </div>
+
+            </div>
             </div>
         </div>
     </div>
@@ -144,7 +149,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                             <span class="s4">Big Data</span>
                         </b>
                     </h1>
-                    <h1 class="ss2">Boom</h1>
+                    <div class="offer post post-ico text-center">ICO is live now</div>
                     <div class="countdown text-center">
                         <div class="figures">
                             <div class="days"></div><div class="units day">day<div class="days-s">s</div></div>
@@ -163,9 +168,9 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                             <div class="units second">second<div class="seconds-s">s</div></div>
                         </div>
                     </div>
-                    <div class="offer">Join our mission. Sign up now to get notified about the ICO start.</div>
+                    <div class="offer pre-ico">Join our mission. Sign up now to get notified about the ICO start.</div>
                     <div class="sub-form"  id="sub-form-1" data-ga="1" data-ya-target="SUBMAIL1">
-                        <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('notify_me')">
+                        <form class="formBody pre-ico" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('notify_me')">
                             <div class="form-group has-feedback">
                                 <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
                                 <div class="notify">
@@ -175,8 +180,10 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                                 <div class="help-block with-errors"></div>
                             </div>
                         </form>
+                        <a href="https://my.humaniq.co" target="_blank" class="btn-post-block post-ico">Join the ICO</a>
+
                     </div>
-                    <div class="lower-buttons">
+                    <div class="lower-buttons pre-ico">
                         <div href="https://cointelegraph.com/explained/ico-explained" target="_blank"  class="left" data-toggle="modal" data-target="#ico-modal">
                             <div class="round"><i class="glyphicon glyphicon-play"></i></div>What is an ICO?
                         </div>
@@ -197,6 +204,31 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
                         </div>
                     </div>
+
+                    <div class="lower-buttons post post-ico text-left">
+                        <div class="left text-left" data-toggle="modal" data-target="#ico-modal">
+                            <div class="round"><i class="glyphicon glyphicon-play"></i></div>What is an ICO?
+                        </div>
+                        <div class="center text-center">
+                            <div class="bonus-fadein round">49.9%</div> Current Bonus
+
+                            <div class="bonuses">
+                                <h3>Bonuses</h3>
+                                <h5>ICO duration: 21 days.</h5>
+                                <div class="left">+49.9%</div><div class="right">2 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+25%</div><div class="right">7 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+12.5%</div><div class="right">7 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+0%</div><div class="right">5 days</div>
+                            </div>
+                        </div>
+                        <div class="right text-right">
+                            <div class="ends">ICO ends<br><b>27 April 00.00 CET</b></div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -757,10 +789,16 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 <section class="inline-form">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0">
+            <div class="col-xs-12 text-center post-ico">
+                <h1>The World is changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
+                <a href="https://my.humaniq.co" target="_blank" class="btn-post-onethird">Join the ICO</a>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
                 <h1>The World is <br class="hidden-xs">changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
             </div>
-            <div class="col-xs-12 col-sm-6 sub-form" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
+            <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
                 <div class="text">Don’t miss bonuses for early birds</div>
                 <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('request_demo')">
                     <div class="form-group has-feedback">
@@ -795,14 +833,37 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
         <div class="backdrop"></div>
         <div class="row list">
 
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="5">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/Dinis_Guarda.png">
+                </div>
+<!--                <h5>UK</h5>-->
+                <h4>Dinis Guarda</h4>
+                CEO and Chief Strategy Officer, Board of Directors
+            </div>
+
+            <div id="pp-5" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/Dinis_Guarda.png">
+                <h4>Dinis Guarda</h4>
+                <div class="text">
+                    Founder of ZTUDIUM, that he created and manages intelligenthq.com, openbusinesscouncil.org, tradersdna.com and hedgethink.com. He is the author of the following books: The Next Tsunami: Blockchain plus AI and IOT, Intelligenthq Editions, Amazon, 2017. How To Map Who You are, Amazon, 2016. He is also co-founder of the project BlockchainAge. Since December 2016 is leading the digital strategy and marketing for the financial empowerment app and platform invstr.com Between 2014 and 2015 he was involved in creating a digital bank between Asia and Africa. With a Master in New Media, Dinis has been ranked in the top 10 and top 100 most influential person in fintech, blockchain, social media, social enterprise and philanthropy. He was the founder of tradingfloor.com for Saxo Bank, socialmediacouncil.org with Jamie Burke.
+
+                </div>
+            </div>
+
+
             <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="1">
                 <div class="img">
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/1.png">
                 </div>
-                <h5>Luxembourg</h5>
+                <!--<h5>Luxembourg</h5>-->
                 <h4>Alex Fork</h4>
-                CEO
+                Founder, Board of Directors
             </div>
 
             <div id="pp-1" class="popup">
@@ -810,16 +871,38 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 <img src="/assets/images/avatars/1.png">
                 <h4>Alex Fork</h4>
                 <div class="text">
-                    Alex Fork is the CEO of the Humaniq project, a Banking 4.0 project designed to help lift the unbanked out of poverty in emerging economies. Alex is a member of the board at Blockchain.community, author of the book “Bitcoin. More than money” and the founder of the Future Fintech accelerator. Fork organised an Ethereum conference with Vlad Martynov (Ethereum advisory board) and Vitalik Buterin (Ethereum founder), which was attended by over 500 banking professionals.
+                    Alex Fork is the Founder of the Humaniq project, a Banking 4.0 project designed to help lift the unbanked out of poverty in emerging economies. Alex is a member of the board at Blockchain.community, author of the book “Bitcoin. More than money” and the founder of the Future Fintech accelerator. Fork organised an Ethereum conference with Vlad Martynov (Ethereum advisory board) and Vitalik Buterin (Ethereum founder), which was attended by over 500 banking professionals.
                 </div>
             </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="6">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
+                </div>
+                <!--<h5>UK</h5>-->
+                <h4>Dmitry Kaminsky</h4>
+                Executive Chairman and Founder, Board of Directors
+            </div>
+
+            <div id="pp-6" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
+                <h4>Dmitry Kaminsky</h4>
+                <div class="text">
+                    The managing partner of Deep Knowledge Ventures (DKV), a Hong Kong-based fund that invests in disruptive biotechnology, fintech, and artificial intelligence companies. Mr.Kaminskiy is a trustee of the Biogerontology Research Foundation in Oxford and holds a BSc in computer science from the National University of Electronic Technology. Prior to Deep Knowledge Ventures, he served as an executive in the telecom and financial services industries. Dmitry is interested in the potential for social benefit offered by blockchain technology. Dmitry also directly supports scientists, conferences, hackathons, and think-tanks at Oxford and Cambridge, such as the Exponential Technologies Institute and Biogerontology Research Foundation (BGRF).
+                </div>
+            </div>
+
+
 
             <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="2">
                 <div class="img">
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/3.png">
                 </div>
-                <h5>Botswana</h5>
+                <!--<h5>Botswana</h5>-->
                 <h4>Alakanani Itireleng</h4>
                 Lead Ambassador
             </div>
@@ -838,7 +921,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/2.png">
                 </div>
-                <h5>Netherlands</h5>
+   <!--             <h5>Netherlands</h5>-->
                 <h4>Richard Kastelein</h4>
                 CMO
             </div>
@@ -851,7 +934,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                     Regarded as a major publisher and voice for Blockchain among the Blockchain community, Canadian entrepreneur Richard Kastelein is the publisher of Blockchain News, director at Blockchain Partners, founder of the London Cryptofinancing Conference and sits on the steering committee of the Blockchain Ecosystem Network. He works primarily as a startup advisor, publisher, marketing expert, event designer and speaker. He's currently the Interim Chief Marketing Officer for Humaniq.
                 </div>
             </div>
-
+<!--
             <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="4">
                 <div class="img">
                     <div class="zoom"><i class="fa fa-search"></i></div>
@@ -870,47 +953,15 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                     Parth Bhatt is Brahman from India. He is an ideological partner of the Humaniq project. Alex Fork together with Parth Bhatt Upendra Kumar arranged a business game to receive reaction from disadvantaged people from India on how they might react to Humaniq. Thanks to acquired feedback Humaniq becomes better.
                 </div>
             </div>
+-->
 
 
 
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="5">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/Dinis_Guarda.png">
-                </div>
-                <h5>UK</h5>
-                <h4>Dinis Guarda</h4>
-                CEO and Chief Strategy Officer, Board of Directors, UK
-            </div>
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Dickson.png">
+                <h5>Nigeria</h5>
+                <h4>Dickson Nsofor</h4>
 
-            <div id="pp-5" class="popup">
-                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/Dinis_Guarda.png">
-                <h4>Dinis Guarda</h4>
-                <div class="text">
-                    Founder of ZTUDIUM, that he created and manages intelligenthq.com, openbusinesscouncil.org, tradersdna.com and hedgethink.com. He is the author of the following books: The Next Tsunami: Blockchain plus AI and IOT, Intelligenthq Editions, Amazon, 2017. How To Map Who You are, Amazon, 2016. He is also co-founder of the project BlockchainAge. Since December 2016 is leading the digital strategy and marketing for the financial empowerment app and platform invstr.com Between 2014 and 2015 he was involved in creating a digital bank between Asia and Africa. With a Master in New Media, Dinis has been ranked in the top 10 and top 100 most influential person in fintech, blockchain, social media, social enterprise and philanthropy. He was the founder of tradingfloor.com for Saxo Bank, socialmediacouncil.org with Jamie Burke.
-
-                </div>
-            </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="6">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
-                </div>
-                <h5>UK</h5>
-                <h4>Dmitry Kaminsky</h4>
-                Executive Chairman and Founder, Board of Directors, UK
-            </div>
-
-            <div id="pp-6" class="popup">
-                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
-                <h4>Dmitry Kaminsky</h4>
-                <div class="text">
-                    The managing partner of Deep Knowledge Ventures (DKV), a Hong Kong-based fund that invests in disruptive biotechnology, fintech, and artificial intelligence companies. Mr.Kaminskiy is a trustee of the Biogerontology Research Foundation in Oxford and holds a BSc in computer science from the National University of Electronic Technology. Prior to Deep Knowledge Ventures, he served as an executive in the telecom and financial services industries. Dmitry is interested in the potential for social benefit offered by blockchain technology. Dmitry also directly supports scientists, conferences, hackathons, and think-tanks at Oxford and Cambridge, such as the Exponential Technologies Institute and Biogerontology Research Foundation (BGRF).
-                </div>
             </div>
 
 
@@ -949,14 +1000,14 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 Technology Advisor / P2P economy, technology and Blockchain
 
             </div>
-
+-->
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/David_Applefield.png">
                 <h5></h5>
                 <h4>David Applefield</h4>
                 Public Affairs and Global Policy advisor / Communications and PR Advisor
             </div>
--->
+
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Hoods.png">
                 <h5></h5>
@@ -971,7 +1022,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 Policy and Legal advisor/ Social Impact and AI, data expert
             </div>
 
-
+-->
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Ron_Morris.png">
                 <h5></h5>
@@ -979,7 +1030,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                 Scientific Advisor / Education / Universities Advisor
             </div>
 
-
+<!--
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Paul_Mears.jpg">
                 <h5></h5>
@@ -1175,6 +1226,25 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
         </div>
 
         <div class="row list">
+            <div class="item col-xs-6 col-sm-4 col-md-2" data-pp="4">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/10.png">
+                </div>
+                <h5>India</h5>
+                <h4>Parth Bhatt<br>Upendra Kumar</h4>
+                Indian Partner
+            </div>
+
+            <div id="pp-4" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/10.png">
+                <h4>Parth Bhatt Upendra Kumar</h4>
+                <div class="text">
+                    Parth Bhatt is Brahman from India. He is an ideological partner of the Humaniq project. Alex Fork together with Parth Bhatt Upendra Kumar arranged a business game to receive reaction from disadvantaged people from India on how they might react to Humaniq. Thanks to acquired feedback Humaniq becomes better.
+                </div>
+            </div>
+
 
             <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/5.png">
@@ -1220,18 +1290,10 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 
 
             <div class="item col-xs-6 col-sm-4 col-md-2">
-                <img src="/assets/images/avatars/Dickson.png">
-                <h5>Nigeria</h5>
-                <h4>Dickson Nsofor</h4>
-
-            </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/Adewele_Bankole.png">
                 <h5>Nigeria</h5>
                 <h4>Adewele<br>Bankolo</h4>
-                
+
             </div>
 
 
@@ -1538,10 +1600,15 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 <section class="inline-form">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0">
+            <div class="col-xs-12 text-center post-ico">
+                <h1>The World is changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
+                <a href="https://my.humaniq.co" target="_blank" class="btn-post-onethird">Join the ICO</a>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
                 <h1>Are you ready to join the future of banking?</h1>
             </div>
-            <div class="col-xs-12 col-sm-6 sub-form" id="sub-form-3" data-ga="1" data-ya-target="SUBMAIL3">
+            <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-3" data-ga="1" data-ya-target="SUBMAIL3">
                 <div class="text">We will keep you in touch</div>
                 <form class="formBody" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('request_demo')">
                     <div class="form-group has-feedback">
