@@ -654,7 +654,7 @@ body {
     text-align: center;
 }
 
-.btn-post-block:hover, .btn-post-onethird:hover {
+.btn-post-block:hover, .btn-post-onethird:hover, .btn-post-block:focus, .btn-post-onethird:focus  {
     color: #fff;
     text-decoration: none;
 }
