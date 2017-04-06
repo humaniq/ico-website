@@ -100,10 +100,10 @@
 
 
 <?php
-
-$hasRoiStat = array_key_exists('roistat_visit', $_COOKIE);
-$queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit']) : "";
-
+$baseUrl      = 'https://my.humaniq.co/';
+$hasRoiStat   = array_key_exists('roistat_visit', $_COOKIE);
+$queryString  = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit']) : "";
+$dashboardUrl = $baseUrl.$queryString;
 ?>
 
 <section id="home-screen" class="home-screen" data-0="opacity:1;" data-500="opacity:0.7;" data-1000="opacity:0;">
@@ -123,7 +123,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
 <!--                    <div class="item">Deutsch</div>-->
                     <a href="/cn/" class="item" onclick="Cookies.set('mylang','zh')">繁體中文</a>
                 </div>
-                <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga pre-ico-i" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
+                <a href="<?php echo $dashboardUrl ?>" class="whitepaper-link round yga pre-ico-i" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
                     Reserve tokens
                 </a>
                 <a href="#whitepapers" class="whitepaper-link round yga post-ico-i" data-ga="1" data-ya-target="home-screen-whitepapers">
@@ -180,7 +180,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
                                 <div class="help-block with-errors"></div>
                             </div>
                         </form>
-                        <a href="https://my.humaniq.co" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-block post-ico">Join the ICO</a>
+                        <a href="<?php echo $dashboardUrl ?>"  onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-block post-ico">Join the ICO</a>
 
                     </div>
                     <div class="lower-buttons pre-ico">
@@ -791,7 +791,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
         <div class="row">
             <div class="col-xs-12 text-center post-ico">
                 <h1>The World is changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
-                <a href="https://my.humaniq.co" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-onethird">Join the ICO</a>
+                <a href="<?php echo $dashboardUrl ?>"  onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-onethird">Join the ICO</a>
             </div>
 
 
@@ -1649,7 +1649,7 @@ $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit'
         <div class="row">
             <div class="col-xs-12 text-center post-ico">
                 <h1>The World is changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
-                <a href="https://my.humaniq.co" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-onethird">Join the ICO</a>
+                <a href="<?php echo $dashboardUrl ?>"  onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-onethird">Join the ICO</a>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
