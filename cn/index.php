@@ -128,10 +128,7 @@
 <!--                    <div class="item">Deutsch</div>-->
                     <div class="item active">繁體中文</div>
                 </div>
-                <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')" class="whitepaper-link round yga pre-ico-i" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
-                    Reserve tokens
-                </a>
-                <a href="#whitepapers" class="whitepaper-link round yga post-ico-i" data-ga="1" data-ya-target="home-screen-whitepapers">
+                <a href="#whitepapers" class="whitepaper-link round yga" data-ga="1" data-ya-target="home-screen-whitepapers">
                     Whitepapers
                 </a>
 
@@ -154,7 +151,7 @@
                             <span class="s4">大数据</span>
                         </b>
                     </h1>
-                    <div class="offer post post-ico text-center">ICO is live now</div>
+                    <div class="offer post post-ico text-center">ICO正在进行</div>
                     <div class="countdown text-center">
                         <div class="figures">
                             <div class="days"></div><div class="units day">天</div>
@@ -185,10 +182,10 @@
                                 <div class="help-block with-errors"></div>
                             </div>
                         </form>
-                        <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-block post-ico">Join the ICO</a>
+                        <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-block post-ico">加入ICO</a>
                     </div>
                     <div class="lower-buttons pre-ico">
-                        <div href="https://cointelegraph.com/explained/ico-explained" target="_blank"  class="left" data-toggle="modal" data-target="#ico-modal" style="width: 37%">
+                        <div class="left" data-toggle="modal" data-target="#ico-modal" style="width: 37%">
                             <div class="round"><i class="glyphicon glyphicon-play"></i></div>什么是ICO？
                         </div>
                         <div class="right" style="width:60%">第一个48小时内分红率达 <div class="bonus-fadein round">49.9%</div>
@@ -210,10 +207,10 @@
 
                     <div class="lower-buttons post post-ico text-left">
                         <div class="left text-left" data-toggle="modal" data-target="#ico-modal">
-                            <div class="round"><i class="glyphicon glyphicon-play"></i></div>What is an ICO?
+                            <div class="round"><i class="glyphicon glyphicon-play"></i></div>什么是ICO？
                         </div>
                         <div class="center text-center">
-                            <div class="bonus-fadein round">49.9%</div> Current Bonus
+                            <div class="bonus-fadein round">49.9%</div> 现有奖励
 
                             <div class="bonuses">
                                 <h3>Bonuses</h3>
@@ -228,7 +225,7 @@
                             </div>
                         </div>
                         <div class="right text-right">
-                            <div class="ends">ICO ends<br><b>27 April 00.00 CET</b></div>
+                            <div class="ends">ICO于<br> <b>CET时间4月27日00.00时结束</b></div>
                         </div>
                     </div>
 
@@ -702,7 +699,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0">
                 <img src="/assets/images/chart.svg">
-                <div class="text smaller">非洲是全球第二大大陆，也是人口第二多的大陆。</div>
+                <div class="text smaller">根据梅特卡夫定律，网络的价值随着网络用户数量的不断增加而不断扩大。</div>
                 <div class="text">
 
                     Humaniq旨在实现“有的放矢的利润”，它也被称为人道的资本主义。我们为范围内的所有利益相关者创造双赢。对于全球最穷人群中的一些人来说，这是一个提高新兴经济体中生活质量的机会；对于想要提供非盈利性或盈利性服务（比如：直接捐款平台或P2P借贷插件，这将不仅有助于您实现投资回报率，而且有助于提高和改善之前从未通过传统金融服务获得机会且目前因传统银行无法提供帮助而向放高利贷者支付利率高达35%至80%的过高利息的其它人的生活）的企业家来说，这也是一个机会。当确知双方均从交易中获利，您将非常满意您的投资选择。
@@ -798,9 +795,8 @@
                 <div class="badge"><a href="https://itunes.apple.com/us/app/humaniq/id1212362871?l=ru&ls=1&mt=8" target="_blank"><img src="/assets/images/app-store-badge.svg"></a></div>
                 <br>
                 <div class="trademarks" style="display:inline-block; margin-top: 4rem;text-align: left">
-                    - Google Play and the Google Play logo are trademarks of Google Inc.<br>
-                    - App Store is a service mark
-                    of Apple Inc., registered in the U.S. and other countries.
+                    - Google Play和Google Play标志是Google Inc的商标。<br>
+                    - App Store是在美国和其它国家注册的Apple Inc., 的服务标志。
                 </div>
 
             </div>
@@ -817,7 +813,7 @@
         <div class="row">
             <div class="col-xs-12 text-center post-ico">
                 <h1>世界正在快速改变，请抢先一步！</h1>
-                <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-onethird">Join the ICO</a>
+                <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-onethird">加入ICO</a>
             </div>
 
 
@@ -1648,7 +1644,7 @@
     <div class="container">
         <div class="row head">
             <div class="col-sm-12">
-                <h1>As Seen In</h1>
+                <h1>如下所示</h1>
             </div>
         </div>
 
@@ -1661,7 +1657,7 @@
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-1.png">
                         </div>
-                        <a class="h4" target="_blank" href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked">Ethereum-Based Humaniq To Deliver Banking 4.0 to 2 Bln Unbanked</a>
+                        <a class="h4" target="_blank" href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked">基于以太坊的Humaniq向20亿无银行账户的人群提供银行4.0</a>
                         <a href="https://cointelegraph.com" class="yga" target="_blank" data-ya-target="press-gemsww">cointelegraph.com</a>
                     </div>
 
@@ -1670,7 +1666,7 @@
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-2.png">
                         </div>
-                        <a class="h4" target="_blank" href="https://themerkle.com/humaniq-aims-to-connect-millions-of-unbanked/">Humaniq Aims To Connect Millions of Unbanked Using The Ethereum Blockchain</a>
+                        <a class="h4" target="_blank" href="https://themerkle.com/humaniq-aims-to-connect-millions-of-unbanked/">旨在通过使用以太坊区块链连接数百万的无银行账户人群</a>
                         <a href="https://themerkle.com" class="yga" target="_blank" data-ya-target="press-gemsww">themerkle.com</a>
                     </div>
 
@@ -1679,7 +1675,7 @@
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-3.png">
                         </div>
-                        <a class="h4" target="_blank" href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/">Blockchain Banking App Humaniq Set for Initial Coin Offering in April</a>
+                        <a class="h4" target="_blank" href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/">区块链银行应用程序Humaniq定于4月份进行首次公开发行</a>
                         <a href="http://www.financemagnates.com" class="yga" target="_blank" data-ya-target="press-gemsww">www.financemagnates.com</a>
                     </div>
 
@@ -1688,7 +1684,7 @@
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-4.png">
                         </div>
-                        <a class="h4" target="_blank" href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/">Humaniq’s CryptoPension a Pancea to Africa’s Pension Worries</a>
+                        <a class="h4" target="_blank" href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/">Humaniq的加密养老金能够解决困扰非洲的养老金问题</a>
                         <a href="http://thedashtimes.com/" class="yga" target="_blank" data-ya-target="press-gemsww">thedashtimes.com</a>
                     </div>
 
@@ -1697,7 +1693,7 @@
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-5.png">
                         </div>
-                        <a class="h4" target="_blank" href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/">Humaniq: crypto-finance for the undocumented and unbanked</a>
+                        <a class="h4" target="_blank" href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/">Humaniq:适用于无证人群和无银行账户人权的加密金融</a>
                         <a href="https://www.smithandcrown.com/" class="yga" target="_blank" data-ya-target="press-gemsww">smithandcrown.com</a>
                     </div>
 
@@ -1706,7 +1702,7 @@
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-6.png">
                         </div>
-                        <a class="h4" target="_blank" href="http://icorating.com/project/30/Humaniq">A next generation financial service for unbanked people based on Blockchain</a>
+                        <a class="h4" target="_blank" href="http://icorating.com/project/30/Humaniq">适用于无银行账户人群的基于区块链的下一代金融服务</a>
                         <a href="http://icorating.com/" class="yga" target="_blank" data-ya-target="press-gemsww">icorating.com</a>
                     </div>
 
@@ -1715,7 +1711,7 @@
                         <div class="wrapper">
                             <img src="/assets/images/press/icon-press-7.png">
                         </div>
-                        <a class="h4" target="_blank" href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD">Humaniq Aims to Tackle Barriers to Economic Inclusion With Blockchain App</a>
+                        <a class="h4" target="_blank" href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD">Humaniq 旨在利用区块链应用程序解决经济融合遇到的障碍</a>
                         <a href="http://www.nasdaq.com/" class="yga" target="_blank" data-ya-target="press-gemsww">www.nasdaq.com</a>
                     </div>
 
@@ -1739,7 +1735,7 @@
         <div class="row">
             <div class="col-xs-12 text-center post-ico">
                 <h1>您准备加入银行业的未来吗？</h1>
-                <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-onethird">Join the ICO</a>
+                <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-onethird">加入ICO</a>
             </div>
 
 

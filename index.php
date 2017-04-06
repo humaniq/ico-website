@@ -175,11 +175,7 @@ $dashboardUrl = $baseUrl . $queryString;
                     <!--                    <div class="item">Deutsch</div>-->
                     <a href="/cn/" class="item" onclick="Cookies.set('mylang','zh')">繁體中文</a>
                 </div>
-                <a href="<?php echo $dashboardUrl ?>" class="whitepaper-link round yga pre-ico-i" data-ga="1"
-                   data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
-                    Reserve tokens
-                </a>
-                <a href="#whitepapers" class="whitepaper-link round yga post-ico-i" data-ga="1"
+                <a href="#whitepapers" class="whitepaper-link round yga" data-ga="1"
                    data-ya-target="home-screen-whitepapers">
                     Whitepapers
                 </a>
