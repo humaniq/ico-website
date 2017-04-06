@@ -2190,11 +2190,15 @@ body {
     color: #555;
     margin-top: 30px;
     min-height: 365px;
-    cursor: pointer;
 }
 
-.supporters.supporters2 .item {
-    cursor: default;
+
+.supporters .item p {
+    margin-top: 10px;
+}
+
+.supporters .item.e {
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
