@@ -101,7 +101,7 @@
     <!-- End Twitter universal website tag code -->
 
 </head>
-    <body id="skrollr-body">
+    <body id="skrollr-body" class="happened">
 
     <?php
     $baseUrl      = 'https://my.humaniq.co/';
@@ -852,8 +852,7 @@
     <div class="container">
         <div class="row head">
             <div class="col-sm-12">
-                <h1>核心团队</h1>
-                <h2>加上我们的 <a target="_blank" href="http://slack.humaniq.co" data-ya-target="team-slack" class="yga team-h1-link">斯莱克（Slack）</a> 帐号，和我们的团队交流吧。</h2>
+                <h1>Board and Senior Management team</h1>
             </div>
         </div>
 
@@ -882,12 +881,31 @@
 
 
 
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="6">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
+                </div>
+<!--                <h5>UK</h5>-->
+                <h4>Dmitry Kaminskiy</h4>
+                Executive Chairman and Founder, Board of Directors
+            </div>
+
+            <div id="pp-6" class="popup">
+                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
+                <h4>Dmitry Kaminskiy</h4>
+                <div class="text">
+                    The managing partner of Deep Knowledge Ventures (DKV), a Hong Kong-based fund that invests in disruptive biotechnology, fintech, and artificial intelligence companies. Mr.Kaminskiy is a trustee of the Biogerontology Research Foundation in Oxford and holds a BSc in computer science from the National University of Electronic Technology. Prior to Deep Knowledge Ventures, he served as an executive in the telecom and financial services industries. Dmitry is interested in the potential for social benefit offered by blockchain technology. Dmitry also directly supports scientists, conferences, hackathons, and think-tanks at Oxford and Cambridge, such as the Exponential Technologies Institute and Biogerontology Research Foundation (BGRF).
+                </div>
+            </div>
+
             <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="5">
                 <div class="img">
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/Dinis_Guarda.png">
                 </div>
-<!--                <h5>UK</h5>-->
+                <!--                <h5>UK</h5>-->
                 <h4>Dinis Guarda</h4>
                 CEO and Chief Strategy Officer, Board of Directors
             </div>
@@ -903,131 +921,11 @@
             </div>
 
 
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="6">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
-                </div>
-<!--                <h5>UK</h5>-->
-                <h4>Dmitry Kaminsky</h4>
-                Executive Chairman and Founder, Board of Directors
-            </div>
-
-            <div id="pp-6" class="popup">
-                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
-                <h4>Dmitry Kaminsky</h4>
-                <div class="text">
-                    The managing partner of Deep Knowledge Ventures (DKV), a Hong Kong-based fund that invests in disruptive biotechnology, fintech, and artificial intelligence companies. Mr.Kaminskiy is a trustee of the Biogerontology Research Foundation in Oxford and holds a BSc in computer science from the National University of Electronic Technology. Prior to Deep Knowledge Ventures, he served as an executive in the telecom and financial services industries. Dmitry is interested in the potential for social benefit offered by blockchain technology. Dmitry also directly supports scientists, conferences, hackathons, and think-tanks at Oxford and Cambridge, such as the Exponential Technologies Institute and Biogerontology Research Foundation (BGRF).
-                </div>
-            </div>
-
-
-
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="2">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/3.png">
-                </div>
-<!--                <h5>博茨瓦纳</h5>-->
-                <h4>阿拉卡纳尼•伊特莱楞（Alakanani Itireleng）</h4>
-                首席派驻代表
-            </div>
-
-            <div id="pp-2" class="popup">
-                <div class="close"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/3.png">
-                <h4>阿拉卡纳尼•伊特莱楞（Alakanani Itireleng）</h4>
-                <div class="text">
-                    阿拉卡纳尼•伊特莱楞经营着哈博罗内的一家区块链中心萨托西中心（Satoshi Centre），她在那里和开发者们一起工作，将会为孩子们发起一个开发项目。她的比特币之旅始于2012年年末，从那以后，她一直在向人们普及比特币。阿拉卡纳尼在国际上宣传比特币也颇具影响力，她在阿姆斯特丹、南非和科特迪瓦的会议上发过言，虽未列席加纳会议，但也通过虚拟技术在该会上发声了。阿拉卡纳尼去年在哈博罗内组织了首次区块链峰会，全世界的人都引以为荣。她和她的团队一道在哈博罗内试水两款区块链应用程序。
-                </div>
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="3">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/2.png">
-                </div>
-<!--                <h5>荷兰</h5>-->
-                <h4>理查德•卡斯特莱茵（Richard Kastelein）</h4>
-                首席营销官
-            </div>
-
-            <div id="pp-3" class="popup">
-                <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/2.png">
-                <h4>理查德•卡斯特莱茵（Richard Kastelein）</h4>
-                <div class="text">
-                    加拿大企业家理查德•卡斯特莱茵被看作是区块链社区内区块链的一个主要发布者和发声人，他是区块链新闻的发布者，区块链合作伙伴的董事，伦敦加密金融会议的创立者，还在区块链生态系统网络筹划指导委员会中任职。他主要是作为新兴企业的顾问、发布人、营销专家，甚至是设计者和发言人而工作的。目前他暂任Humaniq的首席营销官。
-                </div>
-            </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/Dickson.png">
-                <!--                <h5>Nigeria</h5>-->
-                <h4>Dickson Nsofor</h4>
-
-            </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/Khata.png">
-                <!--                <h5></h5>-->
-                <h4>Yevgeniy Khata</h4>
-                Business Development Officer/ investment relations
-            </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/Subhendu_Das.png">
-                <!--                <h5></h5>-->
-                <h4>Subhendu Das</h4>
-                Chief Technical Officer
-            </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/Shane_McQuillan.png">
-                <!--                <h5></h5>-->
-                <h4>Shane McQuillan</h4>
-                Chief Digital Officer
-            </div>
-
-
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/Jochen_Heussner.png">
-                <!--                <h5></h5>-->
-                <h4>Jochen Heussner</h4>
-                Chief Financial Officer
-            </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/George_Al_Madawar.png">
-                <!--                <h5></h5>-->
-                <h4>Georges Al Medawar</h4>
-                Business Development Officer / investment relations
-            </div>
-
-
-
 
 
         </div>
     </div>
-
 </section>
-
-
-
-
-
-
 
 
 
@@ -1119,14 +1017,6 @@
                 </div>
 
 
-                <div class="item col-xs-6 col-sm-4 col-md-3">
-                    <img src="/assets/images/avatars/Michael_Terpin.png">
-                    <h5></h5>
-                    <h4>Michael Terpin</h4>
-                    Technology Advisor / TransformPR group
-                </div>
-
-
 
                 <!--
                 <div class="item col-xs-6 col-sm-4 col-md-3">
@@ -1136,6 +1026,186 @@
                     Technology Advisor/ Co-Chairman of the Blockchain Ecosystem Network
                 </div>
 -->
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Michael_Terpin.png">
+                    <h5></h5>
+                    <h4>Michael Terpin</h4>
+                    Technology Advisor / TransformPR group
+                </div>
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Chami.png">
+                    <h5></h5>
+                    <h4>Chami Akmeemana</h4>
+                    Scientific Advisor/ Director regulatory solutions, ConsenSys
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <section id="team" class="supporters">
+        <div class="container">
+            <div class="row head">
+                <div class="col-sm-12">
+                    <h1>Team</h1>
+                    <h2>加上我们的 <a target="_blank" href="http://slack.humaniq.co" data-ya-target="team-slack" class="yga team-h1-link">斯莱克（Slack）</a> 帐号，和我们的团队交流吧。</h2>
+                </div>
+            </div>
+
+            <div class="row list">
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="3">
+                    <div class="img">
+                        <div class="zoom"><i class="fa fa-search"></i></div>
+                        <img src="/assets/images/avatars/2.png">
+                    </div>
+                    <!--                <h5>荷兰</h5>-->
+                    <h4>理查德•卡斯特莱茵（Richard Kastelein）</h4>
+                    首席营销官
+                </div>
+
+                <div id="pp-3" class="popup">
+                    <div class="close"  data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                    <img src="/assets/images/avatars/2.png">
+                    <h4>理查德•卡斯特莱茵（Richard Kastelein）</h4>
+                    <div class="text">
+                        加拿大企业家理查德•卡斯特莱茵被看作是区块链社区内区块链的一个主要发布者和发声人，他是区块链新闻的发布者，区块链合作伙伴的董事，伦敦加密金融会议的创立者，还在区块链生态系统网络筹划指导委员会中任职。他主要是作为新兴企业的顾问、发布人、营销专家，甚至是设计者和发言人而工作的。目前他暂任Humaniq的首席营销官。
+                    </div>
+                </div>
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Jochen_Heussner.png">
+                    <!--                <h5></h5>-->
+                    <h4>Jochen Heussner</h4>
+                    Chief Financial Officer
+                </div>
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Al_Perkins.png">
+                    <!--                <h5></h5>-->
+                    <h4>Alexander Perkins</h4>
+                    Chief Legal Officer
+                </div>
+
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Khata.png">
+                    <!--                <h5></h5>-->
+                    <h4>Yevgeniy Khata</h4>
+                    Business Development Officer/ investment relations
+                </div>
+
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/George_Al_Madawar.png">
+                    <!--                <h5></h5>-->
+                    <h4>Georges Al Medawar</h4>
+                    Business Development Officer / investment relations
+                </div>
+
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Shane_McQuillan.png">
+                    <!--                <h5></h5>-->
+                    <h4>Shane McQuillan</h4>
+                    Chief Digital Officer
+                </div>
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Subhendu_Das.png">
+                    <!--                <h5></h5>-->
+                    <h4>Subhendu Das</h4>
+                    Chief Technical Officer
+                </div>
+
+
+
+
+
+                <!--
+                            <div class="item col-xs-6 col-sm-4 col-md-3">
+                                <img src="/assets/images/avatars/0.png">
+                                <h4>Serafima Semkina</h4>
+                                Chief Administrative Officer
+                            </div>
+
+
+
+                            <div class="item col-xs-6 col-sm-4 col-md-3">
+                                <img src="/assets/images/avatars/0.png">
+                                <h4>Mary Sam</h4>
+                                Project Manager
+                            </div>
+
+                -->
+
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Dickson.png">
+                    <!--                <h5>Nigeria</h5>-->
+                    <h4>Dickson Nsofor</h4>
+
+                </div>
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="2">
+                    <div class="img">
+                        <div class="zoom"><i class="fa fa-search"></i></div>
+                        <img src="/assets/images/avatars/3.png">
+                    </div>
+                    <!--                <h5>博茨瓦纳</h5>-->
+                    <h4>阿拉卡纳尼•伊特莱楞（Alakanani Itireleng）</h4>
+                    首席派驻代表
+                </div>
+
+                <div id="pp-2" class="popup">
+                    <div class="close"><i class="glyphicon glyphicon-remove"></i></div>
+                    <img src="/assets/images/avatars/3.png">
+                    <h4>阿拉卡纳尼•伊特莱楞（Alakanani Itireleng）</h4>
+                    <div class="text">
+                        阿拉卡纳尼•伊特莱楞经营着哈博罗内的一家区块链中心萨托西中心（Satoshi Centre），她在那里和开发者们一起工作，将会为孩子们发起一个开发项目。她的比特币之旅始于2012年年末，从那以后，她一直在向人们普及比特币。阿拉卡纳尼在国际上宣传比特币也颇具影响力，她在阿姆斯特丹、南非和科特迪瓦的会议上发过言，虽未列席加纳会议，但也通过虚拟技术在该会上发声了。阿拉卡纳尼去年在哈博罗内组织了首次区块链峰会，全世界的人都引以为荣。她和她的团队一道在哈博罗内试水两款区块链应用程序。
+                    </div>
+                </div>
+
+
+<!--
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Dwight_Spoull.png">
+                    <h4>Peter Bel </h4>
+                    Content and Communications Manager
+                </div>
+
+-->
+
+
+                <div class="item col-xs-6 col-sm-4 col-md-3">
+                    <img src="/assets/images/avatars/Dwight_Spoull.png">
+                    <!--                <h5>Nigeria</h5>-->
+                    <h4>Dwight Spoull</h4>
+                    Content and Communications Manager
+                </div>
+
+
+
+
             </div>
         </div>
 
@@ -1149,7 +1219,8 @@
 
 
 
-<section id="technical-core" class="partners technical-core">
+
+    <section id="technical-core" class="partners technical-core">
     <div class="container">
         <div class="row head">
             <div class="col-sm-12">
@@ -1207,7 +1278,7 @@
                     </div>
 
 
-
+<!--
 
                     <div class="item col-xs-12 col-sm-4 col-md-3" data-pp="13">
                         <div class="wrapper">
@@ -1230,7 +1301,7 @@
                         </div>
                     </div>
 
-
+-->
                     <div class="item col-xs-12 col-sm-4 col-md-3" data-pp="14">
                         <div class="wrapper">
                             <div class="zoom"><i class="fa fa-search"></i></div>
@@ -1273,9 +1344,66 @@
                 <h1>驻外代表</h1>
             </div>
         </div>
-
-
         <div class="row list">
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/5.png">
+                <h5>津巴布韦</h5>
+                <h4>塔旺达•坎伯（Tawanda Kembo）</h4>
+                比特财务
+                <p><a href="https://www.facebook.com/tkembo" target="_blank">facebook.com / tkembo</a>
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/6.png">
+                <h5>塞拉利昂</h5>
+                <h4>切尔诺•萨伊德•叟（Chernoh Saeed Sow）</h4>
+                比特币网络—SLB网
+                <p><a href="https://www.facebook.com/cheroslbnet" target="_blank">facebook.com / cheroslbnet</a>
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/7.png">
+                <h5>加纳</h5>
+                <h4>菲利普•阿格耶•阿萨尔（Philip Agyei Asare）</h4>
+                梦想比特币基金会
+                <p><a href="https://www.facebook.com/pkagyei" target="_blank">facebook.com / pkagyei</a>
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/8.png">
+                <h5>莱索托</h5>
+                <h4>伊图姆楞•伊萨克•勒荣（Itumeleng Isaac Lejone）</h4>
+                比特币社区
+                <p><a href="https://www.facebook.com/itumelengisaac.lejone" target="_blank">facebook.com / itumelengisaac.lejone</a>
+            </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/9.png">
+                <h5>南非</h5>
+                <h4>莫哥博迪•菲利（Mogopodi Phiri）</h4>
+                非洲加密
+                <p><a href="https://www.facebook.com/mogopodi.phiri.1" target="_blank">facebook.com / mogopodi.phiri.1</a>
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/4.png">
+                <h5>澳大利亚</h5>
+                <h4>罗斯•劳埃德（Ross Lloyd）</h4>
+                曾经为澳大利亚许多政府部门做过新闻发布会、年报、演讲的资深人士。
+            </div>
+
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-2">
+                <img src="/assets/images/avatars/Adewele_Bankole.png">
+                <h5>Nigeria</h5>
+                <h4>Adewale<br>Bankolo</h4>
+                <p><a href="https://www.facebook.com/adewale.bankole" target="_blank">facebook.com / adewale.bankole</a>
+
+            </div>
+
+
 
 
             <div class="item col-xs-6 col-sm-4 col-md-2" data-pp="4">
@@ -1294,70 +1422,18 @@
                 <h4>帕尔斯•巴特•乌潘德拉•库马尔（Parth Bhatt Upendra Kumar）</h4>
                 <div class="text">
                     帕尔斯•巴特是来自印度的婆罗门。他是Humaniq项目意识形态方面的一个合作伙伴。阿莱克斯•福柯和帕尔斯•巴特•乌潘德拉•库马尔一起安排了一场商业活动，旨在从印度那些地位低下的人那里获得他们对Humaniq的反应。幸亏收到了这些反馈，Humaniq变得更好了。
+                    <p><a href="https://www.facebook.com/parth.bhatt" target="_blank">https://www.facebook.com/parth.bhatt</a>
+
                 </div>
             </div>
 
-
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-2">
-                <img src="/assets/images/avatars/5.png">
-                <h5>津巴布韦</h5>
-                <h4>塔旺达•坎伯（Tawanda Kembo）</h4>
-                比特财务
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-2">
-                <img src="/assets/images/avatars/4.png">
-                <h5>澳大利亚</h5>
-                <h4>罗斯•劳埃德（Ross Lloyd）</h4>
-                曾经为澳大利亚许多政府部门做过新闻发布会、年报、演讲的资深人士。
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-2">
-                <img src="/assets/images/avatars/6.png">
-                <h5>塞拉利昂</h5>
-                <h4>切尔诺•萨伊德•叟（Chernoh Saeed Sow）</h4>
-                比特币网络—SLB网
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-2">
-                <img src="/assets/images/avatars/7.png">
-                <h5>加纳</h5>
-                <h4>菲利普•阿格耶•阿萨尔（Philip Agyei Asare）</h4>
-                梦想比特币基金会
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-2">
-                <img src="/assets/images/avatars/8.png">
-                <h5>莱索托</h5>
-                <h4>伊图姆楞•伊萨克•勒荣（Itumeleng Isaac Lejone）</h4>
-                比特币社区
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-2">
-                <img src="/assets/images/avatars/9.png">
-                <h5>南非</h5>
-                <h4>莫哥博迪•菲利（Mogopodi Phiri）</h4>
-                非洲加密
-            </div>
-
-
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-2">
-                <img src="/assets/images/avatars/Adewele_Bankole.png">
-                <h5>Nigeria</h5>
-                <h4>Adewele<br>Bankolo</h4>
-
-            </div>
 
 
             <div class="item col-xs-6 col-sm-4 col-md-2">
                 <img src="/assets/images/avatars/Mohammed_Ibrahim.png">
                 <h5>Nigeria</h5>
                 <h4>Muhammed<br>bukar Ibrahim</h4>
-
+                <p><a href="https://www.facebook.com/mohammedbukar.ibrahim" target="_blank">facebook.com / mohammedbukar.ibrahim</a>
             </div>
 <!--
 

@@ -61,12 +61,16 @@ var setSlogans = function(){
 var icoHappened = 0;
 
 var setCountDown = function(){
-    if(icoHappened) {
+
+    var seconds = moment.utc("2017-04-27T00:00:00+01:00").diff(moment(), 'seconds');
+
+/*    if(icoHappened) {
         var seconds = moment.utc("2017-04-27T00:00:00+01:00").diff(moment(), 'seconds');
     }
     else {
         var seconds = moment.utc("2017-04-06T00:00:00+01:00").diff(moment(), 'seconds');
     }
+*/
 
     var days = Math.floor(seconds/(24*60*60));
     if(days>1) $(".countdown .units .days-s").fadeIn(0);
@@ -94,14 +98,14 @@ var setCountDown = function(){
 
 
 (function($){
-
+/*
     var seconds2happened = moment.utc("2017-04-06T00:00:00+01:00").diff( moment(), 'seconds');
     setTimeout(function(){
         $("body").addClass("happened");
         icoHappened = 1;
 
     }, seconds2happened*1000);
-
+*/
 
 
 /*

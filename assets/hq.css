@@ -654,7 +654,7 @@ body {
     text-align: center;
 }
 
-.btn-post-block:hover, .btn-post-onethird:hover {
+.btn-post-block:hover, .btn-post-onethird:hover, .btn-post-block:focus, .btn-post-onethird:focus  {
     color: #fff;
     text-decoration: none;
 }
@@ -2189,12 +2189,16 @@ body {
 
     color: #555;
     margin-top: 30px;
-    min-height: 365px;
-    cursor: pointer;
+    min-height: 380px;
 }
 
-.supporters.supporters2 .item {
-    cursor: default;
+
+.supporters .item p {
+    margin-top: 10px;
+}
+
+.supporters .item.e {
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
