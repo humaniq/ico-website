@@ -1246,6 +1246,22 @@ $dashboardUrl = $baseUrl . $queryString;
             </div>
 
 
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Shane_McQuillan.png">
+                <h4>Shane McQuillan</h4>
+                Chief Digital Officer
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Subhendu_Das.png">
+                <!--                <h5></h5>-->
+                <h4>Subhendu Das</h4>
+                Chief Technical Officer
+            </div>
+
+
+
             <!--
                         <div class="item col-xs-6 col-sm-4 col-md-3">
                             <img src="/assets/images/avatars/0.png">
@@ -1263,19 +1279,6 @@ $dashboardUrl = $baseUrl . $queryString;
 
             -->
 
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/Shane_McQuillan.png">
-                <h4>Shane McQuillan</h4>
-                Chief Digital Officer
-            </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/Subhendu_Das.png">
-                <!--                <h5></h5>-->
-                <h4>Subhendu Das</h4>
-                Chief Technical Officer
-            </div>
 
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
