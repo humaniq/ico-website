@@ -96,7 +96,7 @@
     <!-- End Twitter universal website tag code -->
 
 </head>
-    <body id="skrollr-body">
+    <body id="skrollr-body" class="happened">
 
 
 <?php
