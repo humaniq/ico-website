@@ -184,7 +184,7 @@ $dashboardUrl = $baseUrl . $queryString;
             </div>
         </div>
     </div>
-    </div>
+    
 
     <div class="container">
         <div class="row">
