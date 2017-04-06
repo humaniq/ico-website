@@ -104,10 +104,10 @@
     <body id="skrollr-body" class="happened">
 
     <?php
-
-    $hasRoiStat = array_key_exists('roistat_visit', $_COOKIE);
-    $queryString = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit']) : "";
-
+    $baseUrl      = 'https://my.humaniq.co/';
+    $hasRoiStat   = array_key_exists('roistat_visit', $_COOKIE);
+    $queryString  = ($hasRoiStat) ? "?roistat_visit=".intval($_COOKIE['roistat_visit']) : "";
+    $dashboardUrl = $baseUrl.$queryString;
     ?>
 
 
@@ -128,7 +128,7 @@
 <!--                    <div class="item">Deutsch</div>-->
                     <div class="item active">繁體中文</div>
                 </div>
-                <a href="https://my.humaniq.co<?php echo $queryString ?>" onclick="roistat.event.send('redirect_to_dashboard')" class="whitepaper-link round yga pre-ico-i" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
+                <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')" class="whitepaper-link round yga pre-ico-i" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
                     Reserve tokens
                 </a>
                 <a href="#whitepapers" class="whitepaper-link round yga post-ico-i" data-ga="1" data-ya-target="home-screen-whitepapers">
@@ -185,7 +185,7 @@
                                 <div class="help-block with-errors"></div>
                             </div>
                         </form>
-                        <a href="https://my.humaniq.co" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-block post-ico">Join the ICO</a>
+                        <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-block post-ico">Join the ICO</a>
                     </div>
                     <div class="lower-buttons pre-ico">
                         <div href="https://cointelegraph.com/explained/ico-explained" target="_blank"  class="left" data-toggle="modal" data-target="#ico-modal" style="width: 37%">
@@ -817,7 +817,7 @@
         <div class="row">
             <div class="col-xs-12 text-center post-ico">
                 <h1>世界正在快速改变，请抢先一步！</h1>
-                <a href="https://my.humaniq.co" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-onethird">Join the ICO</a>
+                <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-onethird">Join the ICO</a>
             </div>
 
 
@@ -1663,7 +1663,7 @@
         <div class="row">
             <div class="col-xs-12 text-center post-ico">
                 <h1>您准备加入银行业的未来吗？</h1>
-                <a href="https://my.humaniq.co" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-onethird">Join the ICO</a>
+                <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')" target="_blank" class="btn-post-onethird">Join the ICO</a>
             </div>
 
 
