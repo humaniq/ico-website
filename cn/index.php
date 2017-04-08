@@ -191,7 +191,7 @@
                         <div href="https://cointelegraph.com/explained/ico-explained" target="_blank"  class="left" data-toggle="modal" data-target="#ico-modal" style="width: 37%">
                             <div class="round"><i class="glyphicon glyphicon-play"></i></div>什么是ICO？
                         </div>
-                        <div class="right" style="width:60%">第一个48小时内分红率达 <div class="bonus-fadein round">49.9%</div>
+                        <div class="right" style="width:60%">第一个48小时内分红率达 <div class="bonus-fadein round">25%</div>
 
                             <div class="bonuses">
                                 <h3>分红</h3>
@@ -213,7 +213,7 @@
                             <div class="round"><i class="glyphicon glyphicon-play"></i></div>What is an ICO?
                         </div>
                         <div class="center text-center">
-                            <div class="bonus-fadein round">49.9%</div> Current Bonus
+                            <div class="bonus-fadein round">25%</div> Current Bonus
 
                             <div class="bonuses">
                                 <h3>Bonuses</h3>

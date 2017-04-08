@@ -261,7 +261,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             What is an ICO?
                         </div>
                         <div class="right">
-                            <div class="bonus-fadein round">49.9%</div>
+                            <div class="bonus-fadein round">25%</div>
                             Bonus for first 48 hours
 
                             <div class="bonuses">
@@ -289,7 +289,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             What is an ICO?
                         </div>
                         <div class="center text-center">
-                            <div class="bonus-fadein round">49.9%</div>
+                            <div class="bonus-fadein round">25%</div>
                             Current Bonus
 
                             <div class="bonuses">
