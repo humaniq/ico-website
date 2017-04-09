@@ -154,7 +154,14 @@ body {
     line-height: 1.25em;
 }
 
+#ico-modal .gray {
+    font-family: FuturaNewBook, Arial, sans-serif;
+    font-size: 16px;
+    color: #999;
+    line-height: 1.25em;
+    margin-top: 10px;
 
+}
 
 
 .sub-form .formProcess {
@@ -639,17 +646,17 @@ body {
 
 .btn-post-block, .btn-post-onethird  {
     display: block;
-    height: 8rem;
+    height: 9rem;
     border-radius: 3px;
     background-image: linear-gradient(84deg, #203f82, #1f48a1);
 
     font-family: FuturaNewMedium, Arial, sans-serif;
-    font-size: 4.4rem;
+    font-size: 5rem;
     line-height: 1em;
     color: #fff;
 
     margin: 3rem 0 1rem 0;
-    padding-top: 1.8rem;
+    padding-top: 2.2rem;
 
     text-align: center;
 }
@@ -793,6 +800,7 @@ body {
 
 .home-screen .main .lower-buttons .right {
     width: 55%;
+    text-align: right;
 }
 
 
@@ -803,6 +811,61 @@ body {
 .home-screen .main .lower-buttons.post .left, .home-screen .main .lower-buttons.post .right {
     width: 30%;
 }
+
+.home-screen .main .lower-buttons .center {
+    text-align: center;
+}
+
+
+
+@media (max-width:768px) {
+
+    .home-screen .main .offer.post {
+        font-size: 20px;
+    }
+
+    .home-screen .main .lower-buttons.post .left, .home-screen .main .lower-buttons.post .center {
+        width: 45%;
+        display: inline-block;
+        text-align: center;
+    // margin: 10px 0 0 30px;
+    }
+
+    .home-screen .main .lower-buttons.post .right {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+
+}
+
+
+@media (max-width:350px) {
+
+    .home-screen .main .lower-buttons.post .right {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+
+    .btn-post-block, .btn-post-onethird {
+        display: block;
+        height: 50px;
+        border-radius: 3px;
+        background-image: linear-gradient(84deg, #203f82, #1f48a1);
+        font-family: FuturaNewMedium, Arial, sans-serif;
+        font-size: 22px;
+        line-height: 1em;
+        color: #fff;
+        margin: 3rem 0 1rem 0;
+        padding-top: 14px;
+        text-align: center;
+    }
+
+}
+
 
 .home-screen .main .lower-buttons.post .right .ends {
     display: inline-block;
@@ -820,6 +883,26 @@ body {
 }
 
 
+.blink {
+    display: inline-block;
+    padding: 2px;
+    font-size: 18px;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    99% {
+        opacity: 1;
+    }
+}
 
 
 .home-screen .main .lower-buttons .round {
@@ -1314,7 +1397,7 @@ body {
     display: inline-block;
     border-radius: 3px;
     height: 6px;
-    background-image: linear-gradient(90deg, rgb(249, 249, 249), rgb(237, 237, 237));
+    background-image: linear-gradient(90deg, rgb(249, 249, 249), rgb(200, 200, 200));
     margin: 0;
 }
 
@@ -1342,8 +1425,16 @@ body {
     width: 50%;
 }
 
+.whatis .graphs .g-row .c44{
+    width: 44%;
+}
+
 .whatis .graphs .g-row .c25{
     width: 25%;
+}
+
+.whatis .graphs .g-row .c23{
+    width: 23%;
 }
 
 
@@ -1438,15 +1529,31 @@ body {
     text-align: right;
 }
 
+
 @media (max-width: 768px) {
     .reserve-wrapper {
         text-align: center;
     }
+
     .home-screen .round {
-        margin: 3rem 0 0 0;
+        font-size: 18px;
+        padding: 6px 24px;
+        border-radius: 20px;
     }
 
 }
+
+@media (max-width: 400px) {
+
+    .home-screen .top {
+        margin-top: 2rem;
+    }
+
+    .home-screen .round {
+       margin: 3rem 0 0 0;
+    }
+}
+
 
 .sbs {
     padding-bottom: 10rem;

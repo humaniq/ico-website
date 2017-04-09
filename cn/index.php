@@ -199,7 +199,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             <span class="s4">大数据</span>
                         </b>
                     </h1>
-                    <div class="offer post post-ico text-center">ICO正在进行</div>
+                    <div class="offer post text-center">ICO正在进行</div>
                     <div class="countdown text-center">
                         <div class="figures">
                             <div class="days"></div>
@@ -221,60 +221,18 @@ $dashboardUrl = $baseUrl . $queryString;
                             <div class="units second">秒</div>
                         </div>
                     </div>
-                    <div class="offer pre-ico">加入我们。现在就注册，获得有关ICO启动的信息。</div>
                     <div class="sub-form" id="sub-form-1" data-ga="1" data-ya-target="SUBMAIL1">
-                        <form class="formBody pre-ico" data-toggle="validator" role="form" method="post"
-                              action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758"
-                              onsubmit="roistat.event.send('notify_me')">
-                            <div class="form-group has-feedback">
-                                <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1"
-                                       value="">
-                                <div class="notify">
-                                    <input type="email" class="form-control email" name="EMAIL" id="email"
-                                           placeholder="your@email.com" required data-error="电子邮件地址无效"
-                                           data-required-error="需要电子邮件地址">
-                                    <input type="submit" class="btn btn-primary submit" value="通知我">
-                                </div>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </form>
                         <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
-                           target="_blank" class="btn-post-block post-ico">加入ICO</a>
-                    </div>
-                    <div class="lower-buttons pre-ico">
-                        <div class="left" data-toggle="modal" data-target="#ico-modal" style="width: 37%">
-                            <div class="round"><i class="glyphicon glyphicon-play"></i></div>
-                            什么是ICO？
-                        </div>
-                        <div class="right" style="width:60%">第一个48小时内分红率达
-                            <div class="bonus-fadein round">49.9%</div>
-
-                            <div class="bonuses">
-                                <h3>分红</h3>
-                                <h5>ICO持续期：21天</h5>
-                                <div class="left">+49.9%</div>
-                                <div class="right">2 天</div>
-                                <div class="sep"></div>
-                                <div class="left">+25%</div>
-                                <div class="right">7 天</div>
-                                <div class="sep"></div>
-                                <div class="left">+12.5%</div>
-                                <div class="right">7 天</div>
-                                <div class="sep"></div>
-                                <div class="left">+0%</div>
-                                <div class="right">5 天</div>
-                            </div>
-
-                        </div>
+                           target="_blank" class="btn-post-block">加入ICO</a>
                     </div>
 
-                    <div class="lower-buttons post post-ico text-left">
+                    <div class="lower-buttons post text-left">
                         <div class="left text-left" data-toggle="modal" data-target="#ico-modal">
-                            <div class="round"><i class="glyphicon glyphicon-play"></i></div>
+                            <div class="round"><i class="glyphicon glyphicon-play"></i></div><br class="visible-xs">
                             什么是ICO？
                         </div>
                         <div class="center text-center">
-                            <div class="bonus-fadein round">49.9%</div>
+                            <div class="bonus-fadein  curr-bonus-figure round">49.9%</div><br class="visible-xs">
                             现有奖励
 
                             <div class="bonuses">
@@ -347,8 +305,8 @@ $dashboardUrl = $baseUrl . $queryString;
                                 <div class="c">US</div>
                                 <div class="p">68%</div>
                                 <div class="g">
-                                    <div class="bl c100"></div>
-                                    <div class="gr c50"></div>
+                                    <div class="bl c85"></div>
+                                    <div class="gr c70"></div>
                                 </div>
                             </div>
 
@@ -356,9 +314,8 @@ $dashboardUrl = $baseUrl . $queryString;
                                 <div class="c">UK</div>
                                 <div class="p">78%</div>
                                 <div class="g">
-                                    <div class="bl c70"></div>
-                                    <br>
-                                    <div class="gr c25"></div>
+                                    <div class="bl c100"></div>
+                                    <div class="gr c70"></div>
                                 </div>
                             </div>
 
@@ -366,8 +323,8 @@ $dashboardUrl = $baseUrl . $queryString;
                                 <div class="c">TH</div>
                                 <div class="p">34%</div>
                                 <div class="g">
-                                    <div class="bl c50"></div>
-                                    <div class="gr c85"></div>
+                                    <div class="bl c44"></div>
+                                    <div class="gr c70"></div>
                                 </div>
                             </div>
 
@@ -375,8 +332,8 @@ $dashboardUrl = $baseUrl . $queryString;
                                 <div class="c">AF</div>
                                 <div class="p">18%</div>
                                 <div class="g">
-                                    <div class="bl c75"></div>
-                                    <div class="gr c90"></div>
+                                    <div class="bl c25"></div><br>
+                                    <div class="gr c70"></div>
                                 </div>
                             </div>
 
@@ -515,6 +472,103 @@ $dashboardUrl = $baseUrl . $queryString;
         </div>
     </div>
 </section>
+
+
+
+<section id="press" class="partners press">
+    <div class="container">
+        <div class="row head">
+            <div class="col-sm-12">
+                <h1>如下所示</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="list row">
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-1.png">
+                        </div>
+                        <a class="h4" target="_blank"
+                           href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked">基于以太坊的Humaniq向20亿无银行账户的人群提供银行4.0</a>
+                        <a href="https://cointelegraph.com" class="yga" target="_blank" data-ya-target="press-gemsww">cointelegraph.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-2.png">
+                        </div>
+                        <a class="h4" target="_blank"
+                           href="https://themerkle.com/humaniq-aims-to-connect-millions-of-unbanked/">旨在通过使用以太坊区块链连接数百万的无银行账户人群</a>
+                        <a href="https://themerkle.com" class="yga" target="_blank" data-ya-target="press-gemsww">themerkle.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-3.png">
+                        </div>
+                        <a class="h4" target="_blank"
+                           href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/">区块链银行应用程序Humaniq定于4月份进行首次公开发行</a>
+                        <a href="http://www.financemagnates.com" class="yga" target="_blank"
+                           data-ya-target="press-gemsww">www.financemagnates.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-4.png">
+                        </div>
+                        <a class="h4" target="_blank"
+                           href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/">Humaniq的加密养老金能够解决困扰非洲的养老金问题</a>
+                        <a href="http://thedashtimes.com/" class="yga" target="_blank" data-ya-target="press-gemsww">thedashtimes.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-5.png">
+                        </div>
+                        <a class="h4" target="_blank"
+                           href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/">Humaniq:适用于无证人群和无银行账户人权的加密金融</a>
+                        <a href="https://www.smithandcrown.com/" class="yga" target="_blank"
+                           data-ya-target="press-gemsww">smithandcrown.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-6.png">
+                        </div>
+                        <a class="h4" target="_blank" href="http://icorating.com/project/30/Humaniq">适用于无银行账户人群的基于区块链的下一代金融服务</a>
+                        <a href="http://icorating.com/" class="yga" target="_blank" data-ya-target="press-gemsww">icorating.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-7.png">
+                        </div>
+                        <a class="h4" target="_blank"
+                           href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD">Humaniq
+                            旨在利用区块链应用程序解决经济融合遇到的障碍</a>
+                        <a href="http://www.nasdaq.com/" class="yga" target="_blank" data-ya-target="press-gemsww">www.nasdaq.com</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
 
 
 <section id="rev" class="rev">
@@ -885,7 +939,8 @@ $dashboardUrl = $baseUrl . $queryString;
                 <br>
                 <div class="trademarks" style="display:inline-block; margin-top: 4rem;text-align: left">
                     - Google Play和Google Play标志是Google Inc的商标。<br>
-                    - App Store是在美国和其它国家注册的Apple Inc., 的服务标志。
+                    - App Store是在美国和其它国家注册的Apple Inc., 的服务标志。<br>
+                    - The application is currently in Beta and can be used for information purpose only.
                 </div>
 
             </div>
@@ -944,6 +999,34 @@ $dashboardUrl = $baseUrl . $queryString;
         <div class="backdrop"></div>
         <div class="row list">
 
+            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="5">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/Dinis_Guarda.png">
+                </div>
+                <!--                <h5>UK</h5>-->
+                <h4>Dinis Guarda</h4>
+                CEO and Chief Strategy Officer, Board of Directors
+            </div>
+
+            <div id="pp-5" class="popup">
+                <div class="close" data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/Dinis_Guarda.png">
+                <h4>Dinis Guarda</h4>
+                <div class="text">
+                    Founder of ZTUDIUM, that he created and manages intelligenthq.com, openbusinesscouncil.org,
+                    tradersdna.com and hedgethink.com. He is the author of the following books: The Next Tsunami:
+                    Blockchain plus AI and IOT, Intelligenthq Editions, Amazon, 2017. How To Map Who You are, Amazon,
+                    2016. He is also co-founder of the project BlockchainAge. Since December 2016 is leading the digital
+                    strategy and marketing for the financial empowerment app and platform invstr.com Between 2014 and
+                    2015 he was involved in creating a digital bank between Asia and Africa. With a Master in New Media,
+                    Dinis has been ranked in the top 10 and top 100 most influential person in fintech, blockchain,
+                    social media, social enterprise and philanthropy. He was the founder of tradingfloor.com for Saxo
+                    Bank, socialmediacouncil.org with Jamie Burke.
+
+                </div>
+            </div>
+
 
             <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="1">
                 <div class="img">
@@ -974,7 +1057,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 </div>
                 <!--                <h5>UK</h5>-->
                 <h4>Dmitry Kaminskiy</h4>
-                Executive Chairman and Founder, Board of Directors
+                Executive Chairman and co-Founder, Board of Directors
             </div>
 
             <div id="pp-6" class="popup">
@@ -990,34 +1073,6 @@ $dashboardUrl = $baseUrl . $queryString;
                     for social benefit offered by blockchain technology. Dmitry also directly supports scientists,
                     conferences, hackathons, and think-tanks at Oxford and Cambridge, such as the Exponential
                     Technologies Institute and Biogerontology Research Foundation (BGRF).
-                </div>
-            </div>
-
-            <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="5">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/Dinis_Guarda.png">
-                </div>
-                <!--                <h5>UK</h5>-->
-                <h4>Dinis Guarda</h4>
-                CEO and Chief Strategy Officer, Board of Directors
-            </div>
-
-            <div id="pp-5" class="popup">
-                <div class="close" data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/Dinis_Guarda.png">
-                <h4>Dinis Guarda</h4>
-                <div class="text">
-                    Founder of ZTUDIUM, that he created and manages intelligenthq.com, openbusinesscouncil.org,
-                    tradersdna.com and hedgethink.com. He is the author of the following books: The Next Tsunami:
-                    Blockchain plus AI and IOT, Intelligenthq Editions, Amazon, 2017. How To Map Who You are, Amazon,
-                    2016. He is also co-founder of the project BlockchainAge. Since December 2016 is leading the digital
-                    strategy and marketing for the financial empowerment app and platform invstr.com Between 2014 and
-                    2015 he was involved in creating a digital bank between Asia and Africa. With a Master in New Media,
-                    Dinis has been ranked in the top 10 and top 100 most influential person in fintech, blockchain,
-                    social media, social enterprise and philanthropy. He was the founder of tradingfloor.com for Saxo
-                    Bank, socialmediacouncil.org with Jamie Burke.
-
                 </div>
             </div>
 
@@ -1694,100 +1749,6 @@ $dashboardUrl = $baseUrl . $queryString;
 <section class="visible-xs">
     <img src="/assets/images/timeline_m-cn.svg" style="width: 100%">
 </section>
-
-
-<section id="press" class="partners press">
-    <div class="container">
-        <div class="row head">
-            <div class="col-sm-12">
-                <h1>如下所示</h1>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="list row">
-
-
-                    <div class="item col-xs-12 col-sm-4 col-md-4">
-                        <div class="wrapper">
-                            <img src="/assets/images/press/icon-press-1.png">
-                        </div>
-                        <a class="h4" target="_blank"
-                           href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked">基于以太坊的Humaniq向20亿无银行账户的人群提供银行4.0</a>
-                        <a href="https://cointelegraph.com" class="yga" target="_blank" data-ya-target="press-gemsww">cointelegraph.com</a>
-                    </div>
-
-
-                    <div class="item col-xs-12 col-sm-4 col-md-4">
-                        <div class="wrapper">
-                            <img src="/assets/images/press/icon-press-2.png">
-                        </div>
-                        <a class="h4" target="_blank"
-                           href="https://themerkle.com/humaniq-aims-to-connect-millions-of-unbanked/">旨在通过使用以太坊区块链连接数百万的无银行账户人群</a>
-                        <a href="https://themerkle.com" class="yga" target="_blank" data-ya-target="press-gemsww">themerkle.com</a>
-                    </div>
-
-
-                    <div class="item col-xs-12 col-sm-4 col-md-4">
-                        <div class="wrapper">
-                            <img src="/assets/images/press/icon-press-3.png">
-                        </div>
-                        <a class="h4" target="_blank"
-                           href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/">区块链银行应用程序Humaniq定于4月份进行首次公开发行</a>
-                        <a href="http://www.financemagnates.com" class="yga" target="_blank"
-                           data-ya-target="press-gemsww">www.financemagnates.com</a>
-                    </div>
-
-
-                    <div class="item col-xs-12 col-sm-4 col-md-4">
-                        <div class="wrapper">
-                            <img src="/assets/images/press/icon-press-4.png">
-                        </div>
-                        <a class="h4" target="_blank"
-                           href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/">Humaniq的加密养老金能够解决困扰非洲的养老金问题</a>
-                        <a href="http://thedashtimes.com/" class="yga" target="_blank" data-ya-target="press-gemsww">thedashtimes.com</a>
-                    </div>
-
-
-                    <div class="item col-xs-12 col-sm-4 col-md-4">
-                        <div class="wrapper">
-                            <img src="/assets/images/press/icon-press-5.png">
-                        </div>
-                        <a class="h4" target="_blank"
-                           href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/">Humaniq:适用于无证人群和无银行账户人权的加密金融</a>
-                        <a href="https://www.smithandcrown.com/" class="yga" target="_blank"
-                           data-ya-target="press-gemsww">smithandcrown.com</a>
-                    </div>
-
-
-                    <div class="item col-xs-12 col-sm-4 col-md-4">
-                        <div class="wrapper">
-                            <img src="/assets/images/press/icon-press-6.png">
-                        </div>
-                        <a class="h4" target="_blank" href="http://icorating.com/project/30/Humaniq">适用于无银行账户人群的基于区块链的下一代金融服务</a>
-                        <a href="http://icorating.com/" class="yga" target="_blank" data-ya-target="press-gemsww">icorating.com</a>
-                    </div>
-
-
-                    <div class="item col-xs-12 col-sm-4 col-md-4">
-                        <div class="wrapper">
-                            <img src="/assets/images/press/icon-press-7.png">
-                        </div>
-                        <a class="h4" target="_blank"
-                           href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD">Humaniq
-                            旨在利用区块链应用程序解决经济融合遇到的障碍</a>
-                        <a href="http://www.nasdaq.com/" class="yga" target="_blank" data-ya-target="press-gemsww">www.nasdaq.com</a>
-                    </div>
-
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
 
 <section class="inline-form">
     <div class="container">

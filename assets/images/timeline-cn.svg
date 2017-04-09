@@ -41,7 +41,7 @@
      id="namedview7088"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="729.35699"
+     inkscape:cx="566.85699"
      inkscape:cy="314.11288"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
@@ -232,39 +232,48 @@
   <g
      aria-label="Timeline"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50px;font-family:'Futura New';-inkscape-font-specification:'Futura New';fill:#ffffff;fill-rule:evenodd"
-     id="text6984">
+     id="text6984"
+     transform="translate(-4,-4)">
     <path
        d="m 261.8,136.25 h -7.5 V 164 h -6.5 v -27.75 h -7.5 v -5.6 h 21.5 z"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Futura New';-inkscape-font-specification:'Futura New Medium'"
-       id="path624" />
+       id="path624"
+       inkscape:connector-curvature="0" />
     <path
        d="m 264.97031,142.35 h 6.1 V 164 h -6.1 z m 0.45,-6.55 q -1.05,-1.1 -1.05,-2.6 0,-1.5 1.05,-2.55 1.1,-1.1 2.6,-1.1 1.5,0 2.55,1.1 1.1,1.05 1.1,2.55 0,1.5 -1.1,2.6 -1.05,1.05 -2.55,1.05 -1.5,0 -2.6,-1.05 z"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Futura New';-inkscape-font-specification:'Futura New Medium'"
-       id="path626" />
+       id="path626"
+       inkscape:connector-curvature="0" />
     <path
        d="m 276.98203,164 v -21.65 h 6.1 v 2.45 q 2.5,-3.15 6.45,-3.15 4.85,0 6.85,3.95 2.45,-3.95 6.95,-3.95 3.8,0 5.85,2.65 0.95,1.25 1.2,2.6 0.3,1.35 0.3,3.5 V 164 h -6.1 v -11.8 q 0,-3.05 -1,-4.25 -0.9,-1.1 -2.5,-1.1 -2.3,0 -3.35,1.9 -0.85,1.4 -0.85,4.2 V 164 h -6.1 v -11.8 q 0,-3.05 -1,-4.25 -0.9,-1.1 -2.5,-1.1 -2.3,0 -3.35,1.9 -0.85,1.4 -0.85,4.2 V 164 Z"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Futura New';-inkscape-font-specification:'Futura New Medium'"
-       id="path628" />
+       id="path628"
+       inkscape:connector-curvature="0" />
     <path
        d="m 332.18281,157.05 5.6,0.9 q -0.35,0.9 -0.95,1.8 -0.55,0.85 -1.75,2.15 -1.2,1.25 -3.25,2.05 -2.05,0.75 -4.7,0.75 -5.1,0 -8.3,-3.05 -3.4,-3.2 -3.4,-8.45 0,-5.2 3.3,-8.5 3.1,-3.05 8.15,-3.05 5.5,0 8.45,3.55 2.6,3.1 2.6,8.5 v 0.5 h -16.2 q 0,2.2 1.05,3.65 1.5,2.05 4.35,2.05 3.4,0 5.05,-2.85 z m -10.25,-6.75 h 10.25 q -0.35,-2.1 -1.85,-3.2 -1.45,-1.15 -3.3,-1.15 -1.8,0 -3.3,1.15 -1.45,1.15 -1.8,3.2 z"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Futura New';-inkscape-font-specification:'Futura New Medium'"
-       id="path630" />
+       id="path630"
+       inkscape:connector-curvature="0" />
     <path
        d="m 342.60703,127.55 h 6.1 V 164 h -6.1 z"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Futura New';-inkscape-font-specification:'Futura New Medium'"
-       id="path632" />
+       id="path632"
+       inkscape:connector-curvature="0" />
     <path
        d="m 354.52109,142.35 h 6.1 V 164 h -6.1 z m 0.45,-6.55 q -1.05,-1.1 -1.05,-2.6 0,-1.5 1.05,-2.55 1.1,-1.1 2.6,-1.1 1.5,0 2.55,1.1 1.1,1.05 1.1,2.55 0,1.5 -1.1,2.6 -1.05,1.05 -2.55,1.05 -1.5,0 -2.6,-1.05 z"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Futura New';-inkscape-font-specification:'Futura New Medium'"
-       id="path634" />
+       id="path634"
+       inkscape:connector-curvature="0" />
     <path
        d="m 366.53281,164 v -21.65 h 6.1 v 2.8 q 2.5,-3.5 6.7,-3.5 4.25,0 6.4,2.65 1.7,2.1 1.7,6.1 V 164 h -6.1 v -11.8 q 0,-3.05 -1.15,-4.25 -1.05,-1.1 -2.85,-1.1 -2.5,0 -3.75,1.9 -0.95,1.5 -0.95,4.2 V 164 Z"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Futura New';-inkscape-font-specification:'Futura New Medium'"
-       id="path636" />
+       id="path636"
+       inkscape:connector-curvature="0" />
     <path
        d="m 408.94062,157.05 5.6,0.9 q -0.35,0.9 -0.95,1.8 -0.55,0.85 -1.75,2.15 -1.2,1.25 -3.25,2.05 -2.05,0.75 -4.7,0.75 -5.1,0 -8.3,-3.05 -3.4,-3.2 -3.4,-8.45 0,-5.2 3.30001,-8.5 3.09999,-3.05 8.14999,-3.05 5.5,0 8.45,3.55 2.6,3.1 2.6,8.5 v 0.5 h -16.19999 q 0,2.2 1.04999,3.65 1.5,2.05 4.35,2.05 3.4,0 5.05,-2.85 z m -10.25,-6.75 h 10.25 q -0.35,-2.1 -1.85,-3.2 -1.45,-1.15 -3.3,-1.15 -1.79999,0 -3.29999,1.15 -1.45001,1.15 -1.80001,3.2 z"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Futura New';-inkscape-font-specification:'Futura New Medium'"
-       id="path638" />
+       id="path638"
+       inkscape:connector-curvature="0" />
   </g>
   <path
      inkscape:connector-curvature="0"
@@ -524,9 +533,7 @@
          dy="0 0"
          dx="0 0" /></tspan></text>
   <g
-     aria-label="了解发展中国家的任何法律问题，
-虚拟卡片的整合，金融科技初创企业，
-分散式架构研发。"
+     aria-label="了解发展中国家的任何法律问题， 虚拟卡片的整合，金融科技初创企业， 分散式架构研发。"
      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.33333397px;line-height:1.25;font-family:'Futura New';-inkscape-font-specification:'Futura New Medium';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
      id="text6191">
     <path
@@ -734,8 +741,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     aria-label="利用BioID 
-和一个交换App测试App"
+     aria-label="利用BioID  和一个交换App测试App"
      style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.33333397px;font-family:'Futura New';-inkscape-font-specification:'Futura New Medium';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
      id="text4928-6">
     <path
