@@ -175,11 +175,7 @@ $dashboardUrl = $baseUrl . $queryString;
                     <!--                    <div class="item">Deutsch</div>-->
                     <a href="/cn/" class="item" onclick="Cookies.set('mylang','zh')">繁體中文</a>
                 </div>
-                <a href="<?php echo $dashboardUrl ?>" class="whitepaper-link round yga pre-ico-i" data-ga="1"
-                   data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
-                    Reserve tokens
-                </a>
-                <a href="#whitepapers" class="whitepaper-link round yga post-ico-i" data-ga="1"
+                <a href="#whitepapers" class="whitepaper-link round yga" data-ga="1"
                    data-ya-target="home-screen-whitepapers">
                     Whitepapers
                 </a>
@@ -188,7 +184,7 @@ $dashboardUrl = $baseUrl . $queryString;
             </div>
         </div>
     </div>
-    </div>
+    
 
     <div class="container">
         <div class="row">
@@ -203,7 +199,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             <span class="s4">Big Data</span>
                         </b>
                     </h1>
-                    <div class="offer post post-ico text-center">ICO is live now</div>
+                    <div class="offer post post-ico text-center">ICO is live. Current bonus ends in:</div>
                     <div class="countdown text-center">
                         <div class="figures">
                             <div class="days"></div>
@@ -251,45 +247,17 @@ $dashboardUrl = $baseUrl . $queryString;
                             </div>
                         </form>
                         <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
-                           target="_blank" class="btn-post-block post-ico">Join the ICO</a>
+                           target="_blank" class="btn-post-block">Join the ICO</a>
 
                     </div>
-                    <div class="lower-buttons pre-ico">
-                        <div href="https://cointelegraph.com/explained/ico-explained" target="_blank" class="left"
-                             data-toggle="modal" data-target="#ico-modal">
-                            <div class="round"><i class="glyphicon glyphicon-play"></i></div>
+
+                    <div class="lower-buttons post text-left">
+                        <div class="left" data-toggle="modal" data-target="#ico-modal">
+                            <div class="round"><i class="glyphicon glyphicon-play"></i></div><br class="visible-xs">
                             What is an ICO?
                         </div>
-                        <div class="right">
-                            <div class="bonus-fadein round">25%</div>
-                            Bonus for first 48 hours
-
-                            <div class="bonuses">
-                                <h3>Bonuses</h3>
-                                <h5>ICO duration: 21 days.</h5>
-                                <div class="left">+49.9%</div>
-                                <div class="right">2 days</div>
-                                <div class="sep"></div>
-                                <div class="left">+25%</div>
-                                <div class="right">7 days</div>
-                                <div class="sep"></div>
-                                <div class="left">+12.5%</div>
-                                <div class="right">7 days</div>
-                                <div class="sep"></div>
-                                <div class="left">+0%</div>
-                                <div class="right">5 days</div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="lower-buttons post post-ico text-left">
-                        <div class="left text-left" data-toggle="modal" data-target="#ico-modal">
-                            <div class="round"><i class="glyphicon glyphicon-play"></i></div>
-                            What is an ICO?
-                        </div>
-                        <div class="center text-center">
-                            <div class="bonus-fadein round">25%</div>
+                        <div class="center">
+                            <div class="bonus-fadein round curr-bonus-figure">25%</div><br class="visible-xs">
                             Current Bonus
 
                             <div class="bonuses">
@@ -308,8 +276,8 @@ $dashboardUrl = $baseUrl . $queryString;
                                 <div class="right">5 days</div>
                             </div>
                         </div>
-                        <div class="right text-right">
-                            <div class="ends">ICO ends<br><b>27 April 00.00 CET</b></div>
+                        <div class="right">
+                            <div class="ends">ICO ends<br><b>27 April 00<span class="blink">:</span>00 CET</b></div>
                         </div>
                     </div>
 
@@ -326,7 +294,7 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="col-xs-12">
                 <div class="video-img embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item"
-                            src="https://www.youtube.com/embed/prEPErb82Mg?rel=0&amp;controls=0&amp;showinfo=0"
+                            src="https://www.youtube.com/embed/xat68GFQ8Ak?rel=0&amp;controls=0&amp;showinfo=0"
                             frameborder="0" allowfullscreen></iframe>
                 </div>
 
@@ -365,8 +333,8 @@ $dashboardUrl = $baseUrl . $queryString;
                                 <div class="c">US</div>
                                 <div class="p">68%</div>
                                 <div class="g">
-                                    <div class="bl c100"></div>
-                                    <div class="gr c50"></div>
+                                    <div class="bl c85"></div>
+                                    <div class="gr c70"></div>
                                 </div>
                             </div>
 
@@ -374,9 +342,9 @@ $dashboardUrl = $baseUrl . $queryString;
                                 <div class="c">UK</div>
                                 <div class="p">78%</div>
                                 <div class="g">
-                                    <div class="bl c70"></div>
+                                    <div class="bl c100"></div>
                                     <br>
-                                    <div class="gr c25"></div>
+                                    <div class="gr c70"></div>
                                 </div>
                             </div>
 
@@ -384,8 +352,8 @@ $dashboardUrl = $baseUrl . $queryString;
                                 <div class="c">TH</div>
                                 <div class="p">34%</div>
                                 <div class="g">
-                                    <div class="bl c50"></div>
-                                    <div class="gr c85"></div>
+                                    <div class="bl c44"></div><br>
+                                    <div class="gr c70"></div>
                                 </div>
                             </div>
 
@@ -393,8 +361,8 @@ $dashboardUrl = $baseUrl . $queryString;
                                 <div class="c">AF</div>
                                 <div class="p">18%</div>
                                 <div class="g">
-                                    <div class="bl c75"></div>
-                                    <div class="gr c90"></div>
+                                    <div class="bl c25"></div><br>
+                                    <div class="gr c70"></div>
                                 </div>
                             </div>
 
@@ -436,9 +404,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 </div>
                 <div class="item right">
                     <div class="text">Startup<br>Swarm</div>
-                    <div class="text-2">Humaniq will open<br> source our protocol to third party developers to creation
-                        new solutions for our end users. We will also create utility for our currency, the HMQ, by
-                        providing a token that has true fungible value.
+                    <div class="text-2">We will open source our protocol to third party developers to creatie new solutions for our end users. That will also create utility for our currency, the HMQ, by providing a token that has true fungible value.
                     </div>
                 </div>
             </div>
@@ -543,6 +509,107 @@ $dashboardUrl = $baseUrl . $queryString;
 </section>
 
 
+<section id="press" class="partners press">
+    <div class="container">
+        <div class="row head">
+            <div class="col-sm-12">
+                <h1>As Seen In</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="list row">
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-1.png">
+                        </div>
+                        <a class="h4" target="_blank"
+                           href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked">Ethereum-Based
+                            Humaniq To Deliver Banking 4.0 to 2 Bln Unbanked</a>
+                        <a href="https://cointelegraph.com" class="yga" target="_blank" data-ya-target="press-gemsww">cointelegraph.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-2.png">
+                        </div>
+                        <a class="h4" target="_blank"
+                           href="https://themerkle.com/humaniq-aims-to-connect-millions-of-unbanked/">Humaniq Aims To
+                            Connect Millions of Unbanked Using The Ethereum Blockchain</a>
+                        <a href="https://themerkle.com" class="yga" target="_blank" data-ya-target="press-gemsww">themerkle.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-3.png">
+                        </div>
+                        <a class="h4" target="_blank"
+                           href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/">Blockchain
+                            Banking App Humaniq Set for Initial Coin Offering in April</a>
+                        <a href="http://www.financemagnates.com" class="yga" target="_blank"
+                           data-ya-target="press-gemsww">www.financemagnates.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-4.png">
+                        </div>
+                        <a class="h4" target="_blank"
+                           href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/">Humaniq’s
+                            CryptoPension a Pancea to Africa’s Pension Worries</a>
+                        <a href="http://thedashtimes.com/" class="yga" target="_blank" data-ya-target="press-gemsww">thedashtimes.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-5.png">
+                        </div>
+                        <a class="h4" target="_blank"
+                           href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/">Humaniq:
+                            crypto-finance for the undocumented and unbanked</a>
+                        <a href="https://www.smithandcrown.com/" class="yga" target="_blank"
+                           data-ya-target="press-gemsww">smithandcrown.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-6.png">
+                        </div>
+                        <a class="h4" target="_blank" href="http://icorating.com/project/30/Humaniq">A next generation
+                            financial service for unbanked people based on Blockchain</a>
+                        <a href="http://icorating.com/" class="yga" target="_blank" data-ya-target="press-gemsww">icorating.com</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-7.png">
+                        </div>
+                        <a class="h4" target="_blank"
+                           href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD">Humaniq
+                            Aims to Tackle Barriers to Economic Inclusion With Blockchain App</a>
+                        <a href="http://www.nasdaq.com/" class="yga" target="_blank" data-ya-target="press-gemsww">www.nasdaq.com</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
 <section id="rev" class="rev">
     <div class="container">
         <div class="row slogan">
@@ -599,6 +666,8 @@ $dashboardUrl = $baseUrl . $queryString;
 
                 <div class="visible-xs scheme container-fluid">
                     <div class="row">
+                        <div class="col-xs-12 head">Before</div>
+
                         <div class="col-xs-4 text-center item">
                             <div class="dot pass"></div>
                             <p>Email<br>and password
@@ -617,6 +686,8 @@ $dashboardUrl = $baseUrl . $queryString;
                         </div>
                     </div>
                     <div class="row">
+                        <div class="col-xs-12 head">After</div>
+
                         <div class="col-xs-4 text-center item">
                             <div class="dot face"></div>
                             <p>Face login
@@ -644,6 +715,7 @@ $dashboardUrl = $baseUrl . $queryString;
 
                 <div class="visible-xs scheme container-fluid">
                     <div class="row">
+                        <div class="col-xs-12 head">Before</div>
                         <div class="col-xs-3 text-center item">
                             <div class="dot startup"></div>
                             <p>Fintech Startup
@@ -667,6 +739,7 @@ $dashboardUrl = $baseUrl . $queryString;
                         <div class="col-xs-12 text-center sep-hor"></div>
                     </div>
                     <div class="row">
+                        <div class="col-xs-12 head">After</div>
                         <div class="col-xs-3 text-center item">
                             <div class="dot startup"></div>
                             <p>Fintech Startup
@@ -793,7 +866,7 @@ $dashboardUrl = $baseUrl . $queryString;
             </div>
             <div class="col-xs-12 col-sm-4 text-center">
                 <h4>Humaniq</h4>
-                <h1>$ ?</h1>
+                <h1 class="jumbo">?</h1>
             </div>
         </div>
 
@@ -817,18 +890,15 @@ $dashboardUrl = $baseUrl . $queryString;
                     square of the number of connected users.
                 </div>
                 <div class="text">
-
-                    Humaniq is about ‘Profit with a Purpose’, also known as humanitarian capitalism. We create win-wins
-                    for all stakeholders in the spectrum. This is an opportunity not only to improve the quality of life
-                    in emerging economies for some of the world’s poorest people, but it’s also an opportunity for
-                    entrepreneurs who want to build non or profitable services such as a direct donation platform or
-                    perhaps a P2P lending addon that will help you achieve not only a ROI on your investment but also
-                    help empower and improve the lives of others who have never had opportunities via traditional
-                    financial services before and who currently pay exorbitant interest rates of between 35 and 80
-                    percent to loan sharks as traditional banks won’t help them. You’ll feel good about your investment
+                    Humaniq is about ‘Profit with a Purpose’, also known as humanitarian capitalism.
+                    We create win-wins for all stakeholders in the spectrum. This is an opportunity
+                    not only to improve the quality of life in emerging economies for some of the world’s poorest people,
+                    but it’s also an opportunity for entrepreneurs who want to build -non or profitable services such as
+                    a direct donation platform, or perhaps a P2P lending addon that might help you achieve not only a ROI
+                    on your investment, but also help empower and improve the lives of others who have never had opportunities
+                    with traditional financial services before and who currently pay exorbitant interest rates of between
+                    35 and 80 percent to loan sharks as traditional banks won’t help them. You’ll feel good about your investment
                     knowing that both parties are profiting from the exchange.
-
-
                 </div>
             </div>
         </div>
@@ -917,7 +987,8 @@ $dashboardUrl = $baseUrl . $queryString;
                 <div class="trademarks" style="display:inline-block; margin-top: 4rem;text-align: left">
                     - Google Play and the Google Play logo are trademarks of Google Inc.<br>
                     - App Store is a service mark
-                    of Apple Inc., registered in the U.S. and other countries.
+                    of Apple Inc., registered in the U.S. and other countries.<br>
+                    - The application is currently in Beta and can be used for information purpose only.
                 </div>
             </div>
         </div>
@@ -975,6 +1046,37 @@ $dashboardUrl = $baseUrl . $queryString;
         <div class="row list">
 
 
+            <div class="item e col-xs-6 col-sm-4 col-md-3" data-pp="5">
+                <div class="img">
+                    <div class="zoom"><i class="fa fa-search"></i></div>
+                    <img src="/assets/images/avatars/Dinis_Guarda.png">
+                </div>
+                <!--                <h5>UK</h5>-->
+                <h4>Dinis Guarda</h4>
+                CEO and Chief Strategy Officer, Board of Directors
+            </div>
+
+            <div id="pp-5" class="popup">
+                <div class="close" data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
+                <img src="/assets/images/avatars/Dinis_Guarda.png">
+                <h4>Dinis Guarda</h4>
+                <div class="text">
+                    Founder of ZTUDIUM, that he created and manages intelligenthq.com, openbusinesscouncil.org,
+                    tradersdna.com and hedgethink.com. He is the author of the following books: The Next Tsunami:
+                    Blockchain plus AI and IOT, Intelligenthq Editions, Amazon, 2017. How To Map Who You are, Amazon,
+                    2016. He is also co-founder of the project BlockchainAge. Since December 2016 is leading the digital
+                    strategy and marketing for the financial empowerment app and platform invstr.com Between 2014 and
+                    2015 he was involved in creating a digital bank between Asia and Africa. With a Master in New Media,
+                    Dinis has been ranked in the top 10 and top 100 most influential person in fintech, blockchain,
+                    social media, social enterprise and philanthropy. He was the founder of tradingfloor.com for Saxo
+                    Bank, socialmediacouncil.org with Jamie Burke.
+
+                </div>
+            </div>
+
+
+
+
             <div class="item e col-xs-6 col-sm-4 col-md-3" data-pp="1">
                 <div class="img">
                     <div class="zoom"><i class="fa fa-search"></i></div>
@@ -1006,7 +1108,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 </div>
                 <!--<h5>UK</h5>-->
                 <h4>Dmitry Kaminskiy</h4>
-                Executive Chairman and Founder, Board of Directors
+                Executive Chairman and co-Founder, Board of Directors
             </div>
 
             <div id="pp-6" class="popup">
@@ -1022,35 +1124,6 @@ $dashboardUrl = $baseUrl . $queryString;
                     for social benefit offered by blockchain technology. Dmitry also directly supports scientists,
                     conferences, hackathons, and think-tanks at Oxford and Cambridge, such as the Exponential
                     Technologies Institute and Biogerontology Research Foundation (BGRF).
-                </div>
-            </div>
-
-
-            <div class="item e col-xs-6 col-sm-4 col-md-3" data-pp="5">
-                <div class="img">
-                    <div class="zoom"><i class="fa fa-search"></i></div>
-                    <img src="/assets/images/avatars/Dinis_Guarda.png">
-                </div>
-                <!--                <h5>UK</h5>-->
-                <h4>Dinis Guarda</h4>
-                CEO and Chief Strategy Officer, Board of Directors
-            </div>
-
-            <div id="pp-5" class="popup">
-                <div class="close" data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
-                <img src="/assets/images/avatars/Dinis_Guarda.png">
-                <h4>Dinis Guarda</h4>
-                <div class="text">
-                    Founder of ZTUDIUM, that he created and manages intelligenthq.com, openbusinesscouncil.org,
-                    tradersdna.com and hedgethink.com. He is the author of the following books: The Next Tsunami:
-                    Blockchain plus AI and IOT, Intelligenthq Editions, Amazon, 2017. How To Map Who You are, Amazon,
-                    2016. He is also co-founder of the project BlockchainAge. Since December 2016 is leading the digital
-                    strategy and marketing for the financial empowerment app and platform invstr.com Between 2014 and
-                    2015 he was involved in creating a digital bank between Asia and Africa. With a Master in New Media,
-                    Dinis has been ranked in the top 10 and top 100 most influential person in fintech, blockchain,
-                    social media, social enterprise and philanthropy. He was the founder of tradingfloor.com for Saxo
-                    Bank, socialmediacouncil.org with Jamie Burke.
-
                 </div>
             </div>
 
@@ -1531,7 +1604,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 <img src="/assets/images/avatars/10.png">
                 <h4>Parth Bhatt Upendra Kumar</h4>
                 <div class="text">
-                    Parth Bhatt is Brahman from India. He is an ideological partner of the Humaniq project. Alex Fork
+                    Parth Bhatt is from India. He is an ideological partner of the Humaniq project. Alex Fork
                     together with Parth Bhatt Upendra Kumar arranged a business game to receive reaction from
                     disadvantaged people from India on how they might react to Humaniq. Thanks to acquired feedback
                     Humaniq becomes better.
@@ -1745,104 +1818,6 @@ $dashboardUrl = $baseUrl . $queryString;
 </section>
 
 
-<section id="press" class="partners press">
-    <div class="container">
-        <div class="row head">
-            <div class="col-sm-12">
-                <h1>As Seen In</h1>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="list row">
-
-
-                    <div class="item col-xs-12 col-sm-4 col-md-4">
-                        <div class="wrapper">
-                            <img src="/assets/images/press/icon-press-1.png">
-                        </div>
-                        <a class="h4" target="_blank"
-                           href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked">Ethereum-Based
-                            Humaniq To Deliver Banking 4.0 to 2 Bln Unbanked</a>
-                        <a href="https://cointelegraph.com" class="yga" target="_blank" data-ya-target="press-gemsww">cointelegraph.com</a>
-                    </div>
-
-
-                    <div class="item col-xs-12 col-sm-4 col-md-4">
-                        <div class="wrapper">
-                            <img src="/assets/images/press/icon-press-2.png">
-                        </div>
-                        <a class="h4" target="_blank"
-                           href="https://themerkle.com/humaniq-aims-to-connect-millions-of-unbanked/">Humaniq Aims To
-                            Connect Millions of Unbanked Using The Ethereum Blockchain</a>
-                        <a href="https://themerkle.com" class="yga" target="_blank" data-ya-target="press-gemsww">themerkle.com</a>
-                    </div>
-
-
-                    <div class="item col-xs-12 col-sm-4 col-md-4">
-                        <div class="wrapper">
-                            <img src="/assets/images/press/icon-press-3.png">
-                        </div>
-                        <a class="h4" target="_blank"
-                           href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/">Blockchain
-                            Banking App Humaniq Set for Initial Coin Offering in April</a>
-                        <a href="http://www.financemagnates.com" class="yga" target="_blank"
-                           data-ya-target="press-gemsww">www.financemagnates.com</a>
-                    </div>
-
-
-                    <div class="item col-xs-12 col-sm-4 col-md-4">
-                        <div class="wrapper">
-                            <img src="/assets/images/press/icon-press-4.png">
-                        </div>
-                        <a class="h4" target="_blank"
-                           href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/">Humaniq’s
-                            CryptoPension a Pancea to Africa’s Pension Worries</a>
-                        <a href="http://thedashtimes.com/" class="yga" target="_blank" data-ya-target="press-gemsww">thedashtimes.com</a>
-                    </div>
-
-
-                    <div class="item col-xs-12 col-sm-4 col-md-4">
-                        <div class="wrapper">
-                            <img src="/assets/images/press/icon-press-5.png">
-                        </div>
-                        <a class="h4" target="_blank"
-                           href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/">Humaniq:
-                            crypto-finance for the undocumented and unbanked</a>
-                        <a href="https://www.smithandcrown.com/" class="yga" target="_blank"
-                           data-ya-target="press-gemsww">smithandcrown.com</a>
-                    </div>
-
-
-                    <div class="item col-xs-12 col-sm-4 col-md-4">
-                        <div class="wrapper">
-                            <img src="/assets/images/press/icon-press-6.png">
-                        </div>
-                        <a class="h4" target="_blank" href="http://icorating.com/project/30/Humaniq">A next generation
-                            financial service for unbanked people based on Blockchain</a>
-                        <a href="http://icorating.com/" class="yga" target="_blank" data-ya-target="press-gemsww">icorating.com</a>
-                    </div>
-
-
-                    <div class="item col-xs-12 col-sm-4 col-md-4">
-                        <div class="wrapper">
-                            <img src="/assets/images/press/icon-press-7.png">
-                        </div>
-                        <a class="h4" target="_blank"
-                           href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD">Humaniq
-                            Aims to Tackle Barriers to Economic Inclusion With Blockchain App</a>
-                        <a href="http://www.nasdaq.com/" class="yga" target="_blank" data-ya-target="press-gemsww">www.nasdaq.com</a>
-                    </div>
-
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
 
 <section class="inline-form">
     <div class="container">
@@ -1940,8 +1915,7 @@ $dashboardUrl = $baseUrl . $queryString;
     </div>
     <div class="container">
         <div class="row cl2">
-            <div class="col-xs-12 col-xs-offset-0 it2" data-toggle="modal" data-target="#ico-modal"
-                 style="background: #fff;padding: 7rem;">
+            <div class="col-xs-12 col-xs-offset-0 it2" data-toggle="modal" data-target="#ico-modal" style="background: #fff;padding: 7rem;">
                 <h1>What is an ICO?</h1>
                 <div>An ICO is a recently emerged concept of crowdfunding projects in the cryptocurrency and Blockchain
                     industries.
@@ -1960,6 +1934,9 @@ $dashboardUrl = $baseUrl . $queryString;
                         opportunity to make a profit in the process.
                     </div>
                 </div>
+                <div class="gray">* - HMQ is not an investment instrument or security.
+                    There is no guarantee – indeed there is no reason to believe – that the HMQ you purchase will increase in value.
+                    HMQ MAY, AND LIKELY WILL,  DECREASE IN VALUE. Those who do not actually use their HMQ honestly and fairly will lose their HMQ to those who do.</div>
             </div>
         </div>
     </div>

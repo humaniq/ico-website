@@ -75,6 +75,13 @@ var setCountDown = function(){
     var days = Math.floor(seconds/(24*60*60));
     if(days>1) $(".countdown .units .days-s").fadeIn(0);
     else $(".countdown .units .days-s").fadeOut(0);
+
+    var daysd = days;
+    if(days<=5) $(".curr-bonus-figure").html("0%");
+    else if(days<=12) { $(".curr-bonus-figure").html("12.5%"); daysd = days - 5; }
+    else { $(".curr-bonus-figure").html("25%"); daysd = days -12; }
+
+
     seconds = seconds - (24*60*60)*days;
     var hours = Math.floor(seconds/3600);
     if(hours>1) $(".countdown .units .hours-s").fadeIn(0);
@@ -90,7 +97,7 @@ var setCountDown = function(){
     if(hours<10) hours = "0" + hours;
     if(minutes<10) minutes = "0" + minutes;
     if(seconds<10) seconds = "0" + seconds;
-    $(".countdown .figures .days").html(days);
+    $(".countdown .figures .days").html(daysd);
     $(".countdown .figures .hours").html(hours);
     $(".countdown .figures .minutes").html(minutes);
     $(".countdown .figures .seconds").html(seconds);
