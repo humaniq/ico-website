@@ -199,7 +199,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             <span class="s4">Big Data</span>
                         </b>
                     </h1>
-                    <div class="offer post post-ico text-center">ICO is live now</div>
+                    <div class="offer post post-ico text-center">ICO is live. Current bonus ends in:</div>
                     <div class="countdown text-center">
                         <div class="figures">
                             <div class="days"></div>
@@ -866,7 +866,7 @@ $dashboardUrl = $baseUrl . $queryString;
             </div>
             <div class="col-xs-12 col-sm-4 text-center">
                 <h4>Humaniq</h4>
-                <h1>$ ?</h1>
+                <h1 class="jumbo">?</h1>
             </div>
         </div>
 

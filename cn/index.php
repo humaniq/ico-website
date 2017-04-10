@@ -827,7 +827,7 @@ $dashboardUrl = $baseUrl . $queryString;
             </div>
             <div class="col-xs-12 col-sm-4 text-center">
                 <h4>Humaniq</h4>
-                <h1>>美元数量未知</h1>
+                <h1 class="jumbo">?</h1>
             </div>
         </div>
 

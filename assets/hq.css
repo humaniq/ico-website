@@ -574,7 +574,7 @@ body {
 }
 
 .home-screen .main .countdown {
-    margin-top: 4.5rem;
+    margin-top: 2.5rem;
     border-radius: 3px;
     /*min-height: 60px;*/
     position: relative;
@@ -1854,6 +1854,18 @@ body {
     font-size: 3rem;
     line-height: 1em;
 }
+
+
+.revs .list2 h1.jumbo {
+    margin: 2rem 0 0 0;
+    color: #000;
+    font-family: FuturaNewDemi, Arial, sans-serif;
+    font-size: 6rem;
+    line-height: 1em;
+}
+
+
+
 
 .revs .list2 .text {
     margin: 2rem 0 0 0;
