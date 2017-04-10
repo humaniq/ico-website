@@ -279,7 +279,7 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="col-xs-12">
                 <div class="video-img embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item"
-                            src="https://www.youtube.com/embed/xat68GFQ8Ak?rel=0&amp;controls=0&amp;showinfo=0"
+                            src="https://www.youtube.com/embed/prEPErb82Mg?rel=0&amp;controls=0&amp;showinfo=0"
                             frameborder="0" allowfullscreen></iframe>
                 </div>
 
