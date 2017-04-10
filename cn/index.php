@@ -221,9 +221,9 @@ $dashboardUrl = $baseUrl . $queryString;
                             <div class="units second">秒</div>
                         </div>
                     </div>
-                    <div class="sub-form" id="sub-form-1" data-ga="1" data-ya-target="SUBMAIL1">
+                    <div class="sub-form" id="sub-form-1">
                         <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
-                           target="_blank" class="btn-post-block">加入ICO</a>
+                           target="_blank" class="btn-post-block yga" data-ga="1" data-ya-target="big-blue-button-home">加入ICO</a>
                     </div>
 
                     <div class="lower-buttons post text-left">
@@ -957,11 +957,11 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="col-xs-12 text-center post-ico">
                 <h1>世界正在快速改变，请抢先一步！</h1>
                 <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
-                   target="_blank" class="btn-post-onethird">加入ICO</a>
+                   target="_blank" class="btn-post-onethird yga" data-ga="1" data-ya-target="big-blue-button-2">加入ICO</a>
             </div>
 
 
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
+<!--            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
                 <h1>世界正在快速改变，请抢先一步！</h1>
             </div>
             <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
@@ -981,7 +981,7 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </form>
             </div>
-
+-->
         </div>
     </div>
 
@@ -1753,13 +1753,13 @@ $dashboardUrl = $baseUrl . $queryString;
 <section class="inline-form">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 text-center post-ico">
+            <div class="col-xs-12 text-center">
                 <h1>您准备加入银行业的未来吗？</h1>
                 <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
-                   target="_blank" class="btn-post-onethird">加入ICO</a>
+                   target="_blank" class="btn-post-onethird yga"  data-ga="1" data-ya-target="big-blue-button-3">加入ICO</a>
             </div>
 
-
+<!--
             <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
                 <h1>您准备加入银行业的未来吗？</h1>
             </div>
@@ -1780,7 +1780,7 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </form>
             </div>
-
+-->
         </div>
     </div>
 

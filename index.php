@@ -231,23 +231,8 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                     <div class="offer pre-ico">Join our mission. Sign up now to get notified about the ICO start.</div>
                     <div class="sub-form" id="sub-form-1" data-ga="1" data-ya-target="SUBMAIL1">
-                        <form class="formBody pre-ico" data-toggle="validator" role="form" method="post"
-                              action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758"
-                              onsubmit="roistat.event.send('notify_me')">
-                            <div class="form-group has-feedback">
-                                <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1"
-                                       value="">
-                                <div class="notify">
-                                    <input type="email" class="form-control email" name="EMAIL" id="email"
-                                           placeholder="your@email.com" required data-error="Email address is invalid"
-                                           data-required-error="Email address is required">
-                                    <input type="submit" class="btn btn-primary submit" value="Notify Me">
-                                </div>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </form>
-                        <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
-                           target="_blank" class="btn-post-block">Join the ICO</a>
+                        <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')" data-ga="1" data-ya-target="big-blue-button-home"
+                           target="_blank" class="btn-post-block yga">Join the Crowdsale</a>
 
                     </div>
 
@@ -1002,11 +987,11 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="col-xs-12 text-center post-ico">
                 <h1>The World is changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
                 <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
-                   target="_blank" class="btn-post-onethird">Join the ICO</a>
+                   target="_blank" class="btn-post-onethird yga"  data-ga="1" data-ya-target="big-blue-button-2">Join the ICO</a>
             </div>
 
 
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
+<!--            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
                 <h1>The World is <br class="hidden-xs">changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
             </div>
             <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
@@ -1026,7 +1011,7 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </form>
             </div>
-
+-->
         </div>
     </div>
 
@@ -1825,33 +1810,10 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="col-xs-12 text-center post-ico">
                 <h1>The World is changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
                 <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
-                   target="_blank" class="btn-post-onethird">Join the ICO</a>
+                   target="_blank" class="btn-post-onethird yga"  data-ga="1" data-ya-target="big-blue-button-3">Join the ICO</a>
             </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
-                <h1>Are you ready to join the future of banking?</h1>
-            </div>
-            <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-3" data-ga="1" data-ya-target="SUBMAIL3">
-                <div class="text">We will keep you in touch</div>
-                <form class="formBody" data-toggle="validator" role="form" method="post"
-                      action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758"
-                      onsubmit="roistat.event.send('request_demo')">
-                    <div class="form-group has-feedback">
-                        <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
-                        <div class="notify">
-                            <input type="email" class="form-control email" name="EMAIL" id="email2"
-                                   placeholder="your@email.com" required data-error="Email address is invalid"
-                                   data-required-error="Email address is required">
-                            <input type="submit" class="btn btn-primary submit" value="Request Demo">
-                        </div>
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </form>
-            </div>
-
         </div>
     </div>
-
 </section>
 
 
