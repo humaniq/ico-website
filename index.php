@@ -1916,15 +1916,15 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row cl2">
             <div class="col-xs-12 col-xs-offset-0 it2" data-toggle="modal" data-target="#ico-modal" style="background: #fff;padding: 7rem;">
-                <h1>What is an ICO?</h1>
+                <h1 class="text-center">What is an ICO?</h1>
                 <div>An ICO is a recently emerged concept of crowdfunding projects in the cryptocurrency and Blockchain
                     industries.
                     <p>ICO stands for Initial Coin Offering. It’s an event, sometimes referred to as ‘crowdsale’, when a
                         company releases its own cryptocurrency with a purpose of funding. It usually releases a certain
                         number of crypto-tokens and then sells those tokens to its intended audience, most commonly in
                         exchange for Bitcoins, but it can be fiat money as well.
-                    <p>As a result, the company gets the capital to fund the product development and the audience
-                        members get their crypto tokens’ shares. Plus, they have complete ownership of these shares.
+<!--                    <p>As a result, the company gets the capital to fund the product development and the audience
+                        members get their crypto tokens’ shares. Plus, they have complete ownership of these shares.-->
                     <h2>What’s in ICO for me?</h2>
                     <p>There are many possible benefits to taking part in an ICO. The obvious one is: you are helping
                         the company launch its product. There is also an opportunity to make a profit selling ICO tokens

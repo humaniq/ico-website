@@ -1849,15 +1849,18 @@ $dashboardUrl = $baseUrl . $queryString;
         <div class="row cl2">
             <div class="col-xs-12 col-xs-offset-0 it2" data-toggle="modal" data-target="#ico-modal"
                  style="background: #fff;padding: 7rem;">
-                <h1>什么是ICO？</h1>
+                <h1 class="text-center">什么是ICO？</h1>
                 <div>ICO是最近出现在加密货币和区块链产业中一个关于众筹项目的概念。
                     <p>ICO代表首次公开发行（Initial Coin
                         Offering），有时也会被用来指一种叫“众销”（crowdsale）的现象。当一个公司为了募集资金而发行自己的加密货币时就会发生ICO现象。此时该公司往往发行一定数量的加密代币，将其出售给公司的预期受众，大多数情况下公司出售这种代币用来交换比特币，但也可以法定货币。
-                    <p>结果，公司得到了可以资助产品开发的资金，而受众则得到了其加密代币的份额。而且，他们对这些份额具备完全的拥有权。
+
                     <h2>参与ICO对我有什么用？</h2>
                     <p>参与ICO可以有很多好处。最明显的就是：您在帮助公司发布其产品。您购入ICO代币后，您也有机会通过出售它们而获利。
                     <div>正如脚踏启动器一样，每个ICO参与者的主要目标是资助一个在他们个人看来既有趣又吸引人的项目。然而，在此过程中还有另一个获利机会。
                     </div>
+                    <div class="gray">* - HMQ is not an investment instrument or security.
+                        There is no guarantee – indeed there is no reason to believe – that the HMQ you purchase will increase in value.
+                        HMQ MAY, AND LIKELY WILL,  DECREASE IN VALUE. Those who do not actually use their HMQ honestly and fairly will lose their HMQ to those who do.</div>
                 </div>
             </div>
         </div>
