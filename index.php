@@ -147,7 +147,7 @@
     <!-- End Twitter universal website tag code -->
 
 </head>
-<body id="skrollr-body" class="happened">
+<body id="skrollr-body" data-spy="scroll" data-target="#navbar" class="happened">
 
 
 <?php
@@ -156,6 +156,8 @@ $hasRoiStat = array_key_exists('roistat_visit', $_COOKIE);
 $queryString = ($hasRoiStat) ? "?roistat_visit=" . intval($_COOKIE['roistat_visit']) : "";
 $dashboardUrl = $baseUrl . $queryString;
 ?>
+
+
 
 <section id="home-screen" class="home-screen" data-0="opacity:1;" data-500="opacity:0.7;" data-1000="opacity:0;">
     <div class="circle c1"></div>
@@ -1160,6 +1162,15 @@ $dashboardUrl = $baseUrl . $queryString;
 
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/tim_campbell.png">
+                <h5></h5>
+                <h4>Tim Campbell</h4>
+                Public Affairs and Global Policy Advisor
+            </div>
+
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Ron_Morris.png">
                 <h5></h5>
                 <h4>Ron Morris</h4>
@@ -1167,27 +1178,35 @@ $dashboardUrl = $baseUrl . $queryString;
             </div>
 
 
-                        <div class="item col-xs-6 col-sm-4 col-md-3">
-                            <img src="/assets/images/avatars/Paul_Mears.png">
-                            <h5></h5>
-                            <h4>Paul Mears</h4>
-                            Policy and Legal advisor / Financial and risk management advisor
-                        </div>
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Paul_Mears.png">
+                <h5></h5>
+                <h4>Paul Mears</h4>
+                Policy and Legal advisor / Financial and risk management advisor
+            </div>
 
-            <!--
-                                    <div class="item col-xs-6 col-sm-4 col-md-3">
-                                        <img src="/assets/images/avatars/0.png">
-                                        <h5></h5>
-                                        <h4>Vishai Mishra</h4>
-                                        Technology advisor/ Big data and security
-                                    </div>
 
-                        -->
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Vishal_Mishra.png">
+                <h5></h5>
+                <h4>Vishai Mishra</h4>
+                Technology advisor/ Big data and security
+            </div>
+
+
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Pavel_Kravchenko.png">
                 <h5></h5>
                 <h4>Pavel Kravchenko</h4>
                 Technology Advisor/ BlockChain technology advisor
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Derin_Cag.png">
+                <h5></h5>
+                <h4>Derin Cag</h4>
+                Technology Advisory Board/Richtopia
             </div>
 
 
@@ -1204,6 +1223,14 @@ $dashboardUrl = $baseUrl . $queryString;
                 <h4>Matthias Klees</h4>
                 Technology Advisor/ ‎Founder, Bitcoinsulting, Staisybit, Szenekonzept
             </div>
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Nick_Ayton.png">
+                <h5></h5>
+                <h4>Nick Ayton</h4>
+                Technology Advisory Board/ 21 Million Project
+            </div>
+
 
 
             <div class="item col-xs-6 col-sm-4 col-md-3">

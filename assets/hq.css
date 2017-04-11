@@ -79,7 +79,7 @@ html {
 
 
 body {
-    /*position: relative;*/
+    position: relative;
 }
 
 
@@ -231,7 +231,27 @@ body {
 
 /********************************/
 
+.navbar {
+    min-height: 60px;
+}
 
+.navbar-brand>img {
+    max-width: 15rem;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+.navbar {
+    background: transparent;
+    border-color: transparent;
+    box-shadow2: none;
+}
+
+.navbar li { color: #000 }
 
 
 
@@ -256,6 +276,7 @@ body {
     left: 50%;
     transform: translatex(-50%);*/
     background: linear-gradient(260deg, #6e8ff6, #33b1f8 );
+    position: relative;
 }
 
 .home-screen .top {
