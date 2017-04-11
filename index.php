@@ -35,21 +35,21 @@
 
 
     <script src="/assets/js-cookie/src/js.cookie.js"></script>
-    <script>
-        var beenBefore = Cookies.get('beenBefore');
-        var clang = Cookies.get('mylang');
-        if (!clang) {
-            Cookies.set('beenBefore', "true");
-            var navLangStr = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
-            clang = (navLangStr.indexOf('zh') == -1) ? 'en' : 'zh';
-        }
-
-        if (clang == 'zh') window.location = "/cn/";
-
-
-        var domain = window.location.hostname;
-        var ga_id = (domain.indexOf('humaniq.co') == -1) ? "UA-96195965-1" : 'UA-91023234-1';
-    </script>
+<!--    <script>-->
+<!--        var beenBefore = Cookies.get('beenBefore');-->
+<!--        var clang = Cookies.get('mylang');-->
+<!--        if (!clang) {-->
+<!--            Cookies.set('beenBefore', "true");-->
+<!--            var navLangStr = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);-->
+<!--            clang = (navLangStr.indexOf('zh') == -1) ? 'en' : 'zh';-->
+<!--        }-->
+<!---->
+<!--        if (clang == 'zh') window.location = "/cn/";-->
+<!---->
+<!---->
+<!--        var domain = window.location.hostname;-->
+<!--        var ga_id = (domain.indexOf('humaniq.co') == -1) ? "UA-96195965-1" : 'UA-91023234-1';-->
+<!--    </script>-->
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">(function (d, w, c) {
@@ -84,21 +84,44 @@
     <!-- /Yandex.Metrika counter -->
 
 
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+<!--    <script>-->
+<!--        (function (i, s, o, g, r, a, m) {-->
+<!--            i['GoogleAnalyticsObject'] = r;-->
+<!--            i[r] = i[r] || function () {-->
+<!--                    (i[r].q = i[r].q || []).push(arguments)-->
+<!--                }, i[r].l = 1 * new Date();-->
+<!--            a = s.createElement(o),-->
+<!--                m = s.getElementsByTagName(o)[0];-->
+<!--            a.async = 1;-->
+<!--            a.src = g;-->
+<!--            m.parentNode.insertBefore(a, m)-->
+<!--        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');-->
+<!---->
+<!--        ga('create', ga_id, 'auto');-->
+<!--        ga('send', 'pageview');-->
+<!---->
+<!--    </script>-->
 
-        ga('create', ga_id, 'auto');
-        ga('send', 'pageview');
+    <script>
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-91023234-1', 'auto', {'name': 'humaniq'}, {'allowLinker':true});
+        ga('require', 'linker');
+        ga('linker:autoLink',['humaniq.io', 'humaniq.co', 'blog.humaniq.co', 'my.humaniq.co']);
+        ga('humaniq.require', 'linker');
+        ga('humaniq.linker:autoLink',['humaniq.io', 'humaniq.co', 'blog.humaniq.co', 'my.humaniq.co']);
+
+        ga(function() {
+            var gaTracker = ga.getByName('humaniq');
+            var clientId = gaTracker.get('clientId');
+            ga('humaniq.set', 'dimension1', clientId);
+        });
+
+        ga('humaniq.send', 'pageview');
 
     </script>
 
