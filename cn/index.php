@@ -1091,15 +1091,15 @@ $dashboardUrl = $baseUrl . $queryString;
         </div>
 
         <div class="row list">
-            <!--
+
                             <div class="item col-xs-6 col-sm-4 col-md-3">
-                                <img src="/assets/images/avatars/0.png">
+                                <img src="/assets/images/avatars/Paolo_Tasca.png">
                                 <h5></h5>
                                 <h4>Paolo Tasca</h4>
                                 Technology Advisor / P2P economy, technology and Blockchain
 
                             </div>
-            -->
+
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/David_Applefield.png">
                 <h5></h5>
@@ -1113,31 +1113,31 @@ $dashboardUrl = $baseUrl . $queryString;
                 <h4>Karl Hoods</h4>
                 Policy and Legal Advisor / Save Children UK
             </div>
-            <!--
+
                             <div class="item col-xs-6 col-sm-4 col-md-3">
-                                <img src="/assets/images/avatars/0.png">
+                                <img src="/assets/images/avatars/Iggy_Bassy.png">
                                 <h5></h5>
                                 <h4>Iggy Bassi </h4>
                                 Policy and Legal advisor/ Social Impact and AI, data expert
                             </div>
 
-            -->
+
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Ron_Morris.png">
                 <h5></h5>
                 <h4>Ron Morris</h4>
                 Scientific Advisor / Education / Universities Advisor
             </div>
-            <!--
+
 
                             <div class="item col-xs-6 col-sm-4 col-md-3">
-                                <img src="/assets/images/avatars/0.png">
+                                <img src="/assets/images/avatars/Paul_Mears.png">
                                 <h5></h5>
                                 <h4>Paul Mears</h4>
                                 Policy and Legal advisor / Financial and risk management advisor
                             </div>
 
-
+<!--
                             <div class="item col-xs-6 col-sm-4 col-md-3">
                                 <img src="/assets/images/avatars/0.png">
                                 <h5></h5>
@@ -1169,14 +1169,14 @@ $dashboardUrl = $baseUrl . $queryString;
             </div>
 
 
-            <!--
+
             <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/0.png">
+                <img src="/assets/images/avatars/Alex_Bausch.png">
                 <h5></h5>
                 <h4>Alex Bausch</h4>
                 Technology Advisor/ Co-Chairman of the Blockchain Ecosystem Network
             </div>
--->
+
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Michael_Terpin.png">

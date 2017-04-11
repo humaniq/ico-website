@@ -1129,14 +1129,14 @@ $dashboardUrl = $baseUrl . $queryString;
 
         <div class="row list">
 
-            <!--            <div class="item col-xs-6 col-sm-4 col-md-3">
-                            <img src="/assets/images/avatars/Paolo_Tasca.jpeg">
-                            <h5></h5>
-                            <h4>Paolo Tasca</h4>
-                            Technology Advisor / P2P economy, technology and Blockchain
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Paolo_Tasca.png">
+                <h5></h5>
+                <h4>Paolo Tasca</h4>
+                Technology Advisor / P2P economy, technology and Blockchain
 
-                        </div>
-            -->
+            </div>
+
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/David_Applefield.png">
                 <h5></h5>
@@ -1150,15 +1150,15 @@ $dashboardUrl = $baseUrl . $queryString;
                 <h4>Karl Hoods</h4>
                 Policy and Legal Advisor / Save Children UK
             </div>
-            <!--
-                        <div class="item col-xs-6 col-sm-4 col-md-3">
-                            <img src="/assets/images/avatars/Iggy_Bassi.jpg">
-                            <h5></h5>
-                            <h4>Iggy Bassi </h4>
-                            Policy and Legal advisor/ Social Impact and AI, data expert
-                        </div>
 
-            -->
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Iggy_Bassy.png">
+                <h5></h5>
+                <h4>Iggy Bassi </h4>
+                Policy and Legal advisor/ Social Impact and AI, data expert
+            </div>
+
+
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Ron_Morris.png">
                 <h5></h5>
@@ -1166,23 +1166,23 @@ $dashboardUrl = $baseUrl . $queryString;
                 Scientific Advisor / Education / Universities Advisor
             </div>
 
-            <!--
+
                         <div class="item col-xs-6 col-sm-4 col-md-3">
-                            <img src="/assets/images/avatars/Paul_Mears.jpg">
+                            <img src="/assets/images/avatars/Paul_Mears.png">
                             <h5></h5>
                             <h4>Paul Mears</h4>
                             Policy and Legal advisor / Financial and risk management advisor
                         </div>
 
+            <!--
+                                    <div class="item col-xs-6 col-sm-4 col-md-3">
+                                        <img src="/assets/images/avatars/0.png">
+                                        <h5></h5>
+                                        <h4>Vishai Mishra</h4>
+                                        Technology advisor/ Big data and security
+                                    </div>
 
-                        <div class="item col-xs-6 col-sm-4 col-md-3">
-                            <img src="/assets/images/avatars/0.png">
-                            <h5></h5>
-                            <h4>Vishai Mishra</h4>
-                            Technology advisor/ Big data and security
-                        </div>
-
-            -->
+                        -->
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Pavel_Kravchenko.png">
                 <h5></h5>
@@ -1205,14 +1205,14 @@ $dashboardUrl = $baseUrl . $queryString;
                 Technology Advisor/ ‎Founder, Bitcoinsulting, Staisybit, Szenekonzept
             </div>
 
-            <!--
-<div class="item col-xs-6 col-sm-4 col-md-3">
-    <img src="/assets/images/avatars/Alex_Bausch.jpg">
-    <h5></h5>
-    <h4>Alex Bausch</h4>
-    Technology Advisor/ Co-Chairman of the Blockchain Ecosystem Network
-</div>
--->
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Alex_Bausch.png">
+                <h5></h5>
+                <h4>Alex Bausch</h4>
+                Technology Advisor/ Co-Chairman of the Blockchain Ecosystem Network
+            </div>
+
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Michael_Terpin.png">
