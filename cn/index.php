@@ -1217,6 +1217,16 @@ $dashboardUrl = $baseUrl . $queryString;
 
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Khata.png">
+                <h5></h5>
+                <h4>Yevgeniy Khata</h4>
+                Investment relations
+            </div>
+
+
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Vishal_Mishra.png">
                 <h5></h5>
                 <h4>Vishai Mishra</h4>
@@ -1337,15 +1347,6 @@ $dashboardUrl = $baseUrl . $queryString;
                 <h4>Alexander Perkins</h4>
                 Chief Legal Officer
             </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/Khata.png">
-                <!--                <h5></h5>-->
-                <h4>Yevgeniy Khata</h4>
-                Business Development Officer/ investment relations
-            </div>
-
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/George_Al_Madawar.png">

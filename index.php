@@ -35,7 +35,7 @@
 
 
     <script src="/assets/js-cookie/src/js.cookie.min.js"></script>
-    <script>
+ <!--   <script>
         var beenBefore = Cookies.get('beenBefore');
         var clang = Cookies.get('mylang');
         if (!clang) {
@@ -50,6 +50,8 @@
         var domain = window.location.hostname;
         var ga_id = (domain.indexOf('humaniq.co') == -1) ? "UA-96195965-1" : 'UA-91023234-1';
     </script>
+-->
+
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">(function (d, w, c) {
@@ -85,23 +87,27 @@
 
 
     <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', ga_id, 'auto');
-        ga('send', 'pageview');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-91023234-1', 'auto', {'name': 'humaniq'}, {'allowLinker':true});
+        ga('require', 'linker');
+        ga('linker:autoLink',['humaniq.io', 'humaniq.co', 'blog.humaniq.co', 'my.humaniq.co']);
+        ga('humaniq.require', 'linker');
+        ga('humaniq.linker:autoLink',['humaniq.io', 'humaniq.co', 'blog.humaniq.co', 'my.humaniq.co']);
+
+        ga(function() {
+            var gaTracker = ga.getByName('humaniq');
+            var clientId = gaTracker.get('clientId');
+            ga('humaniq.set', 'dimension1', clientId);
+        });
+
+        ga('humaniq.send', 'pageview');
 
     </script>
-
     <!-- Facebook Pixel Code -->
     <script>
         !function (f, b, e, v, n, t, s) {
@@ -1240,6 +1246,15 @@ $dashboardUrl = $baseUrl . $queryString;
 
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Khata.png">
+                <h5></h5>
+                <h4>Yevgeniy Khata</h4>
+                Investment Relations
+            </div>
+
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Vishal_Mishra.png">
                 <h5></h5>
                 <h4>Vishai Mishra</h4>
@@ -1365,15 +1380,6 @@ $dashboardUrl = $baseUrl . $queryString;
                 <h4>Alexander Perkins</h4>
                 Chief Legal Officer
             </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/Khata.png">
-                <!--                <h5></h5>-->
-                <h4>Yevgeniy Khata</h4>
-                Business Development Officer/ investment relations
-            </div>
-
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/George_Al_Madawar.png">
