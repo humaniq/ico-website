@@ -35,7 +35,7 @@
 
 
     <script src="/assets/js-cookie/src/js.cookie.min.js"></script>
- <!--   <script>
+    <script>
         var beenBefore = Cookies.get('beenBefore');
         var clang = Cookies.get('mylang');
         if (!clang) {
@@ -45,12 +45,7 @@
         }
 
         if (clang == 'zh') window.location = "/cn/";
-
-
-        var domain = window.location.hostname;
-        var ga_id = (domain.indexOf('humaniq.co') == -1) ? "UA-96195965-1" : 'UA-91023234-1';
     </script>
--->
 
 
     <!-- Yandex.Metrika counter -->

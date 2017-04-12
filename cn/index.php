@@ -38,21 +38,17 @@
 
 
     <script src="/assets/js-cookie/src/js.cookie.js"></script>
-<!--    <script>-->
-<!--        var beenBefore = Cookies.get('beenBefore');-->
-<!--        var clang = Cookies.get('mylang');-->
-<!--        if (!clang) {-->
-<!--            Cookies.set('beenBefore', "true");-->
-<!--            var navLangStr = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);-->
-<!--            clang = (navLangStr.indexOf('zh') == -1) ? 'en' : 'zh';-->
-<!--        }-->
-<!---->
-<!--        if (clang == 'en') window.location = "/";-->
-<!---->
-<!---->
-<!--        var domain = window.location.hostname;-->
-<!--        var ga_id = (domain.indexOf('humaniq.co') == -1) ? "UA-96195965-1" : 'UA-91023234-1';-->
-<!--    </script>-->
+    <script>
+        var beenBefore = Cookies.get('beenBefore');
+        var clang = Cookies.get('mylang');
+        if (!clang) {
+            Cookies.set('beenBefore', "true");
+            var navLangStr = navigator.languages ? navigator.languages[0] : (navigator.language || navigator.userLanguage);
+            clang = (navLangStr.indexOf('zh') == -1) ? 'en' : 'zh';
+        }
+
+        if (clang == 'zh') window.location = "/cn/";
+    </script>
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">(function (d, w, c) {
