@@ -190,6 +190,15 @@ var setCountDown = function () {
         $(".supporters .backdrop").removeClass("active");
     });
 
+
+    $(".navbar-toggle").click( function () { $(".navbar-header").toggleClass("clps");});
+
+    $('.navbar-collapse ul li a').click(function () {
+        /* always close responsive nav after click */
+        $('.navbar-toggle:visible').click();
+    });
+
+
 // ************************** Analitics click handler ***************************/
 
     $(".yga").on("click", function (e) {
@@ -225,7 +234,7 @@ var setCountDown = function () {
     $('a.page-scroll').bind('click', function (event) {
         var $ele = $(this);
         var target = $($ele.attr('href'));
-        var offset = parseInt((target.data('offset')) ? target.data('offset') : 0);
+        var offset = parseInt((target.data('offset')) ? target.data('offset') : 20);
         //console.log(offset);
 
         $('html, body').stop().animate({

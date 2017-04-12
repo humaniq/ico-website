@@ -8,8 +8,8 @@
 
     <title>Humaniq</title>
 
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-theme.css">
 
     <link href="/assets/animate.css/animate.min.css" rel="stylesheet"/>
 
@@ -34,7 +34,7 @@
     <meta name="theme-color" content="#ffffff">
 
 
-    <script src="/assets/js-cookie/src/js.cookie.js"></script>
+    <script src="/assets/js-cookie/src/js.cookie.min.js"></script>
     <script>
         var beenBefore = Cookies.get('beenBefore');
         var clang = Cookies.get('mylang');
@@ -147,7 +147,7 @@
     <!-- End Twitter universal website tag code -->
 
 </head>
-<body id="skrollr-body" data-spy="scroll" data-target="#navbar" class="happened">
+<body id="home" data-spy="scroll" data-offset="90" data-target="#navbar" class="happened">
 
 
 <?php
@@ -158,6 +158,51 @@ $dashboardUrl = $baseUrl . $queryString;
 ?>
 
 
+<nav id="navbar" data-spy="affix" data-offset-top="300" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid nav-wrapper">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <img class="cross" src="assets/images/close-nav.svg">
+            </button>
+
+
+            <a class="navbar-brand page-scroll" href="#home">
+                <img src="/assets/images/logo.png" class="white" alt="Join our mission to connect two billion unbanked people">
+                <img src="/assets/images/logo-blue.png" class="blue" alt="Join our mission to connect two billion unbanked people">
+            </a>
+        </div><div class="navbar-collapse collapse" id="bs-navbar">
+
+            <ul class="nav navbar-nav centered text-center">
+                <li><a href="#whatis" class="page-scroll yga" data-ga="1" data-ya-target="menu-about">About</a>
+                <li><a href="#advisoryboard" class="page-scroll yga" data-ga="1" data-ya-target="menu-advisory-board">Advisory Board</a>
+                <li><a href="#team" class="page-scroll yga" data-ga="1" data-ya-target="menu-team">Team</a>
+                <li><a href="#sbs" class="page-scroll yga" data-ga="1" data-ya-target="menu-join-us">Join Us</a>
+                <li><a href="#join-the-ico" class="page-scroll yga" data-ga="1" data-ya-target="menu-ico">ICO</a>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right reserve-wrapper">
+                <li>
+                    <a href="/cn/" class="item" onclick="Cookies.set('mylang','zh')">繁體中文</a>
+                </li>
+                <li>
+                    <a href="#whitepapers" class="whitepaper-link round yga" data-ga="1"
+                       data-ya-target="home-screen-whitepapers">
+                        Whitepapers
+                    </a>
+
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
 
 <section id="home-screen" class="home-screen" data-0="opacity:1;" data-500="opacity:0.7;" data-1000="opacity:0;">
     <div class="circle c1"></div>
@@ -165,28 +210,28 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="circle c3"></div>
     <div class="circle c4"></div>
     <div class="circle c5"></div>
-    <div class="container-fluid">
-        <div class="row top">
-            <div class="col-sm-6">
-                <div class="img logo"><img src="/assets/images/logo.png"
-                                           alt="Join our mission to connect two billion unbanked people"></div>
-            </div>
-            <div class="col-sm-6 reserve-wrapper">
-                <div class="lang">
-                    <div class="item active">English</div>
-                    <!--                    <div class="item">Deutsch</div>-->
-                    <a href="/cn/" class="item" onclick="Cookies.set('mylang','zh')">繁體中文</a>
+    <!--
+        <div class="container-fluid">
+            <div class="row top">
+                <div class="col-sm-6">
+                    <div class="img logo"><img src="/assets/images/logo.png"
+                                               alt="Join our mission to connect two billion unbanked people"></div>
                 </div>
-                <a href="#whitepapers" class="whitepaper-link round yga" data-ga="1"
-                   data-ya-target="home-screen-whitepapers">
-                    Whitepapers
-                </a>
+                <div class="col-sm-6 reserve-wrapper">
+                    <div class="lang">
+                        <div class="item active">English</div>
+                        <a href="/cn/" class="item" onclick="Cookies.set('mylang','zh')">繁體中文</a>
+                    </div>
+                    <a href="#whitepapers" class="whitepaper-link round yga" data-ga="1"
+                       data-ya-target="home-screen-whitepapers">
+                        Whitepapers
+                    </a>
 
 
+                </div>
             </div>
         </div>
-    </div>
-    
+    -->
 
     <div class="container">
         <div class="row">
@@ -233,18 +278,21 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                     <div class="offer pre-ico">Join our mission. Sign up now to get notified about the ICO start.</div>
                     <div class="sub-form" id="sub-form-1" data-ga="1" data-ya-target="SUBMAIL1">
-                        <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')" data-ga="1" data-ya-target="big-blue-button-home"
+                        <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
+                           data-ga="1" data-ya-target="big-blue-button-home"
                            target="_blank" class="btn-post-block yga">Join the Crowdsale</a>
 
                     </div>
 
                     <div class="lower-buttons post text-left">
                         <div class="left" data-toggle="modal" data-target="#ico-modal">
-                            <div class="round"><i class="glyphicon glyphicon-play"></i></div><br class="visible-xs">
+                            <div class="round"><i class="glyphicon glyphicon-play"></i></div>
+                            <br class="visible-xs">
                             What is an ICO?
                         </div>
                         <div class="center">
-                            <div class="bonus-fadein round curr-bonus-figure">25%</div><br class="visible-xs">
+                            <div class="bonus-fadein round curr-bonus-figure">25%</div>
+                            <br class="visible-xs">
                             Current Bonus
 
                             <div class="bonuses">
@@ -275,7 +323,7 @@ $dashboardUrl = $baseUrl . $queryString;
 </section>
 
 
-<section id="whatis" class="whatis">
+<section id="whatis" class="whatis" data-offset="150">
     <div class="container main">
         <div class="row">
             <div class="col-xs-12">
@@ -339,7 +387,8 @@ $dashboardUrl = $baseUrl . $queryString;
                                 <div class="c">TH</div>
                                 <div class="p">34%</div>
                                 <div class="g">
-                                    <div class="bl c44"></div><br>
+                                    <div class="bl c44"></div>
+                                    <br>
                                     <div class="gr c70"></div>
                                 </div>
                             </div>
@@ -348,7 +397,8 @@ $dashboardUrl = $baseUrl . $queryString;
                                 <div class="c">AF</div>
                                 <div class="p">18%</div>
                                 <div class="g">
-                                    <div class="bl c25"></div><br>
+                                    <div class="bl c25"></div>
+                                    <br>
                                     <div class="gr c70"></div>
                                 </div>
                             </div>
@@ -391,7 +441,9 @@ $dashboardUrl = $baseUrl . $queryString;
                 </div>
                 <div class="item right">
                     <div class="text">Startup<br>Swarm</div>
-                    <div class="text-2">We will open source our protocol to third party developers to creatie new solutions for our end users. That will also create utility for our currency, the HMQ, by providing a token that has true fungible value.
+                    <div class="text-2">We will open source our protocol to third party developers to creatie new
+                        solutions for our end users. That will also create utility for our currency, the HMQ, by
+                        providing a token that has true fungible value.
                     </div>
                 </div>
             </div>
@@ -471,7 +523,7 @@ $dashboardUrl = $baseUrl . $queryString;
     </div>
 </section>
 
-<section id="sbs" class="sbs">
+<section id="sbs" class="sbs" data-offset="88">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
@@ -593,8 +645,6 @@ $dashboardUrl = $baseUrl . $queryString;
         </div>
     </div>
 </section>
-
-
 
 
 <section id="rev" class="rev">
@@ -879,12 +929,17 @@ $dashboardUrl = $baseUrl . $queryString;
                 <div class="text">
                     Humaniq is about ‘Profit with a Purpose’, also known as humanitarian capitalism.
                     We create win-wins for all stakeholders in the spectrum. This is an opportunity
-                    not only to improve the quality of life in emerging economies for some of the world’s poorest people,
+                    not only to improve the quality of life in emerging economies for some of the world’s poorest
+                    people,
                     but it’s also an opportunity for entrepreneurs who want to build -non or profitable services such as
-                    a direct donation platform, or perhaps a P2P lending addon that might help you achieve not only a ROI
-                    on your investment, but also help empower and improve the lives of others who have never had opportunities
-                    with traditional financial services before and who currently pay exorbitant interest rates of between
-                    35 and 80 percent to loan sharks as traditional banks won’t help them. You’ll feel good about your investment
+                    a direct donation platform, or perhaps a P2P lending addon that might help you achieve not only a
+                    ROI
+                    on your investment, but also help empower and improve the lives of others who have never had
+                    opportunities
+                    with traditional financial services before and who currently pay exorbitant interest rates of
+                    between
+                    35 and 80 percent to loan sharks as traditional banks won’t help them. You’ll feel good about your
+                    investment
                     knowing that both parties are profiting from the exchange.
                 </div>
             </div>
@@ -989,31 +1044,32 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="col-xs-12 text-center post-ico">
                 <h1>The World is changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
                 <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
-                   target="_blank" class="btn-post-onethird yga"  data-ga="1" data-ya-target="big-blue-button-2">Join the ICO</a>
+                   target="_blank" class="btn-post-onethird yga" data-ga="1" data-ya-target="big-blue-button-2">Join the
+                    ICO</a>
             </div>
 
 
-<!--            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
-                <h1>The World is <br class="hidden-xs">changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
-            </div>
-            <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
-                <div class="text">Don’t miss bonuses for early birds</div>
-                <form class="formBody" data-toggle="validator" role="form" method="post"
-                      action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758"
-                      onsubmit="roistat.event.send('request_demo')">
-                    <div class="form-group has-feedback">
-                        <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
-                        <div class="notify">
-                            <input type="email" class="form-control email" name="EMAIL" id="email3"
-                                   placeholder="your@email.com" required data-error="Email address is invalid"
-                                   data-required-error="Email address is required">
-                            <input type="submit" class="btn btn-primary submit" value="Request Demo">
+            <!--            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
+                            <h1>The World is <br class="hidden-xs">changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
                         </div>
-                        <div class="help-block with-errors"></div>
-                    </div>
-                </form>
-            </div>
--->
+                        <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
+                            <div class="text">Don’t miss bonuses for early birds</div>
+                            <form class="formBody" data-toggle="validator" role="form" method="post"
+                                  action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758"
+                                  onsubmit="roistat.event.send('request_demo')">
+                                <div class="form-group has-feedback">
+                                    <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
+                                    <div class="notify">
+                                        <input type="email" class="form-control email" name="EMAIL" id="email3"
+                                               placeholder="your@email.com" required data-error="Email address is invalid"
+                                               data-required-error="Email address is required">
+                                        <input type="submit" class="btn btn-primary submit" value="Request Demo">
+                                    </div>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </form>
+                        </div>
+            -->
         </div>
     </div>
 
@@ -1060,8 +1116,6 @@ $dashboardUrl = $baseUrl . $queryString;
 
                 </div>
             </div>
-
-
 
 
             <div class="item e col-xs-6 col-sm-4 col-md-3" data-pp="1">
@@ -1169,7 +1223,6 @@ $dashboardUrl = $baseUrl . $queryString;
             </div>
 
 
-
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Ron_Morris.png">
                 <h5></h5>
@@ -1230,7 +1283,6 @@ $dashboardUrl = $baseUrl . $queryString;
                 <h4>Nick Ayton</h4>
                 Technology Advisory Board/ 21 Million Project
             </div>
-
 
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
@@ -1346,7 +1398,6 @@ $dashboardUrl = $baseUrl . $queryString;
             </div>
 
 
-
             <!--
                         <div class="item col-xs-6 col-sm-4 col-md-3">
                             <img src="/assets/images/avatars/0.png">
@@ -1363,7 +1414,6 @@ $dashboardUrl = $baseUrl . $queryString;
                         </div>
 
             -->
-
 
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
@@ -1581,7 +1631,8 @@ $dashboardUrl = $baseUrl . $queryString;
                 <h5>Lesotho</h5>
                 <h4>Itumeleng Isaac Lejone</h4>
                 Bitcoin Community
-                <p><a href="https://www.facebook.com/itumelengisaac.lejone" target="_blank">facebook.com / itumelengisaac.lejone</a>
+                <p><a href="https://www.facebook.com/itumelengisaac.lejone" target="_blank">facebook.com /
+                        itumelengisaac.lejone</a>
             </div>
 
             <div class="item col-xs-6 col-sm-4 col-md-2">
@@ -1589,7 +1640,8 @@ $dashboardUrl = $baseUrl . $queryString;
                 <h5>South Africa</h5>
                 <h4>Mogopodi<br>Phiri</h4>
                 Africrypto
-                <p><a href="https://www.facebook.com/mogopodi.phiri.1" target="_blank">facebook.com / mogopodi.phiri.1</a>
+                <p><a href="https://www.facebook.com/mogopodi.phiri.1" target="_blank">facebook.com /
+                        mogopodi.phiri.1</a>
 
             </div>
 
@@ -1683,7 +1735,8 @@ $dashboardUrl = $baseUrl . $queryString;
                 <img src="/assets/images/avatars/Mohammed_Ibrahim.png">
                 <h5>Nigeria</h5>
                 <h4>Muhammed<br>bukar Ibrahim</h4>
-                <p><a href="https://www.facebook.com/mohammedbukar.ibrahim" target="_blank">facebook.com / mohammedbukar.ibrahim</a>
+                <p><a href="https://www.facebook.com/mohammedbukar.ibrahim" target="_blank">facebook.com /
+                        mohammedbukar.ibrahim</a>
             </div>
 
 
@@ -1830,14 +1883,14 @@ $dashboardUrl = $baseUrl . $queryString;
 </section>
 
 
-
-<section class="inline-form">
+<section id="join-the-ico" class="inline-form" data-offset="82">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center post-ico">
                 <h1>The World is changing rapidly. <br class="hidden-xs">Be a step ahead.</h1>
                 <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
-                   target="_blank" class="btn-post-onethird yga"  data-ga="1" data-ya-target="big-blue-button-3">Join the ICO</a>
+                   target="_blank" class="btn-post-onethird yga" data-ga="1" data-ya-target="big-blue-button-3">Join the
+                    ICO</a>
             </div>
         </div>
     </div>
@@ -1904,7 +1957,8 @@ $dashboardUrl = $baseUrl . $queryString;
     </div>
     <div class="container">
         <div class="row cl2">
-            <div class="col-xs-12 col-xs-offset-0 it2" data-toggle="modal" data-target="#ico-modal" style="background: #fff;padding: 7rem;">
+            <div class="col-xs-12 col-xs-offset-0 it2" data-toggle="modal" data-target="#ico-modal"
+                 style="background: #fff;padding: 7rem;">
                 <h1 class="text-center">What is an ICO?</h1>
                 <div>An ICO is a recently emerged concept of crowdfunding projects in the cryptocurrency and Blockchain
                     industries.
@@ -1912,8 +1966,8 @@ $dashboardUrl = $baseUrl . $queryString;
                         company releases its own cryptocurrency with a purpose of funding. It usually releases a certain
                         number of crypto-tokens and then sells those tokens to its intended audience, most commonly in
                         exchange for Bitcoins, but it can be fiat money as well.
-<!--                    <p>As a result, the company gets the capital to fund the product development and the audience
-                        members get their crypto tokens’ shares. Plus, they have complete ownership of these shares.-->
+                        <!--                    <p>As a result, the company gets the capital to fund the product development and the audience
+                                                members get their crypto tokens’ shares. Plus, they have complete ownership of these shares.-->
                     <h2>What’s in ICO for me?</h2>
                     <p>There are many possible benefits to taking part in an ICO. The obvious one is: you are helping
                         the company launch its product. There is also an opportunity to make a profit selling ICO tokens
@@ -1924,8 +1978,11 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </div>
                 <div class="gray">* - HMQ is not an investment instrument or security.
-                    There is no guarantee – indeed there is no reason to believe – that the HMQ you purchase will increase in value.
-                    HMQ MAY, AND LIKELY WILL,  DECREASE IN VALUE. Those who do not actually use their HMQ honestly and fairly will lose their HMQ to those who do.</div>
+                    There is no guarantee – indeed there is no reason to believe – that the HMQ you purchase will
+                    increase in value.
+                    HMQ MAY, AND LIKELY WILL, DECREASE IN VALUE. Those who do not actually use their HMQ honestly and
+                    fairly will lose their HMQ to those who do.
+                </div>
             </div>
         </div>
     </div>

@@ -149,7 +149,7 @@
     <!-- End Twitter universal website tag code -->
 
 </head>
-<body id="skrollr-body" class="happened">
+<body id="home" data-spy="scroll" data-offset="90" data-target="#navbar" class="happened">
 
 <?php
 $baseUrl = 'https://my.humaniq.co/';
@@ -159,12 +159,60 @@ $dashboardUrl = $baseUrl . $queryString;
 ?>
 
 
+<nav id="navbar" data-spy="affix" data-offset-top="300" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid nav-wrapper">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <img class="cross" src="assets/images/close-nav.svg">
+            </button>
+
+
+            <a class="navbar-brand page-scroll" href="#home">
+                <img src="/assets/images/logo.png" class="white" alt="Join our mission to connect two billion unbanked people">
+                <img src="/assets/images/logo-blue.png" class="blue" alt="Join our mission to connect two billion unbanked people">
+            </a>
+        </div><div class="navbar-collapse collapse" id="bs-navbar">
+
+            <ul class="nav navbar-nav centered text-center">
+                <li><a href="#whatis" class="page-scroll yga" data-ga="1" data-ya-target="menu-about">About</a>
+                <li><a href="#advisoryboard" class="page-scroll yga" data-ga="1" data-ya-target="menu-advisory-board">Advisory Board</a>
+                <li><a href="#team" class="page-scroll yga" data-ga="1" data-ya-target="menu-team">Team</a>
+                <li><a href="#sbs" class="page-scroll yga" data-ga="1" data-ya-target="menu-join-us">Join Us</a>
+                <li><a href="#join-the-ico" class="page-scroll yga" data-ga="1" data-ya-target="menu-ico">ICO</a>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right reserve-wrapper">
+                <li>
+                    <a href="/" class="item" onclick="Cookies.set('mylang','en')">English</a>
+                </li>
+                <li>
+                    <a href="#whitepapers" class="whitepaper-link round yga" data-ga="1"
+                       data-ya-target="home-screen-whitepapers">
+                        Whitepapers
+                    </a>
+
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+
 <section id="home-screen" class="home-screen" data-0="opacity:1;" data-500="opacity:0.7;" data-1000="opacity:0;">
     <div class="circle c1"></div>
     <div class="circle c2"></div>
     <div class="circle c3"></div>
     <div class="circle c4"></div>
     <div class="circle c5"></div>
+    <!--
     <div class="container-fluid">
         <div class="row top">
             <div class="col-sm-6">
@@ -174,7 +222,6 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="col-sm-6 reserve-wrapper">
                 <div class="lang">
                     <a href="/" class="item" onclick="Cookies.set('mylang','en')">English</a>
-                    <!--                    <div class="item">Deutsch</div>-->
                     <div class="item active">繁體中文</div>
                 </div>
                 <a href="#whitepapers" class="whitepaper-link round yga" data-ga="1"
@@ -186,7 +233,7 @@ $dashboardUrl = $baseUrl . $queryString;
             </div>
         </div>
     </div>
-
+-->
 
     <div class="container">
         <div class="row">
@@ -264,7 +311,7 @@ $dashboardUrl = $baseUrl . $queryString;
 </section>
 
 
-<section id="whatis" class="whatis">
+<section id="whatis" class="whatis" data-offset="150">
     <div class="container main">
         <div class="row">
             <div class="col-xs-12">
@@ -449,7 +496,7 @@ $dashboardUrl = $baseUrl . $queryString;
 </section>
 
 
-<section id="sbs" class="sbs">
+<section id="sbs" class="sbs" data-offset="89">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
@@ -988,7 +1035,7 @@ $dashboardUrl = $baseUrl . $queryString;
 </section>
 
 
-<section id="team" class="supporters">
+<section id="board" class="supporters">
     <div class="container">
         <div class="row head">
             <div class="col-sm-12">
@@ -1774,7 +1821,7 @@ $dashboardUrl = $baseUrl . $queryString;
     <img src="/assets/images/timeline_m-cn.svg" style="width: 100%">
 </section>
 
-<section class="inline-form">
+<section class="inline-form" id="join-the-ico" data-offset="85">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
