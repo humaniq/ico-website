@@ -1661,7 +1661,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 <h5>印度</h5>
                 <h4>帕尔斯•巴特•乌潘德拉•库马尔（Parth Bhatt Upendra Kumar）</h4>
                 印度合作伙伴
-                <p><a href="https://www.facebook.com/parth.bhatt.731" target="_blank">https://www.facebook.com/parth.bhatt.731</a>
+                <p><a href="https://www.facebook.com/parth.bhatt.731" target="_blank">facebook.com / parth.bhatt.731</a>
             </div>
 
             <div id="pp-4" class="popup">

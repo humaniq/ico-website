@@ -148,11 +148,7 @@ var setCountDown = function () {
      */
 
 
-    var balance = "34567890";
-    balance = balance.substring(0, balance.length-6)+"."+ balance.substring(balance.length-6, balance.length-3)+"."+ balance.substring(balance.length-3, balance.length);
-    $(".current-total").html(balance);
-
-
+   
     $.ajax({
         url: "https://my.humaniq.co/_stats",
        dataType: "json",

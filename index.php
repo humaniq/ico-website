@@ -1708,7 +1708,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 <h5>India</h5>
                 <h4>Parth Bhatt<br>Upendra Kumar</h4>
                 Indian Partner
-                <p><a href="https://www.facebook.com/parth.bhatt.731" target="_blank">https://www.facebook.com/parth.bhatt.731</a>
+                <p><a href="https://www.facebook.com/parth.bhatt.731" target="_blank">facebook.com / parth.bhatt.731</a>
             </div>
 
             <div id="pp-4" class="popup">
