@@ -147,20 +147,25 @@ var setCountDown = function () {
 
      */
 
-/*
+
 
     $.ajax({
         url: "https://my.humaniq.co/_stats",
 
-       //dataType: "text",
+       dataType: "json",
         //method: "POST",
-        crossDomain: true,
+        //crossDomain: true,
         success: function (data) {
             console.log(data);
-            var balance = Math.ceil(parseFloat(data.data.total_balance_usd) * 100) / 100;
+//            var balance = Math.ceil(parseFloat(data.data.total_balance_usd) * 100) / 100;
+            var balance = Math.ceil(parseFloat(data.data.total_balance_usd));
+
+
+            $(".current-total").html(balance);
+            $(".current-participants").html(data.data.users_count);
         }
     });
-*/
+
 
     setCountDown();
     setInterval(setCountDown, 1000);
