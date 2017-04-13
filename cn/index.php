@@ -47,7 +47,7 @@
             clang = (navLangStr.indexOf('zh') == -1) ? 'en' : 'zh';
         }
 
-        if (clang == 'zh') window.location = "/cn/";
+        if (clang == 'en') window.location = "/en/";
     </script>
 
     <!-- Yandex.Metrika counter -->
@@ -291,6 +291,71 @@ $dashboardUrl = $baseUrl . $queryString;
                            target="_blank" class="btn-post-block yga" data-ga="1" data-ya-target="big-blue-button-home">加入ICO</a>
                     </div>
 
+
+
+                    <div class="ico-ends text-center"><div class="ends">ICO于 <b>CET时间4月27日00<span class="blink">:</span>00时结束</b></div></div>
+
+
+                    <div class="lower-buttons text-left">
+
+
+                        <div class="even" data-toggle="modal" data-target="#ico-modal">
+                            <div class="round gly" style="padding: 10px 11px 9px 13px;"><i class="glyphicon glyphicon-play"></i></div>
+                            <div class="txt">
+                                Watch video<br>
+                                <b>什么是ICO？</b>
+                            </div>
+                        </div>
+
+                        <div class="even">
+                            <div class="round" style="padding: 7px 13px 5px 13px;">$</div>
+                            <div class="txt">
+                                Total Value<br>
+                                <b class="current-total">3.000.000</b>
+                            </div>
+                        </div>
+
+                        <div class="even">
+                            <div class="round gly" style="padding: 10px 12px 9px 12px;"><i class="glyphicon glyphicon-ok"></i></div>
+                            <div class="txt">
+                                Participants<br>
+                                <b class="current-participants">4000</b>
+                            </div>
+                        </div>
+
+                        <div class="even">
+                            <div class="bonus-fadein round">%</div>
+                            <div class="txt">现有奖励<br>
+                                <b class=" curr-bonus-figure"></b>
+                            </div>
+
+                            <div class="bonuses">
+                                <h3>Bonuses</h3>
+                                <h5>ICO duration: 21 days.</h5>
+                                <div class="left">+49.9%</div>
+                                <div class="right">2 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+25%</div>
+                                <div class="right">7 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+12.5%</div>
+                                <div class="right">7 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+0%</div>
+                                <div class="right">5 days</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+<!--
+
+
+
+
                     <div class="lower-buttons post text-left">
                         <div class="left text-left" data-toggle="modal" data-target="#ico-modal">
                             <div class="round"><i class="glyphicon glyphicon-play"></i></div><br class="visible-xs">
@@ -320,7 +385,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             <div class="ends">ICO于<br> <b>CET时间4月27日00.00时结束</b></div>
                         </div>
                     </div>
-
+-->
 
                 </div>
             </div>

@@ -211,28 +211,6 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="circle c3"></div>
     <div class="circle c4"></div>
     <div class="circle c5"></div>
-    <!--
-        <div class="container-fluid">
-            <div class="row top">
-                <div class="col-sm-6">
-                    <div class="img logo"><img src="/assets/images/logo.png"
-                                               alt="Join our mission to connect two billion unbanked people"></div>
-                </div>
-                <div class="col-sm-6 reserve-wrapper">
-                    <div class="lang">
-                        <div class="item active">English</div>
-                        <a href="/cn/" class="item" onclick="Cookies.set('mylang','zh')">繁體中文</a>
-                    </div>
-                    <a href="#whitepapers" class="whitepaper-link round yga" data-ga="1"
-                       data-ya-target="home-screen-whitepapers">
-                        Whitepapers
-                    </a>
-
-
-                </div>
-            </div>
-        </div>
-    -->
 
     <div class="container">
         <div class="row">
@@ -277,24 +255,48 @@ $dashboardUrl = $baseUrl . $queryString;
                             </div>
                         </div>
                     </div>
-                    <div class="offer pre-ico">Join our mission. Sign up now to get notified about the ICO start.</div>
-                    <div class="sub-form" id="sub-form-1" data-ga="1" data-ya-target="SUBMAIL1">
+                    <div>
                         <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
                            data-ga="1" data-ya-target="big-blue-button-home"
                            target="_blank" class="btn-post-block yga">Join the Crowdsale</a>
 
                     </div>
 
-                    <div class="lower-buttons post text-left">
-                        <div class="left" data-toggle="modal" data-target="#ico-modal">
-                            <div class="round"><i class="glyphicon glyphicon-play"></i></div>
-                            <br class="visible-xs">
-                            What is an ICO?
+                    <div class="ico-ends text-center"><div class="ends">ICO ends: <b>27 April 00<span class="blink">:</span>00 CET</b></div></div>
+
+
+                    <div class="lower-buttons text-left">
+
+
+                        <div class="even" data-toggle="modal" data-target="#ico-modal">
+                            <div class="round gly" style="padding: 10px 11px 9px 13px;"><i class="glyphicon glyphicon-play"></i></div>
+                            <div class="txt">
+                                Watch video<br>
+                                <b>What is an ICO?</b>
+                            </div>
                         </div>
-                        <div class="center">
-                            <div class="bonus-fadein round curr-bonus-figure">25%</div>
-                            <br class="visible-xs">
-                            Current Bonus
+
+                        <div class="even">
+                            <div class="round" style="padding: 7px 13px 5px 13px;">$</div>
+                            <div class="txt">
+                                Total Value<br>
+                                <b class="current-total">3.000.000</b>
+                            </div>
+                        </div>
+
+                        <div class="even">
+                            <div class="round gly" style="padding: 10px 12px 9px 12px;"><i class="glyphicon glyphicon-ok"></i></div>
+                            <div class="txt">
+                                Participants<br>
+                                <b class="current-participants">4000</b>
+                            </div>
+                        </div>
+
+                        <div class="even">
+                            <div class="bonus-fadein round">%</div>
+                            <div class="txt">Current Bonus<br>
+                                <b class=" curr-bonus-figure"></b>
+                            </div>
 
                             <div class="bonuses">
                                 <h3>Bonuses</h3>
@@ -312,10 +314,54 @@ $dashboardUrl = $baseUrl . $queryString;
                                 <div class="right">5 days</div>
                             </div>
                         </div>
+
+                    </div>
+
+
+
+
+
+
+
+<!--
+                    <div class="lower-buttons post text-left">
+
+
+                        <div class="left" data-toggle="modal" data-target="#ico-modal">
+                            <div class="round"><i class="glyphicon glyphicon-play"></i></div>
+                            <br class="visible-xs">
+                            What is an ICO?
+                        </div>
+
+                        <div class="center">
+                            <div class="bonus-fadein round">%</div>
+                            <div class="ends">Current Bonus<br>
+                                <b class=" curr-bonus-figure"></b>
+                            </div>
+
+                            <div class="bonuses">
+                                <h3>Bonuses</h3>
+                                <h5>ICO duration: 21 days.</h5>
+                                <div class="left">+49.9%</div>
+                                <div class="right">2 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+25%</div>
+                                <div class="right">7 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+12.5%</div>
+                                <div class="right">7 days</div>
+                                <div class="sep"></div>
+                                <div class="left">+0%</div>
+                                <div class="right">5 days</div>
+                            </div>
+                        </div>
+
                         <div class="right">
                             <div class="ends">ICO ends<br><b>27 April 00<span class="blink">:</span>00 CET</b></div>
                         </div>
+
                     </div>
+                    -->
 
                 </div>
             </div>
