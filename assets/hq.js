@@ -148,18 +148,25 @@ var setCountDown = function () {
      */
 
 
+    var balance = "34567890";
+    balance = balance.substring(0, balance.length-6)+"."+ balance.substring(balance.length-6, balance.length-3)+"."+ balance.substring(balance.length-3, balance.length);
+    $(".current-total").html(balance);
+
 
     $.ajax({
         url: "https://my.humaniq.co/_stats",
-       dataType: "jsonp",
+       dataType: "json",
         success: function (data) {
             console.log(data);
 //            var balance = Math.ceil(parseFloat(data.data.total_balance_usd) * 100) / 100;
-            var balance = Math.ceil(parseFloat(data.data.total_balance_usd));
+            var balance = String(Math.ceil(parseFloat(data.data.total_balance_usd)));
+            balance = balance.substring(0, balance.length-6)+"."+ balance.substring(balance.length-6, balance.length-3)+"."+ balance.substring(balance.length-3, balance.length);
 
+            var partic = String(Math.ceil(parseFloat(data.data.users_count)));
+            partic = partic.substring(0, partic.length-3)+"." + partic.substring(partic.length-3, partic.length);
 
             $(".current-total").html(balance);
-            $(".current-participants").html(data.data.users_count);
+            $(".current-participants").html(partic);
         }
     });
 

@@ -280,7 +280,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             <div class="round" style="padding: 7px 13px 5px 13px;">$</div>
                             <div class="txt">
                                 Total Value<br>
-                                <b class="current-total">3.000.000</b>
+                                <b class="current-total"></b>
                             </div>
                         </div>
 
@@ -288,7 +288,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             <div class="round gly" style="padding: 10px 12px 9px 12px;"><i class="glyphicon glyphicon-ok"></i></div>
                             <div class="txt">
                                 Participants<br>
-                                <b class="current-participants">4000</b>
+                                <b class="current-participants"></b>
                             </div>
                         </div>
 
