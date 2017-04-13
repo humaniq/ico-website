@@ -1278,6 +1278,36 @@ display: block!important;
 
 
 
+@media (min-width:800px) and (max-height:710px) {
+
+    .home-screen .ico-ends {
+        margin: 10px 0 0 0;
+    }
+
+    .home-screen .main .lower-buttons .even {
+        margin-top: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:768px) {
 
