@@ -536,7 +536,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             class="tw"></i>Twitter</a>
                     <a target="_blank" href="http://github.humaniq.co" data-ya-target="sb1-github" class="yga"><i
                             class="gh"></i>GitHub</a>
-                    <a target="_blank" href="http://slack.humaniq.co" data-ya-target="sb1-slack" class="yga"><i
+                    <a target="_blank" href="https://humaniq-slack.herokuapp.com" data-ya-target="sb1-slack" class="yga"><i
                             class="sl"></i>Slack</a>
                     <a target="_blank" href="https://blog.humaniq.co" data-ya-target="sb1-medium" class="yga"><i
                             class="md"></i>Medium</a>
@@ -1910,7 +1910,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             class="tw"></i>Twitter</a>
                     <a target="_blank" href="http://github.humaniq.co" data-ya-target="sb2-github" class="yga"><i
                             class="gh"></i>GitHub</a>
-                    <a target="_blank" href="http://slack.humaniq.co" data-ya-target="sb2-slack" class="yga"><i
+                    <a target="_blank" href="https://humaniq-slack.herokuapp.com" data-ya-target="sb2-slack" class="yga"><i
                             class="sl"></i>Slack</a>
                     <a target="_blank" href="https://blog.humaniq.co" data-ya-target="sb2-medium" class="yga"><i
                             class="md"></i>Medium</a>
