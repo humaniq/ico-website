@@ -1661,6 +1661,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 <h5>印度</h5>
                 <h4>帕尔斯•巴特•乌潘德拉•库马尔（Parth Bhatt Upendra Kumar）</h4>
                 印度合作伙伴
+                <p><a href="https://www.facebook.com/parth.bhatt.731" target="_blank">https://www.facebook.com/parth.bhatt.731</a>
             </div>
 
             <div id="pp-4" class="popup">
@@ -1669,7 +1670,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 <h4>帕尔斯•巴特•乌潘德拉•库马尔（Parth Bhatt Upendra Kumar）</h4>
                 <div class="text">
                     帕尔斯•巴特是来自印度的婆罗门。他是Humaniq项目意识形态方面的一个合作伙伴。阿莱克斯•福柯和帕尔斯•巴特•乌潘德拉•库马尔一起安排了一场商业活动，旨在从印度那些地位低下的人那里获得他们对Humaniq的反应。幸亏收到了这些反馈，Humaniq变得更好了。
-                    <p><a href="https://www.facebook.com/parth.bhatt" target="_blank">https://www.facebook.com/parth.bhatt</a>
+                    <p><a href="https://www.facebook.com/parth.bhatt.731" target="_blank">https://www.facebook.com/parth.bhatt.731</a>
 
                 </div>
             </div>
