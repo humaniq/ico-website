@@ -79,14 +79,14 @@ var setCountDown = function () {
     else $(".countdown .units .days-s").fadeOut(0);
 
     var daysd = days;
-    if (days <= 5) $(".curr-bonus-figure").html("0%");
-    else if (days <= 12) {
+    if (days <= 4) $(".curr-bonus-figure").html("0%");
+    else if (days <= 11) {
         $(".curr-bonus-figure").html("12.5%");
-        daysd = days - 5;
+        daysd = days - 4;
     }
     else {
         $(".curr-bonus-figure").html("25%");
-        daysd = days - 12;
+        daysd = days - 11;
     }
 
 
@@ -148,7 +148,7 @@ var setCountDown = function () {
      */
 
 
-   
+
     $.ajax({
         url: "https://my.humaniq.co/_stats",
        dataType: "json",
