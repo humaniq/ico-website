@@ -311,7 +311,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             <div class="round" style="padding: 7px 13px 5px 13px;">$</div>
                             <div class="txt">
                                 Total Value<br>
-                                <b class="current-total">3.000.000</b>
+                                <b class="current-total"></b>
                             </div>
                         </div>
 
@@ -319,7 +319,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             <div class="round gly" style="padding: 10px 12px 9px 12px;"><i class="glyphicon glyphicon-ok"></i></div>
                             <div class="txt">
                                 Participants<br>
-                                <b class="current-participants">4000</b>
+                                <b class="current-participants"></b>
                             </div>
                         </div>
 
@@ -347,45 +347,6 @@ $dashboardUrl = $baseUrl . $queryString;
                         </div>
 
                     </div>
-
-
-
-
-<!--
-
-
-
-
-                    <div class="lower-buttons post text-left">
-                        <div class="left text-left" data-toggle="modal" data-target="#ico-modal">
-                            <div class="round"><i class="glyphicon glyphicon-play"></i></div><br class="visible-xs">
-                            什么是ICO？
-                        </div>
-                        <div class="center text-center">
-                            <div class="bonus-fadein  curr-bonus-figure round">49.9%</div><br class="visible-xs">
-                            现有奖励
-
-                            <div class="bonuses">
-                                <h3>Bonuses</h3>
-                                <h5>ICO duration: 21 days.</h5>
-                                <div class="left">+49.9%</div>
-                                <div class="right">2 days</div>
-                                <div class="sep"></div>
-                                <div class="left">+25%</div>
-                                <div class="right">7 days</div>
-                                <div class="sep"></div>
-                                <div class="left">+12.5%</div>
-                                <div class="right">7 days</div>
-                                <div class="sep"></div>
-                                <div class="left">+0%</div>
-                                <div class="right">5 days</div>
-                            </div>
-                        </div>
-                        <div class="right text-right">
-                            <div class="ends">ICO于<br> <b>CET时间4月27日00.00时结束</b></div>
-                        </div>
-                    </div>
--->
 
                 </div>
             </div>
