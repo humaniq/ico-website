@@ -79,14 +79,14 @@ var setCountDown = function () {
     else $(".countdown .units .days-s").fadeOut(0);
 
     var daysd = days;
-    if (days <= 4) $(".curr-bonus-figure").html("0%");
-    else if (days <= 11) {
+    if (days < 5) $(".curr-bonus-figure").html("0%");
+    else if (days < 12) {
         $(".curr-bonus-figure").html("12.5%");
-        daysd = days - 4;
+        daysd = days - 5;
     }
     else {
         $(".curr-bonus-figure").html("25%");
-        daysd = days - 11;
+        daysd = days - 12;
     }
 
 
