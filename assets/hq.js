@@ -151,10 +151,7 @@ var setCountDown = function () {
 
     $.ajax({
         url: "https://my.humaniq.co/_stats",
-
-       dataType: "json",
-        //method: "POST",
-        //crossDomain: true,
+       dataType: "jsonp",
         success: function (data) {
             console.log(data);
 //            var balance = Math.ceil(parseFloat(data.data.total_balance_usd) * 100) / 100;
