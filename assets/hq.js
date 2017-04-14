@@ -123,6 +123,23 @@ var setCountDown = function () {
      */
 
 
+ var anchor1 = $('#whatis');
+ $(window).scroll(function() {
+    var fromTop = $(this).scrollTop()+0;
+    if(fromTop >40){
+        if($('#whatis').offset().top<fromTop){
+            $("#navbar").fadeIn(0);
+        }
+        else $("#navbar").fadeOut(50);
+    }
+    else $("#navbar").fadeIn(50);
+
+
+
+ });
+
+
+
     /*
      var lastId, scrollItems = $('body').find(".anc");
 
