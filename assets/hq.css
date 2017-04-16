@@ -2912,6 +2912,9 @@ display: block!important;
 
     width: 100%;
     max-width: 400px;
+    max-height:100vh;
+    overflow-y: scroll;
+
 
     text-align: center;
 

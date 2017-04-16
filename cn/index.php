@@ -120,7 +120,8 @@
         });
 
         ga('humaniq.send', 'pageview');
-
+        setTimeout(function(){ga('send', 'event', 'nobouncy', '15sec')}, 15000);
+        
     </script>
 
     <!-- Facebook Pixel Code -->
@@ -1251,7 +1252,7 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Vishal_Mishra.png">
                 <h5></h5>
-                <h4>Vishai Mishra</h4>
+                <h4>Vishal Mishra</h4>
                 Technology advisor/ Big data and security
             </div>
 

@@ -102,6 +102,7 @@
 
         ga('humaniq.send', 'pageview');
 
+        setTimeout(function(){ga('send', 'event', 'nobouncy', '15sec')}, 15000);
     </script>
     <!-- Facebook Pixel Code -->
     <script>
@@ -159,7 +160,7 @@ $dashboardUrl = $baseUrl . $queryString;
 ?>
 
 
-<nav id="navbar" data-spy="affix" data-offset-top="300" class="navbar navbar-default navbar-fixed-top">
+<nav id="navbar" data-spy="affix" data-offset-top="500" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid nav-wrapper">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
@@ -1199,19 +1200,30 @@ $dashboardUrl = $baseUrl . $queryString;
                 Executive Chairman and co-Founder, Board of Directors
             </div>
 
-            <div id="pp-6" class="popup">
+            <div id="pp-6" class="popup" style="max-width:600px;">
                 <div class="close" data-pp="3"><i class="glyphicon glyphicon-remove"></i></div>
                 <img src="/assets/images/avatars/Dmitry_Kaminsky.png">
                 <h4>Dmitry Kaminskiy</h4>
                 <div class="text">
-                    The managing partner of Deep Knowledge Ventures (DKV), a Hong Kong-based fund that invests in
+<!--                    The managing partner of Deep Knowledge Ventures (DKV), a Hong Kong-based fund that invests in
                     disruptive biotechnology, fintech, and artificial intelligence companies. Mr.Kaminskiy is a trustee
                     of the Biogerontology Research Foundation in Oxford and holds a BSc in computer science from the
                     National University of Electronic Technology. Prior to Deep Knowledge Ventures, he served as an
                     executive in the telecom and financial services industries. Dmitry is interested in the potential
                     for social benefit offered by blockchain technology. Dmitry also directly supports scientists,
                     conferences, hackathons, and think-tanks at Oxford and Cambridge, such as the Exponential
-                    Technologies Institute and Biogerontology Research Foundation (BGRF).
+                    Technologies Institute and Biogerontology Research Foundation (BGRF).-->
+                    Dmitry Kaminskiy is an innovative entrepreneur and investor who is active in the fields of BioTech, FinTech, BlockChain and Artificial Intelligence. He is cofounder and managing partner at the Deep Knowledge Ventures investment fund, focused on investments in AI and DeepTech, globally known as the first company to appoint artificial intelligence to its board of directors.
+
+                    <p>Dmitry is a thought leader in the field of ultra-innovative technologies. He is a frequent speaker on the topic of AI and Longevity. During the last year he spoke at conferences organized in London by The Economist “Aging Societies and The Business of Longevity”, Financial Times “Smart Machines vs Smart People”, at the Future Finance Forum in Seoul “AI in Finance” and several others at the Oxford and Cambridge Universities.
+
+                    <p>He strongly believes in the fact that humans should live longer healthier lives. His biggest interest is anti-aging and healthy longevity, which he has engaged in business, research, and public activities. Mr Kaminskiy is well known for his support of life extension think-tanks in Oxford and Cambridge universities and many other non-profit activities. His one million dollar prize for the first person to reach their 123th birthday went viral, and was covered by the world’s top media.
+
+                    <p>Dmitry adheres to the principal of “Impact Investment” in all his business activities, believing that business should act to have significant impact for social good. His activities in both business and the non-profit sector are aimed at the shared goal of advancing exponential and disruptive technologies to accelerate positive paradigm shifts in finance, healthcare and AI.
+
+                    <p>Dmitry professes great support for the concept of BlockChain for social good, which led to his decision to support the Humaniq Bank project from its inception.
+
+
                 </div>
             </div>
 
@@ -1298,7 +1310,7 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Vishal_Mishra.png">
                 <h5></h5>
-                <h4>Vishai Mishra</h4>
+                <h4>Vishal Mishra</h4>
                 Technology advisor/ Big data and security
             </div>
 
