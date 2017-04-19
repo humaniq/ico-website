@@ -184,6 +184,8 @@ $dashboardUrl = $baseUrl . $queryString;
                 <li><a href="#sbs" class="page-scroll yga" data-ga="1" data-ya-target="menu-join-us">Join Us</a>
                 <li><a href="#join-the-ico" class="page-scroll yga" data-ga="1" data-ya-target="menu-ico">ICO</a>
 
+                <li><a href="/assets/downloads/technology_presentation_en.pdf" class="yga" data-ga="1" data-ya-target="menu-tp">Technological Architecture</a>
+
             </ul>
 
             <ul class="nav navbar-nav navbar-right reserve-wrapper">
@@ -1244,6 +1246,41 @@ $dashboardUrl = $baseUrl . $queryString;
 
         <div class="row list">
 
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Michael_Terpin.png">
+                <h5></h5>
+                <h4>Michael Terpin</h4>
+                Technology Advisor / TransformPR group
+            </div>
+
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/tim_campbell.png">
+                <h5></h5>
+                <h4>Tim Campbell</h4>
+                Public Affairs and Global Policy Advisor
+            </div>
+
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Nick_Ayton.png">
+                <h5></h5>
+                <h4>Nick Ayton</h4>
+                Technology Advisory Board/ 21 Million Project
+            </div>
+
+
+            <div class="item col-xs-6 col-sm-4 col-md-3">
+                <img src="/assets/images/avatars/Chami.png">
+                <h5></h5>
+                <h4>Chami Akmeemana</h4>
+                Scientific Advisor/ Director regulatory solutions, ConsenSys
+            </div>
+
+
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Paolo_Tasca.png">
                 <h5></h5>
@@ -1272,15 +1309,6 @@ $dashboardUrl = $baseUrl . $queryString;
                 <h4>Iggy Bassi </h4>
                 Policy and Legal advisor/ Social Impact and AI, data expert
             </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/tim_campbell.png">
-                <h5></h5>
-                <h4>Tim Campbell</h4>
-                Public Affairs and Global Policy Advisor
-            </div>
-
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Ron_Morris.png">
@@ -1346,36 +1374,11 @@ $dashboardUrl = $baseUrl . $queryString;
             </div>
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/Nick_Ayton.png">
-                <h5></h5>
-                <h4>Nick Ayton</h4>
-                Technology Advisory Board/ 21 Million Project
-            </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Alex_Bausch.png">
                 <h5></h5>
                 <h4>Alex Bausch</h4>
                 Technology Advisor/ Co-Chairman of the Blockchain Ecosystem Network
             </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/Michael_Terpin.png">
-                <h5></h5>
-                <h4>Michael Terpin</h4>
-                Technology Advisor / TransformPR group
-            </div>
-
-
-            <div class="item col-xs-6 col-sm-4 col-md-3">
-                <img src="/assets/images/avatars/Chami.png">
-                <h5></h5>
-                <h4>Chami Akmeemana</h4>
-                Scientific Advisor/ Director regulatory solutions, ConsenSys
-            </div>
-
         </div>
     </div>
 
