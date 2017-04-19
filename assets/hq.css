@@ -235,7 +235,7 @@ body {
 
 
 
-@media (max-width: 1070px) {
+@media (max-width: 1300px) {
     .navbar-header {
         float: none;
     }
@@ -523,7 +523,7 @@ display: block!important;
 }
 
 
-@media (max-width: 1070px) {
+@media (max-width: 1300px) {
     .navbar {
         margin-top: 0px;
         height: 75px;
