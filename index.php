@@ -689,6 +689,17 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
 
 
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-8.png">
+                        </div>
+                        <a class="h4" target="_blank"
+                           href="https://www.forbes.com/sites/haroldstark/2017/04/21/from-here-to-where-bitcoin-and-the-future-of-cryptocurrency/#3b402cc44367">From Here To Where? Bitcoin And The Future Of Cryptocurrency</a>
+                        <a href="https://www.forbes.com/" class="yga" target="_blank" data-ya-target="press-forbes">www.forbes.com</a>
+                    </div>
+
+
                 </div>
             </div>
 
@@ -1643,6 +1654,19 @@ $dashboardUrl = $baseUrl . $queryString;
                                    data-ya-target="partners-Distributed-Lab">https://distributedlab.com/</a>
                         </div>
                     </div>
+
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-3" data-pp2="14">
+                        <div class="wrapper">
+                            <img src="/assets/images/partners/icon-partner-11.jpg">
+                        </div>
+                        <h4>Boscoin</h4>
+                        <b>Self-evolving Cryptocurrency Platform built on Trust Contracts</b>
+                        <a href="https://boscoin.io/en/home/" target="_blank" class="yga"
+                           data-ya-target="partners-boscoin">https://boscoin.io/</a>
+                    </div>
+
 
 
                 </div>

@@ -235,7 +235,7 @@ body {
 
 
 
-@media (max-width: 1100px) {
+@media (max-width: 1050px) {
     .navbar-header {
         float: none;
     }
@@ -517,13 +517,13 @@ display: block!important;
 @media (max-width: 1100px) {
 
     .nav.navbar-nav.navbar-right {
-        margin-right: 45px;
+        margin-right: 25px;
     }
 
 }
 
 
-@media (max-width: 1100px) {
+@media (max-width: 1050px) {
     .navbar {
         margin-top: 0px;
         height: 75px;
@@ -2913,8 +2913,6 @@ display: block!important;
     width: 100%;
     max-width: 400px;
     max-height:100vh;
-    overflow-y: scroll;
-
 
     text-align: center;
 
@@ -2936,6 +2934,12 @@ display: block!important;
     transition-duration: 0.7s;
 }
 
+
+@media (max-width: 768px) {
+    .supporters .popup, .partners .popup {
+        overflow-y: scroll;
+    }
+}
 
 .supporters .popup.active, .partners .popup.active {
     display: block;
