@@ -179,12 +179,12 @@ $dashboardUrl = $baseUrl . $queryString;
 
             <ul class="nav navbar-nav centered text-center">
                 <li><a href="#whatis" class="page-scroll yga" data-ga="1" data-ya-target="menu-about">About</a>
-                <li><a href="#advisoryboard" class="page-scroll yga" data-ga="1" data-ya-target="menu-advisory-board">Advisory Board</a>
+                <li><a href="#advisoryboard" class="page-scroll yga" data-ga="1" data-ya-target="menu-advisory-board">Advisors</a>
                 <li><a href="#team" class="page-scroll yga" data-ga="1" data-ya-target="menu-team">Team</a>
                 <li><a href="#sbs" class="page-scroll yga" data-ga="1" data-ya-target="menu-join-us">Join Us</a>
                 <li><a href="#join-the-ico" class="page-scroll yga" data-ga="1" data-ya-target="menu-ico">ICO</a>
 
-                <li><a href="/assets/downloads/technology_presentation_en.pdf" class="yga" data-ga="1" data-ya-target="menu-tp">Technological Architecture</a>
+                <li><a href="/assets/downloads/technology_presentation_en.pdf" class="yga" data-ga="1" data-ya-target="menu-tp">Technology</a>
 
             </ul>
 
