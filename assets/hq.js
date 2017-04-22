@@ -38,7 +38,7 @@ var setScreens = function () {
 
 var currSlogan = 1;
 var setSlogans = function () {
-    var count = $(".home-screen .main h1.ss1 span").length;
+    var count = $(".home-screen .main h2.ss1 span").length;
 
     var cS = currSlogan;
     var pS = currSlogan - 1;
@@ -53,10 +53,10 @@ var setSlogans = function () {
 
     //console.log("count="+count+"/ns="+nS+"/cs="+cS+"/ps="+pS+"/pps="+ppS);
 
-    $(".home-screen .main h1 .s" + cS).addClass("removed");
-    $(".home-screen .main h1 .s" + pS).addClass("hidden");//.removeClass("active removed");
-    $(".home-screen .main h1 .s" + ppS).removeClass("hidden active removed");
-    $(".home-screen .main h1 .s" + nS).addClass("active");
+    $(".home-screen .main h2 .s" + cS).addClass("removed");
+    $(".home-screen .main h2 .s" + pS).addClass("hidden");//.removeClass("active removed");
+    $(".home-screen .main h2 .s" + ppS).removeClass("hidden active removed");
+    $(".home-screen .main h2 .s" + nS).addClass("active");
 };
 
 

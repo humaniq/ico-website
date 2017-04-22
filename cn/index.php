@@ -233,40 +233,18 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="circle c3"></div>
     <div class="circle c4"></div>
     <div class="circle c5"></div>
-    <!--
-    <div class="container-fluid">
-        <div class="row top">
-            <div class="col-sm-6">
-                <div class="img logo"><img src="/assets/images/logo.png"
-                                           alt="Join our mission to connect two billion unbanked people"></div>
-            </div>
-            <div class="col-sm-6 reserve-wrapper">
-                <div class="lang">
-                    <a href="/" class="item" onclick="Cookies.set('mylang','en')">English</a>
-                    <div class="item active">繁體中文</div>
-                </div>
-                <a href="#whitepapers" class="whitepaper-link round yga" data-ga="1"
-                   data-ya-target="home-screen-whitepapers">
-                    Whitepapers
-                </a>
-
-
-            </div>
-        </div>
-    </div>
--->
 
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
                 <div class="main">
-                    <h1 class="ss1 active">Humaniq 是 <b class="rotation-wrapper">
+                    <h2 class="ss1 active">Humaniq 是 <b class="rotation-wrapper">
                             <span class="active s1">区块链</span>
                             <span class="s2">神经网络</span>
                             <span class="s3">生物识别认证</span>
                             <span class="s4">大数据</span>
                         </b>
-                    </h1>
+                    </h2>
                     <div class="offer post text-center">ICO正在进行</div>
                     <div class="countdown text-center">
                         <div class="figures">
@@ -299,7 +277,7 @@ $dashboardUrl = $baseUrl . $queryString;
                     <div class="ico-ends text-center"><div class="ends">ICO于 <b>CET时间4月27日00<span class="blink">:</span>00时结束</b></div></div>
 
 
-                    <div class="lower-buttons text-left">
+                    <div class="lower-buttons">
 
 
                         <div class="even" data-toggle="modal" data-target="#ico-modal">
@@ -326,29 +304,6 @@ $dashboardUrl = $baseUrl . $queryString;
                             </div>
                         </div>
 
-                        <div class="even">
-                            <div class="bonus-fadein round">%</div>
-                            <div class="txt">现有奖励<br>
-                                <b class=" curr-bonus-figure"></b>
-                            </div>
-
-                            <div class="bonuses">
-                                <h3>Bonuses</h3>
-                                <h5>ICO duration: 21 days.</h5>
-                                <div class="left">+49.9%</div>
-                                <div class="right">2 days</div>
-                                <div class="sep"></div>
-                                <div class="left">+25%</div>
-                                <div class="right">7 days</div>
-                                <div class="sep"></div>
-                                <div class="left">+12.5%</div>
-                                <div class="right">7 days</div>
-                                <div class="sep"></div>
-                                <div class="left">+0%</div>
-                                <div class="right">5 days</div>
-                            </div>
-                        </div>
-
                     </div>
 
                 </div>
@@ -356,6 +311,224 @@ $dashboardUrl = $baseUrl . $queryString;
         </div>
     </div>
 </section>
+
+
+
+
+
+<section id="news" class="news">
+    <div id="news-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+        <h2>Latest news
+            <div class="controls">
+                <a class="left" href="#news-carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                </a>
+                <a class="right" href="#news-carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                </a>
+            </div>
+        </h2>
+
+        <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+                <div class="el">
+                    <!---                    <img src="assets/images/news/forbes.png" alt="ICO NEWS, Humaniq">-->
+                    <a class="caption" href="https://www.forbes.com/sites/haroldstark/2017/04/21/from-here-to-where-bitcoin-and-the-future-of-cryptocurrency/#f34372b4367f" target="_blank">
+                        From Here To Where? #Bitcoin And The #Future Of #Cryptocurrency and @humaniq_co via @forbes
+                    </a>
+                    <div class="footer">
+                        <a href="https://www.forbes.com/sites/haroldstark/2017/04/21/from-here-to-where-bitcoin-and-the-future-of-cryptocurrency/#f34372b4367f" target="_blank">forbes.com</a>
+                        <div class="date" data-date="2017-04-21">2017-04-21</div>
+                    </div>
+                </div>
+
+                <div class="el">
+                    <!--                    <img src="assets/images/news/logoEconotimes.jpg" alt="ICO NEWS">-->
+                    <a class="caption" href="http://www.econotimes.com/Blockchain-startup-Humaniq-joins-Barclays-Rise-Community-651756" target="_blank">
+                        Blockchain startup Humaniq joins Barclays’ Rise Community
+                    </a>
+                    <div class="footer">
+                        <a href="http://www.econotimes.com/Blockchain-startup-Humaniq-joins-Barclays-Rise-Community-651756" target="_blank">econotimes.com</a>
+                        <div class="date" data-date="2017-04-20">2017-04-20</div>
+                    </div>
+                </div>
+
+
+                <div class="el">
+                    <!--                    <img src="assets/images/news/news-2.jpg" alt="ICO NEWS, Humaniq">-->
+                    <a class="caption" href="https://www.youtube.com/watch?v=tUq6FUz891Q" target="_blank">
+                        Humaniq at Blockchain & Bitcoin Moscow Conference
+                    </a>
+                    <div class="footer">
+                        <a href="https://www.youtube.com/watch?v=tUq6FUz891Q" target="_blank">youtube.com</a>
+                        <div class="date" data-date="2017-04-19">2017-04-19</div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="item">
+
+                <div class="el">
+                    <a class="caption" href="https://themerkle.com/humaniq-appoints-ceo-and-global-advisory-board-members-ico-raises-over-3775-btc/" target="_blank">
+                        Ethereum-Based Humaniq To Deliver Banking 4.0 to 2 Bln Unbanked
+                    </a>
+                    <div class="footer">
+                        <a href="https://themerkle.com/humaniq-appoints-ceo-and-global-advisory-board-members-ico-raises-over-3775-btc/" target="_blank">themerkle.com</a>
+                        <div class="date" data-date="2017-04-18">2017-04-18</div>
+                    </div>
+                </div>
+
+                <div class="el">
+                    <a class="caption" href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD" target="_blank">
+                        Humaniq Aims to Tackle Barriers to Economic Inclusion With Blockchain App
+                    </a>
+                    <div class="footer">
+                        <a href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD" target="_blank">nasdaq.com</a>
+                        <div class="date" data-date="2017-03-23">2017-03-23</div>
+                    </div>
+                </div>
+
+
+                <div class="el">
+                    <a class="caption" href="https://themerkle.com/humaniq-aims-to-connect-millions-of-unbanked/" target="_blank">
+                        Humaniq Aims To Connect Millions of Unbanked Using The Ethereum Blockchain
+                    </a>
+                    <div class="footer">
+                        <a href="https://themerkle.com/humaniq-aims-to-connect-millions-of-unbanked/" target="_blank">themerkle.com</a>
+                        <div class="date" data-date="2017-03-13">2017-03-13</div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="item">
+
+
+                <div class="el">
+                    <a class="caption" href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/" target="_blank">
+                        Humaniq’s CryptoPension a Pancea to Africa’s Pension Worries
+                    </a>
+                    <div class="footer">
+                        <a href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/" target="_blank">thedashtimes.com</a>
+                        <div class="date" data-date="2017-03-04">2017-03-04</div>
+                    </div>
+                </div>
+
+
+
+                <div class="el">
+                    <a class="caption" href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/" target="_blank">
+                        Blockchain Banking App Humaniq Set for Initial Coin Offering in April
+                    </a>
+                    <div class="footer">
+                        <a href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/" target="_blank">financemagnates.com</a>
+                        <div class="date" data-date="2017-03-02">2017-03-02</div>
+                    </div>
+                </div>
+
+
+                <div class="el">
+                    <a class="caption" href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked" target="_blank">
+                        Ethereum-Based Humaniq To Deliver Banking 4.0 to 2 Bln Unbanked
+                    </a>
+                    <div class="footer">
+                        <a href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked" target="_blank">cointelegraph.com</a>
+                        <div class="date" data-date="2017-02-23">2017-02-23</div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+            <div class="item">
+
+                <div class="el">
+                    <a class="caption" href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/" target="_blank">
+                        Humaniq: crypto-finance for the undocumented and unbanked
+                    </a>
+                    <div class="footer">
+                        <a href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/" target="_blank">smithandcrown.com</a>
+                        <div class="date" data-date="2017-01-30">2017-01-30</div>
+                    </div>
+                </div>
+
+
+                <div class="el">
+                    <a class="caption" href="http://icorating.com/project/30/Humaniq" target="_blank">
+                        A next generation financial service for unbanked people based on Blockchain
+                    </a>
+                    <div class="footer">
+                        <a href="http://icorating.com/project/30/Humaniq" target="_blank">icorating.com</a>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--
+                                    <div class="item">
+
+                                        <div class="el">
+                                            <a class="caption" href="" target="_blank">
+
+                                            </a>
+                                            <div class="footer">
+                                                <a href="" target="_blank"></a>
+                                                <div class="date" data-date="2017-04-18">2017-04-18</div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="el">
+                                            <a class="caption" href="" target="_blank">
+
+                                            </a>
+                                            <div class="footer">
+                                                <a href="" target="_blank"></a>
+                                                <div class="date" data-date="2017-04-18">2017-04-18</div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="el">
+                                            <a class="caption" href="" target="_blank">
+
+                                            </a>
+                                            <div class="footer">
+                                                <a href="" target="_blank"></a>
+                                                <div class="date" data-date="2017-04-18">2017-04-18</div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                        -->
+
+
+        </div>
+
+
+        <ol class="carousel-indicators">
+            <li data-target="#news-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#news-carousel" data-slide-to="1"></li>
+            <li data-target="#news-carousel" data-slide-to="2"></li>
+            <li data-target="#news-carousel" data-slide-to="3"></li>
+        </ol>
+    </div>
+</section>
+
+
 
 
 <section id="whatis" class="whatis" data-offset="150">
@@ -376,7 +549,7 @@ $dashboardUrl = $baseUrl . $queryString;
 
         <div class="row">
             <div class="col-xs-12 text-center">
-                <h1>您指尖上的银行4.0</h1>
+                <h2>您指尖上的银行4.0</h2>
             </div>
         </div>
 
@@ -547,7 +720,7 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
-                <h1>加入我们</h1>
+                <h2>加入我们</h2>
                 <div class="items">
                     <a target="_blank" href="http://facebook.humaniq.co" data-ya-target="sb1-facebook" class="yga"><i
                             class="fb"></i>Facebook</a>
@@ -573,7 +746,7 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row head">
             <div class="col-sm-12">
-                <h1>如下所示</h1>
+                <h2>如下所示</h2>
             </div>
         </div>
 
@@ -680,8 +853,8 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row slogan">
             <div class="col-xs-12 text-center">
-                <h1>无与伦比的潜力</h1>
-                <h2>参与进来，服务20亿新人，把他们带入全球经济中。</h2>
+                <h2>无与伦比的潜力</h2>
+                <h3>参与进来，服务20亿新人，把他们带入全球经济中。</h3>
             </div>
         </div>
         <div class="row slogan">
@@ -722,7 +895,7 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row list">
             <div class="col-xs-12 col-sm-6 text-center">
-                <h1>以用户为本的革命</h1>
+                <h2>以用户为本的革命</h2>
                 <div class="text">
                     我们正在使用生物验证技术取代通行证和签名，并通过我们的加密货币而非股东取代分布式数字资产。用户将拥有一个简单的UX和UI以接入手机应用程序，同时还可访问通过互联网连接的全球图书馆。他们可以实现赚钱、借入、借出和支付，而这些都将受到其生物识别ID的保护，任何人均无法得知该生物识别ID。
                 </div>
@@ -769,7 +942,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 text-center">
-                <h1>以合作伙伴为本的革命</h1>
+                <h2>以合作伙伴为本的革命</h2>
                 <div class="text">
                     我们的开源堆栈和API将可用于初创企业和其它企业，以建立基于我们核心技术的服务，进一步刺激生态系统和循环经济。以太坊区块链APIS广告使任何企业均能轻易地调整其服务，并将其服务接入Humaniq的网络，以便到达广大未被开发的群众。因此……请抓住这个机会，让全世界知道您可以做什么。
                 </div>
@@ -922,17 +1095,17 @@ $dashboardUrl = $baseUrl . $queryString;
         <div class="row list2">
             <div class="col-xs-12 col-sm-4 text-center">
                 <h4>脸书</h4>
-                <h1>15亿用户</h1>
+                <h2>15亿用户</h2>
                 <div class="text">4000亿美元</div>
             </div>
             <div class="col-xs-12 col-sm-4 text-center">
                 <h4>苹果</h4>
-                <h1>3亿用户</h1>
+                <h2>3亿用户</h2>
                 <div class="text">6000亿美元</div>
             </div>
             <div class="col-xs-12 col-sm-4 text-center">
                 <h4>Humaniq</h4>
-                <h1 class="jumbo">?</h1>
+                <h2 class="jumbo">?</h2>
             </div>
         </div>
 
@@ -945,8 +1118,8 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row list">
             <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0">
-                <h1>
-                    我们创建Humaniq是为了实现两个伟大的想法：为20亿无银行账户的人群提供现代金融服务，和允许已审查的合作伙伴参与到Humaniq社区中，该社区可向所有利益相关者提供收入和服务，从而提供“双赢”的产品和服务。</h1>
+                <h2>
+                    我们创建Humaniq是为了实现两个伟大的想法：为20亿无银行账户的人群提供现代金融服务，和允许已审查的合作伙伴参与到Humaniq社区中，该社区可向所有利益相关者提供收入和服务，从而提供“双赢”的产品和服务。</h2>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0">
                 <img src="/assets/images/chart.svg">
@@ -983,9 +1156,9 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12">
-                <h1>这一切如何运作？</h1>
-                <h2>我们正通过手机、区块链和AI技术向生活在数字经济之外、处于穷困条件下的人们提供财务独立。他们仅需要一部简单的智能手机和互联网。只需安装应用程序，一切轻松解决：）
-                    <br class="hidden-xs"></h2>
+                <h2>这一切如何运作？</h2>
+                <h3>我们正通过手机、区块链和AI技术向生活在数字经济之外、处于穷困条件下的人们提供财务独立。他们仅需要一部简单的智能手机和互联网。只需安装应用程序，一切轻松解决：）
+                    <br class="hidden-xs"></h3>
             </div>
         </div>
 
@@ -1060,14 +1233,14 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center post-ico">
-                <h1>世界正在快速改变，请抢先一步！</h1>
+                <h2>世界正在快速改变，请抢先一步！</h2>
                 <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
                    target="_blank" class="btn-post-onethird yga" data-ga="1" data-ya-target="big-blue-button-2">加入ICO</a>
             </div>
 
 
 <!--            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
-                <h1>世界正在快速改变，请抢先一步！</h1>
+                <h2>世界正在快速改变，请抢先一步！</h1>
             </div>
             <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-2" data-ga="1" data-ya-target="SUBMAIL2">
                 <div class="text">早起的鸟儿有虫吃，不要错过！</div>
@@ -1097,7 +1270,7 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row head">
             <div class="col-sm-12">
-                <h1>Board and Senior Management team</h1>
+                <h2>Board and Senior Management team</h2>
             </div>
         </div>
 
@@ -1192,7 +1365,7 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row head">
             <div class="col-sm-12">
-                <h1>Advisory Board</h1>
+                <h2>Advisory Board</h2>
             </div>
         </div>
 
@@ -1342,9 +1515,9 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row head">
             <div class="col-sm-12">
-                <h1>Team</h1>
-                <h2>加上我们的 <a target="_blank" href="http://slack.humaniq.co" data-ya-target="team-slack"
-                             class="yga team-h1-link">斯莱克（Slack）</a> 帐号，和我们的团队交流吧。</h2>
+                <h2>Team</h2>
+                <h3>加上我们的 <a target="_blank" href="http://slack.humaniq.co" data-ya-target="team-slack"
+                             class="yga team-h1-link">斯莱克（Slack）</a> 帐号，和我们的团队交流吧。</h3>
             </div>
         </div>
 
@@ -1484,7 +1657,7 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row head">
             <div class="col-sm-12">
-                <h1>技术核心</h1>
+                <h2>技术核心</h2>
             </div>
         </div>
 
@@ -1619,7 +1792,7 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row head">
             <div class="col-sm-12">
-                <h1>驻外代表</h1>
+                <h2>驻外代表</h2>
             </div>
         </div>
         <div class="row list">
@@ -1819,7 +1992,7 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row head">
             <div class="col-sm-12">
-                <h1>合作伙伴</h1>
+                <h2>合作伙伴</h2>
             </div>
         </div>
 
@@ -1901,14 +2074,14 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
-                <h1>您准备加入银行业的未来吗？</h1>
+                <h2>您准备加入银行业的未来吗？</h2>
                 <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
                    target="_blank" class="btn-post-onethird yga"  data-ga="1" data-ya-target="big-blue-button-3">加入ICO</a>
             </div>
 
 <!--
             <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-0 pre-ico">
-                <h1>您准备加入银行业的未来吗？</h1>
+                <h2>您准备加入银行业的未来吗？</h1>
             </div>
             <div class="col-xs-12 col-sm-6 sub-form pre-ico" id="sub-form-3" data-ga="1" data-ya-target="SUBMAIL3">
                 <div class="text">我们会和您保持联系</div>
@@ -1938,7 +2111,7 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
-                <h1>了解更多，未完待续！<br class="hidden-xs">这可真是趟激动人心的旅程！</h1>
+                <h2>了解更多，未完待续！<br class="hidden-xs">这可真是趟激动人心的旅程！</h2>
                 <div class="items">
                     <a target="_blank" href="http://facebook.humaniq.co" data-ya-target="sb2-facebook" class="yga"><i
                             class="fb"></i>Facebook</a>
@@ -1996,12 +2169,12 @@ $dashboardUrl = $baseUrl . $queryString;
         <div class="row cl2">
             <div class="col-xs-12 col-xs-offset-0 it2" data-toggle="modal" data-target="#ico-modal"
                  style="background: #fff;padding: 7rem;">
-                <h1 class="text-center">什么是ICO？</h1>
+                <h2 class="text-center">什么是ICO？</h2>
                 <div>ICO是最近出现在加密货币和区块链产业中一个关于众筹项目的概念。
                     <p>ICO代表首次公开发行（Initial Coin
                         Offering），有时也会被用来指一种叫“众销”（crowdsale）的现象。当一个公司为了募集资金而发行自己的加密货币时就会发生ICO现象。此时该公司往往发行一定数量的加密代币，将其出售给公司的预期受众，大多数情况下公司出售这种代币用来交换比特币，但也可以法定货币。
 
-                    <h2>参与ICO对我有什么用？</h2>
+                    <h3>参与ICO对我有什么用？</h3>
                     <p>参与ICO可以有很多好处。最明显的就是：您在帮助公司发布其产品。您购入ICO代币后，您也有机会通过出售它们而获利。
                     <div>正如脚踏启动器一样，每个ICO参与者的主要目标是资助一个在他们个人看来既有趣又吸引人的项目。然而，在此过程中还有另一个获利机会。
                     </div>
