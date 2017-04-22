@@ -1851,17 +1851,6 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
 
 
-                    <div class="item col-xs-12 col-sm-4 col-md-3" data-pp2="14">
-                        <div class="wrapper">
-                            <img src="/assets/images/partners/icon-partner-11.jpg">
-                        </div>
-                        <h4>Boscoin</h4>
-                        <b>Self-evolving Cryptocurrency Platform built on Trust Contracts</b>
-                        <a href="https://boscoin.io/en/home/" target="_blank" class="yga"
-                           data-ya-target="partners-boscoin">https://boscoin.io/</a>
-                    </div>
-
-
                 </div>
             </div>
 
@@ -2145,6 +2134,18 @@ $dashboardUrl = $baseUrl . $queryString;
                         Fintech, Blockchain and Bitcoin news and analyses on the future of money.
                         <a href="https://cointelegraph.com" class="yga" data-ya-target="partners-gemsww">https://cointelegraph.com</a>
                     </div>
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/partners/icon-partner-11.jpg">
+                        </div>
+                        <h4>Boscoin</h4>
+                        Self-evolving Cryptocurrency Platform built on Trust Contracts
+                        <a href="https://boscoin.io/en/home/" target="_blank" class="yga"
+                           data-ya-target="partners-boscoin">https://boscoin.io/</a>
+                    </div>
+
+
 
                 </div>
             </div>
