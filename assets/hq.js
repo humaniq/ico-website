@@ -165,7 +165,7 @@ var setCountDown = function () {
      */
 
 
-
+/*
     $.ajax({
         url: "https://my.humaniq.co/_stats",
        dataType: "json",
@@ -182,7 +182,7 @@ var setCountDown = function () {
             $(".current-participants").html(partic);
         }
     });
-
+*/
 
     setCountDown();
     setInterval(setCountDown, 1000);
@@ -232,6 +232,11 @@ var setCountDown = function () {
         console.log("Track:" + targ);
     });
 
+
+
+    $(".sbs-slack").popover({
+        animation: true
+    });
 
 // ******************************* Preloader ************************************/
 

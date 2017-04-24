@@ -2210,7 +2210,7 @@ body {
     font-size: 7rem;
 }
 
-.sbs .items a {
+.sbs .items .item {
     display: inline-block;
 
     color: #555555;
@@ -2220,7 +2220,7 @@ body {
     text-decoration: none;
 }
 
-.sbs .items a i {
+.sbs .items .item i {
     display: block;
     margin: 3rem;
     width: 9rem;
@@ -2232,21 +2232,21 @@ body {
     transition-duration: .3s;
 }
 
-.sbs .items a i.fb {
+.sbs .items .item i.fb {
     background: url("/assets/images/sbs/facebook.svg") center center no-repeat;
     border: solid 2px #f4f7ff;
 }
 
-.sbs .items a:hover i.fb {
+.sbs .items .item:hover i.fb {
     background: rgb(59, 88, 152) url("/assets/images/sbs/facebook-w.svg") center center no-repeat;
 }
 
-.sbs .items a i.tw {
+.sbs .items .item i.tw {
     background: url("/assets/images/sbs/twitter.svg") center center no-repeat;
     border: solid 2px #f0faff;
 }
 
-.sbs .items a:hover i.tw {
+.sbs .items .item:hover i.tw {
     background: rgb(29, 161, 242) url("/assets/images/sbs/twitter-w.svg") center center no-repeat;
 }
 
@@ -2255,34 +2255,34 @@ body {
     border: solid 2px #f7f7f7;
 }
 
-.sbs .items a:hover i.gh {
+.sbs .items .item:hover i.gh {
     background: rgb(49, 49, 49) url("/assets/images/sbs/github-w.svg") center center no-repeat;
 }
 
-.sbs .items a i.md {
+.sbs .items .item i.md {
     background: url("/assets/images/sbs/medium.svg") center center no-repeat;
     border: solid 2px #dffff4;
 }
 
-.sbs .items a:hover i.md {
+.sbs .items .item:hover i.md {
     background: rgb(3, 184, 117) url("/assets/images/sbs/medium-w.svg") center center no-repeat;
 }
 
-.sbs .items a i.sl {
+.sbs .items .item i.sl {
     background: url("/assets/images/sbs/slack.svg") center center no-repeat;
     border: solid 2px #fff5f9;
 }
 
-.sbs .items a:hover i.sl {
+.sbs .items .item:hover i.sl {
     background: rgb(206, 30, 91) url("/assets/images/sbs/slack-w.svg") center center no-repeat;
 }
 
-.sbs .items a i.bt {
+.sbs .items .item i.bt {
     background: url("/assets/images/sbs/bitcointalk.svg") center center no-repeat;
     border: solid 2px #fff5ea;
 }
 
-.sbs .items a:hover i.bt {
+.sbs .items .item:hover i.bt {
     background: rgb(254, 147, 31) url("/assets/images/sbs/bitcoin-w.svg") center center no-repeat;
 }
 

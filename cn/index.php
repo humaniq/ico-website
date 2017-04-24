@@ -722,18 +722,19 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="col-xs-12 text-center">
                 <h2>加入我们</h2>
                 <div class="items">
-                    <a target="_blank" href="http://facebook.humaniq.co" data-ya-target="sb1-facebook" class="yga"><i
+                    <a target="_blank" href="http://facebook.humaniq.co" data-ya-target="sb1-facebook" class="item yga"><i
                             class="fb"></i>Facebook</a>
-                    <a target="_blank" href="http://twitter.humaniq.co" data-ya-target="sb1-twitter" class="yga"><i
+                    <a target="_blank" href="http://twitter.humaniq.co" data-ya-target="sb1-twitter" class="item yga"><i
                             class="tw"></i>Twitter</a>
-                    <a target="_blank" href="http://github.humaniq.co" data-ya-target="sb1-github" class="yga"><i
+                    <a target="_blank" href="http://github.humaniq.co" data-ya-target="sb1-github" class="item yga"><i
                             class="gh"></i>GitHub</a>
-                    <a target="_blank" href="https://humaniq-slack.herokuapp.com" data-ya-target="sb1-slack" class="yga"><i
-                            class="sl"></i>Slack</a>
-                    <a target="_blank" href="https://blog.humaniq.co" data-ya-target="sb1-medium" class="yga"><i
+
+                    <a role="button" tabindex="0" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="Direct subscriptions are closed. Please send request to <a href='mailto:info@humaniq.co'>info@humaniq.co</a>" data-ya-target="sb1-slack" class="item sbs-slack yga"><i class="sl"></i>Slack</a>
+
+                    <a target="_blank" href="https://blog.humaniq.co" data-ya-target="sb1-medium" class="item yga"><i
                             class="md"></i>Medium</a>
                     <a target="_blank" href="https://bitcointalk.org/index.php?topic=1711764.0"
-                       data-ya-target="sb1-bitcointalk" class="yga"><i class="bt"></i>Bitcointalk</a>
+                       data-ya-target="sb1-bitcointalk" class="item yga"><i class="bt"></i>Bitcointalk</a>
                 </div>
             </div>
         </div>
@@ -2116,18 +2117,19 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="col-xs-12 text-center">
                 <h2>了解更多，未完待续！<br class="hidden-xs">这可真是趟激动人心的旅程！</h2>
                 <div class="items">
-                    <a target="_blank" href="http://facebook.humaniq.co" data-ya-target="sb2-facebook" class="yga"><i
+                    <a target="_blank" href="http://facebook.humaniq.co" data-ya-target="sb2-facebook" class="item yga"><i
                             class="fb"></i>Facebook</a>
-                    <a target="_blank" href="http://twitter.humaniq.co" data-ya-target="sb2-twitter" class="yga"><i
+                    <a target="_blank" href="http://twitter.humaniq.co" data-ya-target="sb2-twitter" class="item yga"><i
                             class="tw"></i>Twitter</a>
-                    <a target="_blank" href="http://github.humaniq.co" data-ya-target="sb2-github" class="yga"><i
+                    <a target="_blank" href="http://github.humaniq.co" data-ya-target="sb2-github" class="item yga"><i
                             class="gh"></i>GitHub</a>
-                    <a target="_blank" href="https://humaniq-slack.herokuapp.com" data-ya-target="sb2-slack" class="yga"><i
-                            class="sl"></i>Slack</a>
-                    <a target="_blank" href="https://blog.humaniq.co" data-ya-target="sb2-medium" class="yga"><i
+
+                    <a role="button" tabindex="0" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="Direct subscriptions are closed. Please send request to <a href='mailto:info@humaniq.co'>info@humaniq.co</a>" data-ya-target="sb1-slack" class="item sbs-slack yga"><i class="sl"></i>Slack</a>
+
+                    <a target="_blank" href="https://blog.humaniq.co" data-ya-target="sb2-medium" class="item yga"><i
                             class="md"></i>Medium</a>
                     <a target="_blank" href="https://bitcointalk.org/index.php?topic=1711764.0"
-                       data-ya-target="sb2-bitcointalk" class="yga"><i class="bt"></i>Bitcointalk</a>
+                       data-ya-target="sb2-bitcointalk" class="item yga"><i class="bt"></i>Bitcointalk</a>
                 </div>
             </div>
         </div>
