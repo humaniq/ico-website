@@ -1430,6 +1430,20 @@ body {
     color: #fff;
 }
 
+.news.videos {
+    position: absolute;
+    width: 300px;
+    min-height: 500px;
+    right: auto;
+    left:0;
+    top: 50vh;
+    transform: translateY(-50%);
+    z-index: 1000;
+    background: rgba(255, 255, 255, .07);
+    padding: 48px;
+    color: #fff;
+}
+
 .news .carousel {
     height: 100%;
 }
@@ -1537,17 +1551,14 @@ body {
 
 @media (max-width: 1300px) {
 
-    .news {
-        position: absolute;
+    .news, .news.videos {
         width: 240px;
         min-height: 350px;
-        right: 0;
-        top: 50vh;
-        transform: translateY(-50%);
-        z-index: 1000;
-        background: rgba(255, 255, 255, .07);
         padding: 20px 5px 20px 20px;
-        color: #fff;
+    }
+
+    .news.videos {
+        padding: 20px 20px 20px 5px;
     }
 
     .news .carousel {
@@ -1590,17 +1601,17 @@ body {
 
 @media (max-width: 1200px) {
 
-    .news {
-        position: absolute;
+    .news, .news.videos {
         width: 240px;
         min-height: 350px;
-        right: 0;
         top: 50vh;
-        transform: translateY(-50%);
-        z-index: 1000;
         background: rgba(255, 255, 255, .07);
         padding: 20px 5px 20px 20px;
-        color: #fff;
+    }
+
+
+    .news.videos {
+        padding: 20px 20px 20px 5px;
     }
 
     .news .carousel {
@@ -1646,7 +1657,7 @@ body {
 
 @media (max-width: 1050px) {
 
-    .news {
+    .news, .news.videos {
         position: static;
         width: 100%;
         min-height: 500px;
