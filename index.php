@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-language" content="en-US">
+    <meta name="google-site-verification" content="n5OGVqslQ0xt7yeEnPh31EEvxhuFGX44xkyiB7TZts4"/>
+
     <meta name="description"
           content="This is the initial coin offering ( ICO ) of Humaniq, access the coin offering and latest news here and lets push financial inclusion to new levels.">
 
@@ -283,7 +285,6 @@ $dashboardUrl = $baseUrl . $queryString;
 
 
                     <div class="lower-buttons">
-
 
                         <div class="even" data-toggle="modal" data-target="#ico-modal">
                             <div class="round gly" style="padding: 10px 11px 9px 13px;"><i
@@ -585,7 +586,6 @@ $dashboardUrl = $baseUrl . $queryString;
 </section>
 
 
-
 <section id="videos" class="news videos">
 
     <div id="videos-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
@@ -602,71 +602,121 @@ $dashboardUrl = $baseUrl . $queryString;
 
         <div class="carousel-inner" role="listbox">
 
-
             <div class="item active">
                 <div class="el">
-                    <img src="assets/images/news/videos-4.jpg" alt="ICO NEWS, Humaniq">
-                    <a class="caption" href="https://www.youtube.com/watch?v=6n6EBupfj-o" target="_blank">Interview with Richard Kastelein at Blockshow Europe 2017</a>
-                </div>
-
-                <div class="el">
-                    <img src="assets/images/news/videos-3.jpg" alt="ICO NEWS">
-                    <a class="caption" href="https://www.youtube.com/watch?v=y6UbcIv5zwY" target="_blank">
-                        Interview with Alakanani Itireleng - Humaniq Ambassabor in Botswana.
-                    </a>
-                </div>
-
-
-            </div>
-
-
-
-            <div class="item">
-                <div class="el">
-                    <img src="assets/images/news/videos-6.jpg" alt="ICO NEWS">
-                    <a class="caption" href="https://www.youtube.com/watch?v=G0f4jN-Fh58" target="_blank">
-                        Interview with Addy Crezee at Blockshow Europe 2017
-                    </a>
-                </div>
-
-
-                <div class="el">
-                    <img src="assets/images/news/videos-5-1.jpg" alt="ICO NEWS, Humaniq">
-                    <a class="caption" href="https://www.youtube.com/watch?v=XZNEJS_QBMM" target="_blank">Humaniq`s Founder Alex Fork shows the power of social networking for fintech apps</a>
-                </div>
-
-            </div>
-
-
-
-            <div class="item">
-                <div class="el">
-                    <img src="assets/images/news/videos-1.jpg" alt="ICO NEWS, Humaniq">
-                    <a class="caption" href="https://www.youtube.com/watch?v=prEPErb82Mg&t=1s" target="_blank">What is Humaniq?</a>
+                    <a class="caption" href="https://www.youtube.com/watch?v=GN3uIkclSXA" target="_blank">
+                        <img src="/assets/images/news/videos-13.jpg" alt="ICO NEWS, Humaniq">
+                        BlockShow Europe 2017 Update</a>
                     <div class="footer">
-                        <a href="https://www.youtube.com/watch?v=prEPErb82Mg&t=1s" target="_blank">youtube.com</a>
+                        <a href="https://www.youtube.com/watch?v=GN3uIkclSXA" target="_blank">youtube.com</a>
                     </div>
                 </div>
 
                 <div class="el">
-                    <img src="assets/images/news/videos-2.jpg" alt="ICO NEWS">
-                    <a class="caption" href="https://www.youtube.com/watch?v=aKopWuk1Zbk&t=2s" target="_blank">
-                        How to participate in ICO
-                    </a>
+                    <a class="caption" href="https://www.youtube.com/watch?v=uRcoQN4ii24" target="_blank">
+                        <img src="/assets/images/news/videos-7.jpg" alt="ICO NEWS, Humaniq">
+                        Humaniq weekly. A message of hope from South Africa</a>
                     <div class="footer">
-                        <a href="https://www.youtube.com/watch?v=aKopWuk1Zbk&t=2s" target="_blank">youtube.com</a>
+                        <a href="https://www.youtube.com/watch?v=uRcoQN4ii24" target="_blank">youtube.com</a>
                     </div>
                 </div>
+            </div>
+
+
+            <div class="item">
+                <div class="el">
+                    <a class="caption" href="https://www.youtube.com/watch?v=q_WFIcs8gW8" target="_blank">
+                        <img src="/assets/images/news/videos-8.jpg" alt="ICO NEWS">
+                        Humaniq launches the app! New office in London!
+                    </a>
+                    <div class="footer">
+                        <a href="https://www.youtube.com/watch?v=q_WFIcs8gW8" target="_blank">youtube.com</a>
+                    </div>
+                </div>
+                <div class="el">
+                    <a class="caption" href="https://www.youtube.com/watch?v=tkww6NqDPCQ" target="_blank">
+                        <img src="/assets/images/news/videos-9.jpg" alt="ICO NEWS">
+                        Humaniq around the Globe: India - ASSOCHAM. Puerto Rico-CoinAgenda
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="el">
+                    <a class="caption" href="https://www.youtube.com/watch?v=286LFL00i4c" target="_blank">
+                        <img src="/assets/images/news/videos-10.jpg" alt="ICO NEWS, Humaniq">
+                        Humaniq weekly
+                        review 17th Feb</a>
+
+                    <div class="footer">
+                        <a href="https://www.youtube.com/watch?v=286LFL00i4c" target="_blank">youtube.com</a>
+                    </div>
+                </div>
+                <div class="el">
+                    <a class="caption" href="https://www.youtube.com/watch?v=Q_UuuGnsCBk" target="_blank">
+                        <img src="/assets/images/news/videos-11.jpg" alt="ICO NEWS, Humaniq">
+                        Humaniq weekly
+                        review 11 Feb</a>
+                    <div class="footer">
+                        <a href="https://www.youtube.com/watch?v=Q_UuuGnsCBk" target="_blank">youtube.com</a>
+                    </div>
+                </div>
+            </div>
+
+
+        <div class="item">
+            <div class="el">
+                <a class="caption" href="https://www.youtube.com/watch?v=21kIgAXREao" target="_blank">
+                    <img src="/assets/images/news/videos-12.jpg" alt="ICO NEWS">
+                    Humaniq 1st weekly review<br>&nbsp;
+                </a>
+                <div class="footer">
+                    <a href="https://www.youtube.com/watch?v=21kIgAXREao" target="_blank">youtube.com</a>
+                </div>
+            </div>
+
+            <div class="el">
+                <a class="caption" href="https://www.youtube.com/watch?v=XZNEJS_QBMM" target="_blank">
+                    <img src="/assets/images/news/videos-5-1.jpg" alt="ICO NEWS, Humaniq">
+                    Humaniq`s Founder
+                    Alex Fork shows the power of social networking for fintech apps</a>
             </div>
 
         </div>
 
 
-        <ol class="carousel-indicators">
-            <li data-target="#videos-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#videos-carousel" data-slide-to="1"></li>
-            <li data-target="#videos-carousel" data-slide-to="2"></li>
-        </ol>
+        <div class="item">
+            <div class="el">
+                <a class="caption" href="https://www.youtube.com/watch?v=prEPErb82Mg" target="_blank">
+                    <img src="/assets/images/news/videos-1.jpg" alt="ICO NEWS, Humaniq">
+                    What is Humaniq?<br>&nbsp;</a>
+                <div class="footer">
+                    <a href="https://www.youtube.com/watch?v=prEPErb82Mg" target="_blank">youtube.com</a>
+                </div>
+            </div>
+
+            <div class="el">
+                <a class="caption" href="https://www.youtube.com/watch?v=aKopWuk1Zbk" target="_blank">
+                    <img src="/assets/images/news/videos-2.jpg" alt="ICO NEWS">
+                    How to participate in ICO</a>
+                <div class="footer">
+                    <a href="https://www.youtube.com/watch?v=aKopWuk1Zbk" target="_blank">youtube.com</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <ol class="carousel-indicators">
+        <li data-target="#videos-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#videos-carousel" data-slide-to="1"></li>
+        <li data-target="#videos-carousel" data-slide-to="2"></li>
+        <li data-target="#videos-carousel" data-slide-to="3"></li>
+        <li data-target="#videos-carousel" data-slide-to="4"></li>
+    </ol>
     </div>
 </section>
 
