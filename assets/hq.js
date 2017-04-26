@@ -170,7 +170,6 @@ var setCountDown = function () {
      */
 
 
-/*
     $.ajax({
         url: "https://my.humaniq.co/_stats",
        dataType: "json",
@@ -187,7 +186,7 @@ var setCountDown = function () {
             $(".current-participants").html(partic);
         }
     });
-*/
+
 
     setCountDown();
     setInterval(setCountDown, 1000);
