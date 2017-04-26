@@ -336,8 +336,52 @@ $dashboardUrl = $baseUrl . $queryString;
         <div class="carousel-inner" role="listbox">
 
             <div class="item active">
+
                 <div class="el">
-                    <img src="/assets/images/news/news-1-2.jpg" alt="ICO NEWS, Humaniq">
+                    <img src="assets/images/news/news-11.jpg" alt="ICO NEWS, Humaniq">
+                    <a class="caption"
+                       href="https://richtopia.com/emerging-technologies/dinis-guarda-humaniq-video-interview"
+                       target="_blank">
+                        Special Video Interview With Dinis Guarda, Chief Executive Officer of Humaniq
+                    </a>
+                    <div class="footer">
+                        <a href="https://richtopia.com/emerging-technologies/dinis-guarda-humaniq-video-interview"
+                           target="_blank">richtopia.com</a>
+                        <div class="date" data-date="2017-04-25">2017-04-25</div>
+                    </div>
+                </div>
+
+                <div class="el">
+                    <img src="assets/images/news/news-12.jpg" alt="ICO NEWS">
+                    <a class="caption"
+                       href="https://www.newswire.com/news/boscoin-and-humaniq-cryptocurrency-partnership-19370714" target="_blank">
+                        BOScoin and Humaniq Cryptocurrency Partnership
+                    </a>
+                    <div class="footer">
+                        <a href="https://www.newswire.com/news/boscoin-and-humaniq-cryptocurrency-partnership-19370714" target="_blank">newswire.com</a>
+                        <div class="date" data-date="2017-04-25">2017-04-25</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item">
+
+                <div class="el">
+                    <img src="assets/images/news/news-13.jpg" alt="ICO NEWS">
+                    <a class="caption"
+                       href="http://www.prnewswire.com/news-releases/bbcs-the-apprentice-winner-tim-campbell-mbe-joins-the-board-of-4m-ico-blockchain-tech-start-up-humaniq-620225303.html" target="_blank">
+                        BBC's The Apprentice Winner Tim Campbell MBE Joins the Board of $4M ICO Blockchain Tech Start Up Humaniq
+                    </a>
+                    <div class="footer">
+                        <a href="http://www.prnewswire.com/news-releases/bbcs-the-apprentice-winner-tim-campbell-mbe-joins-the-board-of-4m-ico-blockchain-tech-start-up-humaniq-620225303.html" target="_blank">prnewswire.com</a>
+                        <div class="date" data-date="2017-04-24">2017-04-24</div>
+                    </div>
+                </div>
+
+
+                <div class="el">
+                    <img src="assets/images/news/news-1-2.jpg" alt="ICO NEWS, Humaniq">
                     <a class="caption"
                        href="https://www.forbes.com/sites/haroldstark/2017/04/21/from-here-to-where-bitcoin-and-the-future-of-cryptocurrency/#f34372b4367f"
                        target="_blank">
@@ -350,8 +394,12 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </div>
 
+            </div>
+
+            <div class="item">
+
                 <div class="el">
-                    <img src="/assets/images/news/news-5.jpg" alt="ICO NEWS">
+                    <img src="assets/images/news/news-5.jpg" alt="ICO NEWS">
                     <a class="caption"
                        href="http://www.econotimes.com/Blockchain-startup-Humaniq-joins-Barclays-Rise-Community-651756"
                        target="_blank">
@@ -365,13 +413,8 @@ $dashboardUrl = $baseUrl . $queryString;
                 </div>
 
 
-            </div>
-
-            <div class="item">
-
-
                 <div class="el">
-                    <img src="/assets/images/news/news-3-1.jpg" alt="ICO NEWS">
+                    <img src="assets/images/news/news-3-1.jpg" alt="ICO NEWS">
                     <a class="caption"
                        href="https://themerkle.com/humaniq-appoints-ceo-and-global-advisory-board-members-ico-raises-over-3775-btc/"
                        target="_blank">
@@ -384,8 +427,12 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </div>
 
+            </div>
+
+            <div class="item">
+
                 <div class="el">
-                    <img src="/assets/images/news/news-7.jpg" alt="ICO NEWS">
+                    <img src="assets/images/news/news-7.jpg" alt="ICO NEWS">
                     <a class="caption"
                        href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD"
                        target="_blank">
@@ -399,14 +446,8 @@ $dashboardUrl = $baseUrl . $queryString;
                 </div>
 
 
-            </div>
-
-
-            <div class="item">
-
-
                 <div class="el">
-                    <img src="/assets/images/news/icon-press-2.jpg" alt="ICO NEWS">
+                    <img src="assets/images/news/icon-press-2.jpg" alt="ICO NEWS">
 
                     <a class="caption" href="https://themerkle.com/humaniq-aims-to-connect-millions-of-unbanked/"
                        target="_blank">
@@ -418,9 +459,12 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </div>
 
+            </div>
+
+            <div class="item">
 
                 <div class="el">
-                    <img src="/assets/images/news/news-8.jpg" alt="ICO NEWS">
+                    <img src="assets/images/news/news-8.jpg" alt="ICO NEWS">
 
                     <a class="caption"
                        href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/"
@@ -434,16 +478,9 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </div>
 
-
-            </div>
-
-
-            <div class="item">
-
-
                 <div class="el">
 
-                    <img src="/assets/images/news/news-6.jpg" alt="ICO NEWS">
+                    <img src="assets/images/news/news-6.jpg" alt="ICO NEWS">
 
                     <a class="caption"
                        href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/"
@@ -457,9 +494,12 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </div>
 
+            </div>
+
+            <div class="item">
 
                 <div class="el">
-                    <img src="/assets/images/news/news-9.jpg" alt="ICO NEWS">
+                    <img src="assets/images/news/news-9.jpg" alt="ICO NEWS">
 
                     <a class="caption"
                        href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked"
@@ -473,15 +513,9 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </div>
 
-
-            </div>
-
-
-            <div class="item">
-
                 <div class="el">
 
-                    <img src="/assets/images/news/icon-press-5.jpg" alt="ICO NEWS">
+                    <img src="assets/images/news/icon-press-5.jpg" alt="ICO NEWS">
                     <a class="caption"
                        href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/"
                        target="_blank">
@@ -494,9 +528,12 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </div>
 
+            </div>
+
+            <div class="item">
 
                 <div class="el">
-                    <img src="/assets/images/news/news-10.jpg" alt="ICO NEWS">
+                    <img src="assets/images/news/news-10.jpg" alt="ICO NEWS">
 
                     <a class="caption" href="http://icorating.com/project/30/Humaniq" target="_blank">
                         A next generation financial service for unbanked people based on Blockchain
@@ -558,10 +595,11 @@ $dashboardUrl = $baseUrl . $queryString;
             <li data-target="#news-carousel" data-slide-to="2"></li>
             <li data-target="#news-carousel" data-slide-to="3"></li>
             <li data-target="#news-carousel" data-slide-to="4"></li>
+            <li data-target="#news-carousel" data-slide-to="5"></li>
+            <li data-target="#news-carousel" data-slide-to="6"></li>
         </ol>
     </div>
 </section>
-
 
 
 <section id="videos" class="news videos">

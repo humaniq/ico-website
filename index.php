@@ -246,29 +246,25 @@ $dashboardUrl = $baseUrl . $queryString;
                     <div class="countdown text-center">
                         <div class="figures">
                             <div class="days"></div>
-                            <div class="units day">day
-                                <div class="days-s">s</div>
+                            <div class="units day">day<div class="days-s">s</div>
                             </div>
                         </div>
                         <div class="sep">:</div>
                         <div class="figures">
                             <div class="hours"></div>
-                            <div class="units hour">hour
-                                <div class="hours-s">s</div>
+                            <div class="units hour">hour<div class="hours-s">s</div>
                             </div>
                         </div>
                         <div class="sep">:</div>
                         <div class="figures">
                             <div class="minutes"></div>
-                            <div class="units minute">minute
-                                <div class="minutes-s">s</div>
+                            <div class="units minute">minute<div class="minutes-s">s</div>
                             </div>
                         </div>
                         <div class="sep">:</div>
                         <div class="figures">
                             <div class="seconds"></div>
-                            <div class="units second">second
-                                <div class="seconds-s">s</div>
+                            <div class="units second">second<div class="seconds-s">s</div>
                             </div>
                         </div>
                     </div>
@@ -359,6 +355,50 @@ $dashboardUrl = $baseUrl . $queryString;
         <div class="carousel-inner" role="listbox">
 
             <div class="item active">
+
+                <div class="el">
+                    <img src="assets/images/news/news-11.jpg" alt="ICO NEWS, Humaniq">
+                    <a class="caption"
+                       href="https://richtopia.com/emerging-technologies/dinis-guarda-humaniq-video-interview"
+                       target="_blank">
+                        Special Video Interview With Dinis Guarda, Chief Executive Officer of Humaniq
+                    </a>
+                    <div class="footer">
+                        <a href="https://richtopia.com/emerging-technologies/dinis-guarda-humaniq-video-interview"
+                           target="_blank">richtopia.com</a>
+                        <div class="date" data-date="2017-04-25">2017-04-25</div>
+                    </div>
+                </div>
+
+                <div class="el">
+                    <img src="assets/images/news/news-12.jpg" alt="ICO NEWS">
+                    <a class="caption"
+                       href="https://www.newswire.com/news/boscoin-and-humaniq-cryptocurrency-partnership-19370714" target="_blank">
+                        BOScoin and Humaniq Cryptocurrency Partnership
+                    </a>
+                    <div class="footer">
+                        <a href="https://www.newswire.com/news/boscoin-and-humaniq-cryptocurrency-partnership-19370714" target="_blank">newswire.com</a>
+                        <div class="date" data-date="2017-04-25">2017-04-25</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item">
+
+                <div class="el">
+                    <img src="assets/images/news/news-13.jpg" alt="ICO NEWS">
+                    <a class="caption"
+                       href="http://www.prnewswire.com/news-releases/bbcs-the-apprentice-winner-tim-campbell-mbe-joins-the-board-of-4m-ico-blockchain-tech-start-up-humaniq-620225303.html" target="_blank">
+                        BBC's The Apprentice Winner Tim Campbell MBE Joins the Board of $4M ICO Blockchain Tech Start Up Humaniq
+                    </a>
+                    <div class="footer">
+                        <a href="http://www.prnewswire.com/news-releases/bbcs-the-apprentice-winner-tim-campbell-mbe-joins-the-board-of-4m-ico-blockchain-tech-start-up-humaniq-620225303.html" target="_blank">prnewswire.com</a>
+                        <div class="date" data-date="2017-04-24">2017-04-24</div>
+                    </div>
+                </div>
+
+
                 <div class="el">
                     <img src="assets/images/news/news-1-2.jpg" alt="ICO NEWS, Humaniq">
                     <a class="caption"
@@ -372,6 +412,10 @@ $dashboardUrl = $baseUrl . $queryString;
                         <div class="date" data-date="2017-04-21">2017-04-21</div>
                     </div>
                 </div>
+
+            </div>
+
+            <div class="item">
 
                 <div class="el">
                     <img src="assets/images/news/news-5.jpg" alt="ICO NEWS">
@@ -388,11 +432,6 @@ $dashboardUrl = $baseUrl . $queryString;
                 </div>
 
 
-            </div>
-
-            <div class="item">
-
-
                 <div class="el">
                     <img src="assets/images/news/news-3-1.jpg" alt="ICO NEWS">
                     <a class="caption"
@@ -406,6 +445,10 @@ $dashboardUrl = $baseUrl . $queryString;
                         <div class="date" data-date="2017-04-18">2017-04-18</div>
                     </div>
                 </div>
+
+            </div>
+
+            <div class="item">
 
                 <div class="el">
                     <img src="assets/images/news/news-7.jpg" alt="ICO NEWS">
@@ -422,12 +465,6 @@ $dashboardUrl = $baseUrl . $queryString;
                 </div>
 
 
-            </div>
-
-
-            <div class="item">
-
-
                 <div class="el">
                     <img src="assets/images/news/icon-press-2.jpg" alt="ICO NEWS">
 
@@ -441,6 +478,9 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </div>
 
+            </div>
+
+            <div class="item">
 
                 <div class="el">
                     <img src="assets/images/news/news-8.jpg" alt="ICO NEWS">
@@ -456,13 +496,6 @@ $dashboardUrl = $baseUrl . $queryString;
                         <div class="date" data-date="2017-03-04">2017-03-04</div>
                     </div>
                 </div>
-
-
-            </div>
-
-
-            <div class="item">
-
 
                 <div class="el">
 
@@ -480,6 +513,9 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </div>
 
+            </div>
+
+            <div class="item">
 
                 <div class="el">
                     <img src="assets/images/news/news-9.jpg" alt="ICO NEWS">
@@ -496,12 +532,6 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </div>
 
-
-            </div>
-
-
-            <div class="item">
-
                 <div class="el">
 
                     <img src="assets/images/news/icon-press-5.jpg" alt="ICO NEWS">
@@ -517,6 +547,9 @@ $dashboardUrl = $baseUrl . $queryString;
                     </div>
                 </div>
 
+            </div>
+
+            <div class="item">
 
                 <div class="el">
                     <img src="assets/images/news/news-10.jpg" alt="ICO NEWS">
@@ -581,6 +614,8 @@ $dashboardUrl = $baseUrl . $queryString;
             <li data-target="#news-carousel" data-slide-to="2"></li>
             <li data-target="#news-carousel" data-slide-to="3"></li>
             <li data-target="#news-carousel" data-slide-to="4"></li>
+            <li data-target="#news-carousel" data-slide-to="5"></li>
+            <li data-target="#news-carousel" data-slide-to="6"></li>
         </ol>
     </div>
 </section>
@@ -1049,6 +1084,17 @@ $dashboardUrl = $baseUrl . $queryString;
                            href="https://www.forbes.com/sites/haroldstark/2017/04/21/from-here-to-where-bitcoin-and-the-future-of-cryptocurrency/#3b402cc44367">From
                             Here To Where? Bitcoin And The Future Of Cryptocurrency</a>
                         <a href="https://www.forbes.com/" class="yga" target="_blank" data-ya-target="press-forbes">www.forbes.com</a>
+                    </div>
+
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/press/icon-press-9.png" alt="ICO NEWS">
+                        </div>
+                        <a class="h4" target="_blank"
+                           href="https://www.intelligenthq.com/latest-news/blockchain-financial-inclusion-movement-humaniq-appoints-ceo-and-20-advisory-board-20-members/">Blockchain Financial Inclusion Movement Humaniq Appoints CEO and 20 Advisory Board Members</a>
+                        <a href="https://www.intelligenthq.com/latest-news/blockchain-financial-inclusion-movement-humaniq-appoints-ceo-and-20-advisory-board-20-members/" class="yga" target="_blank" data-ya-target="press-forbes">www.intelligenthq.com</a>
                     </div>
 
 
