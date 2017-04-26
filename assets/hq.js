@@ -66,6 +66,11 @@ var setCountDown = function () {
 
     var seconds = moment.utc("2017-04-27T00:00:00+01:00").diff(moment(), 'seconds');
 
+    if(seconds<0 ) {
+        seconds = 0;
+        $("#home").addClass("ico-closed");
+    }
+
     /*    if(icoHappened) {
      var seconds = moment.utc("2017-04-27T00:00:00+01:00").diff(moment(), 'seconds');
      }
@@ -165,7 +170,7 @@ var setCountDown = function () {
      */
 
 
-
+/*
     $.ajax({
         url: "https://my.humaniq.co/_stats",
        dataType: "json",
@@ -182,7 +187,7 @@ var setCountDown = function () {
             $(".current-participants").html(partic);
         }
     });
-
+*/
 
     setCountDown();
     setInterval(setCountDown, 1000);
@@ -232,6 +237,11 @@ var setCountDown = function () {
         console.log("Track:" + targ);
     });
 
+
+
+    $(".sbs-slack").popover({
+        animation: true
+    });
 
 // ******************************* Preloader ************************************/
 

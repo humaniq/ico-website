@@ -219,6 +219,22 @@ body {
     text-align: center;
 }
 
+@media (max-width: 1300px) {
+    .sub-form {
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sub-form {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @media (max-width: 600px) {
     .sub-form .jumbo {
         font-size: 8rem;
@@ -957,7 +973,7 @@ body {
 
 .home-screen .main .notify {
     background: #fff;
-    margin: 3.8rem 4rem 0 4rem;
+    margin: 3.8rem 0rem 0 0rem;
     text-align: right;
     box-shadow: 0 20px 44px 0 rgba(0, 0, 0, 0.1);
 
@@ -1386,6 +1402,7 @@ body {
     .home-screen .main .lower-buttons {
         margin-left: 0;
         margin-right: 0;
+        text-align: left;
     }
 
     .home-screen .main .lower-buttons .left, .home-screen .main .lower-buttons .right {
@@ -1420,8 +1437,22 @@ body {
 .news {
     position: absolute;
     width: 300px;
-    min-height: 500px;
+    min-height: 520px;
     right: 0;
+    top: 50vh;
+    transform: translateY(-50%);
+    z-index: 1000;
+    background: rgba(255, 255, 255, .07);
+    padding: 48px;
+    color: #fff;
+}
+
+.news.videos {
+    position: absolute;
+    width: 300px;
+    min-height: 520px;
+    right: auto;
+    left:0;
     top: 50vh;
     transform: translateY(-50%);
     z-index: 1000;
@@ -1474,6 +1505,12 @@ body {
     text-align: left;
 }
 
+.news.videos .carousel-indicators {
+    left: auto;
+    right:0px;
+    text-align: right;
+}
+
 .news .carousel-indicators li {
     width: 4px;
     height: 4px;
@@ -1509,7 +1546,14 @@ body {
     width: 100%;
     margin-top: -22px;
     margin-bottom: 5px;
+    opacity: .7;
 }
+
+.news .item .el:hover img {
+    opacity: 1;
+}
+
+
 .news .item .footer {
     color: #fff;
     font-family: FuturaNewBook, Arial, sans-serif;
@@ -1537,17 +1581,14 @@ body {
 
 @media (max-width: 1300px) {
 
-    .news {
-        position: absolute;
+    .news, .news.videos {
         width: 240px;
-        min-height: 350px;
-        right: 0;
-        top: 50vh;
-        transform: translateY(-50%);
-        z-index: 1000;
-        background: rgba(255, 255, 255, .07);
+        min-height: 450px;
         padding: 20px 5px 20px 20px;
-        color: #fff;
+    }
+
+    .news.videos {
+        padding: 20px 20px 20px 5px;
     }
 
     .news .carousel {
@@ -1590,17 +1631,17 @@ body {
 
 @media (max-width: 1200px) {
 
-    .news {
-        position: absolute;
+    .news, .news.videos {
         width: 240px;
-        min-height: 350px;
-        right: 0;
+        min-height: 450px;
         top: 50vh;
-        transform: translateY(-50%);
-        z-index: 1000;
         background: rgba(255, 255, 255, .07);
         padding: 20px 5px 20px 20px;
-        color: #fff;
+    }
+
+
+    .news.videos {
+        padding: 20px 20px 20px 5px;
     }
 
     .news .carousel {
@@ -1646,19 +1687,26 @@ body {
 
 @media (max-width: 1050px) {
 
-    .news {
+    .news, .news.videos {
         position: static;
         width: 100%;
-        min-height: 500px;
+        min-height: 200px;
         right: auto;
         top: auto;
         transform: none;
         z-index: 1;
         background-color:  rgba(255,255,255,.07) ;
         background-image: linear-gradient(270deg, #6e8ff6, #33b1f8);
-        padding: 48px 48px 80px 48px;
+        padding: 8px 48px 48px 48px;
         color: #fff;
     }
+
+
+    .news.videos {
+        padding: 8px 48px 80px 48px;
+    }
+
+
     .news .carousel {
         min-height: 400px;
     }
@@ -2210,7 +2258,7 @@ body {
     font-size: 7rem;
 }
 
-.sbs .items a {
+.sbs .items .item {
     display: inline-block;
 
     color: #555555;
@@ -2220,7 +2268,7 @@ body {
     text-decoration: none;
 }
 
-.sbs .items a i {
+.sbs .items .item i {
     display: block;
     margin: 3rem;
     width: 9rem;
@@ -2232,21 +2280,21 @@ body {
     transition-duration: .3s;
 }
 
-.sbs .items a i.fb {
+.sbs .items .item i.fb {
     background: url("/assets/images/sbs/facebook.svg") center center no-repeat;
     border: solid 2px #f4f7ff;
 }
 
-.sbs .items a:hover i.fb {
+.sbs .items .item:hover i.fb {
     background: rgb(59, 88, 152) url("/assets/images/sbs/facebook-w.svg") center center no-repeat;
 }
 
-.sbs .items a i.tw {
+.sbs .items .item i.tw {
     background: url("/assets/images/sbs/twitter.svg") center center no-repeat;
     border: solid 2px #f0faff;
 }
 
-.sbs .items a:hover i.tw {
+.sbs .items .item:hover i.tw {
     background: rgb(29, 161, 242) url("/assets/images/sbs/twitter-w.svg") center center no-repeat;
 }
 
@@ -2255,34 +2303,34 @@ body {
     border: solid 2px #f7f7f7;
 }
 
-.sbs .items a:hover i.gh {
+.sbs .items .item:hover i.gh {
     background: rgb(49, 49, 49) url("/assets/images/sbs/github-w.svg") center center no-repeat;
 }
 
-.sbs .items a i.md {
+.sbs .items .item i.md {
     background: url("/assets/images/sbs/medium.svg") center center no-repeat;
     border: solid 2px #dffff4;
 }
 
-.sbs .items a:hover i.md {
+.sbs .items .item:hover i.md {
     background: rgb(3, 184, 117) url("/assets/images/sbs/medium-w.svg") center center no-repeat;
 }
 
-.sbs .items a i.sl {
+.sbs .items .item i.sl {
     background: url("/assets/images/sbs/slack.svg") center center no-repeat;
     border: solid 2px #fff5f9;
 }
 
-.sbs .items a:hover i.sl {
+.sbs .items .item:hover i.sl {
     background: rgb(206, 30, 91) url("/assets/images/sbs/slack-w.svg") center center no-repeat;
 }
 
-.sbs .items a i.bt {
+.sbs .items .item i.bt {
     background: url("/assets/images/sbs/bitcointalk.svg") center center no-repeat;
     border: solid 2px #fff5ea;
 }
 
-.sbs .items a:hover i.bt {
+.sbs .items .item:hover i.bt {
     background: rgb(254, 147, 31) url("/assets/images/sbs/bitcoin-w.svg") center center no-repeat;
 }
 
@@ -3191,21 +3239,15 @@ footer .copyright {
     }
 
     .home-screen .main .notify {
-    / / margin-top: 2 rem;
     }
 
     .home-screen .main .countdown {
-    / / margin-top: 2 rem;
     }
 
     .home-screen .main .lower-buttons {
-    / / margin-top: 1 rem;
-    / / margin-bottom: 8 rem;
     }
 
     .whatis .video-img {
-    / / width: 100 %;
-    / / margin-top: - 6 vh;
     }
 }
 
@@ -3254,6 +3296,7 @@ footer .copyright {
 
 }
 
+
 .pre-ico {
     display: block !important;
 }
@@ -3277,4 +3320,30 @@ footer .copyright {
 .happened .post-ico-i {
     display: inline-block !important;
 }
+
+
+.on-ico {
+    display: block !important;
+}
+
+.on-ico-i {
+    display: inline-block !important;
+}
+
+.off-ico, .off-ico-i {
+    display: none !important;
+}
+
+.ico-closed  .on-ico, .ico-closed  .on-ico-i {
+    display: none !important;
+}
+
+.ico-closed  .off-ico {
+    display: block !important;
+}
+
+.ico-closed  .off-ico-i {
+    display: inline-block !important;
+}
+
 

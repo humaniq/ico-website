@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-language" content="zh-CN">
+    <meta name="google-site-verification" content="n5OGVqslQ0xt7yeEnPh31EEvxhuFGX44xkyiB7TZts4" />
+
+    <meta name="description"
+          content="This is the initial coin offering ( ICO ) of Humaniq, access the coin offering and latest news here and lets push financial inclusion to new levels.">
 
     <title>Humaniq</title>
 
@@ -185,7 +189,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-                <img class="cross" src="assets/images/close-nav.svg">
+                <img class="cross" src="/assets/images/close-nav.svg">
             </button>
 
 
@@ -211,10 +215,14 @@ $dashboardUrl = $baseUrl . $queryString;
                     <a href="/" class="item" onclick="Cookies.set('mylang','en')">English</a>
                 </li>
                 <li>
-                    <a href="#whitepapers" class="whitepaper-link round yga" data-ga="1"
+                    <a href="#whitepapers" class="whitepaper-link on-ico-i round yga" data-ga="1"
                        data-ya-target="home-screen-whitepapers">
                         Whitepapers
                     </a>
+                    <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga off-ico-i" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
+                        Dashboard
+                    </a>
+
 
                 </li>
             </ul>
@@ -245,7 +253,9 @@ $dashboardUrl = $baseUrl . $queryString;
                             <span class="s4">大数据</span>
                         </b>
                     </h2>
-                    <div class="offer post text-center">ICO正在进行</div>
+                    <div class="offer post on-ico text-center">ICO正在进行</div>
+                    <div class="offer post off-ico text-center">ICO is over</div>
+
                     <div class="countdown text-center">
                         <div class="figures">
                             <div class="days"></div>
@@ -267,14 +277,24 @@ $dashboardUrl = $baseUrl . $queryString;
                             <div class="units second">秒</div>
                         </div>
                     </div>
-                    <div class="sub-form" id="sub-form-1">
+                    <div class="sub-form"  id="sub-form-1" data-ga="1" data-ya-target="SUBMAIL1">
+                        <form class="formBody off-ico" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('notify_me')">
+                            <div class="form-group has-feedback">
+                                <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
+                                <div class="notify">
+                                    <input type="email" class="form-control email" name="EMAIL" id="email" placeholder="your@email.com" required data-error="Email address is invalid" data-required-error="Email address is required">
+                                    <input type="submit" class="btn btn-primary submit" value="Subscribe">
+                                </div>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </form>
                         <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
-                           target="_blank" class="btn-post-block yga" data-ga="1" data-ya-target="big-blue-button-home">加入ICO</a>
+                           target="_blank" class="btn-post-block on-ico yga" data-ga="1" data-ya-target="big-blue-button-home">加入ICO</a>
                     </div>
 
 
 
-                    <div class="ico-ends text-center"><div class="ends">ICO于 <b>CET时间4月27日00<span class="blink">:</span>00时结束</b></div></div>
+                    <div class="ico-ends on-ico text-center"><div class="ends">ICO于 <b>CET时间4月27日00<span class="blink">:</span>00时结束</b></div></div>
 
 
                     <div class="lower-buttons">
@@ -332,70 +352,152 @@ $dashboardUrl = $baseUrl . $queryString;
         <div class="carousel-inner" role="listbox">
 
             <div class="item active">
+
                 <div class="el">
-                    <!---                    <img src="assets/images/news/forbes.png" alt="ICO NEWS, Humaniq">-->
-                    <a class="caption" href="https://www.forbes.com/sites/haroldstark/2017/04/21/from-here-to-where-bitcoin-and-the-future-of-cryptocurrency/#f34372b4367f" target="_blank">
-                        From Here To Where? #Bitcoin And The #Future Of #Cryptocurrency and @humaniq_co via @forbes
+                    <img src="/assets/images/news/news-14.jpg" alt="ICO NEWS, Humaniq">
+                    <a class="caption"
+                       href="https://bdaily.co.uk/technology/25-04-2017/momentum-gathers-behind-blockchain-app-humaniq-as-it-launches-cambridge-innovation-hub/"
+                       target="_blank">
+                        Momentum gathers behind blockchain app Humaniq as it launches Cambridge innovation hub
                     </a>
                     <div class="footer">
-                        <a href="https://www.forbes.com/sites/haroldstark/2017/04/21/from-here-to-where-bitcoin-and-the-future-of-cryptocurrency/#f34372b4367f" target="_blank">forbes.com</a>
-                        <div class="date" data-date="2017-04-21">2017-04-21</div>
+                        <a href="https://bdaily.co.uk/technology/25-04-2017/momentum-gathers-behind-blockchain-app-humaniq-as-it-launches-cambridge-innovation-hub/"
+                           target="_blank">bdaily.co.uk</a>
+                        <div class="date" data-date="2017-04-25">2017-04-25</div>
                     </div>
                 </div>
 
                 <div class="el">
-                    <!--                    <img src="assets/images/news/logoEconotimes.jpg" alt="ICO NEWS">-->
-                    <a class="caption" href="http://www.econotimes.com/Blockchain-startup-Humaniq-joins-Barclays-Rise-Community-651756" target="_blank">
-                        Blockchain startup Humaniq joins Barclays’ Rise Community
+                    <img src="/assets/images/news/news-15.jpg" alt="ICO NEWS">
+                    <a class="caption"
+                       href="http://www.prnewswire.com/news-releases/blockchain-app-humaniqs-hmq-token-to-be-traded-on-six-exchanges-620365473.html" target="_blank">
+                        Blockchain App Humaniq's HMQ Token to be Traded on Five Exchanges
                     </a>
                     <div class="footer">
-                        <a href="http://www.econotimes.com/Blockchain-startup-Humaniq-joins-Barclays-Rise-Community-651756" target="_blank">econotimes.com</a>
-                        <div class="date" data-date="2017-04-20">2017-04-20</div>
+                        <a href="http://www.prnewswire.com/news-releases/blockchain-app-humaniqs-hmq-token-to-be-traded-on-six-exchanges-620365473.html" target="_blank">prnewswire.com</a>
+                        <div class="date" data-date="2017-04-25">2017-04-25</div>
                     </div>
                 </div>
 
+            </div>
+
+
+            <div class="item">
 
                 <div class="el">
-                    <!--                    <img src="assets/images/news/news-2.jpg" alt="ICO NEWS, Humaniq">-->
-                    <a class="caption" href="https://www.youtube.com/watch?v=tUq6FUz891Q" target="_blank">
-                        Humaniq at Blockchain & Bitcoin Moscow Conference
+                    <img src="/assets/images/news/news-11.jpg" alt="ICO NEWS, Humaniq">
+                    <a class="caption"
+                       href="https://richtopia.com/emerging-technologies/dinis-guarda-humaniq-video-interview"
+                       target="_blank">
+                        Special Video Interview With Dinis Guarda, Chief Executive Officer of Humaniq
                     </a>
                     <div class="footer">
-                        <a href="https://www.youtube.com/watch?v=tUq6FUz891Q" target="_blank">youtube.com</a>
-                        <div class="date" data-date="2017-04-19">2017-04-19</div>
+                        <a href="https://richtopia.com/emerging-technologies/dinis-guarda-humaniq-video-interview"
+                           target="_blank">richtopia.com</a>
+                        <div class="date" data-date="2017-04-25">2017-04-25</div>
                     </div>
                 </div>
 
-
-
+                <div class="el">
+                    <img src="/assets/images/news/news-12.jpg" alt="ICO NEWS">
+                    <a class="caption"
+                       href="https://www.newswire.com/news/boscoin-and-humaniq-cryptocurrency-partnership-19370714" target="_blank">
+                        BOScoin and Humaniq Cryptocurrency Partnership
+                    </a>
+                    <div class="footer">
+                        <a href="https://www.newswire.com/news/boscoin-and-humaniq-cryptocurrency-partnership-19370714" target="_blank">newswire.com</a>
+                        <div class="date" data-date="2017-04-25">2017-04-25</div>
+                    </div>
+                </div>
 
             </div>
 
             <div class="item">
 
                 <div class="el">
-                    <a class="caption" href="https://themerkle.com/humaniq-appoints-ceo-and-global-advisory-board-members-ico-raises-over-3775-btc/" target="_blank">
+                    <img src="/assets/images/news/news-13.jpg" alt="ICO NEWS">
+                    <a class="caption"
+                       href="http://www.prnewswire.com/news-releases/bbcs-the-apprentice-winner-tim-campbell-mbe-joins-the-board-of-4m-ico-blockchain-tech-start-up-humaniq-620225303.html" target="_blank">
+                        BBC's The Apprentice Winner Tim Campbell MBE Joins the Board of $4M ICO Blockchain Tech Start Up Humaniq
+                    </a>
+                    <div class="footer">
+                        <a href="http://www.prnewswire.com/news-releases/bbcs-the-apprentice-winner-tim-campbell-mbe-joins-the-board-of-4m-ico-blockchain-tech-start-up-humaniq-620225303.html" target="_blank">prnewswire.com</a>
+                        <div class="date" data-date="2017-04-24">2017-04-24</div>
+                    </div>
+                </div>
+
+
+                <div class="el">
+                    <img src="/assets/images/news/news-1-2.jpg" alt="ICO NEWS, Humaniq">
+                    <a class="caption"
+                       href="https://www.forbes.com/sites/haroldstark/2017/04/21/from-here-to-where-bitcoin-and-the-future-of-cryptocurrency/#f34372b4367f"
+                       target="_blank">
+                        From Here To Where? #Bitcoin And The #Future Of #Cryptocurrency and @humaniq_co via @forbes
+                    </a>
+                    <div class="footer">
+                        <a href="https://www.forbes.com/sites/haroldstark/2017/04/21/from-here-to-where-bitcoin-and-the-future-of-cryptocurrency/#f34372b4367f"
+                           target="_blank">forbes.com</a>
+                        <div class="date" data-date="2017-04-21">2017-04-21</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item">
+
+                <div class="el">
+                    <img src="/assets/images/news/news-5.jpg" alt="ICO NEWS">
+                    <a class="caption"
+                       href="http://www.econotimes.com/Blockchain-startup-Humaniq-joins-Barclays-Rise-Community-651756"
+                       target="_blank">
+                        Blockchain startup Humaniq joins Barclays’ Rise Community
+                    </a>
+                    <div class="footer">
+                        <a href="http://www.econotimes.com/Blockchain-startup-Humaniq-joins-Barclays-Rise-Community-651756"
+                           target="_blank">econotimes.com</a>
+                        <div class="date" data-date="2017-04-20">2017-04-20</div>
+                    </div>
+                </div>
+
+
+                <div class="el">
+                    <img src="/assets/images/news/news-3-1.jpg" alt="ICO NEWS">
+                    <a class="caption"
+                       href="https://themerkle.com/humaniq-appoints-ceo-and-global-advisory-board-members-ico-raises-over-3775-btc/"
+                       target="_blank">
                         Ethereum-Based Humaniq To Deliver Banking 4.0 to 2 Bln Unbanked
                     </a>
                     <div class="footer">
-                        <a href="https://themerkle.com/humaniq-appoints-ceo-and-global-advisory-board-members-ico-raises-over-3775-btc/" target="_blank">themerkle.com</a>
+                        <a href="https://themerkle.com/humaniq-appoints-ceo-and-global-advisory-board-members-ico-raises-over-3775-btc/"
+                           target="_blank">themerkle.com</a>
                         <div class="date" data-date="2017-04-18">2017-04-18</div>
                     </div>
                 </div>
 
+            </div>
+
+            <div class="item">
+
                 <div class="el">
-                    <a class="caption" href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD" target="_blank">
+                    <img src="/assets/images/news/news-7.jpg" alt="ICO NEWS">
+                    <a class="caption"
+                       href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD"
+                       target="_blank">
                         Humaniq Aims to Tackle Barriers to Economic Inclusion With Blockchain App
                     </a>
                     <div class="footer">
-                        <a href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD" target="_blank">nasdaq.com</a>
+                        <a href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD"
+                           target="_blank">nasdaq.com</a>
                         <div class="date" data-date="2017-03-23">2017-03-23</div>
                     </div>
                 </div>
 
 
                 <div class="el">
-                    <a class="caption" href="https://themerkle.com/humaniq-aims-to-connect-millions-of-unbanked/" target="_blank">
+                    <img src="/assets/images/news/icon-press-2.jpg" alt="ICO NEWS">
+
+                    <a class="caption" href="https://themerkle.com/humaniq-aims-to-connect-millions-of-unbanked/"
+                       target="_blank">
                         Humaniq Aims To Connect Millions of Unbanked Using The Ethereum Blockchain
                     </a>
                     <div class="footer">
@@ -406,65 +508,80 @@ $dashboardUrl = $baseUrl . $queryString;
 
             </div>
 
-
             <div class="item">
 
-
                 <div class="el">
-                    <a class="caption" href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/" target="_blank">
+                    <img src="/assets/images/news/news-8.jpg" alt="ICO NEWS">
+
+                    <a class="caption"
+                       href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/"
+                       target="_blank">
                         Humaniq’s CryptoPension a Pancea to Africa’s Pension Worries
                     </a>
                     <div class="footer">
-                        <a href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/" target="_blank">thedashtimes.com</a>
+                        <a href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/"
+                           target="_blank">thedashtimes.com</a>
                         <div class="date" data-date="2017-03-04">2017-03-04</div>
                     </div>
                 </div>
 
-
-
                 <div class="el">
-                    <a class="caption" href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/" target="_blank">
+
+                    <img src="/assets/images/news/news-6.jpg" alt="ICO NEWS">
+
+                    <a class="caption"
+                       href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/"
+                       target="_blank">
                         Blockchain Banking App Humaniq Set for Initial Coin Offering in April
                     </a>
                     <div class="footer">
-                        <a href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/" target="_blank">financemagnates.com</a>
+                        <a href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/"
+                           target="_blank">financemagnates.com</a>
                         <div class="date" data-date="2017-03-02">2017-03-02</div>
                     </div>
                 </div>
 
-
-                <div class="el">
-                    <a class="caption" href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked" target="_blank">
-                        Ethereum-Based Humaniq To Deliver Banking 4.0 to 2 Bln Unbanked
-                    </a>
-                    <div class="footer">
-                        <a href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked" target="_blank">cointelegraph.com</a>
-                        <div class="date" data-date="2017-02-23">2017-02-23</div>
-                    </div>
-                </div>
-
-
-
-
-
             </div>
-
-
 
             <div class="item">
 
                 <div class="el">
-                    <a class="caption" href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/" target="_blank">
+                    <img src="/assets/images/news/news-9.jpg" alt="ICO NEWS">
+
+                    <a class="caption"
+                       href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked"
+                       target="_blank">
+                        Ethereum-Based Humaniq To Deliver Banking 4.0 to 2 Bln Unbanked
+                    </a>
+                    <div class="footer">
+                        <a href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked"
+                           target="_blank">cointelegraph.com</a>
+                        <div class="date" data-date="2017-02-23">2017-02-23</div>
+                    </div>
+                </div>
+
+                <div class="el">
+
+                    <img src="/assets/images/news/icon-press-5.jpg" alt="ICO NEWS">
+                    <a class="caption"
+                       href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/"
+                       target="_blank">
                         Humaniq: crypto-finance for the undocumented and unbanked
                     </a>
                     <div class="footer">
-                        <a href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/" target="_blank">smithandcrown.com</a>
+                        <a href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/"
+                           target="_blank">smithandcrown.com</a>
                         <div class="date" data-date="2017-01-30">2017-01-30</div>
                     </div>
                 </div>
 
+            </div>
+
+            <div class="item">
 
                 <div class="el">
+                    <img src="/assets/images/news/news-10.jpg" alt="ICO NEWS">
+
                     <a class="caption" href="http://icorating.com/project/30/Humaniq" target="_blank">
                         A next generation financial service for unbanked people based on Blockchain
                     </a>
@@ -524,6 +641,145 @@ $dashboardUrl = $baseUrl . $queryString;
             <li data-target="#news-carousel" data-slide-to="1"></li>
             <li data-target="#news-carousel" data-slide-to="2"></li>
             <li data-target="#news-carousel" data-slide-to="3"></li>
+            <li data-target="#news-carousel" data-slide-to="4"></li>
+            <li data-target="#news-carousel" data-slide-to="5"></li>
+            <li data-target="#news-carousel" data-slide-to="6"></li>
+            <li data-target="#news-carousel" data-slide-to="7"></li>
+        </ol>
+    </div>
+</section>
+
+
+<section id="videos" class="news videos">
+
+    <div id="videos-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+        <h2>Videos
+            <div class="controls">
+                <a class="left" href="#videos-carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                </a>
+                <a class="right" href="#videos-carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                </a>
+            </div>
+        </h2>
+
+        <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+                <div class="el">
+                    <a class="caption" href="https://www.youtube.com/watch?v=GN3uIkclSXA" target="_blank">
+                        <img src="/assets/images/news/videos-13.jpg" alt="ICO NEWS, Humaniq">
+                        BlockShow Europe 2017 Update</a>
+                    <div class="footer">
+                        <a href="https://www.youtube.com/watch?v=GN3uIkclSXA" target="_blank">youtube.com</a>
+                    </div>
+                </div>
+
+                <div class="el">
+                    <a class="caption" href="https://www.youtube.com/watch?v=uRcoQN4ii24" target="_blank">
+                        <img src="/assets/images/news/videos-7.jpg" alt="ICO NEWS, Humaniq">
+                        Humaniq weekly. A message of hope from South Africa</a>
+                    <div class="footer">
+                        <a href="https://www.youtube.com/watch?v=uRcoQN4ii24" target="_blank">youtube.com</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="el">
+                    <a class="caption" href="https://www.youtube.com/watch?v=q_WFIcs8gW8" target="_blank">
+                        <img src="/assets/images/news/videos-8.jpg" alt="ICO NEWS">
+                        Humaniq launches the app! New office in London!
+                    </a>
+                    <div class="footer">
+                        <a href="https://www.youtube.com/watch?v=q_WFIcs8gW8" target="_blank">youtube.com</a>
+                    </div>
+                </div>
+                <div class="el">
+                    <a class="caption" href="https://www.youtube.com/watch?v=tkww6NqDPCQ" target="_blank">
+                        <img src="/assets/images/news/videos-9.jpg" alt="ICO NEWS">
+                        Humaniq around the Globe: India - ASSOCHAM. Puerto Rico-CoinAgenda
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="el">
+                    <a class="caption" href="https://www.youtube.com/watch?v=286LFL00i4c" target="_blank">
+                        <img src="/assets/images/news/videos-10.jpg" alt="ICO NEWS, Humaniq">
+                        Humaniq weekly
+                        review 17th Feb</a>
+
+                    <div class="footer">
+                        <a href="https://www.youtube.com/watch?v=286LFL00i4c" target="_blank">youtube.com</a>
+                    </div>
+                </div>
+                <div class="el">
+                    <a class="caption" href="https://www.youtube.com/watch?v=Q_UuuGnsCBk" target="_blank">
+                        <img src="/assets/images/news/videos-11.jpg" alt="ICO NEWS, Humaniq">
+                        Humaniq weekly
+                        review 11 Feb</a>
+                    <div class="footer">
+                        <a href="https://www.youtube.com/watch?v=Q_UuuGnsCBk" target="_blank">youtube.com</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="el">
+                    <a class="caption" href="https://www.youtube.com/watch?v=21kIgAXREao" target="_blank">
+                        <img src="/assets/images/news/videos-12.jpg" alt="ICO NEWS">
+                        Humaniq 1st weekly review<br>&nbsp;
+                    </a>
+                    <div class="footer">
+                        <a href="https://www.youtube.com/watch?v=21kIgAXREao" target="_blank">youtube.com</a>
+                    </div>
+                </div>
+
+                <div class="el">
+                    <a class="caption" href="https://www.youtube.com/watch?v=XZNEJS_QBMM" target="_blank">
+                        <img src="/assets/images/news/videos-5-1.jpg" alt="ICO NEWS, Humaniq">
+                        Humaniq`s Founder
+                        Alex Fork shows the power of social networking for fintech apps</a>
+                </div>
+
+            </div>
+
+
+            <div class="item">
+                <div class="el">
+                    <a class="caption" href="https://www.youtube.com/watch?v=prEPErb82Mg" target="_blank">
+                        <img src="/assets/images/news/videos-1.jpg" alt="ICO NEWS, Humaniq">
+                        What is Humaniq?<br>&nbsp;</a>
+                    <div class="footer">
+                        <a href="https://www.youtube.com/watch?v=prEPErb82Mg" target="_blank">youtube.com</a>
+                    </div>
+                </div>
+
+                <div class="el">
+                    <a class="caption" href="https://www.youtube.com/watch?v=aKopWuk1Zbk" target="_blank">
+                        <img src="/assets/images/news/videos-2.jpg" alt="ICO NEWS">
+                        How to participate in ICO</a>
+                    <div class="footer">
+                        <a href="https://www.youtube.com/watch?v=aKopWuk1Zbk" target="_blank">youtube.com</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <ol class="carousel-indicators">
+            <li data-target="#videos-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#videos-carousel" data-slide-to="1"></li>
+            <li data-target="#videos-carousel" data-slide-to="2"></li>
+            <li data-target="#videos-carousel" data-slide-to="3"></li>
+            <li data-target="#videos-carousel" data-slide-to="4"></li>
         </ol>
     </div>
 </section>
@@ -542,7 +798,7 @@ $dashboardUrl = $baseUrl . $queryString;
                     'allowfullscreen'></iframe>
                 </div>
 
-                <!--                <img class="video-img" src="assets/images/whatis-main.jpg">
+                <!--                <img class="video-img" src="/assets/images/whatis-main.jpg">
                                 <div class="button" data-toggle="modal" data-target="#video-modal"><i class="fa fa-play"></i></div>-->
             </div>
         </div>
@@ -722,18 +978,19 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="col-xs-12 text-center">
                 <h2>加入我们</h2>
                 <div class="items">
-                    <a target="_blank" href="http://facebook.humaniq.co" data-ya-target="sb1-facebook" class="yga"><i
+                    <a target="_blank" href="http://facebook.humaniq.co" data-ya-target="sb1-facebook" class="item yga"><i
                             class="fb"></i>Facebook</a>
-                    <a target="_blank" href="http://twitter.humaniq.co" data-ya-target="sb1-twitter" class="yga"><i
+                    <a target="_blank" href="http://twitter.humaniq.co" data-ya-target="sb1-twitter" class="item yga"><i
                             class="tw"></i>Twitter</a>
-                    <a target="_blank" href="http://github.humaniq.co" data-ya-target="sb1-github" class="yga"><i
+                    <a target="_blank" href="http://github.humaniq.co" data-ya-target="sb1-github" class="item yga"><i
                             class="gh"></i>GitHub</a>
-                    <a target="_blank" href="https://humaniq-slack.herokuapp.com" data-ya-target="sb1-slack" class="yga"><i
-                            class="sl"></i>Slack</a>
-                    <a target="_blank" href="https://blog.humaniq.co" data-ya-target="sb1-medium" class="yga"><i
+
+                    <a role="button" tabindex="0" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="Direct subscriptions are closed. Please send request to <a href='mailto:info@humaniq.co'>info@humaniq.co</a>" data-ya-target="sb1-slack" class="item sbs-slack yga"><i class="sl"></i>Slack</a>
+
+                    <a target="_blank" href="https://blog.humaniq.co" data-ya-target="sb1-medium" class="item yga"><i
                             class="md"></i>Medium</a>
                     <a target="_blank" href="https://bitcointalk.org/index.php?topic=1711764.0"
-                       data-ya-target="sb1-bitcointalk" class="yga"><i class="bt"></i>Bitcointalk</a>
+                       data-ya-target="sb1-bitcointalk" class="item yga"><i class="bt"></i>Bitcointalk</a>
                 </div>
             </div>
         </div>
@@ -2116,18 +2373,19 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="col-xs-12 text-center">
                 <h2>了解更多，未完待续！<br class="hidden-xs">这可真是趟激动人心的旅程！</h2>
                 <div class="items">
-                    <a target="_blank" href="http://facebook.humaniq.co" data-ya-target="sb2-facebook" class="yga"><i
+                    <a target="_blank" href="http://facebook.humaniq.co" data-ya-target="sb2-facebook" class="item yga"><i
                             class="fb"></i>Facebook</a>
-                    <a target="_blank" href="http://twitter.humaniq.co" data-ya-target="sb2-twitter" class="yga"><i
+                    <a target="_blank" href="http://twitter.humaniq.co" data-ya-target="sb2-twitter" class="item yga"><i
                             class="tw"></i>Twitter</a>
-                    <a target="_blank" href="http://github.humaniq.co" data-ya-target="sb2-github" class="yga"><i
+                    <a target="_blank" href="http://github.humaniq.co" data-ya-target="sb2-github" class="item yga"><i
                             class="gh"></i>GitHub</a>
-                    <a target="_blank" href="https://humaniq-slack.herokuapp.com" data-ya-target="sb2-slack" class="yga"><i
-                            class="sl"></i>Slack</a>
-                    <a target="_blank" href="https://blog.humaniq.co" data-ya-target="sb2-medium" class="yga"><i
+
+                    <a role="button" tabindex="0" data-toggle="popover" data-trigger="focus" data-html="true" data-placement="top" data-content="Direct subscriptions are closed. Please send request to <a href='mailto:info@humaniq.co'>info@humaniq.co</a>" data-ya-target="sb1-slack" class="item sbs-slack yga"><i class="sl"></i>Slack</a>
+
+                    <a target="_blank" href="https://blog.humaniq.co" data-ya-target="sb2-medium" class="item yga"><i
                             class="md"></i>Medium</a>
                     <a target="_blank" href="https://bitcointalk.org/index.php?topic=1711764.0"
-                       data-ya-target="sb2-bitcointalk" class="yga"><i class="bt"></i>Bitcointalk</a>
+                       data-ya-target="sb2-bitcointalk" class="item yga"><i class="bt"></i>Bitcointalk</a>
                 </div>
             </div>
         </div>
