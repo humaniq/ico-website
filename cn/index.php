@@ -189,7 +189,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-                <img class="cross" src="assets/images/close-nav.svg">
+                <img class="cross" src="/assets/images/close-nav.svg">
             </button>
 
 
@@ -215,10 +215,14 @@ $dashboardUrl = $baseUrl . $queryString;
                     <a href="/" class="item" onclick="Cookies.set('mylang','en')">English</a>
                 </li>
                 <li>
-                    <a href="#whitepapers" class="whitepaper-link round yga" data-ga="1"
+                    <a href="#whitepapers" class="whitepaper-link on-ico-i round yga" data-ga="1"
                        data-ya-target="home-screen-whitepapers">
                         Whitepapers
                     </a>
+                    <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga off-ico-i" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
+                        Dashboard
+                    </a>
+
 
                 </li>
             </ul>
@@ -249,7 +253,9 @@ $dashboardUrl = $baseUrl . $queryString;
                             <span class="s4">大数据</span>
                         </b>
                     </h2>
-                    <div class="offer post text-center">ICO正在进行</div>
+                    <div class="offer post on-ico text-center">ICO正在进行</div>
+                    <div class="offer post off-ico text-center">ICO is over</div>
+
                     <div class="countdown text-center">
                         <div class="figures">
                             <div class="days"></div>
@@ -271,14 +277,24 @@ $dashboardUrl = $baseUrl . $queryString;
                             <div class="units second">秒</div>
                         </div>
                     </div>
-                    <div class="sub-form" id="sub-form-1">
+                    <div class="sub-form"  id="sub-form-1" data-ga="1" data-ya-target="SUBMAIL1">
+                        <form class="formBody off-ico" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('notify_me')">
+                            <div class="form-group has-feedback">
+                                <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
+                                <div class="notify">
+                                    <input type="email" class="form-control email" name="EMAIL" id="email" placeholder="your@email.com" required data-error="Email address is invalid" data-required-error="Email address is required">
+                                    <input type="submit" class="btn btn-primary submit" value="Subscribe">
+                                </div>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </form>
                         <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
-                           target="_blank" class="btn-post-block yga" data-ga="1" data-ya-target="big-blue-button-home">加入ICO</a>
+                           target="_blank" class="btn-post-block on-ico yga" data-ga="1" data-ya-target="big-blue-button-home">加入ICO</a>
                     </div>
 
 
 
-                    <div class="ico-ends text-center"><div class="ends">ICO于 <b>CET时间4月27日00<span class="blink">:</span>00时结束</b></div></div>
+                    <div class="ico-ends on-ico text-center"><div class="ends">ICO于 <b>CET时间4月27日00<span class="blink">:</span>00时结束</b></div></div>
 
 
                     <div class="lower-buttons">
@@ -338,7 +354,38 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="item active">
 
                 <div class="el">
-                    <img src="assets/images/news/news-11.jpg" alt="ICO NEWS, Humaniq">
+                    <img src="/assets/images/news/news-14.jpg" alt="ICO NEWS, Humaniq">
+                    <a class="caption"
+                       href="https://bdaily.co.uk/technology/25-04-2017/momentum-gathers-behind-blockchain-app-humaniq-as-it-launches-cambridge-innovation-hub/"
+                       target="_blank">
+                        Momentum gathers behind blockchain app Humaniq as it launches Cambridge innovation hub
+                    </a>
+                    <div class="footer">
+                        <a href="https://bdaily.co.uk/technology/25-04-2017/momentum-gathers-behind-blockchain-app-humaniq-as-it-launches-cambridge-innovation-hub/"
+                           target="_blank">bdaily.co.uk</a>
+                        <div class="date" data-date="2017-04-25">2017-04-25</div>
+                    </div>
+                </div>
+
+                <div class="el">
+                    <img src="/assets/images/news/news-15.jpg" alt="ICO NEWS">
+                    <a class="caption"
+                       href="http://www.prnewswire.com/news-releases/blockchain-app-humaniqs-hmq-token-to-be-traded-on-six-exchanges-620365473.html" target="_blank">
+                        Blockchain App Humaniq's HMQ Token to be Traded on Five Exchanges
+                    </a>
+                    <div class="footer">
+                        <a href="http://www.prnewswire.com/news-releases/blockchain-app-humaniqs-hmq-token-to-be-traded-on-six-exchanges-620365473.html" target="_blank">prnewswire.com</a>
+                        <div class="date" data-date="2017-04-25">2017-04-25</div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="item">
+
+                <div class="el">
+                    <img src="/assets/images/news/news-11.jpg" alt="ICO NEWS, Humaniq">
                     <a class="caption"
                        href="https://richtopia.com/emerging-technologies/dinis-guarda-humaniq-video-interview"
                        target="_blank">
@@ -352,7 +399,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 </div>
 
                 <div class="el">
-                    <img src="assets/images/news/news-12.jpg" alt="ICO NEWS">
+                    <img src="/assets/images/news/news-12.jpg" alt="ICO NEWS">
                     <a class="caption"
                        href="https://www.newswire.com/news/boscoin-and-humaniq-cryptocurrency-partnership-19370714" target="_blank">
                         BOScoin and Humaniq Cryptocurrency Partnership
@@ -368,7 +415,7 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="item">
 
                 <div class="el">
-                    <img src="assets/images/news/news-13.jpg" alt="ICO NEWS">
+                    <img src="/assets/images/news/news-13.jpg" alt="ICO NEWS">
                     <a class="caption"
                        href="http://www.prnewswire.com/news-releases/bbcs-the-apprentice-winner-tim-campbell-mbe-joins-the-board-of-4m-ico-blockchain-tech-start-up-humaniq-620225303.html" target="_blank">
                         BBC's The Apprentice Winner Tim Campbell MBE Joins the Board of $4M ICO Blockchain Tech Start Up Humaniq
@@ -381,7 +428,7 @@ $dashboardUrl = $baseUrl . $queryString;
 
 
                 <div class="el">
-                    <img src="assets/images/news/news-1-2.jpg" alt="ICO NEWS, Humaniq">
+                    <img src="/assets/images/news/news-1-2.jpg" alt="ICO NEWS, Humaniq">
                     <a class="caption"
                        href="https://www.forbes.com/sites/haroldstark/2017/04/21/from-here-to-where-bitcoin-and-the-future-of-cryptocurrency/#f34372b4367f"
                        target="_blank">
@@ -399,7 +446,7 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="item">
 
                 <div class="el">
-                    <img src="assets/images/news/news-5.jpg" alt="ICO NEWS">
+                    <img src="/assets/images/news/news-5.jpg" alt="ICO NEWS">
                     <a class="caption"
                        href="http://www.econotimes.com/Blockchain-startup-Humaniq-joins-Barclays-Rise-Community-651756"
                        target="_blank">
@@ -414,7 +461,7 @@ $dashboardUrl = $baseUrl . $queryString;
 
 
                 <div class="el">
-                    <img src="assets/images/news/news-3-1.jpg" alt="ICO NEWS">
+                    <img src="/assets/images/news/news-3-1.jpg" alt="ICO NEWS">
                     <a class="caption"
                        href="https://themerkle.com/humaniq-appoints-ceo-and-global-advisory-board-members-ico-raises-over-3775-btc/"
                        target="_blank">
@@ -432,7 +479,7 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="item">
 
                 <div class="el">
-                    <img src="assets/images/news/news-7.jpg" alt="ICO NEWS">
+                    <img src="/assets/images/news/news-7.jpg" alt="ICO NEWS">
                     <a class="caption"
                        href="http://www.nasdaq.com/article/humaniq-aims-to-tackle-barriers-to-economic-inclusion-with-blockchain-app-cm764760#ixzz4d7aPqGvD"
                        target="_blank">
@@ -447,7 +494,7 @@ $dashboardUrl = $baseUrl . $queryString;
 
 
                 <div class="el">
-                    <img src="assets/images/news/icon-press-2.jpg" alt="ICO NEWS">
+                    <img src="/assets/images/news/icon-press-2.jpg" alt="ICO NEWS">
 
                     <a class="caption" href="https://themerkle.com/humaniq-aims-to-connect-millions-of-unbanked/"
                        target="_blank">
@@ -464,7 +511,7 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="item">
 
                 <div class="el">
-                    <img src="assets/images/news/news-8.jpg" alt="ICO NEWS">
+                    <img src="/assets/images/news/news-8.jpg" alt="ICO NEWS">
 
                     <a class="caption"
                        href="http://thedashtimes.com/2017/03/04/humaniqs-cryptopension-pancea-africas-pension-worries/"
@@ -480,7 +527,7 @@ $dashboardUrl = $baseUrl . $queryString;
 
                 <div class="el">
 
-                    <img src="assets/images/news/news-6.jpg" alt="ICO NEWS">
+                    <img src="/assets/images/news/news-6.jpg" alt="ICO NEWS">
 
                     <a class="caption"
                        href="http://www.financemagnates.com/cryptocurrency/innovation/blockchain-banking-app-humaniq-set-initial-coin-offering-april/"
@@ -499,7 +546,7 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="item">
 
                 <div class="el">
-                    <img src="assets/images/news/news-9.jpg" alt="ICO NEWS">
+                    <img src="/assets/images/news/news-9.jpg" alt="ICO NEWS">
 
                     <a class="caption"
                        href="https://cointelegraph.com/news/ethereum-based-humaniq-to-deliver-banking-40-to-2-bln-unbanked"
@@ -515,7 +562,7 @@ $dashboardUrl = $baseUrl . $queryString;
 
                 <div class="el">
 
-                    <img src="assets/images/news/icon-press-5.jpg" alt="ICO NEWS">
+                    <img src="/assets/images/news/icon-press-5.jpg" alt="ICO NEWS">
                     <a class="caption"
                        href="https://www.smithandcrown.com/humaniq-banking-platform-undocumented-unbanked/"
                        target="_blank">
@@ -533,7 +580,7 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="item">
 
                 <div class="el">
-                    <img src="assets/images/news/news-10.jpg" alt="ICO NEWS">
+                    <img src="/assets/images/news/news-10.jpg" alt="ICO NEWS">
 
                     <a class="caption" href="http://icorating.com/project/30/Humaniq" target="_blank">
                         A next generation financial service for unbanked people based on Blockchain
@@ -597,6 +644,7 @@ $dashboardUrl = $baseUrl . $queryString;
             <li data-target="#news-carousel" data-slide-to="4"></li>
             <li data-target="#news-carousel" data-slide-to="5"></li>
             <li data-target="#news-carousel" data-slide-to="6"></li>
+            <li data-target="#news-carousel" data-slide-to="7"></li>
         </ol>
     </div>
 </section>
@@ -750,7 +798,7 @@ $dashboardUrl = $baseUrl . $queryString;
                     'allowfullscreen'></iframe>
                 </div>
 
-                <!--                <img class="video-img" src="assets/images/whatis-main.jpg">
+                <!--                <img class="video-img" src="/assets/images/whatis-main.jpg">
                                 <div class="button" data-toggle="modal" data-target="#video-modal"><i class="fa fa-play"></i></div>-->
             </div>
         </div>

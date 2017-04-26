@@ -219,6 +219,22 @@ body {
     text-align: center;
 }
 
+@media (max-width: 1300px) {
+    .sub-form {
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sub-form {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 @media (max-width: 600px) {
     .sub-form .jumbo {
         font-size: 8rem;
@@ -957,7 +973,7 @@ body {
 
 .home-screen .main .notify {
     background: #fff;
-    margin: 3.8rem 4rem 0 4rem;
+    margin: 3.8rem 0rem 0 0rem;
     text-align: right;
     box-shadow: 0 20px 44px 0 rgba(0, 0, 0, 0.1);
 
@@ -3280,6 +3296,7 @@ footer .copyright {
 
 }
 
+
 .pre-ico {
     display: block !important;
 }
@@ -3303,4 +3320,30 @@ footer .copyright {
 .happened .post-ico-i {
     display: inline-block !important;
 }
+
+
+.on-ico {
+    display: block !important;
+}
+
+.on-ico-i {
+    display: inline-block !important;
+}
+
+.off-ico, .off-ico-i {
+    display: none !important;
+}
+
+.ico-closed  .on-ico, .ico-closed  .on-ico-i {
+    display: none !important;
+}
+
+.ico-closed  .off-ico {
+    display: block !important;
+}
+
+.ico-closed  .off-ico-i {
+    display: inline-block !important;
+}
+
 

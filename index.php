@@ -210,9 +210,13 @@ $dashboardUrl = $baseUrl . $queryString;
                     <a href="/cn/" class="item" onclick="Cookies.set('mylang','zh')">繁體中文</a>
                 </li>
                 <li>
-                    <a href="#whitepapers" class="whitepaper-link round yga" data-ga="1"
+                    <a href="#whitepapers" class="whitepaper-link round yga on-ico-i" data-ga="1"
                        data-ya-target="home-screen-whitepapers">
                         Whitepapers
+                    </a>
+
+                    <a href="https://my.humaniq.co<?php echo $queryString ?>" class="whitepaper-link round yga off-ico-i" data-ga="1" data-ya-target="home-screen-reserve-tokens" onclick="roistat.event.send('redirect_to_dashboard')">
+                        Dashboard
                     </a>
 
                 </li>
@@ -224,7 +228,7 @@ $dashboardUrl = $baseUrl . $queryString;
 
 </nav>
 
-<section id="home-screen" class="home-screen" data-0="opacity:1;" data-500="opacity:0.7;" data-1000="opacity:0;">
+<section id="home-screen" class="home-screen">
     <div class="circle c1"></div>
     <div class="circle c2"></div>
     <div class="circle c3"></div>
@@ -242,7 +246,8 @@ $dashboardUrl = $baseUrl . $queryString;
                             <span class="s4">Big Data</span>
                         </b>
                     </h2>
-                    <div class="offer post post-ico text-center">ICO is live.<!-- Current bonus ends in:--></div>
+                    <div class="offer post on-ico text-center">ICO is live.<!-- Current bonus ends in:--></div>
+                    <div class="offer post off-ico text-center">ICO is over</div>
                     <div class="countdown text-center">
                         <div class="figures">
                             <div class="days"></div>
@@ -268,14 +273,24 @@ $dashboardUrl = $baseUrl . $queryString;
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="sub-form"  id="sub-form-1" data-ga="1" data-ya-target="SUBMAIL1">
+                        <form class="formBody off-ico" data-toggle="validator" role="form" method="post" action="//humaniq.us15.list-manage.com/subscribe/post?u=32d439954c6b56c5268f0c899&amp;id=29bcb70758" onsubmit="roistat.event.send('notify_me')">
+                            <div class="form-group has-feedback">
+                                <input type="hidden" name="b_32d439954c6b56c5268f0c899_29bcb70758" tabindex="-1" value="">
+                                <div class="notify">
+                                    <input type="email" class="form-control email" name="EMAIL" id="email" placeholder="your@email.com" required data-error="Email address is invalid" data-required-error="Email address is required">
+                                    <input type="submit" class="btn btn-primary submit" value="Subscribe">
+                                </div>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </form>
                         <a href="<?php echo $dashboardUrl ?>" onclick="roistat.event.send('redirect_to_dashboard')"
                            data-ga="1" data-ya-target="big-blue-button-home"
-                           target="_blank" class="btn-post-block yga">Join the Crowdsale</a>
+                           target="_blank" class="btn-post-block yga on-ico">Join the Crowdsale</a>
 
                     </div>
 
-                    <div class="ico-ends text-center">
+                    <div class="ico-ends text-center on-ico">
                         <div class="ends">ICO ends: <b>27 April 00<span class="blink">:</span>00 CET</b></div>
                     </div>
 
@@ -355,6 +370,37 @@ $dashboardUrl = $baseUrl . $queryString;
         <div class="carousel-inner" role="listbox">
 
             <div class="item active">
+
+                <div class="el">
+                    <img src="/assets/images/news/news-14.jpg" alt="ICO NEWS, Humaniq">
+                    <a class="caption"
+                       href="https://bdaily.co.uk/technology/25-04-2017/momentum-gathers-behind-blockchain-app-humaniq-as-it-launches-cambridge-innovation-hub/"
+                       target="_blank">
+                        Momentum gathers behind blockchain app Humaniq as it launches Cambridge innovation hub
+                    </a>
+                    <div class="footer">
+                        <a href="https://bdaily.co.uk/technology/25-04-2017/momentum-gathers-behind-blockchain-app-humaniq-as-it-launches-cambridge-innovation-hub/"
+                           target="_blank">bdaily.co.uk</a>
+                        <div class="date" data-date="2017-04-25">2017-04-25</div>
+                    </div>
+                </div>
+
+                <div class="el">
+                    <img src="/assets/images/news/news-15.jpg" alt="ICO NEWS">
+                    <a class="caption"
+                       href="http://www.prnewswire.com/news-releases/blockchain-app-humaniqs-hmq-token-to-be-traded-on-six-exchanges-620365473.html" target="_blank">
+                        Blockchain App Humaniq's HMQ Token to be Traded on Five Exchanges
+                    </a>
+                    <div class="footer">
+                        <a href="http://www.prnewswire.com/news-releases/blockchain-app-humaniqs-hmq-token-to-be-traded-on-six-exchanges-620365473.html" target="_blank">prnewswire.com</a>
+                        <div class="date" data-date="2017-04-25">2017-04-25</div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="item">
 
                 <div class="el">
                     <img src="assets/images/news/news-11.jpg" alt="ICO NEWS, Humaniq">
@@ -616,6 +662,7 @@ $dashboardUrl = $baseUrl . $queryString;
             <li data-target="#news-carousel" data-slide-to="4"></li>
             <li data-target="#news-carousel" data-slide-to="5"></li>
             <li data-target="#news-carousel" data-slide-to="6"></li>
+            <li data-target="#news-carousel" data-slide-to="7"></li>
         </ol>
     </div>
 </section>
@@ -2366,6 +2413,17 @@ $dashboardUrl = $baseUrl . $queryString;
                         Self-evolving Cryptocurrency Platform built on Trust Contracts
                         <a href="https://boscoin.io/en/home/" target="_blank" class="yga"
                            data-ya-target="partners-boscoin">https://boscoin.io/</a>
+                    </div>
+
+
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/partners/icon-partner-12.jpg">
+                        </div>
+                        <h4>AtticLab</h4>
+                        Atticlab. Decentralized solutions. Blockchain applications.
+                        <a href="http://atticlab.net/" target="_blank" class="yga"
+                           data-ya-target="partners-atticlab">https://boscoin.io/</a>
                     </div>
 
 
