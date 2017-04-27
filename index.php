@@ -162,7 +162,7 @@
     <!-- End Twitter universal website tag code -->
 
 </head>
-<body id="home" data-spy="scroll" data-offset="90" data-target="#navbar" class="happened">
+<body id="home" data-spy="scroll" data-offset="90" data-target="#navbar" class="happened ico-closed">
 
 
 <?php
@@ -250,25 +250,25 @@ $dashboardUrl = $baseUrl . $queryString;
                     <div class="offer post off-ico text-center">ICO is over</div>
                     <div class="countdown text-center">
                         <div class="figures">
-                            <div class="days"></div>
+                            <div class="days">0</div>
                             <div class="units day">day<div class="days-s">s</div>
                             </div>
                         </div>
                         <div class="sep">:</div>
                         <div class="figures">
-                            <div class="hours"></div>
+                            <div class="hours">00</div>
                             <div class="units hour">hour<div class="hours-s">s</div>
                             </div>
                         </div>
                         <div class="sep">:</div>
                         <div class="figures">
-                            <div class="minutes"></div>
+                            <div class="minutes">00</div>
                             <div class="units minute">minute<div class="minutes-s">s</div>
                             </div>
                         </div>
                         <div class="sep">:</div>
                         <div class="figures">
-                            <div class="seconds"></div>
+                            <div class="seconds">00</div>
                             <div class="units second">second<div class="seconds-s">s</div>
                             </div>
                         </div>
@@ -310,7 +310,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             <div class="round" style="padding: 7px 13px 5px 13px;">$</div>
                             <div class="txt">
                                 Total Value<br>
-                                <b class="current-total"></b>
+                                <b class="current-total">$5.163.000</b>
                             </div>
                         </div>
 
@@ -319,7 +319,7 @@ $dashboardUrl = $baseUrl . $queryString;
                                     class="glyphicon glyphicon-ok"></i></div>
                             <div class="txt">
                                 Participants<br>
-                                <b class="current-participants"></b>
+                                <b class="current-participants">11.860</b>
                             </div>
                         </div>
                         <!--

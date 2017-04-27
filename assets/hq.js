@@ -168,7 +168,7 @@ var setCountDown = function () {
      });
 
      */
-
+/*
 
     $.ajax({
         url: "https://my.humaniq.co/_stats",
@@ -187,9 +187,9 @@ var setCountDown = function () {
         }
     });
 
-
-    setCountDown();
-    setInterval(setCountDown, 1000);
+*/
+ //   setCountDown();
+//    setInterval(setCountDown, 1000);
 
     $(".bonus-fadein").on("mouseenter click", function (e) {
         $(".bonuses").addClass("active");

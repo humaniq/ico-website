@@ -172,7 +172,7 @@
     <!-- End Twitter universal website tag code -->
 
 </head>
-<body id="home" data-spy="scroll" data-offset="90" data-target="#navbar" class="happened">
+<body id="home" data-spy="scroll" data-offset="90" data-target="#navbar" class="happened ico-closed">
 
 <?php
 $baseUrl = 'https://my.humaniq.co/';
@@ -258,22 +258,22 @@ $dashboardUrl = $baseUrl . $queryString;
 
                     <div class="countdown text-center">
                         <div class="figures">
-                            <div class="days"></div>
+                            <div class="days">0</div>
                             <div class="units day">天</div>
                         </div>
                         <div class="sep">:</div>
                         <div class="figures">
-                            <div class="hours"></div>
+                            <div class="hours">00</div>
                             <div class="units hour">个小时</div>
                         </div>
                         <div class="sep">:</div>
                         <div class="figures">
-                            <div class="minutes"></div>
+                            <div class="minutes">00</div>
                             <div class="units minute">分钟</div>
                         </div>
                         <div class="sep">:</div>
                         <div class="figures">
-                            <div class="seconds"></div>
+                            <div class="seconds">00</div>
                             <div class="units second">秒</div>
                         </div>
                     </div>
@@ -312,7 +312,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             <div class="round" style="padding: 7px 13px 5px 13px;">$</div>
                             <div class="txt">
                                 Total Value<br>
-                                <b class="current-total"></b>
+                                <b class="current-total">$5.163.000</b>
                             </div>
                         </div>
 
@@ -320,7 +320,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             <div class="round gly" style="padding: 10px 12px 9px 12px;"><i class="glyphicon glyphicon-ok"></i></div>
                             <div class="txt">
                                 Participants<br>
-                                <b class="current-participants"></b>
+                                <b class="current-participants">11.860</b>
                             </div>
                         </div>
 
