@@ -1780,13 +1780,12 @@ $dashboardUrl = $baseUrl . $queryString;
 
         <div class="row list">
 
-
+<!--
             <div class="item col-xs-6 col-sm-4 col-md-3" data-pp="3">
                 <div class="img">
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/2.png">
                 </div>
-                <!--                <h5>荷兰</h5>-->
                 <h4>理查德•卡斯特莱茵（Richard Kastelein）</h4>
                 首席营销官
             </div>
@@ -1799,7 +1798,7 @@ $dashboardUrl = $baseUrl . $queryString;
                     加拿大企业家理查德•卡斯特莱茵被看作是区块链社区内区块链的一个主要发布者和发声人，他是区块链新闻的发布者，区块链合作伙伴的董事，伦敦加密金融会议的创立者，还在区块链生态系统网络筹划指导委员会中任职。他主要是作为新兴企业的顾问、发布人、营销专家，甚至是设计者和发言人而工作的。目前他暂任Humaniq的首席营销官。
                 </div>
             </div>
-
+-->
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Jochen_Heussner.png">
                 <!--                <h5></h5>-->

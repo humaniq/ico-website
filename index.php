@@ -1874,12 +1874,11 @@ $dashboardUrl = $baseUrl . $queryString;
 
         <div class="row list">
 
-            <div class="item e col-xs-6 col-sm-4 col-md-3" data-pp="3">
+<!--            <div class="item e col-xs-6 col-sm-4 col-md-3" data-pp="3">
                 <div class="img">
                     <div class="zoom"><i class="fa fa-search"></i></div>
                     <img src="/assets/images/avatars/2.png">
                 </div>
-                <!--             <h5>Netherlands</h5>-->
                 <h4>Richard Kastelein</h4>
                 CMO
             </div>
@@ -1897,7 +1896,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 </div>
             </div>
 
-
+-->
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Jochen_Heussner.png">
                 <!--                <h5></h5>-->
