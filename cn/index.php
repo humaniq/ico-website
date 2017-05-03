@@ -204,7 +204,6 @@ $dashboardUrl = $baseUrl . $queryString;
                 <li><a href="#advisoryboard" class="page-scroll yga" data-ga="1" data-ya-target="menu-advisory-board">Advisors</a>
                 <li><a href="#team" class="page-scroll yga" data-ga="1" data-ya-target="menu-team">Team</a>
                 <li><a href="#sbs" class="page-scroll yga" data-ga="1" data-ya-target="menu-join-us">Join Us</a>
-                <li><a href="#join-the-ico" class="page-scroll yga" data-ga="1" data-ya-target="menu-ico">ICO</a>
 
                 <li><a href="/assets/downloads/technology_presentation_en.pdf" class="yga" data-ga="1" data-ya-target="menu-tp">Technology</a>
 
@@ -2309,8 +2308,15 @@ $dashboardUrl = $baseUrl . $queryString;
                            data-ya-target="partners-boscoin">https://boscoin.io/</a>
                     </div>
 
-
-
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/partners/icon-partner-12.jpg">
+                        </div>
+                        <h4>AtticLab</h4>
+                        Atticlab. Decentralized solutions. Blockchain applications.
+                        <a href="http://atticlab.net/" target="_blank" class="yga"
+                           data-ya-target="partners-atticlab">http://atticlab.net/</a>
+                    </div>
 
 
                 </div>
