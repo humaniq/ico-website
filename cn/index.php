@@ -2308,8 +2308,15 @@ $dashboardUrl = $baseUrl . $queryString;
                            data-ya-target="partners-boscoin">https://boscoin.io/</a>
                     </div>
 
-
-
+                    <div class="item col-xs-12 col-sm-4 col-md-4">
+                        <div class="wrapper">
+                            <img src="/assets/images/partners/icon-partner-12.jpg">
+                        </div>
+                        <h4>AtticLab</h4>
+                        Atticlab. Decentralized solutions. Blockchain applications.
+                        <a href="http://atticlab.net/" target="_blank" class="yga"
+                           data-ya-target="partners-atticlab">http://atticlab.net/</a>
+                    </div>
 
 
                 </div>

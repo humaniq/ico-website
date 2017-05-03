@@ -2421,7 +2421,7 @@ $dashboardUrl = $baseUrl . $queryString;
                         <h4>AtticLab</h4>
                         Atticlab. Decentralized solutions. Blockchain applications.
                         <a href="http://atticlab.net/" target="_blank" class="yga"
-                           data-ya-target="partners-atticlab">https://boscoin.io/</a>
+                           data-ya-target="partners-atticlab">http://atticlab.net/</a>
                     </div>
 
 
