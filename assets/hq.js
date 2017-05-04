@@ -64,7 +64,7 @@ var icoHappened = 0;
 
 var setCountDown = function () {
 
-    var seconds = moment.utc("2017-04-27T00:00:00+01:00").diff(moment(), 'seconds');
+    var seconds = moment.utc("2017-05-08T12:00:00+01:00").diff(moment(), 'seconds');
 
     if(seconds<0 ) {
         seconds = 0;
@@ -188,8 +188,8 @@ var setCountDown = function () {
     });
 
 */
- //   setCountDown();
-//    setInterval(setCountDown, 1000);
+    setCountDown();
+    setInterval(setCountDown, 1000);
 
     $(".bonus-fadein").on("mouseenter click", function (e) {
         $(".bonuses").addClass("active");
