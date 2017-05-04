@@ -198,6 +198,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 <li><a href="#advisoryboard" class="page-scroll yga" data-ga="1" data-ya-target="menu-advisory-board">Advisors</a>
                 <li><a href="#team" class="page-scroll yga" data-ga="1" data-ya-target="menu-team">Team</a>
                 <li><a href="#sbs" class="page-scroll yga" data-ga="1" data-ya-target="menu-join-us">Join Us</a>
+                <li><a href="https://blog.humaniq.co" class="yga" data-ga="1" data-ya-target="menu-blog" target="_blank">Blog</a>
 
                 <li><a href="/assets/downloads/technology_presentation_en.pdf" class="yga" data-ga="1"
                        data-ya-target="menu-tp">Technology</a>
@@ -245,8 +246,7 @@ $dashboardUrl = $baseUrl . $queryString;
                             <span class="s4">Big Data</span>
                         </b>
                     </h2>
-                    <div class="offer post on-ico text-center">ICO is live.<!-- Current bonus ends in:--></div>
-                    <div class="offer post off-ico text-center">ICO is over</div>
+                    <div class="offer post text-center">Token transfer will be available in</div>
                     <div class="countdown text-center">
                         <div class="figures">
                             <div class="days">0</div>
