@@ -200,11 +200,12 @@ $dashboardUrl = $baseUrl . $queryString;
         </div><div class="navbar-collapse collapse" id="bs-navbar">
 
             <ul class="nav navbar-nav centered text-center">
-                <li><a href="#whatis" class="page-scroll yga" data-ga="1" data-ya-target="menu-about">About</a>
+                <!--<li><a href="#whatis" class="page-scroll yga" data-ga="1" data-ya-target="menu-about">About</a>-->
                 <li><a href="#advisoryboard" class="page-scroll yga" data-ga="1" data-ya-target="menu-advisory-board">Advisors</a>
                 <li><a href="#team" class="page-scroll yga" data-ga="1" data-ya-target="menu-team">Team</a>
                 <li><a href="#sbs" class="page-scroll yga" data-ga="1" data-ya-target="menu-join-us">Join Us</a>
                 <li><a href="https://blog.humaniq.co" class="yga" data-ga="1" data-ya-target="menu-blog" target="_blank">Blog</a>
+                <li><a href="http://forum.humaniq.co" class="yga" data-ga="1" data-ya-target="menu-forum" target="_blank">Forum</a>
 
                 <li><a href="/assets/downloads/technology_presentation_en.pdf" class="yga" data-ga="1" data-ya-target="menu-tp">Technology</a>
 

@@ -194,11 +194,12 @@ $dashboardUrl = $baseUrl . $queryString;
         <div class="navbar-collapse collapse" id="bs-navbar">
 
             <ul class="nav navbar-nav centered text-center">
-                <li><a href="#whatis" class="page-scroll yga" data-ga="1" data-ya-target="menu-about">About</a>
+                <!--<li><a href="#whatis" class="page-scroll yga" data-ga="1" data-ya-target="menu-about">About</a>-->
                 <li><a href="#advisoryboard" class="page-scroll yga" data-ga="1" data-ya-target="menu-advisory-board">Advisors</a>
                 <li><a href="#team" class="page-scroll yga" data-ga="1" data-ya-target="menu-team">Team</a>
                 <li><a href="#sbs" class="page-scroll yga" data-ga="1" data-ya-target="menu-join-us">Join Us</a>
                 <li><a href="https://blog.humaniq.co" class="yga" data-ga="1" data-ya-target="menu-blog" target="_blank">Blog</a>
+                <li><a href="http://forum.humaniq.co" class="yga" data-ga="1" data-ya-target="menu-forum" target="_blank">Forum</a>
 
                 <li><a href="/assets/downloads/technology_presentation_en.pdf" class="yga" data-ga="1"
                        data-ya-target="menu-tp">Technology</a>
@@ -296,14 +297,14 @@ $dashboardUrl = $baseUrl . $queryString;
 
                     <div class="lower-buttons">
 
-                        <div class="even" data-toggle="modal" data-target="#ico-modal">
+<!--                        <div class="even" data-toggle="modal" data-target="#ico-modal">
                             <div class="round gly" style="padding: 10px 11px 9px 13px;"><i
                                     class="glyphicon glyphicon-play"></i></div>
                             <div class="txt">
                                 Watch video<br>
                                 <b>What is an ICO?</b>
                             </div>
-                        </div>
+                        </div>-->
 
                         <div class="even">
                             <div class="round" style="padding: 7px 13px 5px 13px;">$</div>
