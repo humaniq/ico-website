@@ -1919,13 +1919,13 @@ $dashboardUrl = $baseUrl . $queryString;
                 Business Development Officer / investment relations
             </div>
 
-
+<!--
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Shane_McQuillan.png">
                 <h4>Shane McQuillan</h4>
                 Chief Digital Officer
             </div>
-
+-->
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Subhendu_Das.png">
@@ -1986,13 +1986,12 @@ $dashboardUrl = $baseUrl . $queryString;
                 </div>
             </div>
 
-
+<!--
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Dwight_Spoull.png">
-                <!--                <h5>Nigeria</h5>-->
                 <h4>Dwight Spoull</h4>
                 Content and Communications Manager
-            </div>
+            </div>-->
 
 
         </div>
