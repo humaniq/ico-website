@@ -2895,6 +2895,209 @@ body {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lSSlideOuter{
+    margin: 15px;
+}
+
+.news-2 {
+    background: #f9f9f9;
+    padding: 1rem 1rem 10rem 1rem;
+
+}
+
+
+.news-2 .carousel {
+
+}
+
+
+.news-2 h2 {
+    font-family: FuturaNewDemi, Arial, sans-serif;
+    font-size: 6rem;
+    line-height: 1em;
+    color: #000;
+    margin: 10rem 0 6rem 0;
+}
+
+
+
+.news-2 .lSPager.lSpg > li a{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    border: none;
+    margin: 0;
+    background-color: #b8c7d3;
+    opacity: 1;
+}
+
+    .news-2 h2 .controls {
+        float: right;
+        text-decoration: none;
+        margin-bottom: 2rem;
+    }
+
+    .news-2 h2 .controls a {
+        text-decoration: none;
+    }
+
+    .news-2 h2 .controls a span {
+        color: #23527c;
+        font-size: 10px;
+        padding: 6px;
+
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        border: 1px solid #ccc;
+        border-radius: 16px;
+        text-decoration: none;
+    }
+
+
+
+.news-2 .el {
+    color: #000;
+    padding: 0;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+    background: #fff;
+}
+
+.news-2 .elw {
+    padding: 15px;
+}
+
+
+.news-2 .el .caption {
+    color: #000;
+    font-family: FuturaNewDemi, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.25em;
+    margin: 15px 0 0 0;
+    padding: 15px 25px 0px 25px;
+    display: block;
+    min-height: 170px;
+}
+
+.news-2 .el img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+
+.news-2 .el .footer {
+    color: #000;
+    font-family: FuturaNewBook, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1em;
+
+    padding: 5px 25px 40px 25px;
+}
+
+.news-2 .el .footer a {
+    display: inline-block;
+    color: #23527c;
+    opacity: .8;
+    font-family: FuturaNewBook, Arial, sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.news-2 .el .footer .date {
+    display: block;
+    margin-top: 10px;
+    font-family: FuturaNewBook, Arial, sans-serif;
+    font-size: 13px;
+    color: #ccc;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 1050px) {
+
+    .news-2 {
+
+    }
+
+
+
+    .news-2 .carousel {
+
+    }
+
+
+    .news-2 .carousel-indicators {
+        position: static;
+        top: auto;
+        bottom: 0px;
+        left: 60px;
+        margin-bottom: 0;
+        margin-left: 0;
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .supporters {
     /*    padding-bottom: 10rem;*/
 }
