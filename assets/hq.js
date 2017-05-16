@@ -127,6 +127,34 @@ var setCountDown = function () {
      }, seconds2happened*1000);
      */
 
+    var lsl = $(".light-slider").lightSlider({
+        item:3,
+        slideMove:3,
+        adaptiveHeight:true,
+        slideMargin:0,
+        responsive : [
+            {
+                breakpoint:769,
+                settings: {
+                    item:1,
+                    slideMove:1
+
+                }
+            }
+        ]
+    });
+
+    $("#news-2 .controls .right").click( function(){
+        lsl.goToNextSlide();
+        return false;
+    });
+    $("#news-2 .controls .left").click( function(){
+        lsl.goToPrevSlide();
+        return false;
+    });
+
+
+
 
  var anchor1 = $('#whatis');
  $(window).scroll(function() {
