@@ -1472,12 +1472,9 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="col-xs-12 text-center">
                 <div class="badge"><a href="https://play.google.com/store/apps/details?id=co.humaniq" target="_blank">
                         <img src="/assets/images/google-play-badge-2.png"> </a></div>
-                <div class="badge"><a href="https://itunes.apple.com/us/app/humaniq/id1212362871?l=ru&ls=1&mt=8"
-                                      target="_blank"><img src="/assets/images/app-store-badge.svg"></a></div>
                 <br>
                 <div class="trademarks" style="display:inline-block; margin-top: 4rem;text-align: left">
                     - Google Play和Google Play标志是Google Inc的商标。<br>
-                    - App Store是在美国和其它国家注册的Apple Inc., 的服务标志。<br>
                     - The application is currently in Beta and can be used for information purpose only.
                 </div>
 
@@ -2098,7 +2095,7 @@ $dashboardUrl = $baseUrl . $queryString;
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
                 <img src="/assets/images/avatars/Derin_Cag.png">
-                
+
                 <h4>Derin Cag</h4>
                 Chief Digital Officer
             </div>
@@ -2653,6 +2650,7 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row text-center copyright">
             © Humaniq 2017。版权所有。<br>
+            <a class="link yga" data-ya-target="footer-privacy-policy" target="_blank" href="/assets/downloads/data_privacy_policy.pdf" style="color:#ccc">Our privacy policy</a><br>
             <a class="link yga" data-ya-target="footer-email" href="mailto://info@humaniq.co">info@humaniq.co</a>
         </div>
     </div>

@@ -1538,13 +1538,9 @@ $dashboardUrl = $baseUrl . $queryString;
             <div class="col-xs-12 text-center">
                 <div class="badge"><a href="https://play.google.com/store/apps/details?id=co.humaniq" target="_blank">
                         <img src="/assets/images/google-play-badge-2.png"> </a></div>
-                <div class="badge"><a href="https://itunes.apple.com/us/app/humaniq/id1212362871?l=ru&ls=1&mt=8"
-                                      target="_blank"><img src="/assets/images/app-store-badge.svg"></a></div>
                 <br>
                 <div class="trademarks" style="display:inline-block; margin-top: 4rem;text-align: left">
                     - Google Play and the Google Play logo are trademarks of Google Inc.<br>
-                    - App Store is a service mark
-                    of Apple Inc., registered in the U.S. and other countries.<br>
                     - The application is currently in Beta and can be used for information purpose only.
                 </div>
             </div>
@@ -2737,6 +2733,8 @@ $dashboardUrl = $baseUrl . $queryString;
     <div class="container">
         <div class="row text-center copyright">
             © Humaniq 2017. All Rights Reserved.<br>
+            <a class="link yga" data-ya-target="footer-privacy-policy" target="_blank" href="/assets/downloads/data_privacy_policy.pdf" style="color:#ccc">Our privacy policy</a><br>
+
             <a class="link yga" data-ya-target="footer-email" href="mailto://info@humaniq.co">info@humaniq.co</a>
         </div>
     </div>
