@@ -2173,20 +2173,6 @@ $dashboardUrl = $baseUrl . $queryString;
 
         -->
 
-                        <div class="item col-xs-6 col-sm-4 col-md-3">
-                            <img src="/assets/images/avatars/serafima.png">
-                            <h4>Serafima Semkina</h4>
-                            Chief Administrative Officer
-                        </div>
-
-
-
-                        <div class="item col-xs-6 col-sm-4 col-md-3">
-                            <img src="/assets/images/avatars/Mary_Samoilova.png">
-                            <h4>Mary Samoilova</h4>
-                            Senior Project Manager
-                        </div>
-
 
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
