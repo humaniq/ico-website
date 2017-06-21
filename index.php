@@ -2148,7 +2148,7 @@ $dashboardUrl = $baseUrl . $queryString;
                 <img src="/assets/images/avatars/Al_Perkins.png">
                 <!--                <h5></h5>-->
                 <h4>Alexander Perkins</h4>
-                Chief Legal Officer
+                Vice President of Operations
             </div>
 
             <div class="item col-xs-6 col-sm-4 col-md-3">
